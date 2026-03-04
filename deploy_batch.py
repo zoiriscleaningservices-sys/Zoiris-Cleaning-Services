@@ -41,4 +41,5 @@ def deploy_next_batch():
     print(f"Deployment successful. {cities_left} cities remaining in the archive.")
 
 if __name__ == "__main__":
-    deploy_next_batch()
+    while os.path.exists(ARCHIVE_DIR) and len(os.listdir(ARCHIVE_DIR)) > 0:
+        deploy_next_batch()
