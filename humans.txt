@@ -1,0 +1,10 @@
+/* TEAM */
+Agency: Zoiris SEO Development Team
+Contact: info@zoiriscleaningservices.com
+Twitter: @zoiriscleaning
+
+/* SITE */
+Last update: 2026-03-04
+Standards: HTML5, CSS3, JSON-LD Schema
+Components: Tailwind CSS
+Software: Custom Python Generation Infrastructure
