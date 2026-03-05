@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Prevent crawling of backend scripts
+Disallow: /*.py$
+Disallow: /*.json$
+
+# Prevent crawling of internal assets if not necessary
+# Disallow: /assets/
+# Disallow: /images/
+
+# Primary Sitemap Index bridging to the 97,000+ files
+Sitemap: https://www.zoiriscleaningservices.com/sitemap_index.xml
