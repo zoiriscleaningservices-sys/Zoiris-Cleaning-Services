@@ -74,6 +74,11 @@ for slug, city_name in cities:
     base_content = base_content.replace("Mobile, Baldwin County", f"{city_name} & surrounding areas")
     base_content = base_content.replace("Mobile", f"{city_name}")
     
+    base_content = re.sub(r'onclick="location\.href=[\'"]/[\'"]"', f'onclick="location.href=\'/{slug}/\'"', base_content)
+    base_content = base_content.replace('href="/" class="contact-button text-lg">Home</a>', f'href="/{slug}/" class="contact-button text-lg">Home</a>')
+    base_content = re.sub(r'href="/index\.html"(\s*)><i([^>]*fa-home[^>]*)></i>(\s*)Home</a>', rf'href="/{slug}/"\1><i\2></i>\3Home</a>', base_content)
+    base_content = re.sub(r'href="/"(\s*)class="block px-4 py-4 text-xl font-medium text-white hover:text-blue-400', rf'href="/{slug}/"\1class="block px-4 py-4 text-xl font-medium text-white hover:text-blue-400', base_content)
+    
     # Create the hub directory
     hub_dir = os.path.join(BASE_DIR, slug)
     os.makedirs(hub_dir, exist_ok=True)

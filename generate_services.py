@@ -87,6 +87,11 @@ for folder_path, service_name in services:
         '<em>residential & commercial cleaning</em>',
         f'<em>{service_name.lower()}</em>'
     )
+    
+    content = re.sub(r'onclick="location\.href=[\'"]/[\'"]"', 'onclick="location.href=\'/mobile-al/\'"', content)
+    content = content.replace('href="/" class="contact-button text-lg">Home</a>', 'href="/mobile-al/" class="contact-button text-lg">Home</a>')
+    content = re.sub(r'href="/index\.html"(\s*)><i([^>]*fa-home[^>]*)></i>(\s*)Home</a>', r'href="/mobile-al/"\1><i\2></i>\3Home</a>', content)
+    content = re.sub(r'href="/"(\s*)class="block px-4 py-4 text-xl font-medium text-white hover:text-blue-400', r'href="/mobile-al/"\1class="block px-4 py-4 text-xl font-medium text-white hover:text-blue-400', content)
 
     # Make the directory
     out_dir = os.path.join(BASE_DIR, folder_path)
