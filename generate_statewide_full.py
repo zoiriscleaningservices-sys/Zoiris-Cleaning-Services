@@ -253,15 +253,44 @@ custom_hero_section = f"""
         <h1 class="text-4xl md:text-5xl font-extrabold text-white leading-tight mb-6 animate-fadeIn text-shadow">
           Alabama Service Areas
         </h1>
-        <p class="text-lg md:text-xl text-white font-medium mx-auto mb-10 leading-relaxed max-w-3xl drop-shadow-md">
+        <p class="text-lg md:text-xl text-white font-medium mx-auto mb-8 leading-relaxed max-w-3xl drop-shadow-md">
           Explore the locations we currently provide our top-tier residential and commercial cleaning services across Alabama. Select your city to find your local dedicated Zoiris branch.
         </p>
+
+        <!-- Search Bar -->
+        <div class="w-full max-w-2xl mx-auto mb-10 relative">
+            <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                <i class="fas fa-search text-gray-400"></i>
+            </div>
+            <input type="text" id="citySearch" onkeyup="filterCities()" placeholder="Search your city... (e.g. Mobile, Gulf Shores)" class="w-full pl-12 pr-4 py-4 rounded-full bg-white/10 backdrop-blur-md border border-white/30 text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all shadow-lg text-lg">
+        </div>
         
-        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 w-full">
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 w-full" id="cityGrid">
           {city_links}
         </div>
       </div>
     </section>
+
+    <!-- Instant Search Script -->
+    <script>
+      function filterCities() {{
+          var input, filter, grid, items, a, i, txtValue;
+          input = document.getElementById("citySearch");
+          filter = input.value.toUpperCase();
+          grid = document.getElementById("cityGrid");
+          items = grid.getElementsByTagName("a");
+          
+          for (i = 0; i < items.length; i++) {{
+              a = items[i];
+              txtValue = a.textContent || a.innerText;
+              if (txtValue.toUpperCase().indexOf(filter) > -1) {{
+                  items[i].style.display = "";
+              }} else {{
+                  items[i].style.display = "none";
+              }}
+          }}
+      }}
+    </script>
 """
 
 # Replace the giant hero/main-content part with custom section instead to avoid duplication.
