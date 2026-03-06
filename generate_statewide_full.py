@@ -133,8 +133,7 @@ with open(TEMPLATE_FILE, "r", encoding="utf-8") as f:
 
 # 1. State-Wide Generation
 for slug, city_name in cities:
-    if slug == "mobile-al": continue # Mobile AL was handled deeply in previous batches, we can skip or run again, let's skip to save time.
-    
+
     # 1. Base Localization of the template
     base_content = template_content.replace("/mobile-al/", f"/{slug}/")
     base_content = base_content.replace("mobile-al", f"{slug}")
