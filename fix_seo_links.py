@@ -1,7 +1,7 @@
 import os
 
 # Base directory for the new folders
-BASE_DIR = r"c:\Users\lucia\OneDrive\Desktop\New folder (2)"
+BASE_DIR = "."
 
 # Services & Extras list (same as previous)
 pages = [

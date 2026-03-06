@@ -1,13 +1,11 @@
 User-agent: *
 Allow: /
-
-# Prevent crawling of backend scripts
 Disallow: /*.py$
 Disallow: /*.json$
+Disallow: /build_geo_db.py
+Disallow: /locations/
+Disallow: /.git/
+Disallow: /__pycache__/
 
-# Prevent crawling of internal assets if not necessary
-# Disallow: /assets/
-# Disallow: /images/
-
-# Primary Sitemap Index bridging to the 97,000+ files
+# Primary Sitemap Index bridging to the 56,000+ files
 Sitemap: https://www.zoiriscleaningservices.com/sitemap_index.xml

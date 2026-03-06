@@ -2,7 +2,7 @@ import os
 import re
 
 # Base directory for the new folders
-BASE_DIR = r"c:\Users\lucia\OneDrive\Desktop\New folder (2)"
+BASE_DIR = "."
 
 # The template index file
 TEMPLATE_FILE = os.path.join(BASE_DIR, "index.html")

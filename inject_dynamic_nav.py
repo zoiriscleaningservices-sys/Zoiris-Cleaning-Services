@@ -4,7 +4,7 @@ import re
 import math
 from multiprocessing import Pool
 
-BASE_DIR = r"c:\Users\lucia\OneDrive\Desktop\New folder (2)"
+BASE_DIR = "."
 DB_FILE = os.path.join(BASE_DIR, "city_coords.json")
 
 # Haversine formula

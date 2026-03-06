@@ -1,7 +1,7 @@
 import os
 import re
 
-BASE_DIR = r"c:\Users\lucia\OneDrive\Desktop\New folder (2)"
+BASE_DIR = "."
 TEMPLATE_FILE = os.path.join(BASE_DIR, "index.html")
 
 # We only test on Mobile to ensure layout doesn't break

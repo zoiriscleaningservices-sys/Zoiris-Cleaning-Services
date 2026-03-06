@@ -3,7 +3,7 @@ import json
 import re
 import math
 
-BASE_DIR = r"c:\Users\lucia\OneDrive\Desktop\New folder (2)"
+BASE_DIR = "."
 DB_FILE = os.path.join(BASE_DIR, "city_coords.json")
 
 # Haversine formula to calculate distance between two lat/lon points

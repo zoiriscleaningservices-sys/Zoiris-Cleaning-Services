@@ -5,7 +5,7 @@ import urllib.request
 import urllib.parse
 import urllib.error
 
-BASE_DIR = r"c:\Users\lucia\OneDrive\Desktop\New folder (2)"
+BASE_DIR = "."
 DB_FILE = os.path.join(BASE_DIR, "city_coords.json")
 
 cities_raw = """

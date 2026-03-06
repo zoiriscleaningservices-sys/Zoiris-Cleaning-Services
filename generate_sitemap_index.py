@@ -2,7 +2,7 @@ import os
 import datetime
 from urllib.parse import quote
 
-BASE_DIR = r"c:\Users\lucia\OneDrive\Desktop\New folder (2)"
+BASE_DIR = "."
 DOMAIN = "https://www.zoiriscleaningservices.com"
 MAX_URLS_PER_SITEMAP = 45000
 

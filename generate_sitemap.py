@@ -1,7 +1,7 @@
 import os
 from datetime import datetime
 
-BASE_DIR = r"c:\Users\lucia\OneDrive\Desktop\New folder (2)"
+BASE_DIR = "."
 BASE_URL = "https://www.zoiriscleaningservices.com"
 SITEMAP_FILE = os.path.join(BASE_DIR, "sitemap.xml")
 

@@ -1,7 +1,7 @@
 import os
 import re
 
-BASE_DIR = r"c:\Users\lucia\OneDrive\Desktop\New folder (2)"
+BASE_DIR = "."
 
 def inject_extreme_schema():
     print("Initiating Phase 4: Extreme Schema Injection across 97,000+ files...")
