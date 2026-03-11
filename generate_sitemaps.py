@@ -23,12 +23,12 @@ def get_html_files(directory):
                 # Convert Windows slashes to forward slashes
                 rel_path = rel_path.replace('\\', '/')
                 
-                # Optional: clean up 'index.html' to just '/' for clean URLs
-                # if rel_path.endswith('index.html'):
-                #     if rel_path == 'index.html':
-                #         rel_path = ''
-                #     else:
-                #         rel_path = rel_path[:-10] # remove index.html
+                # Clean up 'index.html' to just '/' for clean URLs
+                if rel_path.endswith('index.html'):
+                    if rel_path == 'index.html':
+                        rel_path = ''
+                    else:
+                        rel_path = rel_path[:-10] # remove index.html
                 
                 html_files.append(rel_path)
     return html_files
