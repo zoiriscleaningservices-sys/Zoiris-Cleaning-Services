@@ -1,8 +1,19 @@
 import os
 import re
 import json
+import sys
 
 root_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+from localized_faq_generator import (
+    get_city_profile,
+    generate_location_faqs,
+    get_localized_about_html,
+    get_localized_faq_html
+)
+from schema_generator import generate_schema
+from page_classifier import classify_page
 
 with open(os.path.join(root_dir, 'seo', 'locations.json'), 'r', encoding='utf-8') as f:
     LOCATIONS = json.load(f)
@@ -302,198 +313,31 @@ def get_cleaning_standards_html(city, county):
     </section>
 """
 
-# FAQ Section snippet
-def get_faq_section_html(city):
-    return f"""
-    <!-- ❓ SECTION: FREQUENTLY ASKED QUESTIONS (ACCORDION & RICH SEO) -->
-    <section class="py-20 px-4 sm:px-6 lg:px-8 bg-transparent relative z-10" id="faq">
-      <div class="max-w-5xl mx-auto">
-        
-        <div class="text-center max-w-3xl mx-auto mb-14">
-          <span class="text-sm font-bold uppercase tracking-wider text-blue-100 bg-white/10 backdrop-blur-md border border-white/20 px-4 py-1.5 rounded-full">
-            ✦ Got Questions? We Have Answers ✦
-          </span>
-          <h2 class="text-3xl md:text-4xl font-extrabold text-white mt-4 tracking-tight">
-            Frequently Asked Questions About {city} AL Cleaning Services
-          </h2>
-          <div class="mt-3 h-1 w-24 bg-gradient-to-r from-blue-400 to-indigo-400 mx-auto rounded"></div>
-          <p class="mt-4 text-purple-100 text-base md:text-lg leading-relaxed">
-            Everything you need to know about our cleaning standards, flexible scheduling, pricing, and safety protections in {city} and surrounding Alabama areas.
-          </p>
-        </div>
+# Regex patterns for replacing sections cleanly
+about_pattern = re.compile(
+    r'(<!-- About Section[^\n]*-->\s*<section[^>]*id=["\']about["\'].*?</section>)',
+    re.DOTALL | re.IGNORECASE
+)
 
-        <!-- Accordion Items -->
-        <div class="space-y-4">
+alt_about_pattern = re.compile(
+    r'(<section[^>]*id=["\']about["\'].*?</section>)',
+    re.DOTALL | re.IGNORECASE
+)
 
-          <!-- FAQ 1 -->
-          <div class="bg-white rounded-2xl border border-white/20 shadow-xl overflow-hidden transition-all duration-200">
-            <button class="w-full px-6 py-5 text-left font-bold text-lg text-gray-900 flex justify-between items-center hover:bg-slate-50 transition" onclick="toggleFaq(this)">
-              <span class="flex items-center gap-3">
-                <i class="fas fa-file-signature text-blue-600"></i>
-                Do you require long-term contracts for recurring house cleaning in {city}?
-              </span>
-              <i class="fas fa-chevron-down text-gray-400 transition-transform duration-300"></i>
-            </button>
-            <div class="faq-answer px-6 pb-6 pt-2 text-gray-700 text-sm sm:text-base leading-relaxed hidden border-t border-gray-100">
-              <p>
-                <strong>No, never!</strong> At Zoiris Cleaning Services, all our residential and commercial services in {city} are provided with <strong>100% No Locked Contracts</strong>. You can enjoy weekly, bi-weekly, monthly, or on-demand cleanings with total freedom to pause, change frequency, or cancel at any time. We earn your business on every single visit through unmatched quality.
-              </p>
-            </div>
-          </div>
+faq_pattern = re.compile(
+    r'(<!-- [^>]*SECTION: FREQUENTLY ASKED QUESTIONS.*?<script>\s*function toggleFaq.*?<\/script>)',
+    re.DOTALL | re.IGNORECASE
+)
 
-          <!-- FAQ 2 -->
-          <div class="bg-white rounded-2xl border border-white/20 shadow-xl overflow-hidden transition-all duration-200">
-            <button class="w-full px-6 py-5 text-left font-bold text-lg text-gray-900 flex justify-between items-center hover:bg-slate-50 transition" onclick="toggleFaq(this)">
-              <span class="flex items-center gap-3">
-                <i class="fas fa-calendar-alt text-blue-600"></i>
-                Are there fees if I need to reschedule or postpone my cleaning in {city}?
-              </span>
-              <i class="fas fa-chevron-down text-gray-400 transition-transform duration-300"></i>
-            </button>
-            <div class="faq-answer px-6 pb-6 pt-2 text-gray-700 text-sm sm:text-base leading-relaxed hidden border-t border-gray-100">
-              <p>
-                <strong>No. There are zero rescheduling fees!</strong> We understand that life happens—sickness, unexpected travel, or visiting family can change your schedule. Simply notify us in advance, and our team will gladly work with you to move your cleaning appointment to the next convenient available day with no penalty.
-              </p>
-            </div>
-          </div>
+alt_faq_pattern = re.compile(
+    r'(<section[^>]*id=["\']faq["\'].*?</section>(?:\s*<script>\s*function toggleFaq.*?<\/script>)?)',
+    re.DOTALL | re.IGNORECASE
+)
 
-          <!-- FAQ 3 -->
-          <div class="bg-white rounded-2xl border border-white/20 shadow-xl overflow-hidden transition-all duration-200">
-            <button class="w-full px-6 py-5 text-left font-bold text-lg text-gray-900 flex justify-between items-center hover:bg-slate-50 transition" onclick="toggleFaq(this)">
-              <span class="flex items-center gap-3">
-                <i class="fas fa-shield-alt text-blue-600"></i>
-                Are your cleaners licensed, bonded, insured, and background-checked?
-              </span>
-              <i class="fas fa-chevron-down text-gray-400 transition-transform duration-300"></i>
-            </button>
-            <div class="faq-answer px-6 pb-6 pt-2 text-gray-700 text-sm sm:text-base leading-relaxed hidden border-t border-gray-100">
-              <p>
-                <strong>Yes, absolutely.</strong> Zoiris Cleaning Services is fully licensed, bonded, and insured with both general liability and workers' compensation insurance for your total peace of mind. Furthermore, <strong>100% of our staff are in-house vetted employees</strong> (never random gig subcontractors) who undergo rigorous criminal background screenings, drug testing, and thorough hands-on training.
-              </p>
-            </div>
-          </div>
-
-          <!-- FAQ 4 -->
-          <div class="bg-white rounded-2xl border border-white/20 shadow-xl overflow-hidden transition-all duration-200">
-            <button class="w-full px-6 py-5 text-left font-bold text-lg text-gray-900 flex justify-between items-center hover:bg-slate-50 transition" onclick="toggleFaq(this)">
-              <span class="flex items-center gap-3">
-                <i class="fas fa-calculator text-blue-600"></i>
-                How are your cleaning prices calculated in {city}, AL?
-              </span>
-              <i class="fas fa-chevron-down text-gray-400 transition-transform duration-300"></i>
-            </button>
-            <div class="faq-answer px-6 pb-6 pt-2 text-gray-700 text-sm sm:text-base leading-relaxed hidden border-t border-gray-100">
-              <p>
-                We do not use rigid generic square-footage formulas because every home is unique. We evaluate your home’s bedrooms, bathrooms, flooring types, pet shedding, and personal priorities to formulate a transparent, customized flat-rate price. We provide free, fast estimates with zero hidden fees.
-              </p>
-            </div>
-          </div>
-
-          <!-- FAQ 5 -->
-          <div class="bg-white rounded-2xl border border-white/20 shadow-xl overflow-hidden transition-all duration-200">
-            <button class="w-full px-6 py-5 text-left font-bold text-lg text-gray-900 flex justify-between items-center hover:bg-slate-50 transition" onclick="toggleFaq(this)">
-              <span class="flex items-center gap-3">
-                <i class="fas fa-spray-can text-blue-600"></i>
-                What equipment and cleaning products do you bring?
-              </span>
-              <i class="fas fa-chevron-down text-gray-400 transition-transform duration-300"></i>
-            </button>
-            <div class="faq-answer px-6 pb-6 pt-2 text-gray-700 text-sm sm:text-base leading-relaxed hidden border-t border-gray-100">
-              <p>
-                We supply all necessary professional equipment! Our teams arrive with commercial HEPA filtration vacuum systems (Miele &amp; Kirby standards for deep cleanings), extension dusters, microfiber cloth mop systems, and hospital-grade, eco-friendly disinfectants that are safe for children and pets. If you have specific specialty floor or stone cleaners you prefer (like Bona or Bruce), our staff will gladly utilize them.
-              </p>
-            </div>
-          </div>
-
-          <!-- FAQ 6 -->
-          <div class="bg-white rounded-2xl border border-white/20 shadow-xl overflow-hidden transition-all duration-200">
-            <button class="w-full px-6 py-5 text-left font-bold text-lg text-gray-900 flex justify-between items-center hover:bg-slate-50 transition" onclick="toggleFaq(this)">
-              <span class="flex items-center gap-3">
-                <i class="fas fa-layer-group text-blue-600"></i>
-                What is the difference between a standard clean and a deep clean?
-              </span>
-              <i class="fas fa-chevron-down text-gray-400 transition-transform duration-300"></i>
-            </button>
-            <div class="faq-answer px-6 pb-6 pt-2 text-gray-700 text-sm sm:text-base leading-relaxed hidden border-t border-gray-100">
-              <p>
-                A <strong>Standard Maintenance Clean</strong> is designed for routine upkeep (bathrooms sanitized, kitchen surfaces degreased, beds made, whole-home HEPA vacuuming and mopping). A <strong>Deep Clean</strong> is an intensive restorative clean that includes detailed hand-scrubbing of baseboards, door frames, blinds, ceiling fan blades, air intake vents, microwave interior, and removal of deep scale/soap scum buildup.
-              </p>
-            </div>
-          </div>
-
-          <!-- FAQ 7 -->
-          <div class="bg-white rounded-2xl border border-white/20 shadow-xl overflow-hidden transition-all duration-200">
-            <button class="w-full px-6 py-5 text-left font-bold text-lg text-gray-900 flex justify-between items-center hover:bg-slate-50 transition" onclick="toggleFaq(this)">
-              <span class="flex items-center gap-3">
-                <i class="fas fa-map-marked-alt text-blue-600"></i>
-                What service areas do you cover around {city}?
-              </span>
-              <i class="fas fa-chevron-down text-gray-400 transition-transform duration-300"></i>
-            </button>
-            <div class="faq-answer px-6 pb-6 pt-2 text-gray-700 text-sm sm:text-base leading-relaxed hidden border-t border-gray-100">
-              <p>
-                We service all neighborhoods in <strong>{city}</strong> and across Mobile &amp; Baldwin County including Downtown Mobile, Midtown, West Mobile, Spring Hill, Cottage Hill, Saraland, Semmes, Theodore, Daphne, Fairhope, Spanish Fort, Foley, Gulf Shores, and Orange Beach.
-              </p>
-            </div>
-          </div>
-
-          <!-- FAQ 8 -->
-          <div class="bg-white rounded-2xl border border-white/20 shadow-xl overflow-hidden transition-all duration-200">
-            <button class="w-full px-6 py-5 text-left font-bold text-lg text-gray-900 flex justify-between items-center hover:bg-slate-50 transition" onclick="toggleFaq(this)">
-              <span class="flex items-center gap-3">
-                <i class="fas fa-award text-blue-600"></i>
-                What is your 100% Satisfaction Guarantee policy?
-              </span>
-              <i class="fas fa-chevron-down text-gray-400 transition-transform duration-300"></i>
-            </button>
-            <div class="faq-answer px-6 pb-6 pt-2 text-gray-700 text-sm sm:text-base leading-relaxed hidden border-t border-gray-100">
-              <p>
-                Your complete satisfaction is our primary priority. If any area does not meet your expectations, let us know within 24 hours. We will promptly send a team back to re-clean the specific area at zero charge to ensure you are 100% thrilled with our work!
-              </p>
-            </div>
-          </div>
-
-        </div>
-
-        <!-- FAQ CTA -->
-        <div class="mt-12 text-center bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl p-6 sm:p-8 text-white shadow-xl">
-          <h3 class="text-xl sm:text-2xl font-bold mb-2">Have a specific question about your home or office in {city}?</h3>
-          <p class="text-blue-100 text-sm sm:text-base mb-6 max-w-xl mx-auto">
-            Our friendly local team is available 24/7 to help structure the perfect cleaning plan for your space.
-          </p>
-          <div class="flex flex-col sm:flex-row justify-center gap-4">
-            <a href="tel:2512202515" class="bg-white text-blue-700 font-bold px-6 py-3 rounded-full hover:bg-gray-100 transition shadow-md">
-              <i class="fas fa-phone-alt mr-2"></i> Call (251) 220-2515
-            </a>
-            <a href="#quote" class="bg-black/30 hover:bg-black/50 text-white font-bold px-6 py-3 rounded-full border border-white/30 transition">
-              <i class="fas fa-file-invoice mr-2"></i> Request A Free Estimate
-            </a>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <script>
-      function toggleFaq(button) {{
-        const answer = button.nextElementSibling;
-        const icon = button.querySelector('.fa-chevron-down');
-        const isOpen = !answer.classList.contains('hidden');
-
-        document.querySelectorAll('.faq-answer').forEach(el => {{
-          el.classList.add('hidden');
-        }});
-        document.querySelectorAll('#faq .fa-chevron-down').forEach(el => {{
-          el.classList.remove('rotate-180');
-        }});
-
-        if (!isOpen) {{
-          answer.classList.remove('hidden');
-          icon.classList.add('rotate-180');
-        }}
-      }}
-    </script>
-"""
+schema_pattern = re.compile(
+    r'<script\s+type=["\']application/ld\+json["\']>.*?</script>',
+    re.DOTALL | re.IGNORECASE
+)
 
 def enrich_location_file(filepath):
     try:
@@ -512,30 +356,57 @@ def enrich_location_file(filepath):
             
         original_content = content
         
-        # 1. Inject Trust Badges if not present in hero
+        # 1. Inject / Update Trust Badges in Hero if not present
         if '<!-- 🌟 TRUST SIGNALS' not in content:
-            # Inject right before the scroll down arrow in hero
             if '<!-- Scroll Down Arrow -->' in content:
                 content = content.replace('<!-- Scroll Down Arrow -->', f'{get_trust_badges_html()}\n        <!-- Scroll Down Arrow -->', 1)
                 
-        # 2. Inject Cleaning Standards section if not present
+        # 2. Update / Replace About section with Hyper-Localized Dark Purple / Glassmorphism About Section
+        new_about_html = get_localized_about_html(city, loc_slug, county)
+        if about_pattern.search(content):
+            content = about_pattern.sub(new_about_html.strip(), content, count=1)
+        elif alt_about_pattern.search(content):
+            content = alt_about_pattern.sub(new_about_html.strip(), content, count=1)
+        elif '<section class="py-16' in content:
+            content = content.replace('<section class="py-16', f'{new_about_html}\n    <section class="py-16', 1)
+            
+        # 3. Inject Cleaning Standards section if not present
         if 'id="cleaning-standards"' not in content:
-            # Place right before #quote section
             if '<section id="quote"' in content:
                 content = content.replace('<section id="quote"', f'{get_cleaning_standards_html(city, county)}\n    <section id="quote"', 1)
                 
-        # 3. Inject FAQ section if not present
-        if 'id="faq"' not in content:
-            # Place right after services-preview or before blog / location
-            if '<section class="py-20 bg-lightGray" id="blog">' in content:
-                content = content.replace('<section class="py-20 bg-lightGray" id="blog">', f'{get_faq_section_html(city)}\n    <section class="py-20 bg-lightGray" id="blog">', 1)
-            elif '<section class="py-20 bg-transparent relative z-10" id="blog">' in content:
-                content = content.replace('<section class="py-20 bg-transparent relative z-10" id="blog">', f'{get_faq_section_html(city)}\n    <section class="py-20 bg-transparent relative z-10" id="blog">', 1)
-            elif 'id="blog"' in content:
-                content = re.sub(r'(<section[^>]*id=["\']blog["\'])', f'{get_faq_section_html(city)}\n    \\1', content, count=1)
-            elif '<footer' in content:
-                content = content.replace('<footer', f'{get_faq_section_html(city)}\n    <footer', 1)
-                
+        # 4. Update / Replace FAQ section with Hyper-Localized Accordion FAQ Section
+        new_faq_html = get_localized_faq_html(city, loc_slug, county)
+        if faq_pattern.search(content):
+            content = faq_pattern.sub(new_faq_html.strip(), content, count=1)
+        elif alt_faq_pattern.search(content):
+            content = alt_faq_pattern.sub(new_faq_html.strip(), content, count=1)
+        elif '<section class="py-20 bg-lightGray" id="blog">' in content:
+            content = content.replace('<section class="py-20 bg-lightGray" id="blog">', f'{new_faq_html}\n    <section class="py-20 bg-lightGray" id="blog">', 1)
+        elif '<section class="py-20 bg-transparent relative z-10" id="blog">' in content:
+            content = content.replace('<section class="py-20 bg-transparent relative z-10" id="blog">', f'{new_faq_html}\n    <section class="py-20 bg-transparent relative z-10" id="blog">', 1)
+        elif 'id="blog"' in content:
+            content = re.sub(r'(<section[^>]*id=["\']blog["\'])', f'{new_faq_html}\n    \\1', content, count=1)
+        elif '<footer' in content:
+            content = content.replace('<footer', f'{new_faq_html}\n    <footer', 1)
+            
+        # 5. Replace Schema JSON-LD with Updated 8-Question Localized Schema
+        info = classify_page(filepath)
+        new_schema = generate_schema(info)
+        content = schema_pattern.sub('', content)
+        if '<!-- Tailwind CSS Play CDN' in content:
+            content = content.replace('<!-- Tailwind CSS Play CDN', f'{new_schema}\n  <!-- Tailwind CSS Play CDN', 1)
+        elif '</head>' in content:
+            content = content.replace('</head>', f'{new_schema}\n</head>', 1)
+            
+        # 6. Fix styling classes (remove lightGray, fix font-awesome icons)
+        content = content.replace('class="py-16 bg-lightGray"', 'class="py-16 bg-transparent relative z-10"')
+        content = content.replace('class="py-20 bg-lightGray"', 'class="py-20 bg-transparent relative z-10"')
+        content = content.replace('fa-shield-check', 'fa-shield-alt')
+        content = content.replace('fa-vacuum', 'fa-tools')
+        content = content.replace('fa-sparkles', 'fa-magic')
+        content = content.replace('fa-clock-rotate-left', 'fa-history')
+        
         if content != original_content:
             tmp = filepath + '.tmp'
             with open(tmp, 'w', encoding='utf-8') as f:
@@ -552,14 +423,14 @@ if __name__ == '__main__':
     import concurrent.futures
     import multiprocessing
     
-    print("Starting location page enrichment...")
+    print("Starting hyper-localized location page enrichment across Alabama...")
     loc_files = []
     for slug in LOCATIONS.keys():
         fp = os.path.join(root_dir, slug, 'index.html')
         if os.path.exists(fp):
             loc_files.append(fp)
             
-    print(f"Enriching {len(loc_files)} city hub pages with high-ranking SEO sections...")
+    print(f"Enriching {len(loc_files)} city hub pages with unique localized FAQs, About copy, Standards checklists, and Schemas...")
     
     count = 0
     with concurrent.futures.ThreadPoolExecutor(max_workers=multiprocessing.cpu_count() * 4) as executor:
@@ -567,4 +438,4 @@ if __name__ == '__main__':
             if r:
                 count += 1
                 
-    print(f"Successfully enriched {count}/{len(loc_files)} location hub pages with full SEO components!")
+    print(f"Successfully enriched {count}/{len(loc_files)} location hub pages with unique dedicated SEO architecture!")

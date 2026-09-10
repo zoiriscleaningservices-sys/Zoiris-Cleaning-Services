@@ -1,7 +1,11 @@
 import json
 import os
+import sys
 
 root_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+from localized_faq_generator import generate_location_faqs
 
 try:
     with open(os.path.join(root_dir, 'seo', 'business.json'), 'r', encoding='utf-8') as f:
@@ -32,6 +36,7 @@ def generate_schema(info):
     coords = loc_data.get("coordinates", {"latitude": 30.6954, "longitude": -88.0399})
     lat = coords.get("latitude", 30.6954)
     lon = coords.get("longitude", -88.0399)
+    county = loc_data.get("county", "Alabama")
     
     page_url = f"https://www.zoiriscleaningservices.com{info.get('canonical_path', '/')}"
     
@@ -113,42 +118,19 @@ def generate_schema(info):
                 "item": page_url
             })
             
-    # 3. FAQPage (Dynamic 4 Questions)
-    faq_items = [
-        {
+    # 3. FAQPage (8 Dynamic & Unique Questions per Location)
+    faqs_data = generate_location_faqs(city, loc_slug, county)
+    faq_items = []
+    for item in faqs_data:
+        faq_items.append({
             "@type": "Question",
-            "name": f"Do you require long-term contracts for cleaning in {city}, AL?",
+            "name": item["q"],
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": f"No, never. At Zoiris Cleaning Services, all our residential and commercial services in {city}, AL are provided with 100% No Locked Contracts. You have total freedom to schedule weekly, bi-weekly, monthly, or one-time cleanings."
+                "text": item["a"]
             }
-        },
-        {
-            "@type": "Question",
-            "name": f"Are your cleaners licensed, bonded, and insured in {city}, AL?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": f"Yes, absolutely. Zoiris Cleaning Services is fully licensed, bonded, and carries comprehensive general liability and workers' compensation coverage for complete customer protection across {city} and Alabama."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": f"What equipment and cleaning supplies do you bring to {city} homes?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": f"Our professional teams arrive equipped with commercial-grade HEPA filtration vacuum systems, microfiber surface cloths, and hospital-grade, eco-friendly disinfectants that are completely safe for children and pets."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": f"What is your 100% Satisfaction Guarantee policy in {city}?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "If you are not completely satisfied with any area cleaned, notify us within 24 hours and our team will promptly return to re-clean the area at zero additional charge."
-            }
-        }
-    ]
-    
+        })
+        
     faq_page = {
         "@type": "FAQPage",
         "@id": f"{page_url}#faq",
