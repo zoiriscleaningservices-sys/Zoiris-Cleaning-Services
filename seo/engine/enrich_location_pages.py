@@ -10,6 +10,7 @@ from localized_faq_generator import (
     get_city_profile,
     generate_location_faqs,
     get_localized_about_html,
+    get_localized_city_services_html,
     get_localized_faq_html
 )
 from schema_generator import generate_schema
@@ -148,191 +149,11 @@ def get_cleaning_standards_html(city, county):
             </ul>
           </div>
 
-          <!-- Detailed Dusting Standards -->
-          <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-2xl border border-white/10 hover:shadow-2xl transition-all duration-300">
-            <div class="flex items-center gap-4 mb-6">
-              <div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-600 flex items-center justify-center text-2xl">
-                <i class="fas fa-feather"></i>
-              </div>
-              <div>
-                <h3 class="text-xl font-bold text-gray-900">Dusting Standards</h3>
-                <p class="text-xs text-amber-600 font-semibold uppercase tracking-wide">Regular &amp; Rotational Care</p>
-              </div>
-            </div>
-            <ul class="space-y-3 text-sm text-gray-700">
-              <li class="flex items-start"><i class="fas fa-check-circle text-green-500 mt-1 mr-3 shrink-0"></i><span><strong>Ceiling Fans &amp; Fixtures:</strong> Blades, globes &amp; chandelier dust removal.</span></li>
-              <li class="flex items-start"><i class="fas fa-check-circle text-green-500 mt-1 mr-3 shrink-0"></i><span><strong>Blinds &amp; Window Coverings:</strong> Slats dusted and window sills wiped clean.</span></li>
-              <li class="flex items-start"><i class="fas fa-check-circle text-green-500 mt-1 mr-3 shrink-0"></i><span><strong>Baseboards &amp; Chair Rails:</strong> Trim detailed regularly or on deep rotation.</span></li>
-              <li class="flex items-start"><i class="fas fa-check-circle text-green-500 mt-1 mr-3 shrink-0"></i><span><strong>Air Vents &amp; Intake Grills:</strong> Filter covers and intake slats dusted.</span></li>
-              <li class="flex items-start"><i class="fas fa-check-circle text-green-500 mt-1 mr-3 shrink-0"></i><span><strong>Decor &amp; Picture Frames:</strong> Wall art, knick-knacks &amp; tabletop accents.</span></li>
-            </ul>
-          </div>
-
-          <!-- Floor & Carpet Care -->
-          <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-2xl border border-white/10 hover:shadow-2xl transition-all duration-300">
-            <div class="flex items-center gap-4 mb-6">
-              <div class="w-12 h-12 rounded-xl bg-teal-100 text-teal-600 flex items-center justify-center text-2xl">
-                <i class="fas fa-broom"></i>
-              </div>
-              <div>
-                <h3 class="text-xl font-bold text-gray-900">Floors &amp; Surfaces</h3>
-                <p class="text-xs text-teal-600 font-semibold uppercase tracking-wide">HEPA Vacuum &amp; Microfiber Mop</p>
-              </div>
-            </div>
-            <ul class="space-y-3 text-sm text-gray-700">
-              <li class="flex items-start"><i class="fas fa-check-circle text-green-500 mt-1 mr-3 shrink-0"></i><span><strong>HEPA Filtration Vacuums:</strong> Commercial Miele &amp; Kirby grade vacuuming.</span></li>
-              <li class="flex items-start"><i class="fas fa-check-circle text-green-500 mt-1 mr-3 shrink-0"></i><span><strong>Rugs &amp; Carpeting:</strong> Bath &amp; kitchen rugs shaken, edges &amp; carpets vacuumed.</span></li>
-              <li class="flex items-start"><i class="fas fa-check-circle text-green-500 mt-1 mr-3 shrink-0"></i><span><strong>Hardwood Floor Care:</strong> Damp mopped with dedicated cloth mops &amp; Bona cleaners.</span></li>
-              <li class="flex items-start"><i class="fas fa-check-circle text-green-500 mt-1 mr-3 shrink-0"></i><span><strong>Tile &amp; Grout:</strong> Steam mopping and residue-free tile cleaning.</span></li>
-              <li class="flex items-start"><i class="fas fa-check-circle text-green-500 mt-1 mr-3 shrink-0"></i><span><strong>Under Furniture:</strong> Accessible spaces under beds and sofas vacuumed.</span></li>
-            </ul>
-          </div>
-
-          <!-- Deep Clean & Custom Add-ons -->
-          <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-2xl border border-white/10 hover:shadow-2xl transition-all duration-300">
-            <div class="flex items-center gap-4 mb-6">
-              <div class="w-12 h-12 rounded-xl bg-indigo-100 text-indigo-600 flex items-center justify-center text-2xl">
-                <i class="fas fa-magic"></i>
-              </div>
-              <div>
-                <h3 class="text-xl font-bold text-gray-900">Custom Add-Ons</h3>
-                <p class="text-xs text-indigo-600 font-semibold uppercase tracking-wide">Deep Clean &amp; Move Turnovers</p>
-              </div>
-            </div>
-            <ul class="space-y-3 text-sm text-gray-700">
-              <li class="flex items-start"><i class="fas fa-plus-circle text-indigo-500 mt-1 mr-3 shrink-0"></i><span><strong>Inside Oven Detailing:</strong> Deep degrease of racks, glass &amp; interior walls.</span></li>
-              <li class="flex items-start"><i class="fas fa-plus-circle text-indigo-500 mt-1 mr-3 shrink-0"></i><span><strong>Inside Refrigerator / Freezer:</strong> Shelves and bins washed and sanitized.</span></li>
-              <li class="flex items-start"><i class="fas fa-plus-circle text-indigo-500 mt-1 mr-3 shrink-0"></i><span><strong>Cabinet &amp; Drawer Interiors:</strong> Vacuumed &amp; wiped for move-in/out.</span></li>
-              <li class="flex items-start"><i class="fas fa-plus-circle text-indigo-500 mt-1 mr-3 shrink-0"></i><span><strong>Hand-Washed Baseboards:</strong> Deep scrub of grime and scuff marks.</span></li>
-              <li class="flex items-start"><i class="fas fa-plus-circle text-indigo-500 mt-1 mr-3 shrink-0"></i><span><strong>Post-Construction Detail:</strong> Drywall dust and residue extraction.</span></li>
-            </ul>
-          </div>
-
-        </div>
-
-        <!-- 📊 SERVICE COMPARISON MATRIX -->
-        <div class="bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 rounded-3xl p-6 sm:p-10 text-white shadow-2xl border border-indigo-500/30">
-          <div class="text-center max-w-2xl mx-auto mb-10">
-            <h3 class="text-2xl sm:text-3xl font-extrabold tracking-tight">
-              Choose the Service That Fits Your {city} Home
-            </h3>
-            <p class="text-gray-300 text-sm sm:text-base mt-2">
-              All services feature <strong>No Contracts</strong>, background-checked staff, and our 100% Satisfaction Guarantee.
-            </p>
-          </div>
-
-          <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
-            
-            <!-- Recurring Maintenance -->
-            <div class="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/15 flex flex-col justify-between hover:bg-white/15 transition-all">
-              <div>
-                <span class="inline-block bg-blue-500/30 text-blue-300 text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full mb-3">
-                  Most Popular
-                </span>
-                <h4 class="text-xl font-bold text-white mb-2">Recurring Maid Service</h4>
-                <p class="text-xs text-gray-300 mb-4 leading-relaxed">Weekly, bi-weekly, or monthly custom routine keeping your {city} home immaculate all year.</p>
-                <ul class="text-xs space-y-2 text-gray-200 mb-6">
-                  <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> All bathrooms &amp; kitchen sanitized</li>
-                  <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> Whole-home HEPA vacuuming</li>
-                  <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> Hardwood &amp; tile mopping</li>
-                  <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> Dusting furniture &amp; decor</li>
-                  <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> <strong>Zero locked contracts</strong></li>
-                </ul>
-              </div>
-              <a href="#quote" class="w-full text-center bg-blue-600 hover:bg-blue-500 text-white font-bold py-2.5 rounded-xl transition text-sm shadow-md">
-                Get Instant Quote
-              </a>
-            </div>
-
-            <!-- Deep Cleaning -->
-            <div class="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/15 flex flex-col justify-between hover:bg-white/15 transition-all">
-              <div>
-                <span class="inline-block bg-purple-500/30 text-purple-300 text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full mb-3">
-                  Deep Detail
-                </span>
-                <h4 class="text-xl font-bold text-white mb-2">Deep Cleaning</h4>
-                <p class="text-xs text-gray-300 mb-4 leading-relaxed">Top-to-bottom intensive scrub perfect for spring resets or first-time service.</p>
-                <ul class="text-xs space-y-2 text-gray-200 mb-6">
-                  <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> All Standard clean features</li>
-                  <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> Baseboards &amp; doors hand-scrubbed</li>
-                  <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> Blinds &amp; ceiling fan blades cleaned</li>
-                  <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> Inside microwave &amp; stovetop degreased</li>
-                  <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> Heavy scale &amp; soap scum removal</li>
-                </ul>
-              </div>
-              <a href="#quote" class="w-full text-center bg-purple-600 hover:bg-purple-500 text-white font-bold py-2.5 rounded-xl transition text-sm shadow-md">
-                Get Deep Clean Quote
-              </a>
-            </div>
-
-            <!-- Move-In / Move-Out -->
-            <div class="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/15 flex flex-col justify-between hover:bg-white/15 transition-all">
-              <div>
-                <span class="inline-block bg-pink-500/30 text-pink-300 text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full mb-3">
-                  Turnkey Ready
-                </span>
-                <h4 class="text-xl font-bold text-white mb-2">Move In / Out Clean</h4>
-                <p class="text-xs text-gray-300 mb-4 leading-relaxed">Immaculate turnaround for empty homes, renters, realtors &amp; new buyers.</p>
-                <ul class="text-xs space-y-2 text-gray-200 mb-6">
-                  <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> Complete interior cabinet wipeout</li>
-                  <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> Inside oven &amp; refrigerator clean</li>
-                  <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> Closets, shelving &amp; baseboards</li>
-                  <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> Deposit-return guarantee standard</li>
-                </ul>
-              </div>
-              <a href="#quote" class="w-full text-center bg-pink-600 hover:bg-pink-500 text-white font-bold py-2.5 rounded-xl transition text-sm shadow-md">
-                Get Move Clean Quote
-              </a>
-            </div>
-
-            <!-- Commercial Janitorial -->
-            <div class="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/15 flex flex-col justify-between hover:bg-white/15 transition-all">
-              <div>
-                <span class="inline-block bg-emerald-500/30 text-emerald-300 text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full mb-3">
-                  B2B Facility
-                </span>
-                <h4 class="text-xl font-bold text-white mb-2">Commercial Cleaning</h4>
-                <p class="text-xs text-gray-300 mb-4 leading-relaxed">Offices, medical clinics, retail centers &amp; short-term rentals in {city}.</p>
-                <ul class="text-xs space-y-2 text-gray-200 mb-6">
-                  <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> Restroom disinfection &amp; restocking</li>
-                  <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> Trash removal &amp; recycling sorting</li>
-                  <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> High-traffic floor care &amp; vacuuming</li>
-                  <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> Breakroom &amp; kitchen sanitization</li>
-                  <li class="flex items-center"><i class="fas fa-check text-green-400 mr-2"></i> Customized commercial scheduling</li>
-                </ul>
-              </div>
-              <a href="#quote" class="w-full text-center bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-2.5 rounded-xl transition text-sm shadow-md">
-                Get Commercial Quote
-              </a>
-            </div>
-
-          </div>
         </div>
 
       </div>
     </section>
 """
-
-# Regex patterns for replacing sections cleanly
-about_pattern = re.compile(
-    r'(<!-- About Section[^\n]*-->\s*<section[^>]*id=["\']about["\'].*?</section>)',
-    re.DOTALL | re.IGNORECASE
-)
-
-alt_about_pattern = re.compile(
-    r'(<section[^>]*id=["\']about["\'].*?</section>)',
-    re.DOTALL | re.IGNORECASE
-)
-
-faq_pattern = re.compile(
-    r'(<!-- [^>]*SECTION: FREQUENTLY ASKED QUESTIONS.*?<script>\s*function toggleFaq.*?<\/script>)',
-    re.DOTALL | re.IGNORECASE
-)
-
-alt_faq_pattern = re.compile(
-    r'(<section[^>]*id=["\']faq["\'].*?</section>(?:\s*<script>\s*function toggleFaq.*?<\/script>)?)',
-    re.DOTALL | re.IGNORECASE
-)
 
 schema_pattern = re.compile(
     r'<script\s+type=["\']application/ld\+json["\']>.*?</script>',
@@ -343,7 +164,7 @@ def enrich_location_file(filepath):
     try:
         rel = os.path.relpath(filepath, root_dir).replace('\\', '/')
         parts = rel.split('/')
-        if not parts[0].endswith('-al') or len(parts) > 2 or parts[-1] != 'index.html':
+        if len(parts) != 2 or not parts[0].endswith('-al') or parts[1] != 'index.html':
             return False
             
         loc_slug = parts[0]
@@ -361,36 +182,33 @@ def enrich_location_file(filepath):
             if '<!-- Scroll Down Arrow -->' in content:
                 content = content.replace('<!-- Scroll Down Arrow -->', f'{get_trust_badges_html()}\n        <!-- Scroll Down Arrow -->', 1)
                 
-        # 2. Update / Replace About section with Hyper-Localized Dark Purple / Glassmorphism About Section
+        # 2. Build complete bespoke middle block (About, Tailored Services Grid, Unique FAQs)
         new_about_html = get_localized_about_html(city, loc_slug, county)
-        if about_pattern.search(content):
-            content = about_pattern.sub(new_about_html.strip(), content, count=1)
-        elif alt_about_pattern.search(content):
-            content = alt_about_pattern.sub(new_about_html.strip(), content, count=1)
-        elif '<section class="py-16' in content:
-            content = content.replace('<section class="py-16', f'{new_about_html}\n    <section class="py-16', 1)
-            
-        # 3. Inject Cleaning Standards section if not present
-        if 'id="cleaning-standards"' not in content:
-            if '<section id="quote"' in content:
-                content = content.replace('<section id="quote"', f'{get_cleaning_standards_html(city, county)}\n    <section id="quote"', 1)
-                
-        # 4. Update / Replace FAQ section with Hyper-Localized Accordion FAQ Section
+        new_services_html = get_localized_city_services_html(city, loc_slug, county)
         new_faq_html = get_localized_faq_html(city, loc_slug, county)
-        if faq_pattern.search(content):
-            content = faq_pattern.sub(new_faq_html.strip(), content, count=1)
-        elif alt_faq_pattern.search(content):
-            content = alt_faq_pattern.sub(new_faq_html.strip(), content, count=1)
-        elif '<section class="py-20 bg-lightGray" id="blog">' in content:
-            content = content.replace('<section class="py-20 bg-lightGray" id="blog">', f'{new_faq_html}\n    <section class="py-20 bg-lightGray" id="blog">', 1)
-        elif '<section class="py-20 bg-transparent relative z-10" id="blog">' in content:
-            content = content.replace('<section class="py-20 bg-transparent relative z-10" id="blog">', f'{new_faq_html}\n    <section class="py-20 bg-transparent relative z-10" id="blog">', 1)
-        elif 'id="blog"' in content:
-            content = re.sub(r'(<section[^>]*id=["\']blog["\'])', f'{new_faq_html}\n    \\1', content, count=1)
-        elif '<footer' in content:
-            content = content.replace('<footer', f'{new_faq_html}\n    <footer', 1)
+        
+        bespoke_hub_html = f"{new_about_html}\n\n{new_services_html}\n\n{new_faq_html}"
+        
+        # 3. Clean hero-to-quote-to-bottom replacement
+        hero_match = re.search(r'(<section[^>]*id=["\']home["\'].*?</section>)', content, re.DOTALL | re.IGNORECASE)
+        quote_match = re.search(r'(<section[^>]*id=["\']quote["\'].*?</section>)', content, re.DOTALL | re.IGNORECASE)
+        loc_match = re.search(r'(<!-- =+ LOCATION SECTION =+ -->|<section[^>]*id=["\']location["\'])', content, re.DOTALL | re.IGNORECASE)
+        if not loc_match:
+            loc_match = re.search(r'(<footer\b)', content, re.DOTALL | re.IGNORECASE)
             
-        # 5. Replace Schema JSON-LD with Updated 8-Question Localized Schema
+        if hero_match and quote_match and loc_match:
+            top_part = content[:hero_match.end()]
+            quote_block = quote_match.group(1)
+            bottom_part = content[loc_match.start():]
+            content = top_part + "\n\n" + bespoke_hub_html + "\n\n    " + quote_block + "\n\n    " + bottom_part
+        elif hero_match and quote_match:
+            hero_end = hero_match.end()
+            quote_start = quote_match.start()
+            content = content[:hero_end] + "\n\n" + bespoke_hub_html + "\n\n    " + content[quote_start:]
+        elif '<footer' in content:
+            content = content.replace('<footer', f'{bespoke_hub_html}\n    <footer', 1)
+            
+        # 4. Replace Schema JSON-LD with Updated 8-Question Localized Schema
         info = classify_page(filepath)
         new_schema = generate_schema(info)
         content = schema_pattern.sub('', content)
@@ -399,7 +217,7 @@ def enrich_location_file(filepath):
         elif '</head>' in content:
             content = content.replace('</head>', f'{new_schema}\n</head>', 1)
             
-        # 6. Fix styling classes (remove lightGray, fix font-awesome icons)
+        # 5. Fix styling classes (remove lightGray, fix font-awesome icons)
         content = content.replace('class="py-16 bg-lightGray"', 'class="py-16 bg-transparent relative z-10"')
         content = content.replace('class="py-20 bg-lightGray"', 'class="py-20 bg-transparent relative z-10"')
         content = content.replace('fa-shield-check', 'fa-shield-alt')

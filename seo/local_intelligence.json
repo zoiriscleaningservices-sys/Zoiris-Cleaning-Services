@@ -1,0 +1,386 @@
+{
+  "daphne_al": {
+    "region": "eastern_shore",
+    "market_name": "Daphne Eastern Shore & Jubilee Coast",
+    "local_environment": "Mobile Bay breezes, heavy spring live oak pollen, red clay soil tracking, and Baldwin County coastal humidity",
+    "neighborhoods": "Lake Forest golf enclaves, Sehoy, Austin Park, Diamante, Historic Old Daphne, and Scenic 98 bluffs",
+    "property_profiles": [
+      "Established golf course residences and townhomes in Lake Forest",
+      "Custom single-family executive homes in master-planned communities (Sehoy, Austin Park, Diamante)",
+      "Historic bayfront properties and blufftop cottages along Scenic 98",
+      "Modern professional medical and legal office suites along Highway 98"
+    ],
+    "cleaning_challenges": [
+      "Springtime live oak and loblolly pine pollen coating window sills, intake vents, and screened porches",
+      "Baldwin County red clay dust tracked onto delicate hardwood entries and high-traffic carpets",
+      "Historic and custom engineered hardwood flooring requiring Bona-standard, pH-neutral care",
+      "Fast-paced commuter schedules requiring dependable recurring cleaning with zero lock-in contracts"
+    ],
+    "service_nuances": {
+      "deep_cleaning": "Comprehensive seasonal deep cleaning targeting live oak pollen removal, hand-scrubbing high baseboards, detailing crown moldings, and restoring kitchen tile grout.",
+      "house_cleaning": "Bespoke recurring housekeeping customized for busy Lake Forest and Sehoy families, featuring HEPA dust extraction and hardwood floor sanitization.",
+      "move_out_cleaning": "100% deposit-ready turnover cleanings for Daphne rental properties, lease transitions, and real estate sales.",
+      "move_in_cleaning": "Turnkey move-in sanitization ensuring new Daphne homeowners arrive to sparkling cabinets, sanitized appliances, and pristine bathrooms.",
+      "airbnb_cleaning": "Same-day turnover and staging for Daphne Bay vacation rentals with linen service, restocking, and photo inspection.",
+      "commercial_cleaning": "Discreet after-hours janitorial for Highway 98 medical clinics, legal offices, and retail storefronts.",
+      "carpet_cleaning": "Specialized red clay stain lifting and high-traffic carpet steam extraction.",
+      "window_cleaning": "Streak-free exterior and interior glass cleaning removing coastal moisture haze and pollen."
+    },
+    "local_landmarks": "Lake Forest, Village Point Park Preserve, Daphne Bayfront Park, Highway 98 corridor, and Scenic 98",
+    "customer_profiles": "Busy working families, Mobile commuters, healthcare providers, and retirees"
+  },
+  "fairhope_al": {
+    "region": "eastern_shore",
+    "market_name": "Fairhope Boutique & Bayfront Enclave",
+    "local_environment": "Dense moss-draped live oak canopies, Mobile Bay microclimates, historic humidity dampness, and delicate coastal air",
+    "neighborhoods": "Fruit & Nut District historic cottages, Point Clear bayfront estates, Rock Creek golf villas, Lakewood, and Downtown Fairhope arts corridor",
+    "property_profiles": [
+      "Charming 1920s craftsman cottages in the iconic Fruit & Nut District",
+      "Expansive luxury bayfront estates and equestrian properties along Scenic 98 and Point Clear",
+      "Upscale master-planned golf residences (Rock Creek, Lakewood, Battle's Trace)",
+      "Downtown art galleries, antique shops, boutique retail, and design studios"
+    ],
+    "cleaning_challenges": [
+      "Delicate preservation of original 100-year-old heart pine floors, custom millwork, and antique heirlooms",
+      "Mobile Bay humidity dampness requiring specialized moisture-safe surface care on natural stone and plaster",
+      "Strict preference for eco-friendly, hospital-grade, non-toxic, and pet-safe cleaning solutions",
+      "High expectations for discreet, uniformed, background-checked white-glove housekeeping teams"
+    ],
+    "service_nuances": {
+      "deep_cleaning": "White-glove restorative cleaning of historic architectural trim, high transoms, French doors, vintage fireplace mantels, and luxury bathroom marble.",
+      "house_cleaning": "Tailored executive housekeeping featuring dedicated cleaners, customized room checklists, and careful handling of fine art and heirloom decor.",
+      "move_out_cleaning": "Meticulous real estate closing and transition cleanings for luxury buyers and sellers across Point Clear and Fairhope.",
+      "move_in_cleaning": "Pristine turnkey preparation for newly acquired historic cottages and golf estates before moving day.",
+      "airbnb_cleaning": "5-star luxury guest turnovers for Fairhope boutique cottages and bayfront rental retreats.",
+      "commercial_cleaning": "Immaculate after-hours janitorial for downtown Fairhope art galleries, boutique shops, and executive financial suites.",
+      "carpet_cleaning": "Gentle, non-abrasive fiber extraction for fine wool rugs, oriental carpets, and luxury bedroom carpeting.",
+      "window_cleaning": "Meticulous hand-washing of historic multi-pane window sashes, French patio doors, and bay-view glass."
+    },
+    "local_landmarks": "Fruit & Nut District, Fairhope Municipal Pier, Downtown Fairhope, Rock Creek, Lakewood, and Point Clear",
+    "customer_profiles": "Discerning luxury homeowners, retirees, boutique business owners, and equestrian estate managers"
+  },
+  "spanish_fort_al": {
+    "region": "eastern_shore",
+    "market_name": "Spanish Fort Historic Bluff & Delta Gateway",
+    "local_environment": "Mobile-Tensaw River Delta breezes, heavy loblolly pine straw dust, wetland humidity, and high commuter activity",
+    "neighborhoods": "TimberCreek golf community, Rayne Plantation, Stonebridge, Historic Blakeley area, and Spanish Fort Town Center",
+    "property_profiles": [
+      "Custom multi-story brick estates in TimberCreek Golf Community",
+      "Modern executive family homes in Rayne Plantation and Stonebridge",
+      "Scenic bluff residences overlooking the Tensaw River basin",
+      "Commercial retail centers and professional office suites along Highway 181 and I-10"
+    ],
+    "cleaning_challenges": [
+      "Delta moisture and pine pollen accumulating on tall multi-level entryway foyers and staircases",
+      "High-traffic family living demands with children and pets tracking outdoor soil into living spaces",
+      "Large-scale floor plans (3,500+ sq ft) requiring structured, multi-cleaner teamwork and HEPA filtration"
+    ],
+    "service_nuances": {
+      "deep_cleaning": "Intensive top-to-bottom scrub detailing multi-tier foyers, high ceiling fans, kitchen cabinet interiors, and bathroom tile grout.",
+      "house_cleaning": "Structured weekly and bi-weekly housekeeping keeping expansive Spanish Fort family residences immaculate.",
+      "move_out_cleaning": "Complete inspection-ready cleaning for families relocating via I-10 corridor.",
+      "commercial_cleaning": "Reliable janitorial for Spanish Fort Town Center businesses, clinics, and professional corporate offices.",
+      "carpet_cleaning": "Deep steam extraction removing high-traffic footpaths and pet dander from large family homes."
+    },
+    "local_landmarks": "TimberCreek, Historic Blakeley State Park, Spanish Fort Town Center, Causeway, and Rayne Plantation",
+    "customer_profiles": "I-10 commuters, corporate professionals, growing families, and golf community residents"
+  },
+  "gulf_shores_al": {
+    "region": "coastal_resort",
+    "market_name": "Gulf Shores & Beachfront Coast",
+    "local_environment": "Direct Gulf salt-spray mist, coarse white silica sand, intense sub-tropical UV heat, and heavy summer rental turnover",
+    "neighborhoods": "West Beach beachfront cottages, East Beach, Fort Morgan corridor, Craft Farms golf villas, and Gulf State Park corridor",
+    "property_profiles": [
+      "High-rise beachfront condominiums (Phoenix, Crystal Tower, San Carlos, Boardwalk)",
+      "Multi-story vacation rental beach cottages along West Beach and Fort Morgan",
+      "Private coastal residences and inland golf community homes (Craft Farms, Peninsula)",
+      "Short-term rental investments and duplexes"
+    ],
+    "cleaning_challenges": [
+      "Fine silica beach sand embedded in carpet fibers, baseboards, under-bed spaces, and tile grout",
+      "Salt-spray film accumulation on exterior sliding glass doors, window tracks, and metal fixtures",
+      "Humidity-driven moisture buildup in bathrooms, HVAC intake grills, and kitchen cabinets",
+      "Rapid 10:00 AM to 3:00 PM turnover windows during peak summer rental seasons"
+    ],
+    "service_nuances": {
+      "deep_cleaning": "Intensive post-season sand and salt-air scrub, descaling coastal shower glass, polishing oxidized stainless fixtures, and deep extraction of sand from sofa crevices.",
+      "house_cleaning": "Regular maintenance designed for coastal living—HEPA vacuuming of silica dust, moisture-neutralizing hard surface wiping, and streak-free glass care.",
+      "move_out_cleaning": "Comprehensive lease-end and owner turnover clean with photo verification for property managers and deposit security.",
+      "airbnb_cleaning": "Same-day 5-star turnover service including linen stripping/washing, guest toiletries replenishment, kitchen restocking check, and digital lock sanitization.",
+      "commercial_cleaning": "Specialized janitorial for coastal restaurants, boutique storefronts, rental management offices, and resort clubhouses.",
+      "carpet_cleaning": "Hot-water extraction tailored to extract heavy salt sand, beverage stains, and pet dander from rental carpets.",
+      "post_construction_cleanup": "Multi-phase drywall and silica dust extraction for newly remodeled beachfront condos and residential beach builds."
+    },
+    "local_landmarks": "West Beach, East Beach, Gulf State Park, Craft Farms, Fort Morgan corridor, and beachfront condo strips",
+    "customer_profiles": "Vacation rental property managers, absentee condo owners, second-home vacationers, and local permanent residents"
+  },
+  "orange_beach_al": {
+    "region": "coastal_resort",
+    "market_name": "Orange Beach Marina & Coastal Strip",
+    "local_environment": "Bay and Gulf breezes, fine white quartz sand, marine moisture, and luxury resort guest expectations",
+    "neighborhoods": "Turquoise Place, Caribe Resort, The Wharf luxury suites, Terry Cove waterfront homes, and Cotton Bayou marinas",
+    "property_profiles": [
+      "Luxury bayfront and beachfront high-rises (Turquoise Place, Caribe Resort, The Wharf)",
+      "Private waterfront residences with docks on Terry Cove and Cotton Bayou",
+      "Vacation rental townhomes and marina-side villas",
+      "Executive commercial suites and waterfront dining establishments"
+    ],
+    "cleaning_challenges": [
+      "Heavy sand and sunscreen residue tracking on luxury tile, quartz counters, and outdoor patio furniture",
+      "Marine moisture and humidity condensation on stainless steel and bronze accents",
+      "Strict condominium HOA turnover guidelines and fast check-in timelines"
+    ],
+    "service_nuances": {
+      "deep_cleaning": "High-end detailing of gourmet kitchens, wine coolers, expansive balcony sliding glass, and luxury bathroom marble restoration.",
+      "house_cleaning": "Bespoke recurring housekeeping for waterfront estates and permanent luxury residences.",
+      "airbnb_cleaning": "White-glove resort turnovers for luxury condos and waterfront villas with linen service and digital quality inspections.",
+      "commercial_cleaning": "Marina offices, yacht brokerages, retail boutiques, and executive commercial janitorial."
+    },
+    "local_landmarks": "Perdido Pass, The Wharf, Cotton Bayou, Terry Cove, and beachfront resort developments",
+    "customer_profiles": "Luxury condo investors, yacht owners, waterfront homeowners, and resort rental hosts"
+  },
+  "foley_al": {
+    "region": "coastal_resort",
+    "market_name": "Foley South Baldwin & Express Corridor",
+    "local_environment": "Inland coastal warmth, pine pollen, high commercial traffic between I-10 and beach express, and agricultural dust",
+    "neighborhoods": "Glenlakes golf community, Foley Beach Express corridor, Downtown Foley historic district, Live Oak, and South Baldwin Medical area",
+    "property_profiles": [
+      "Single-story suburban family homes and residential subdivisions",
+      "Active retiree villas and golf residences in Glenlakes",
+      "Medical clinics and professional practices near South Baldwin Regional Medical Center",
+      "Commercial retail centers and hospitality venues surrounding Tanger Outlets and OWA"
+    ],
+    "cleaning_challenges": [
+      "High volume of seasonal visitors and retiree residents requiring trusted, consistent in-house cleaners",
+      "Commercial dust and high customer foot traffic in retail and dining centers along Highway 59",
+      "Need for dependable, no-contract recurring maid visits with flexible scheduling"
+    ],
+    "service_nuances": {
+      "deep_cleaning": "Detailed seasonal deep cleaning for single-family homes and golf villas, washing baseboards, door frames, and appliances.",
+      "house_cleaning": "Trustworthy weekly and bi-weekly housekeeping for busy families and active retirees.",
+      "commercial_cleaning": "Professional janitorial for medical facilities, dental clinics, and retail storefronts.",
+      "move_out_cleaning": "Fast, thorough move-out cleans ensuring 100% security deposit returns for Foley tenants."
+    },
+    "local_landmarks": "Downtown Foley, Glenlakes Golf Club, Tanger Outlets, OWA Parks & Resort, and Foley Beach Express",
+    "customer_profiles": "Retirees, healthcare workers, local business operators, and South Baldwin families"
+  },
+  "mobile_al": {
+    "region": "mobile_metro",
+    "market_name": "Mobile Historic Port & Metropolitan Hub",
+    "local_environment": "Gulf Coast sub-tropical rainfall, historic urban dust, shaded microclimate mold/mildew humidity risks, and spring azalea pollen",
+    "neighborhoods": "Spring Hill executive estates, Midtown historic Creole & Queen Anne cottages, Oakleigh Historic District, Downtown Lofts, and West Mobile family subdivisions",
+    "property_profiles": [
+      "Historic Victorian, Queen Anne, and Creole cottages in Midtown and Downtown (De Tonti Square, Oakleigh)",
+      "Sprawling suburban family properties in Spring Hill and West Mobile",
+      "Modern townhomes and lofts in the Downtown entertainment district",
+      "Corporate facilities, medical centers (USA Health, Infirmary Health), and commercial offices"
+    ],
+    "cleaning_challenges": [
+      "High ceilings (12+ ft), detailed picture rails, transoms, and historic fireplaces gathering airborne dust",
+      "Gulf humidity fostering mildew in older tile bathrooms and shaded exterior entries",
+      "Dust mite and allergen accumulation in older homes requiring multi-stage HEPA filtration vacuuming"
+    ],
+    "service_nuances": {
+      "deep_cleaning": "Intensive historic architectural scrub—detailing ornate molding, ceiling fan globes, crystal light fixtures, and vintage tile grout.",
+      "house_cleaning": "Flexible, reliable no-contract maid routines for busy professionals, doctors, and family homes in Spring Hill and Midtown.",
+      "move_out_cleaning": "Deposit-guaranteed move-out sanitization for Downtown loft renters and West Mobile homeowners.",
+      "commercial_cleaning": "Comprehensive commercial janitorial for corporate headquarters, medical practices, law firms, and educational facilities."
+    },
+    "local_landmarks": "Midtown, Downtown Mobile, Spring Hill, Oakleigh Historic District, Dauphin Street, and Airport Blvd corridor",
+    "customer_profiles": "Healthcare professionals, historic home preservationists, corporate executives, and busy families"
+  },
+  "saraland_al": {
+    "region": "mobile_metro",
+    "market_name": "Saraland North Mobile Growth Hub",
+    "local_environment": "Mobile River basin humidity, industrial particulate and highway dust, and sandy loam soil tracking",
+    "neighborhoods": "Celeste Road acreage homes, Bayou Sara residential enclaves, Saraland High school district neighborhoods, and Highway 43 commercial corridor",
+    "property_profiles": [
+      "Newer brick single-family constructions and family subdivisions",
+      "Spacious acreage homes along Celeste Road and Shelton Beach corridor",
+      "Industrial facility offices and logistics centers along Highway 43"
+    ],
+    "cleaning_challenges": [
+      "Active family footprints with school-age kids and pets tracking yard dirt into kitchens and mudrooms",
+      "Industrial and heavy vehicle dust along commercial corridors requiring detailed dusting and HEPA vacuuming",
+      "High demand for reliable recurring maid schedules that don't lock homeowners into contracts"
+    ],
+    "service_nuances": {
+      "deep_cleaning": "Top-to-bottom scrub removing family dust, degreasing kitchen appliances, and scrubbing bathroom grout.",
+      "house_cleaning": "Dependable bi-weekly housekeeping for busy Saraland families and shift workers.",
+      "commercial_cleaning": "After-hours commercial janitorial for industrial administration suites and retail businesses along Hwy 43.",
+      "move_out_cleaning": "Deposit-ready move cleans for Saraland homes and apartments."
+    },
+    "local_landmarks": "Saraland High School area, Bayou Sara, Celeste Road, Highway 43, and I-65 junction",
+    "customer_profiles": "Families, industrial plant managers, school teachers, and healthcare staff"
+  },
+  "semmes_al": {
+    "region": "mobile_metro",
+    "market_name": "Semmes West Mobile Nursery & Acreage Enclave",
+    "local_environment": "Nursery agricultural dust, extensive pine pollen, clay roads, and semi-rural moisture",
+    "neighborhoods": "Moffett Road corridor, Camellia nursery estates, quiet acreage homesteads, and Allentown residential areas",
+    "property_profiles": [
+      "Expansive single-family ranch homes on 1-5 acre lots",
+      "Modern master-planned subdivision homes in West Mobile growth areas",
+      "Local nursery offices and small business storefronts"
+    ],
+    "cleaning_challenges": [
+      "Heavy mud and red clay floor tracking from rural and semi-rural acreage properties",
+      "High pollen settling on large porch railings, window sills, and ceiling fans",
+      "Need for robust HEPA filtration to eliminate outdoor allergens from indoor living spaces"
+    ],
+    "service_nuances": {
+      "deep_cleaning": "Heavy-duty whole-home scrub addressing rural dust, pet hair, kitchen grease, and high ceiling fan blades.",
+      "house_cleaning": "Consistent recurring maid visits for acreage homeowners seeking spotless floors and fresh rooms.",
+      "move_out_cleaning": "Turnkey move-out detailing for buyers and sellers across the Moffett Road area."
+    },
+    "local_landmarks": "Moffett Road, Semmes Camellia Park, Allentown, and West Mobile nursery district",
+    "customer_profiles": "Acreage property owners, rural homeowners, tradespeople, and growing families"
+  },
+  "theodore_al": {
+    "region": "mobile_metro",
+    "market_name": "Theodore & Bellingrath Coastal Corridor",
+    "local_environment": "Bayou humidity, maritime air, industrial dust along Rangeline, and coastal live oak canopies",
+    "neighborhoods": "Fowl River waterfront homes, Rangeline Road industrial park, Bellingrath Gardens corridor, and Belle Fontaine bayside",
+    "property_profiles": [
+      "Waterfront river cottages and stilt houses along Fowl River",
+      "Industrial manufacturing and distribution facilities along Rangeline Road",
+      "Single-family suburban homes in established southern Mobile County neighborhoods"
+    ],
+    "cleaning_challenges": [
+      "River and bayou humidity fostering mildew risks in bathrooms and exterior door tracks",
+      "Industrial facility breakrooms and executive offices requiring strict sanitation standards",
+      "Dust and moisture control for waterfront and stilt properties"
+    ],
+    "service_nuances": {
+      "deep_cleaning": "Intensive sanitization tackling moisture buildup, baseboard grime, and heavy kitchen grease.",
+      "commercial_cleaning": "Heavy-duty commercial janitorial for Rangeline Road industrial centers and warehouses.",
+      "house_cleaning": "Reliable recurring cleaning for riverfront homeowners and South Mobile families."
+    },
+    "local_landmarks": "Bellingrath Gardens, Fowl River, Rangeline Road industrial district, and Belle Fontaine",
+    "customer_profiles": "River homeowners, industrial facility managers, plant operators, and coastal families"
+  },
+  "birmingham_al": {
+    "region": "birmingham_metro",
+    "market_name": "Birmingham Metropolitan & Over-the-Mountain Hub",
+    "local_environment": "Urban particulate dust, Appalachian valley allergens, heavy spring pine pollen, and red clay soil",
+    "neighborhoods": "Mountain Brook estates, Forest Park historic homes, Vestavia Hills, Homewood, Hoover, and Downtown Loft District",
+    "property_profiles": [
+      "Prestigious historic estates in Mountain Brook and Forest Park",
+      "Sprawling executive homes in Hoover, Vestavia Hills, and Homewood",
+      "Downtown loft conversions and urban high-rise condominiums",
+      "Major corporate headquarters, banking towers, and medical research campuses (UAB corridor)"
+    ],
+    "cleaning_challenges": [
+      "Multi-story layouts with expansive square footage requiring structured multi-cleaner teams",
+      "Red clay mud and heavy pine dust tracking into main living areas and finished basements",
+      "Rigorous commercial sanitization standards for corporate and clinical environments"
+    ],
+    "service_nuances": {
+      "deep_cleaning": "Intensive whole-home seasonal resets, finished basement detailing, high-stairwell dusting, and gourmet kitchen degreasing.",
+      "house_cleaning": "Consistent recurring maid visits with bonded staff tailored for busy executives and families.",
+      "commercial_cleaning": "After-hours commercial janitorial for financial institutions, law offices, tech startups, and medical suites."
+    },
+    "local_landmarks": "Downtown Birmingham, Mountain Brook, Over-the-Mountain communities, UAB corridor, and Hwy 280 commercial strip",
+    "customer_profiles": "Corporate executives, medical specialists, attorneys, and active suburban families"
+  },
+  "huntsville_al": {
+    "region": "north_alabama",
+    "market_name": "Huntsville Rocket City & Tech Corridor",
+    "local_environment": "Tennessee Valley humidity, mountain ridge pollen, rapid subdivision expansion drywall dust",
+    "neighborhoods": "Madison custom communities, Hampton Cove valley homes, Twickenham Historic District, Monte Sano, and Research Park corridor",
+    "property_profiles": [
+      "Modern smart homes and custom builds in Madison and Hampton Cove",
+      "Historic residences in Twickenham and Old Town",
+      "Executive view homes on Monte Sano Mountain",
+      "Aerospace, defense contractor, and biotech engineering facilities in Cummings Research Park"
+    ],
+    "cleaning_challenges": [
+      "New construction drywall dust and site settling in rapidly growing subdivisions",
+      "Delicate high-tech surface cleaning (smart screens, custom stone, modern LED fixture dust)",
+      "High relocation turnover requiring rapid, reliable move-in readiness"
+    ],
+    "service_nuances": {
+      "deep_cleaning": "Detailed restorative clean focusing on high-tech surfaces, vaulted ceiling fans, intake vents, and post-move settlement.",
+      "house_cleaning": "Dependable, efficient recurring housekeeping for engineers, defense personnel, and relocating families.",
+      "move_in_cleaning": "Turnkey move-in sanitization ensuring newly purchased or leased homes are 100% spotless before furniture arrives.",
+      "commercial_cleaning": "High-security, detail-oriented commercial cleaning for technology suites, engineering firms, and corporate centers."
+    },
+    "local_landmarks": "Cummings Research Park, Madison, Twickenham Historic District, Hampton Cove, Monte Sano, and Redstone corridor",
+    "customer_profiles": "Engineers, defense contractors, scientists, relocating tech professionals, and active families"
+  },
+  "tuscaloosa_al": {
+    "region": "college_metro",
+    "market_name": "Tuscaloosa University & Black Warrior River Metro",
+    "local_environment": "River valley humidity, high student pedestrian foot traffic, seasonal lease turnover spikes",
+    "neighborhoods": "University of Alabama campus district, Downtown Tuscaloosa, Druid City, Northport historic quarter, and Lake Tuscaloosa estates",
+    "property_profiles": [
+      "Student apartments and off-campus housing complexes",
+      "Historic and executive faculty residences in Druid City and Downtown",
+      "Waterfront homes along Lake Tuscaloosa and the Black Warrior River",
+      "Commercial hospitality, dining, and retail storefronts"
+    ],
+    "cleaning_challenges": [
+      "Massive seasonal move-out spikes in May and August requiring high-volume deposit cleaning",
+      "Post-event and gameday gathering wear on floors, kitchens, and bathrooms",
+      "Heavy humidity near the river requiring anti-microbial surface treatments"
+    ],
+    "service_nuances": {
+      "move_out_cleaning": "Strict inspection-ready student turnover cleaning with inside appliance scrubbing and deposit refund focus.",
+      "house_cleaning": "Regular bi-weekly and monthly housekeeping for university faculty, healthcare workers, and Lake Tuscaloosa residents.",
+      "deep_cleaning": "Semester reset deep cleans and post-renovation cleanups.",
+      "commercial_cleaning": "Retail, hospitality, and office cleaning customized around academic and athletic calendars."
+    },
+    "local_landmarks": "University of Alabama campus, Lake Tuscaloosa, Downtown Tuscaloosa, Northport historic district, and Riverfront",
+    "customer_profiles": "Student renters, landlords, university faculty, lakefront homeowners, and commercial managers"
+  },
+  "montgomery_al": {
+    "region": "river_region",
+    "market_name": "Montgomery Capital District & River Region",
+    "local_environment": "Alabama River basin humidity, historic city dust, heavy oak pollen, and military relocation cycles",
+    "neighborhoods": "Old Cloverdale historic district, East Montgomery suburban developments, Pike Road estates, Downtown Government corridor, and Maxwell AFB area",
+    "property_profiles": [
+      "Historic 1920s architecture and antebellum residences in Cloverdale",
+      "Modern suburban family homes in East Montgomery and Pike Road",
+      "Government agency buildings, legal firms, and association headquarters",
+      "Military family off-base housing near Maxwell-Gunter AFB"
+    ],
+    "cleaning_challenges": [
+      "Frequent military relocation turnovers requiring strict move-out inspection standards",
+      "High ceilings and historic plaster/trim maintenance in older central neighborhoods",
+      "Commercial office janitorial demanding consistent, bonded, background-checked personnel"
+    ],
+    "service_nuances": {
+      "deep_cleaning": "Intensive whole-home scrub hand-washing woodwork, baseboards, door frames, and detailing ovens and refrigerators.",
+      "house_cleaning": "Consistent, flexible recurring maid visits tailored for military families, state employees, and healthcare workers.",
+      "move_out_cleaning": "100% inspection-ready move-out cleaning guaranteeing smooth military and tenant departures.",
+      "commercial_cleaning": "Secure, professional janitorial for legal practices, state associations, and downtown corporate offices."
+    },
+    "local_landmarks": "Alabama State Capitol, Old Cloverdale, Pike Road, Maxwell AFB, and EastChase",
+    "customer_profiles": "Military families, government professionals, legal practitioners, and local homeowners"
+  },
+  "auburn_al": {
+    "region": "college_metro",
+    "market_name": "Auburn University & East Alabama Tech Corridor",
+    "local_environment": "Piedmont plateau breezes, heavy seasonal pine pollen, academic lease turn cycles, and rapid residential growth",
+    "neighborhoods": "Moores Mill golf community, Downtown Auburn, Toomer's Corner district, Asheton Park, and Opelika historic district",
+    "property_profiles": [
+      "Upscale family residences in Moores Mill and Asheton Park",
+      "Student apartments and off-campus housing near Auburn University",
+      "Historic Victorian and craftsman homes in downtown Auburn and Opelika",
+      "Technology and manufacturing offices in Auburn Research Park"
+    ],
+    "cleaning_challenges": [
+      "High-volume student turnover rushes during semester breaks requiring rapid, reliable crews",
+      "Heavy pine pollen tracking on screened porches and hardwood living areas in spring",
+      "High standards for university faculty and medical professionals requiring consistent scheduled care"
+    ],
+    "service_nuances": {
+      "deep_cleaning": "Comprehensive restorative scrub for residential homes, degreasing appliances, and deep tile sanitization.",
+      "house_cleaning": "Bi-weekly and monthly maid service keeping Auburn faculty and family homes in immaculate condition.",
+      "move_out_cleaning": "Turnkey tenant turnover cleans guaranteeing full security deposit refunds.",
+      "commercial_cleaning": "Professional janitorial for Auburn Research Park facilities, medical clinics, and local businesses."
+    },
+    "local_landmarks": "Auburn University, Toomer's Corner, Moores Mill Club, Chewacla State Park, and Auburn Research Park",
+    "customer_profiles": "University professors, university students, medical staff, and growing families"
+  }
+}
