@@ -6,7 +6,7 @@ from datetime import datetime
 root_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 def generate_sitemaps():
-    print("Generating sitemaps...")
+    print("Generating comprehensive sitemaps...")
     
     with open(os.path.join(root_dir, 'seo', 'locations.json'), 'r', encoding='utf-8') as f:
         locations = json.load(f)
@@ -24,17 +24,25 @@ def generate_sitemaps():
     
     # 2. Main static pages
     for page in ["about", "contact", "blog", "locations"]:
-        urls.append({"loc": f"https://www.zoiriscleaningservices.com/{page}/", "lastmod": today, "changefreq": "weekly", "priority": "0.8"})
+        if os.path.exists(os.path.join(root_dir, page, "index.html")) or os.path.exists(os.path.join(root_dir, f"{page}.html")):
+            urls.append({"loc": f"https://www.zoiriscleaningservices.com/{page}/", "lastmod": today, "changefreq": "weekly", "priority": "0.9"})
         
-    # 3. Location Hubs & Priority Services
-    for slug, loc in locations.items():
-        priority = "0.9" if loc.get("tier") == "A" else "0.7"
-        urls.append({"loc": f"https://www.zoiriscleaningservices.com/{slug}/", "lastmod": today, "changefreq": "weekly", "priority": priority})
+    # 3. Location Hubs & Location-Service Pages
+    for loc_slug, loc in locations.items():
+        loc_dir = os.path.join(root_dir, loc_slug)
+        if not os.path.isdir(loc_dir):
+            continue
+            
+        tier = loc.get("tier", "C")
+        hub_priority = "0.9" if tier == "A" else ("0.8" if tier == "B" else "0.7")
+        urls.append({"loc": f"https://www.zoiriscleaningservices.com/{loc_slug}/", "lastmod": today, "changefreq": "weekly", "priority": hub_priority})
         
-        # Priority service pages for Tier A locations
-        if loc.get("tier") == "A":
-            for srv_slug in ["deep-cleaning", "move-in-cleaning", "move-out-cleaning", "commercial-cleaning", "vacation-rental-cleaning", "airbnb-cleaning", "carpet-cleaning"]:
-                urls.append({"loc": f"https://www.zoiriscleaningservices.com/{slug}/{srv_slug}/", "lastmod": today, "changefreq": "weekly", "priority": "0.8"})
+        # Location-Service subpages
+        srv_priority = "0.8" if tier in ["A", "B"] else "0.6"
+        for srv_slug in services.keys():
+            srv_file = os.path.join(loc_dir, srv_slug, "index.html")
+            if os.path.isfile(srv_file):
+                urls.append({"loc": f"https://www.zoiriscleaningservices.com/{loc_slug}/{srv_slug}/", "lastmod": today, "changefreq": "weekly", "priority": srv_priority})
                 
     # Build XML
     urlset = ET.Element("urlset", xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
@@ -65,7 +73,8 @@ def generate_sitemaps():
     idx_path = os.path.join(root_dir, "sitemap_index.xml")
     idx_tree.write(idx_path, encoding="utf-8", xml_declaration=True)
     
-    print(f"Generated sitemap with {len(urls)} indexable priority URLs.")
+    print(f"Successfully generated sitemap with {len(urls)} indexable URLs.")
 
 if __name__ == '__main__':
     generate_sitemaps()
+
