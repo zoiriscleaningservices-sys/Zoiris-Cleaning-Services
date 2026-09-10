@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.zoiriscleaningservices.com/sitemap_index.xml
+Sitemap: https://www.zoiriscleaningservices.com/sitemap_0.xml
+
