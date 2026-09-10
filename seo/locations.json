@@ -1,0 +1,7532 @@
+{
+  "abbeville-al": {
+    "slug": "abbeville-al",
+    "city": "Abbeville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Abbeville, AL",
+    "county": "Alabama"
+  },
+  "adamsville-al": {
+    "slug": "adamsville-al",
+    "city": "Adamsville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Adamsville, AL",
+    "county": "Alabama"
+  },
+  "addison-al": {
+    "slug": "addison-al",
+    "city": "Addison",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Addison, AL",
+    "county": "Alabama"
+  },
+  "akron-al": {
+    "slug": "akron-al",
+    "city": "Akron",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Akron, AL",
+    "county": "Alabama"
+  },
+  "alabaster-al": {
+    "slug": "alabaster-al",
+    "city": "Alabaster",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 33.2443,
+      "longitude": -86.8164
+    },
+    "display_title": "Alabaster, AL",
+    "county": "Alabama"
+  },
+  "albertville-al": {
+    "slug": "albertville-al",
+    "city": "Albertville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Albertville, AL",
+    "county": "Alabama"
+  },
+  "alexander-city-al": {
+    "slug": "alexander-city-al",
+    "city": "Alexander City",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Alexander City, AL",
+    "county": "Alabama"
+  },
+  "aliceville-al": {
+    "slug": "aliceville-al",
+    "city": "Aliceville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Aliceville, AL",
+    "county": "Alabama"
+  },
+  "allgood-al": {
+    "slug": "allgood-al",
+    "city": "Allgood",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Allgood, AL",
+    "county": "Alabama"
+  },
+  "altoona-al": {
+    "slug": "altoona-al",
+    "city": "Altoona",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Altoona, AL",
+    "county": "Alabama"
+  },
+  "andalusia-al": {
+    "slug": "andalusia-al",
+    "city": "Andalusia",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Andalusia, AL",
+    "county": "Alabama"
+  },
+  "anderson-al": {
+    "slug": "anderson-al",
+    "city": "Anderson",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Anderson, AL",
+    "county": "Alabama"
+  },
+  "anniston-al": {
+    "slug": "anniston-al",
+    "city": "Anniston",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Anniston, AL",
+    "county": "Alabama"
+  },
+  "arab-al": {
+    "slug": "arab-al",
+    "city": "Arab",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Arab, AL",
+    "county": "Alabama"
+  },
+  "ardmore-al": {
+    "slug": "ardmore-al",
+    "city": "Ardmore",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Ardmore, AL",
+    "county": "Alabama"
+  },
+  "argo-al": {
+    "slug": "argo-al",
+    "city": "Argo",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Argo, AL",
+    "county": "Alabama"
+  },
+  "ariton-al": {
+    "slug": "ariton-al",
+    "city": "Ariton",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Ariton, AL",
+    "county": "Alabama"
+  },
+  "arley-al": {
+    "slug": "arley-al",
+    "city": "Arley",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Arley, AL",
+    "county": "Alabama"
+  },
+  "ashford-al": {
+    "slug": "ashford-al",
+    "city": "Ashford",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Ashford, AL",
+    "county": "Alabama"
+  },
+  "ashland-al": {
+    "slug": "ashland-al",
+    "city": "Ashland",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Ashland, AL",
+    "county": "Alabama"
+  },
+  "ashville-al": {
+    "slug": "ashville-al",
+    "city": "Ashville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Ashville, AL",
+    "county": "Alabama"
+  },
+  "athens-al": {
+    "slug": "athens-al",
+    "city": "Athens",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Athens, AL",
+    "county": "Alabama"
+  },
+  "atmore-al": {
+    "slug": "atmore-al",
+    "city": "Atmore",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Atmore, AL",
+    "county": "Alabama"
+  },
+  "attalla-al": {
+    "slug": "attalla-al",
+    "city": "Attalla",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Attalla, AL",
+    "county": "Alabama"
+  },
+  "auburn-al": {
+    "slug": "auburn-al",
+    "city": "Auburn",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 32.6099,
+      "longitude": -85.4808
+    },
+    "display_title": "Auburn, AL",
+    "county": "Alabama"
+  },
+  "audubon-al": {
+    "slug": "audubon-al",
+    "city": "Audubon",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 30.6954,
+      "longitude": -88.0399
+    },
+    "display_title": "Audubon, AL",
+    "county": "Alabama"
+  },
+  "autaugaville-al": {
+    "slug": "autaugaville-al",
+    "city": "Autaugaville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Autaugaville, AL",
+    "county": "Alabama"
+  },
+  "avon-al": {
+    "slug": "avon-al",
+    "city": "Avon",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Avon, AL",
+    "county": "Alabama"
+  },
+  "axis-al": {
+    "slug": "axis-al",
+    "city": "Axis",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Axis, AL",
+    "county": "Alabama"
+  },
+  "babbie-al": {
+    "slug": "babbie-al",
+    "city": "Babbie",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Babbie, AL",
+    "county": "Alabama"
+  },
+  "baileyton-al": {
+    "slug": "baileyton-al",
+    "city": "Baileyton",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Baileyton, AL",
+    "county": "Alabama"
+  },
+  "bakerhill-al": {
+    "slug": "bakerhill-al",
+    "city": "Bakerhill",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Bakerhill, AL",
+    "county": "Alabama"
+  },
+  "banks-al": {
+    "slug": "banks-al",
+    "city": "Banks",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Banks, AL",
+    "county": "Alabama"
+  },
+  "bay-minette-al": {
+    "slug": "bay-minette-al",
+    "city": "Bay Minette",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Bay Minette, AL",
+    "county": "Baldwin County"
+  },
+  "bayou-la-batre-al": {
+    "slug": "bayou-la-batre-al",
+    "city": "Bayou La Batre",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Bayou La Batre, AL",
+    "county": "Alabama"
+  },
+  "bear-creek-al": {
+    "slug": "bear-creek-al",
+    "city": "Bear Creek",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Bear Creek, AL",
+    "county": "Alabama"
+  },
+  "beatrice-al": {
+    "slug": "beatrice-al",
+    "city": "Beatrice",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Beatrice, AL",
+    "county": "Alabama"
+  },
+  "beaverton-al": {
+    "slug": "beaverton-al",
+    "city": "Beaverton",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Beaverton, AL",
+    "county": "Alabama"
+  },
+  "belk-al": {
+    "slug": "belk-al",
+    "city": "Belk",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Belk, AL",
+    "county": "Alabama"
+  },
+  "benton-al": {
+    "slug": "benton-al",
+    "city": "Benton",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Benton, AL",
+    "county": "Alabama"
+  },
+  "berlin-al": {
+    "slug": "berlin-al",
+    "city": "Berlin",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 30.6954,
+      "longitude": -88.0399
+    },
+    "display_title": "Berlin, AL",
+    "county": "Alabama"
+  },
+  "berry-al": {
+    "slug": "berry-al",
+    "city": "Berry",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Berry, AL",
+    "county": "Alabama"
+  },
+  "bessemer-al": {
+    "slug": "bessemer-al",
+    "city": "Bessemer",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 33.4018,
+      "longitude": -86.9544
+    },
+    "display_title": "Bessemer, AL",
+    "county": "Alabama"
+  },
+  "billingsley-al": {
+    "slug": "billingsley-al",
+    "city": "Billingsley",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Billingsley, AL",
+    "county": "Alabama"
+  },
+  "birmingham-al": {
+    "slug": "birmingham-al",
+    "city": "Birmingham",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 33.5186,
+      "longitude": -86.8104
+    },
+    "display_title": "Birmingham, AL",
+    "county": "Alabama"
+  },
+  "black-al": {
+    "slug": "black-al",
+    "city": "Black",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Black, AL",
+    "county": "Alabama"
+  },
+  "blountsville-al": {
+    "slug": "blountsville-al",
+    "city": "Blountsville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Blountsville, AL",
+    "county": "Alabama"
+  },
+  "blue-springs-al": {
+    "slug": "blue-springs-al",
+    "city": "Blue Springs",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Blue Springs, AL",
+    "county": "Alabama"
+  },
+  "boaz-al": {
+    "slug": "boaz-al",
+    "city": "Boaz",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Boaz, AL",
+    "county": "Alabama"
+  },
+  "boligee-al": {
+    "slug": "boligee-al",
+    "city": "Boligee",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Boligee, AL",
+    "county": "Alabama"
+  },
+  "bon-air-al": {
+    "slug": "bon-air-al",
+    "city": "Bon Air",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Bon Air, AL",
+    "county": "Alabama"
+  },
+  "brantley-al": {
+    "slug": "brantley-al",
+    "city": "Brantley",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Brantley, AL",
+    "county": "Alabama"
+  },
+  "brent-al": {
+    "slug": "brent-al",
+    "city": "Brent",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Brent, AL",
+    "county": "Alabama"
+  },
+  "brewton-al": {
+    "slug": "brewton-al",
+    "city": "Brewton",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Brewton, AL",
+    "county": "Alabama"
+  },
+  "bridgeport-al": {
+    "slug": "bridgeport-al",
+    "city": "Bridgeport",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Bridgeport, AL",
+    "county": "Alabama"
+  },
+  "brighton-al": {
+    "slug": "brighton-al",
+    "city": "Brighton",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Brighton, AL",
+    "county": "Alabama"
+  },
+  "brilliant-al": {
+    "slug": "brilliant-al",
+    "city": "Brilliant",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Brilliant, AL",
+    "county": "Alabama"
+  },
+  "brookside-al": {
+    "slug": "brookside-al",
+    "city": "Brookside",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Brookside, AL",
+    "county": "Alabama"
+  },
+  "brookwood-al": {
+    "slug": "brookwood-al",
+    "city": "Brookwood",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Brookwood, AL",
+    "county": "Alabama"
+  },
+  "brundidge-al": {
+    "slug": "brundidge-al",
+    "city": "Brundidge",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Brundidge, AL",
+    "county": "Alabama"
+  },
+  "bucks-al": {
+    "slug": "bucks-al",
+    "city": "Bucks",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Bucks, AL",
+    "county": "Alabama"
+  },
+  "butler-al": {
+    "slug": "butler-al",
+    "city": "Butler",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Butler, AL",
+    "county": "Alabama"
+  },
+  "calera-al": {
+    "slug": "calera-al",
+    "city": "Calera",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Calera, AL",
+    "county": "Alabama"
+  },
+  "calvert-al": {
+    "slug": "calvert-al",
+    "city": "Calvert",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Calvert, AL",
+    "county": "Alabama"
+  },
+  "camden-al": {
+    "slug": "camden-al",
+    "city": "Camden",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Camden, AL",
+    "county": "Alabama"
+  },
+  "camp-hill-al": {
+    "slug": "camp-hill-al",
+    "city": "Camp Hill",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Camp Hill, AL",
+    "county": "Alabama"
+  },
+  "carbon-hill-al": {
+    "slug": "carbon-hill-al",
+    "city": "Carbon Hill",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Carbon Hill, AL",
+    "county": "Alabama"
+  },
+  "cardiff-al": {
+    "slug": "cardiff-al",
+    "city": "Cardiff",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Cardiff, AL",
+    "county": "Alabama"
+  },
+  "carolina-al": {
+    "slug": "carolina-al",
+    "city": "Carolina",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Carolina, AL",
+    "county": "Alabama"
+  },
+  "carrollton-al": {
+    "slug": "carrollton-al",
+    "city": "Carrollton",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Carrollton, AL",
+    "county": "Alabama"
+  },
+  "castleberry-al": {
+    "slug": "castleberry-al",
+    "city": "Castleberry",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Castleberry, AL",
+    "county": "Alabama"
+  },
+  "cedar-bluff-al": {
+    "slug": "cedar-bluff-al",
+    "city": "Cedar Bluff",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Cedar Bluff, AL",
+    "county": "Alabama"
+  },
+  "center-point-al": {
+    "slug": "center-point-al",
+    "city": "Center Point",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Center Point, AL",
+    "county": "Alabama"
+  },
+  "centre-al": {
+    "slug": "centre-al",
+    "city": "Centre",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Centre, AL",
+    "county": "Alabama"
+  },
+  "centreville-al": {
+    "slug": "centreville-al",
+    "city": "Centreville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Centreville, AL",
+    "county": "Alabama"
+  },
+  "chatom-al": {
+    "slug": "chatom-al",
+    "city": "Chatom",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Chatom, AL",
+    "county": "Alabama"
+  },
+  "chelsea-al": {
+    "slug": "chelsea-al",
+    "city": "Chelsea",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Chelsea, AL",
+    "county": "Alabama"
+  },
+  "cherokee-al": {
+    "slug": "cherokee-al",
+    "city": "Cherokee",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Cherokee, AL",
+    "county": "Alabama"
+  },
+  "cherokee-ridge-al": {
+    "slug": "cherokee-ridge-al",
+    "city": "Cherokee Ridge",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 30.6954,
+      "longitude": -88.0399
+    },
+    "display_title": "Cherokee Ridge, AL",
+    "county": "Alabama"
+  },
+  "chickasaw-al": {
+    "slug": "chickasaw-al",
+    "city": "Chickasaw",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Chickasaw, AL",
+    "county": "Alabama"
+  },
+  "childersburg-al": {
+    "slug": "childersburg-al",
+    "city": "Childersburg",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Childersburg, AL",
+    "county": "Alabama"
+  },
+  "choccolocco-al": {
+    "slug": "choccolocco-al",
+    "city": "Choccolocco",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Choccolocco, AL",
+    "county": "Alabama"
+  },
+  "chunchula-al": {
+    "slug": "chunchula-al",
+    "city": "Chunchula",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Chunchula, AL",
+    "county": "Alabama"
+  },
+  "citronelle-al": {
+    "slug": "citronelle-al",
+    "city": "Citronelle",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Citronelle, AL",
+    "county": "Alabama"
+  },
+  "clanton-al": {
+    "slug": "clanton-al",
+    "city": "Clanton",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Clanton, AL",
+    "county": "Alabama"
+  },
+  "clay-al": {
+    "slug": "clay-al",
+    "city": "Clay",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Clay, AL",
+    "county": "Alabama"
+  },
+  "clayhatchee-al": {
+    "slug": "clayhatchee-al",
+    "city": "Clayhatchee",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Clayhatchee, AL",
+    "county": "Alabama"
+  },
+  "clayton-al": {
+    "slug": "clayton-al",
+    "city": "Clayton",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Clayton, AL",
+    "county": "Alabama"
+  },
+  "cleveland-al": {
+    "slug": "cleveland-al",
+    "city": "Cleveland",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Cleveland, AL",
+    "county": "Alabama"
+  },
+  "clio-al": {
+    "slug": "clio-al",
+    "city": "Clio",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Clio, AL",
+    "county": "Alabama"
+  },
+  "coaling-al": {
+    "slug": "coaling-al",
+    "city": "Coaling",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Coaling, AL",
+    "county": "Alabama"
+  },
+  "coden-al": {
+    "slug": "coden-al",
+    "city": "Coden",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Coden, AL",
+    "county": "Alabama"
+  },
+  "coffee-springs-al": {
+    "slug": "coffee-springs-al",
+    "city": "Coffee Springs",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Coffee Springs, AL",
+    "county": "Alabama"
+  },
+  "coffeeville-al": {
+    "slug": "coffeeville-al",
+    "city": "Coffeeville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Coffeeville, AL",
+    "county": "Alabama"
+  },
+  "coker-al": {
+    "slug": "coker-al",
+    "city": "Coker",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Coker, AL",
+    "county": "Alabama"
+  },
+  "collinsville-al": {
+    "slug": "collinsville-al",
+    "city": "Collinsville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Collinsville, AL",
+    "county": "Alabama"
+  },
+  "colony-al": {
+    "slug": "colony-al",
+    "city": "Colony",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Colony, AL",
+    "county": "Alabama"
+  },
+  "columbia-al": {
+    "slug": "columbia-al",
+    "city": "Columbia",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Columbia, AL",
+    "county": "Alabama"
+  },
+  "columbiana-al": {
+    "slug": "columbiana-al",
+    "city": "Columbiana",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Columbiana, AL",
+    "county": "Alabama"
+  },
+  "concord-al": {
+    "slug": "concord-al",
+    "city": "Concord",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Concord, AL",
+    "county": "Alabama"
+  },
+  "coosada-al": {
+    "slug": "coosada-al",
+    "city": "Coosada",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Coosada, AL",
+    "county": "Alabama"
+  },
+  "cordova-al": {
+    "slug": "cordova-al",
+    "city": "Cordova",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Cordova, AL",
+    "county": "Alabama"
+  },
+  "cottage-hill-al": {
+    "slug": "cottage-hill-al",
+    "city": "Cottage Hill",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 30.6954,
+      "longitude": -88.0399
+    },
+    "display_title": "Cottage Hill, AL",
+    "county": "Alabama"
+  },
+  "cottonwood-al": {
+    "slug": "cottonwood-al",
+    "city": "Cottonwood",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Cottonwood, AL",
+    "county": "Alabama"
+  },
+  "county-line-al": {
+    "slug": "county-line-al",
+    "city": "County Line",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "County Line, AL",
+    "county": "Alabama"
+  },
+  "courtland-al": {
+    "slug": "courtland-al",
+    "city": "Courtland",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Courtland, AL",
+    "county": "Alabama"
+  },
+  "cowarts-al": {
+    "slug": "cowarts-al",
+    "city": "Cowarts",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Cowarts, AL",
+    "county": "Alabama"
+  },
+  "creola-al": {
+    "slug": "creola-al",
+    "city": "Creola",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Creola, AL",
+    "county": "Alabama"
+  },
+  "crossville-al": {
+    "slug": "crossville-al",
+    "city": "Crossville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Crossville, AL",
+    "county": "Alabama"
+  },
+  "cuba-al": {
+    "slug": "cuba-al",
+    "city": "Cuba",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Cuba, AL",
+    "county": "Alabama"
+  },
+  "cullman-al": {
+    "slug": "cullman-al",
+    "city": "Cullman",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 34.1748,
+      "longitude": -86.8436
+    },
+    "display_title": "Cullman, AL",
+    "county": "Alabama"
+  },
+  "cusseta-al": {
+    "slug": "cusseta-al",
+    "city": "Cusseta",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Cusseta, AL",
+    "county": "Alabama"
+  },
+  "dadeville-al": {
+    "slug": "dadeville-al",
+    "city": "Dadeville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Dadeville, AL",
+    "county": "Alabama"
+  },
+  "daleville-al": {
+    "slug": "daleville-al",
+    "city": "Daleville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Daleville, AL",
+    "county": "Alabama"
+  },
+  "daphne-al": {
+    "slug": "daphne-al",
+    "city": "Daphne",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 30.6034,
+      "longitude": -87.9036
+    },
+    "display_title": "Daphne, AL",
+    "county": "Baldwin County"
+  },
+  "dauphin-island-al": {
+    "slug": "dauphin-island-al",
+    "city": "Dauphin Island",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Dauphin Island, AL",
+    "county": "Mobile County"
+  },
+  "daviston-al": {
+    "slug": "daviston-al",
+    "city": "Daviston",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Daviston, AL",
+    "county": "Alabama"
+  },
+  "dayton-al": {
+    "slug": "dayton-al",
+    "city": "Dayton",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Dayton, AL",
+    "county": "Alabama"
+  },
+  "deatsville-al": {
+    "slug": "deatsville-al",
+    "city": "Deatsville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Deatsville, AL",
+    "county": "Alabama"
+  },
+  "decatur-al": {
+    "slug": "decatur-al",
+    "city": "Decatur",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 34.6059,
+      "longitude": -86.9833
+    },
+    "display_title": "Decatur, AL",
+    "county": "Alabama"
+  },
+  "demopolis-al": {
+    "slug": "demopolis-al",
+    "city": "Demopolis",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Demopolis, AL",
+    "county": "Alabama"
+  },
+  "detroit-al": {
+    "slug": "detroit-al",
+    "city": "Detroit",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Detroit, AL",
+    "county": "Alabama"
+  },
+  "dodge-city-al": {
+    "slug": "dodge-city-al",
+    "city": "Dodge City",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Dodge City, AL",
+    "county": "Alabama"
+  },
+  "dog-river-al": {
+    "slug": "dog-river-al",
+    "city": "Dog River",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 30.6954,
+      "longitude": -88.0399
+    },
+    "display_title": "Dog River, AL",
+    "county": "Alabama"
+  },
+  "dora-al": {
+    "slug": "dora-al",
+    "city": "Dora",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Dora, AL",
+    "county": "Alabama"
+  },
+  "dothan-al": {
+    "slug": "dothan-al",
+    "city": "Dothan",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 31.2232,
+      "longitude": -85.3905
+    },
+    "display_title": "Dothan, AL",
+    "county": "Alabama"
+  },
+  "double-springs-al": {
+    "slug": "double-springs-al",
+    "city": "Double Springs",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Double Springs, AL",
+    "county": "Alabama"
+  },
+  "douglas-al": {
+    "slug": "douglas-al",
+    "city": "Douglas",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Douglas, AL",
+    "county": "Alabama"
+  },
+  "dozier-al": {
+    "slug": "dozier-al",
+    "city": "Dozier",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Dozier, AL",
+    "county": "Alabama"
+  },
+  "dutton-al": {
+    "slug": "dutton-al",
+    "city": "Dutton",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Dutton, AL",
+    "county": "Alabama"
+  },
+  "east-brewton-al": {
+    "slug": "east-brewton-al",
+    "city": "East Brewton",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "East Brewton, AL",
+    "county": "Alabama"
+  },
+  "eclectic-al": {
+    "slug": "eclectic-al",
+    "city": "Eclectic",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Eclectic, AL",
+    "county": "Alabama"
+  },
+  "edwardsville-al": {
+    "slug": "edwardsville-al",
+    "city": "Edwardsville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Edwardsville, AL",
+    "county": "Alabama"
+  },
+  "eight-mile-al": {
+    "slug": "eight-mile-al",
+    "city": "Eight Mile",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Eight Mile, AL",
+    "county": "Alabama"
+  },
+  "elba-al": {
+    "slug": "elba-al",
+    "city": "Elba",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Elba, AL",
+    "county": "Alabama"
+  },
+  "elberta-al": {
+    "slug": "elberta-al",
+    "city": "Elberta",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Elberta, AL",
+    "county": "Baldwin County"
+  },
+  "eldridge-al": {
+    "slug": "eldridge-al",
+    "city": "Eldridge",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Eldridge, AL",
+    "county": "Alabama"
+  },
+  "elkmont-al": {
+    "slug": "elkmont-al",
+    "city": "Elkmont",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Elkmont, AL",
+    "county": "Alabama"
+  },
+  "elmore-al": {
+    "slug": "elmore-al",
+    "city": "Elmore",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Elmore, AL",
+    "county": "Alabama"
+  },
+  "emelle-al": {
+    "slug": "emelle-al",
+    "city": "Emelle",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Emelle, AL",
+    "county": "Alabama"
+  },
+  "enterprise-al": {
+    "slug": "enterprise-al",
+    "city": "Enterprise",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 31.3152,
+      "longitude": -85.8552
+    },
+    "display_title": "Enterprise, AL",
+    "county": "Alabama"
+  },
+  "epes-al": {
+    "slug": "epes-al",
+    "city": "Epes",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Epes, AL",
+    "county": "Alabama"
+  },
+  "ethelsville-al": {
+    "slug": "ethelsville-al",
+    "city": "Ethelsville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Ethelsville, AL",
+    "county": "Alabama"
+  },
+  "eufaula-al": {
+    "slug": "eufaula-al",
+    "city": "Eufaula",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Eufaula, AL",
+    "county": "Alabama"
+  },
+  "eutaw-al": {
+    "slug": "eutaw-al",
+    "city": "Eutaw",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Eutaw, AL",
+    "county": "Alabama"
+  },
+  "eva-al": {
+    "slug": "eva-al",
+    "city": "Eva",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Eva, AL",
+    "county": "Alabama"
+  },
+  "evergreen-al": {
+    "slug": "evergreen-al",
+    "city": "Evergreen",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Evergreen, AL",
+    "county": "Alabama"
+  },
+  "excel-al": {
+    "slug": "excel-al",
+    "city": "Excel",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Excel, AL",
+    "county": "Alabama"
+  },
+  "fairfield-al": {
+    "slug": "fairfield-al",
+    "city": "Fairfield",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Fairfield, AL",
+    "county": "Alabama"
+  },
+  "fairhope-al": {
+    "slug": "fairhope-al",
+    "city": "Fairhope",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 30.5229,
+      "longitude": -87.9032
+    },
+    "display_title": "Fairhope, AL",
+    "county": "Baldwin County"
+  },
+  "fairview-al": {
+    "slug": "fairview-al",
+    "city": "Fairview",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Fairview, AL",
+    "county": "Alabama"
+  },
+  "falkville-al": {
+    "slug": "falkville-al",
+    "city": "Falkville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Falkville, AL",
+    "county": "Alabama"
+  },
+  "faunsdale-al": {
+    "slug": "faunsdale-al",
+    "city": "Faunsdale",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Faunsdale, AL",
+    "county": "Alabama"
+  },
+  "fayette-al": {
+    "slug": "fayette-al",
+    "city": "Fayette",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Fayette, AL",
+    "county": "Alabama"
+  },
+  "five-points-al": {
+    "slug": "five-points-al",
+    "city": "Five Points",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Five Points, AL",
+    "county": "Alabama"
+  },
+  "flomaton-al": {
+    "slug": "flomaton-al",
+    "city": "Flomaton",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Flomaton, AL",
+    "county": "Alabama"
+  },
+  "florala-al": {
+    "slug": "florala-al",
+    "city": "Florala",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Florala, AL",
+    "county": "Alabama"
+  },
+  "florence-al": {
+    "slug": "florence-al",
+    "city": "Florence",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 34.7998,
+      "longitude": -87.6773
+    },
+    "display_title": "Florence, AL",
+    "county": "Alabama"
+  },
+  "foley-al": {
+    "slug": "foley-al",
+    "city": "Foley",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 30.3729,
+      "longitude": -87.6833
+    },
+    "display_title": "Foley, AL",
+    "county": "Baldwin County"
+  },
+  "forkland-al": {
+    "slug": "forkland-al",
+    "city": "Forkland",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Forkland, AL",
+    "county": "Alabama"
+  },
+  "fort-deposit-al": {
+    "slug": "fort-deposit-al",
+    "city": "Fort Deposit",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Fort Deposit, AL",
+    "county": "Alabama"
+  },
+  "fort-payne-al": {
+    "slug": "fort-payne-al",
+    "city": "Fort Payne",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Fort Payne, AL",
+    "county": "Alabama"
+  },
+  "franklin-al": {
+    "slug": "franklin-al",
+    "city": "Franklin",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Franklin, AL",
+    "county": "Alabama"
+  },
+  "frisco-city-al": {
+    "slug": "frisco-city-al",
+    "city": "Frisco City",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Frisco City, AL",
+    "county": "Alabama"
+  },
+  "fruithurst-al": {
+    "slug": "fruithurst-al",
+    "city": "Fruithurst",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Fruithurst, AL",
+    "county": "Alabama"
+  },
+  "fulton-al": {
+    "slug": "fulton-al",
+    "city": "Fulton",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Fulton, AL",
+    "county": "Alabama"
+  },
+  "fultondale-al": {
+    "slug": "fultondale-al",
+    "city": "Fultondale",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Fultondale, AL",
+    "county": "Alabama"
+  },
+  "fyffe-al": {
+    "slug": "fyffe-al",
+    "city": "Fyffe",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Fyffe, AL",
+    "county": "Alabama"
+  },
+  "gadsden-al": {
+    "slug": "gadsden-al",
+    "city": "Gadsden",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 34.0143,
+      "longitude": -86.0066
+    },
+    "display_title": "Gadsden, AL",
+    "county": "Alabama"
+  },
+  "gainesville-al": {
+    "slug": "gainesville-al",
+    "city": "Gainesville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Gainesville, AL",
+    "county": "Alabama"
+  },
+  "gantt-al": {
+    "slug": "gantt-al",
+    "city": "Gantt",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Gantt, AL",
+    "county": "Alabama"
+  },
+  "garden-city-al": {
+    "slug": "garden-city-al",
+    "city": "Garden City",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Garden City, AL",
+    "county": "Alabama"
+  },
+  "gardendale-al": {
+    "slug": "gardendale-al",
+    "city": "Gardendale",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Gardendale, AL",
+    "county": "Alabama"
+  },
+  "gaylesville-al": {
+    "slug": "gaylesville-al",
+    "city": "Gaylesville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Gaylesville, AL",
+    "county": "Alabama"
+  },
+  "geiger-al": {
+    "slug": "geiger-al",
+    "city": "Geiger",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Geiger, AL",
+    "county": "Alabama"
+  },
+  "geneva-al": {
+    "slug": "geneva-al",
+    "city": "Geneva",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Geneva, AL",
+    "county": "Alabama"
+  },
+  "georgiana-al": {
+    "slug": "georgiana-al",
+    "city": "Georgiana",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Georgiana, AL",
+    "county": "Alabama"
+  },
+  "geraldine-al": {
+    "slug": "geraldine-al",
+    "city": "Geraldine",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Geraldine, AL",
+    "county": "Alabama"
+  },
+  "gilbertown-al": {
+    "slug": "gilbertown-al",
+    "city": "Gilbertown",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Gilbertown, AL",
+    "county": "Alabama"
+  },
+  "glen-allen-al": {
+    "slug": "glen-allen-al",
+    "city": "Glen Allen",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Glen Allen, AL",
+    "county": "Alabama"
+  },
+  "glencoe-al": {
+    "slug": "glencoe-al",
+    "city": "Glencoe",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Glencoe, AL",
+    "county": "Alabama"
+  },
+  "glenwood-al": {
+    "slug": "glenwood-al",
+    "city": "Glenwood",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Glenwood, AL",
+    "county": "Alabama"
+  },
+  "goldville-al": {
+    "slug": "goldville-al",
+    "city": "Goldville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Goldville, AL",
+    "county": "Alabama"
+  },
+  "good-hope-al": {
+    "slug": "good-hope-al",
+    "city": "Good Hope",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Good Hope, AL",
+    "county": "Alabama"
+  },
+  "goodwater-al": {
+    "slug": "goodwater-al",
+    "city": "Goodwater",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Goodwater, AL",
+    "county": "Alabama"
+  },
+  "gordo-al": {
+    "slug": "gordo-al",
+    "city": "Gordo",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Gordo, AL",
+    "county": "Alabama"
+  },
+  "gordon-al": {
+    "slug": "gordon-al",
+    "city": "Gordon",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Gordon, AL",
+    "county": "Alabama"
+  },
+  "gordonville-al": {
+    "slug": "gordonville-al",
+    "city": "Gordonville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Gordonville, AL",
+    "county": "Alabama"
+  },
+  "goshen-al": {
+    "slug": "goshen-al",
+    "city": "Goshen",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Goshen, AL",
+    "county": "Alabama"
+  },
+  "grand-bay-al": {
+    "slug": "grand-bay-al",
+    "city": "Grand Bay",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Grand Bay, AL",
+    "county": "Mobile County"
+  },
+  "grant-al": {
+    "slug": "grant-al",
+    "city": "Grant",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Grant, AL",
+    "county": "Alabama"
+  },
+  "graysville-al": {
+    "slug": "graysville-al",
+    "city": "Graysville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Graysville, AL",
+    "county": "Alabama"
+  },
+  "greensboro-al": {
+    "slug": "greensboro-al",
+    "city": "Greensboro",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Greensboro, AL",
+    "county": "Alabama"
+  },
+  "greenville-al": {
+    "slug": "greenville-al",
+    "city": "Greenville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Greenville, AL",
+    "county": "Alabama"
+  },
+  "grimes-al": {
+    "slug": "grimes-al",
+    "city": "Grimes",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Grimes, AL",
+    "county": "Alabama"
+  },
+  "grove-hill-al": {
+    "slug": "grove-hill-al",
+    "city": "Grove Hill",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Grove Hill, AL",
+    "county": "Alabama"
+  },
+  "gu-win-al": {
+    "slug": "gu-win-al",
+    "city": "Gu Win",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 30.6954,
+      "longitude": -88.0399
+    },
+    "display_title": "Gu Win, AL",
+    "county": "Alabama"
+  },
+  "guin-al": {
+    "slug": "guin-al",
+    "city": "Guin",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Guin, AL",
+    "county": "Alabama"
+  },
+  "gulf-shores-al": {
+    "slug": "gulf-shores-al",
+    "city": "Gulf Shores",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 30.2706,
+      "longitude": -87.7011
+    },
+    "display_title": "Gulf Shores, AL",
+    "county": "Baldwin County"
+  },
+  "gulfcrest-al": {
+    "slug": "gulfcrest-al",
+    "city": "Gulfcrest",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Gulfcrest, AL",
+    "county": "Alabama"
+  },
+  "guntersville-al": {
+    "slug": "guntersville-al",
+    "city": "Guntersville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Guntersville, AL",
+    "county": "Alabama"
+  },
+  "gurley-al": {
+    "slug": "gurley-al",
+    "city": "Gurley",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Gurley, AL",
+    "county": "Alabama"
+  },
+  "hackleburg-al": {
+    "slug": "hackleburg-al",
+    "city": "Hackleburg",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Hackleburg, AL",
+    "county": "Alabama"
+  },
+  "haleburg-al": {
+    "slug": "haleburg-al",
+    "city": "Haleburg",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Haleburg, AL",
+    "county": "Alabama"
+  },
+  "haleyville-al": {
+    "slug": "haleyville-al",
+    "city": "Haleyville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Haleyville, AL",
+    "county": "Alabama"
+  },
+  "hamilton-al": {
+    "slug": "hamilton-al",
+    "city": "Hamilton",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Hamilton, AL",
+    "county": "Alabama"
+  },
+  "hammondville-al": {
+    "slug": "hammondville-al",
+    "city": "Hammondville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Hammondville, AL",
+    "county": "Alabama"
+  },
+  "hanceville-al": {
+    "slug": "hanceville-al",
+    "city": "Hanceville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Hanceville, AL",
+    "county": "Alabama"
+  },
+  "harpersville-al": {
+    "slug": "harpersville-al",
+    "city": "Harpersville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Harpersville, AL",
+    "county": "Alabama"
+  },
+  "hartford-al": {
+    "slug": "hartford-al",
+    "city": "Hartford",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Hartford, AL",
+    "county": "Alabama"
+  },
+  "hartselle-al": {
+    "slug": "hartselle-al",
+    "city": "Hartselle",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Hartselle, AL",
+    "county": "Alabama"
+  },
+  "hayden-al": {
+    "slug": "hayden-al",
+    "city": "Hayden",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Hayden, AL",
+    "county": "Alabama"
+  },
+  "hayneville-al": {
+    "slug": "hayneville-al",
+    "city": "Hayneville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Hayneville, AL",
+    "county": "Alabama"
+  },
+  "headland-al": {
+    "slug": "headland-al",
+    "city": "Headland",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Headland, AL",
+    "county": "Alabama"
+  },
+  "heath-al": {
+    "slug": "heath-al",
+    "city": "Heath",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Heath, AL",
+    "county": "Alabama"
+  },
+  "heflin-al": {
+    "slug": "heflin-al",
+    "city": "Heflin",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Heflin, AL",
+    "county": "Alabama"
+  },
+  "helena-al": {
+    "slug": "helena-al",
+    "city": "Helena",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Helena, AL",
+    "county": "Alabama"
+  },
+  "henagar-al": {
+    "slug": "henagar-al",
+    "city": "Henagar",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Henagar, AL",
+    "county": "Alabama"
+  },
+  "highland-lake-al": {
+    "slug": "highland-lake-al",
+    "city": "Highland Lake",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Highland Lake, AL",
+    "county": "Alabama"
+  },
+  "hillsboro-al": {
+    "slug": "hillsboro-al",
+    "city": "Hillsboro",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Hillsboro, AL",
+    "county": "Alabama"
+  },
+  "hobson-city-al": {
+    "slug": "hobson-city-al",
+    "city": "Hobson City",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Hobson City, AL",
+    "county": "Alabama"
+  },
+  "hodges-al": {
+    "slug": "hodges-al",
+    "city": "Hodges",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Hodges, AL",
+    "county": "Alabama"
+  },
+  "hokes-bluff-al": {
+    "slug": "hokes-bluff-al",
+    "city": "Hokes Bluff",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Hokes Bluff, AL",
+    "county": "Alabama"
+  },
+  "holly-pond-al": {
+    "slug": "holly-pond-al",
+    "city": "Holly Pond",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Holly Pond, AL",
+    "county": "Alabama"
+  },
+  "hollywood-al": {
+    "slug": "hollywood-al",
+    "city": "Hollywood",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Hollywood, AL",
+    "county": "Alabama"
+  },
+  "homewood-al": {
+    "slug": "homewood-al",
+    "city": "Homewood",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 33.4718,
+      "longitude": -86.7933
+    },
+    "display_title": "Homewood, AL",
+    "county": "Alabama"
+  },
+  "hoover-al": {
+    "slug": "hoover-al",
+    "city": "Hoover",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 33.4054,
+      "longitude": -86.8058
+    },
+    "display_title": "Hoover, AL",
+    "county": "Alabama"
+  },
+  "horn-hill-al": {
+    "slug": "horn-hill-al",
+    "city": "Horn Hill",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Horn Hill, AL",
+    "county": "Alabama"
+  },
+  "hueytown-al": {
+    "slug": "hueytown-al",
+    "city": "Hueytown",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Hueytown, AL",
+    "county": "Alabama"
+  },
+  "huntsville-al": {
+    "slug": "huntsville-al",
+    "city": "Huntsville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 34.7304,
+      "longitude": -86.5861
+    },
+    "display_title": "Huntsville, AL",
+    "county": "Alabama"
+  },
+  "hurtsboro-al": {
+    "slug": "hurtsboro-al",
+    "city": "Hurtsboro",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Hurtsboro, AL",
+    "county": "Alabama"
+  },
+  "hytop-al": {
+    "slug": "hytop-al",
+    "city": "Hytop",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Hytop, AL",
+    "county": "Alabama"
+  },
+  "ider-al": {
+    "slug": "ider-al",
+    "city": "Ider",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Ider, AL",
+    "county": "Alabama"
+  },
+  "indian-springs-village-al": {
+    "slug": "indian-springs-village-al",
+    "city": "Indian Springs Village",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Indian Springs Village, AL",
+    "county": "Alabama"
+  },
+  "irondale-al": {
+    "slug": "irondale-al",
+    "city": "Irondale",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Irondale, AL",
+    "county": "Alabama"
+  },
+  "irvington-al": {
+    "slug": "irvington-al",
+    "city": "Irvington",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Irvington, AL",
+    "county": "Alabama"
+  },
+  "jackson&#39;s-gap-al": {
+    "slug": "jackson&#39;s-gap-al",
+    "city": "Jackson&#39;s Gap",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 30.6954,
+      "longitude": -88.0399
+    },
+    "display_title": "Jackson&#39;s Gap, AL",
+    "county": "Alabama"
+  },
+  "jackson-al": {
+    "slug": "jackson-al",
+    "city": "Jackson",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Jackson, AL",
+    "county": "Alabama"
+  },
+  "jacksons-gap-al": {
+    "slug": "jacksons-gap-al",
+    "city": "Jacksons Gap",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 30.6954,
+      "longitude": -88.0399
+    },
+    "display_title": "Jacksons Gap, AL",
+    "county": "Alabama"
+  },
+  "jacksonville-al": {
+    "slug": "jacksonville-al",
+    "city": "Jacksonville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Jacksonville, AL",
+    "county": "Alabama"
+  },
+  "jasper-al": {
+    "slug": "jasper-al",
+    "city": "Jasper",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Jasper, AL",
+    "county": "Alabama"
+  },
+  "jemison-al": {
+    "slug": "jemison-al",
+    "city": "Jemison",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Jemison, AL",
+    "county": "Alabama"
+  },
+  "kansas-al": {
+    "slug": "kansas-al",
+    "city": "Kansas",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Kansas, AL",
+    "county": "Alabama"
+  },
+  "kellyton-al": {
+    "slug": "kellyton-al",
+    "city": "Kellyton",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Kellyton, AL",
+    "county": "Alabama"
+  },
+  "kennedy-al": {
+    "slug": "kennedy-al",
+    "city": "Kennedy",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Kennedy, AL",
+    "county": "Alabama"
+  },
+  "killen-al": {
+    "slug": "killen-al",
+    "city": "Killen",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Killen, AL",
+    "county": "Alabama"
+  },
+  "kimberly-al": {
+    "slug": "kimberly-al",
+    "city": "Kimberly",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 30.6954,
+      "longitude": -88.0399
+    },
+    "display_title": "Kimberly, AL",
+    "county": "Alabama"
+  },
+  "kinsey-al": {
+    "slug": "kinsey-al",
+    "city": "Kinsey",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Kinsey, AL",
+    "county": "Alabama"
+  },
+  "kinston-al": {
+    "slug": "kinston-al",
+    "city": "Kinston",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Kinston, AL",
+    "county": "Alabama"
+  },
+  "lafayette-al": {
+    "slug": "lafayette-al",
+    "city": "Lafayette",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 30.6954,
+      "longitude": -88.0399
+    },
+    "display_title": "Lafayette, AL",
+    "county": "Alabama"
+  },
+  "lake-view-al": {
+    "slug": "lake-view-al",
+    "city": "Lake View",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Lake View, AL",
+    "county": "Alabama"
+  },
+  "lakeview-al": {
+    "slug": "lakeview-al",
+    "city": "Lakeview",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Lakeview, AL",
+    "county": "Alabama"
+  },
+  "lanett-al": {
+    "slug": "lanett-al",
+    "city": "Lanett",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Lanett, AL",
+    "county": "Alabama"
+  },
+  "langston-al": {
+    "slug": "langston-al",
+    "city": "Langston",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Langston, AL",
+    "county": "Alabama"
+  },
+  "leeds-al": {
+    "slug": "leeds-al",
+    "city": "Leeds",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Leeds, AL",
+    "county": "Alabama"
+  },
+  "leesburg-al": {
+    "slug": "leesburg-al",
+    "city": "Leesburg",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Leesburg, AL",
+    "county": "Alabama"
+  },
+  "leighton-al": {
+    "slug": "leighton-al",
+    "city": "Leighton",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Leighton, AL",
+    "county": "Alabama"
+  },
+  "lester-al": {
+    "slug": "lester-al",
+    "city": "Lester",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Lester, AL",
+    "county": "Alabama"
+  },
+  "level-plains-al": {
+    "slug": "level-plains-al",
+    "city": "Level Plains",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Level Plains, AL",
+    "county": "Alabama"
+  },
+  "lexington-al": {
+    "slug": "lexington-al",
+    "city": "Lexington",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Lexington, AL",
+    "county": "Alabama"
+  },
+  "libertyville-al": {
+    "slug": "libertyville-al",
+    "city": "Libertyville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Libertyville, AL",
+    "county": "Alabama"
+  },
+  "lillian-al": {
+    "slug": "lillian-al",
+    "city": "Lillian",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Lillian, AL",
+    "county": "Alabama"
+  },
+  "lincoln-al": {
+    "slug": "lincoln-al",
+    "city": "Lincoln",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Lincoln, AL",
+    "county": "Alabama"
+  },
+  "linden-al": {
+    "slug": "linden-al",
+    "city": "Linden",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Linden, AL",
+    "county": "Alabama"
+  },
+  "lineville-al": {
+    "slug": "lineville-al",
+    "city": "Lineville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Lineville, AL",
+    "county": "Alabama"
+  },
+  "lipscomb-al": {
+    "slug": "lipscomb-al",
+    "city": "Lipscomb",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Lipscomb, AL",
+    "county": "Alabama"
+  },
+  "lisman-al": {
+    "slug": "lisman-al",
+    "city": "Lisman",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Lisman, AL",
+    "county": "Alabama"
+  },
+  "littleville-al": {
+    "slug": "littleville-al",
+    "city": "Littleville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Littleville, AL",
+    "county": "Alabama"
+  },
+  "livingston-al": {
+    "slug": "livingston-al",
+    "city": "Livingston",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Livingston, AL",
+    "county": "Alabama"
+  },
+  "loachapoka-al": {
+    "slug": "loachapoka-al",
+    "city": "Loachapoka",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Loachapoka, AL",
+    "county": "Alabama"
+  },
+  "lockhart-al": {
+    "slug": "lockhart-al",
+    "city": "Lockhart",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Lockhart, AL",
+    "county": "Alabama"
+  },
+  "locust-fork-al": {
+    "slug": "locust-fork-al",
+    "city": "Locust Fork",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Locust Fork, AL",
+    "county": "Alabama"
+  },
+  "louisville-al": {
+    "slug": "louisville-al",
+    "city": "Louisville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 30.6954,
+      "longitude": -88.0399
+    },
+    "display_title": "Louisville, AL",
+    "county": "Alabama"
+  },
+  "lowndesboro-al": {
+    "slug": "lowndesboro-al",
+    "city": "Lowndesboro",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 30.6954,
+      "longitude": -88.0399
+    },
+    "display_title": "Lowndesboro, AL",
+    "county": "Alabama"
+  },
+  "loxley-al": {
+    "slug": "loxley-al",
+    "city": "Loxley",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Loxley, AL",
+    "county": "Baldwin County"
+  },
+  "luverne-al": {
+    "slug": "luverne-al",
+    "city": "Luverne",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Luverne, AL",
+    "county": "Alabama"
+  },
+  "lynn-al": {
+    "slug": "lynn-al",
+    "city": "Lynn",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Lynn, AL",
+    "county": "Alabama"
+  },
+  "madison-al": {
+    "slug": "madison-al",
+    "city": "Madison",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Madison, AL",
+    "county": "Alabama"
+  },
+  "madrid-al": {
+    "slug": "madrid-al",
+    "city": "Madrid",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Madrid, AL",
+    "county": "Alabama"
+  },
+  "magnolia-springs-al": {
+    "slug": "magnolia-springs-al",
+    "city": "Magnolia Springs",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Magnolia Springs, AL",
+    "county": "Alabama"
+  },
+  "malvern-al": {
+    "slug": "malvern-al",
+    "city": "Malvern",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Malvern, AL",
+    "county": "Alabama"
+  },
+  "maplesville-al": {
+    "slug": "maplesville-al",
+    "city": "Maplesville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Maplesville, AL",
+    "county": "Alabama"
+  },
+  "margaret-al": {
+    "slug": "margaret-al",
+    "city": "Margaret",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Margaret, AL",
+    "county": "Alabama"
+  },
+  "marion-al": {
+    "slug": "marion-al",
+    "city": "Marion",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Marion, AL",
+    "county": "Alabama"
+  },
+  "maytown-al": {
+    "slug": "maytown-al",
+    "city": "Maytown",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Maytown, AL",
+    "county": "Alabama"
+  },
+  "mccalla-al": {
+    "slug": "mccalla-al",
+    "city": "Mccalla",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 30.6954,
+      "longitude": -88.0399
+    },
+    "display_title": "Mccalla, AL",
+    "county": "Alabama"
+  },
+  "mcintosh-al": {
+    "slug": "mcintosh-al",
+    "city": "Mcintosh",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 30.6954,
+      "longitude": -88.0399
+    },
+    "display_title": "Mcintosh, AL",
+    "county": "Alabama"
+  },
+  "mckenzie-al": {
+    "slug": "mckenzie-al",
+    "city": "Mckenzie",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 30.6954,
+      "longitude": -88.0399
+    },
+    "display_title": "Mckenzie, AL",
+    "county": "Alabama"
+  },
+  "mcmullen-al": {
+    "slug": "mcmullen-al",
+    "city": "Mcmullen",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 30.6954,
+      "longitude": -88.0399
+    },
+    "display_title": "Mcmullen, AL",
+    "county": "Alabama"
+  },
+  "memphis-al": {
+    "slug": "memphis-al",
+    "city": "Memphis",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Memphis, AL",
+    "county": "Alabama"
+  },
+  "mentone-al": {
+    "slug": "mentone-al",
+    "city": "Mentone",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Mentone, AL",
+    "county": "Alabama"
+  },
+  "midfield-al": {
+    "slug": "midfield-al",
+    "city": "Midfield",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Midfield, AL",
+    "county": "Alabama"
+  },
+  "midland-city-al": {
+    "slug": "midland-city-al",
+    "city": "Midland City",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Midland City, AL",
+    "county": "Alabama"
+  },
+  "midtown-mobile-al": {
+    "slug": "midtown-mobile-al",
+    "city": "Midtown Mobile",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 30.6954,
+      "longitude": -88.0399
+    },
+    "display_title": "Midtown Mobile, AL",
+    "county": "Alabama"
+  },
+  "midway-al": {
+    "slug": "midway-al",
+    "city": "Midway",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Midway, AL",
+    "county": "Alabama"
+  },
+  "millbrook-al": {
+    "slug": "millbrook-al",
+    "city": "Millbrook",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Millbrook, AL",
+    "county": "Alabama"
+  },
+  "millport-al": {
+    "slug": "millport-al",
+    "city": "Millport",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Millport, AL",
+    "county": "Alabama"
+  },
+  "millry-al": {
+    "slug": "millry-al",
+    "city": "Millry",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Millry, AL",
+    "county": "Alabama"
+  },
+  "mobile-al": {
+    "slug": "mobile-al",
+    "city": "Mobile",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 30.6954,
+      "longitude": -88.0399
+    },
+    "display_title": "Mobile, AL",
+    "county": "Mobile County"
+  },
+  "monroeville-al": {
+    "slug": "monroeville-al",
+    "city": "Monroeville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Monroeville, AL",
+    "county": "Alabama"
+  },
+  "montevallo-al": {
+    "slug": "montevallo-al",
+    "city": "Montevallo",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Montevallo, AL",
+    "county": "Alabama"
+  },
+  "montgomery-al": {
+    "slug": "montgomery-al",
+    "city": "Montgomery",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 32.3668,
+      "longitude": -86.3
+    },
+    "display_title": "Montgomery, AL",
+    "county": "Alabama"
+  },
+  "montrose-al": {
+    "slug": "montrose-al",
+    "city": "Montrose",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Montrose, AL",
+    "county": "Alabama"
+  },
+  "moody-al": {
+    "slug": "moody-al",
+    "city": "Moody",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Moody, AL",
+    "county": "Alabama"
+  },
+  "mooresville-al": {
+    "slug": "mooresville-al",
+    "city": "Mooresville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Mooresville, AL",
+    "county": "Alabama"
+  },
+  "morris-al": {
+    "slug": "morris-al",
+    "city": "Morris",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Morris, AL",
+    "county": "Alabama"
+  },
+  "mosses-al": {
+    "slug": "mosses-al",
+    "city": "Mosses",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Mosses, AL",
+    "county": "Alabama"
+  },
+  "moulton-al": {
+    "slug": "moulton-al",
+    "city": "Moulton",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Moulton, AL",
+    "county": "Alabama"
+  },
+  "moundville-al": {
+    "slug": "moundville-al",
+    "city": "Moundville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Moundville, AL",
+    "county": "Alabama"
+  },
+  "mount-vernon-al": {
+    "slug": "mount-vernon-al",
+    "city": "Mount Vernon",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Mount Vernon, AL",
+    "county": "Alabama"
+  },
+  "mountain-brook-al": {
+    "slug": "mountain-brook-al",
+    "city": "Mountain Brook",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Mountain Brook, AL",
+    "county": "Alabama"
+  },
+  "mulga-al": {
+    "slug": "mulga-al",
+    "city": "Mulga",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Mulga, AL",
+    "county": "Alabama"
+  },
+  "munford-al": {
+    "slug": "munford-al",
+    "city": "Munford",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Munford, AL",
+    "county": "Alabama"
+  },
+  "muscle-shoals-al": {
+    "slug": "muscle-shoals-al",
+    "city": "Muscle Shoals",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Muscle Shoals, AL",
+    "county": "Alabama"
+  },
+  "myrtlewood-al": {
+    "slug": "myrtlewood-al",
+    "city": "Myrtlewood",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Myrtlewood, AL",
+    "county": "Alabama"
+  },
+  "napier-field-al": {
+    "slug": "napier-field-al",
+    "city": "Napier Field",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Napier Field, AL",
+    "county": "Alabama"
+  },
+  "natural-bridge-al": {
+    "slug": "natural-bridge-al",
+    "city": "Natural Bridge",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Natural Bridge, AL",
+    "county": "Alabama"
+  },
+  "nauvoo-al": {
+    "slug": "nauvoo-al",
+    "city": "Nauvoo",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Nauvoo, AL",
+    "county": "Alabama"
+  },
+  "nectar-al": {
+    "slug": "nectar-al",
+    "city": "Nectar",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Nectar, AL",
+    "county": "Alabama"
+  },
+  "needham-al": {
+    "slug": "needham-al",
+    "city": "Needham",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Needham, AL",
+    "county": "Alabama"
+  },
+  "new-brockton-al": {
+    "slug": "new-brockton-al",
+    "city": "New Brockton",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "New Brockton, AL",
+    "county": "Alabama"
+  },
+  "new-hope-al": {
+    "slug": "new-hope-al",
+    "city": "New Hope",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "New Hope, AL",
+    "county": "Alabama"
+  },
+  "new-site-al": {
+    "slug": "new-site-al",
+    "city": "New Site",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "New Site, AL",
+    "county": "Alabama"
+  },
+  "newbern-al": {
+    "slug": "newbern-al",
+    "city": "Newbern",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Newbern, AL",
+    "county": "Alabama"
+  },
+  "newton-al": {
+    "slug": "newton-al",
+    "city": "Newton",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Newton, AL",
+    "county": "Alabama"
+  },
+  "newville-al": {
+    "slug": "newville-al",
+    "city": "Newville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Newville, AL",
+    "county": "Alabama"
+  },
+  "nokomis-al": {
+    "slug": "nokomis-al",
+    "city": "Nokomis",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Nokomis, AL",
+    "county": "Alabama"
+  },
+  "north-courtland-al": {
+    "slug": "north-courtland-al",
+    "city": "North Courtland",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "North Courtland, AL",
+    "county": "Alabama"
+  },
+  "north-johns-al": {
+    "slug": "north-johns-al",
+    "city": "North Johns",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 30.6954,
+      "longitude": -88.0399
+    },
+    "display_title": "North Johns, AL",
+    "county": "Alabama"
+  },
+  "northport-al": {
+    "slug": "northport-al",
+    "city": "Northport",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 33.2221,
+      "longitude": -87.5772
+    },
+    "display_title": "Northport, AL",
+    "county": "Alabama"
+  },
+  "notasulga-al": {
+    "slug": "notasulga-al",
+    "city": "Notasulga",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Notasulga, AL",
+    "county": "Alabama"
+  },
+  "oak-grove-al": {
+    "slug": "oak-grove-al",
+    "city": "Oak Grove",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Oak Grove, AL",
+    "county": "Alabama"
+  },
+  "oak-hill-al": {
+    "slug": "oak-hill-al",
+    "city": "Oak Hill",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Oak Hill, AL",
+    "county": "Alabama"
+  },
+  "oakman-al": {
+    "slug": "oakman-al",
+    "city": "Oakman",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Oakman, AL",
+    "county": "Alabama"
+  },
+  "odenville-al": {
+    "slug": "odenville-al",
+    "city": "Odenville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Odenville, AL",
+    "county": "Alabama"
+  },
+  "ohatchee-al": {
+    "slug": "ohatchee-al",
+    "city": "Ohatchee",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Ohatchee, AL",
+    "county": "Alabama"
+  },
+  "oneonta-al": {
+    "slug": "oneonta-al",
+    "city": "Oneonta",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Oneonta, AL",
+    "county": "Alabama"
+  },
+  "onycha-al": {
+    "slug": "onycha-al",
+    "city": "Onycha",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Onycha, AL",
+    "county": "Alabama"
+  },
+  "opelika-al": {
+    "slug": "opelika-al",
+    "city": "Opelika",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 32.6454,
+      "longitude": -85.3783
+    },
+    "display_title": "Opelika, AL",
+    "county": "Alabama"
+  },
+  "opp-al": {
+    "slug": "opp-al",
+    "city": "Opp",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Opp, AL",
+    "county": "Alabama"
+  },
+  "orange-beach-al": {
+    "slug": "orange-beach-al",
+    "city": "Orange Beach",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Orange Beach, AL",
+    "county": "Baldwin County"
+  },
+  "orrville-al": {
+    "slug": "orrville-al",
+    "city": "Orrville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Orrville, AL",
+    "county": "Alabama"
+  },
+  "owens-cross-roads-al": {
+    "slug": "owens-cross-roads-al",
+    "city": "Owens Cross Roads",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Owens Cross Roads, AL",
+    "county": "Alabama"
+  },
+  "oxford-al": {
+    "slug": "oxford-al",
+    "city": "Oxford",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Oxford, AL",
+    "county": "Alabama"
+  },
+  "ozark-al": {
+    "slug": "ozark-al",
+    "city": "Ozark",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Ozark, AL",
+    "county": "Alabama"
+  },
+  "paint-rock-al": {
+    "slug": "paint-rock-al",
+    "city": "Paint Rock",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Paint Rock, AL",
+    "county": "Alabama"
+  },
+  "parrish-al": {
+    "slug": "parrish-al",
+    "city": "Parrish",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Parrish, AL",
+    "county": "Alabama"
+  },
+  "pelham-al": {
+    "slug": "pelham-al",
+    "city": "Pelham",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 33.2859,
+      "longitude": -86.8119
+    },
+    "display_title": "Pelham, AL",
+    "county": "Alabama"
+  },
+  "pell-city-al": {
+    "slug": "pell-city-al",
+    "city": "Pell City",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Pell City, AL",
+    "county": "Alabama"
+  },
+  "pennington-al": {
+    "slug": "pennington-al",
+    "city": "Pennington",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Pennington, AL",
+    "county": "Alabama"
+  },
+  "perdido-al": {
+    "slug": "perdido-al",
+    "city": "Perdido",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Perdido, AL",
+    "county": "Alabama"
+  },
+  "perdido-beach-al": {
+    "slug": "perdido-beach-al",
+    "city": "Perdido Beach",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Perdido Beach, AL",
+    "county": "Alabama"
+  },
+  "petrey-al": {
+    "slug": "petrey-al",
+    "city": "Petrey",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Petrey, AL",
+    "county": "Alabama"
+  },
+  "phenix-city-al": {
+    "slug": "phenix-city-al",
+    "city": "Phenix City",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.471,
+      "longitude": -85.0016
+    },
+    "display_title": "Phenix City, AL",
+    "county": "Alabama"
+  },
+  "phil-campbell-al": {
+    "slug": "phil-campbell-al",
+    "city": "Phil Campbell",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Phil Campbell, AL",
+    "county": "Alabama"
+  },
+  "pickensville-al": {
+    "slug": "pickensville-al",
+    "city": "Pickensville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Pickensville, AL",
+    "county": "Alabama"
+  },
+  "piedmont-al": {
+    "slug": "piedmont-al",
+    "city": "Piedmont",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Piedmont, AL",
+    "county": "Alabama"
+  },
+  "pike-road-al": {
+    "slug": "pike-road-al",
+    "city": "Pike Road",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Pike Road, AL",
+    "county": "Alabama"
+  },
+  "pinckard-al": {
+    "slug": "pinckard-al",
+    "city": "Pinckard",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Pinckard, AL",
+    "county": "Alabama"
+  },
+  "pine-apple-al": {
+    "slug": "pine-apple-al",
+    "city": "Pine Apple",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Pine Apple, AL",
+    "county": "Alabama"
+  },
+  "pine-hill-al": {
+    "slug": "pine-hill-al",
+    "city": "Pine Hill",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Pine Hill, AL",
+    "county": "Alabama"
+  },
+  "pine-level-al": {
+    "slug": "pine-level-al",
+    "city": "Pine Level",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 30.6954,
+      "longitude": -88.0399
+    },
+    "display_title": "Pine Level, AL",
+    "county": "Alabama"
+  },
+  "pine-ridge-al": {
+    "slug": "pine-ridge-al",
+    "city": "Pine Ridge",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Pine Ridge, AL",
+    "county": "Alabama"
+  },
+  "pinson-al": {
+    "slug": "pinson-al",
+    "city": "Pinson",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Pinson, AL",
+    "county": "Alabama"
+  },
+  "pisgah-al": {
+    "slug": "pisgah-al",
+    "city": "Pisgah",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Pisgah, AL",
+    "county": "Alabama"
+  },
+  "pleasant-grove-al": {
+    "slug": "pleasant-grove-al",
+    "city": "Pleasant Grove",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Pleasant Grove, AL",
+    "county": "Alabama"
+  },
+  "pleasant-groves-al": {
+    "slug": "pleasant-groves-al",
+    "city": "Pleasant Groves",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Pleasant Groves, AL",
+    "county": "Alabama"
+  },
+  "point-clear-al": {
+    "slug": "point-clear-al",
+    "city": "Point Clear",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Point Clear, AL",
+    "county": "Alabama"
+  },
+  "pollard-al": {
+    "slug": "pollard-al",
+    "city": "Pollard",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Pollard, AL",
+    "county": "Alabama"
+  },
+  "powell-al": {
+    "slug": "powell-al",
+    "city": "Powell",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Powell, AL",
+    "county": "Alabama"
+  },
+  "prattville-al": {
+    "slug": "prattville-al",
+    "city": "Prattville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 32.464,
+      "longitude": -86.4597
+    },
+    "display_title": "Prattville, AL",
+    "county": "Alabama"
+  },
+  "priceville-al": {
+    "slug": "priceville-al",
+    "city": "Priceville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Priceville, AL",
+    "county": "Alabama"
+  },
+  "prichard-al": {
+    "slug": "prichard-al",
+    "city": "Prichard",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Prichard, AL",
+    "county": "Alabama"
+  },
+  "providence-al": {
+    "slug": "providence-al",
+    "city": "Providence",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Providence, AL",
+    "county": "Alabama"
+  },
+  "rabun-al": {
+    "slug": "rabun-al",
+    "city": "Rabun",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Rabun, AL",
+    "county": "Alabama"
+  },
+  "ragland-al": {
+    "slug": "ragland-al",
+    "city": "Ragland",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Ragland, AL",
+    "county": "Alabama"
+  },
+  "rainbow-city-al": {
+    "slug": "rainbow-city-al",
+    "city": "Rainbow City",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Rainbow City, AL",
+    "county": "Alabama"
+  },
+  "rainsville-al": {
+    "slug": "rainsville-al",
+    "city": "Rainsville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Rainsville, AL",
+    "county": "Alabama"
+  },
+  "ranburne-al": {
+    "slug": "ranburne-al",
+    "city": "Ranburne",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Ranburne, AL",
+    "county": "Alabama"
+  },
+  "red-bay-al": {
+    "slug": "red-bay-al",
+    "city": "Red Bay",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Red Bay, AL",
+    "county": "Alabama"
+  },
+  "red-level-al": {
+    "slug": "red-level-al",
+    "city": "Red Level",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Red Level, AL",
+    "county": "Alabama"
+  },
+  "reece-city-al": {
+    "slug": "reece-city-al",
+    "city": "Reece City",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Reece City, AL",
+    "county": "Alabama"
+  },
+  "reform-al": {
+    "slug": "reform-al",
+    "city": "Reform",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Reform, AL",
+    "county": "Alabama"
+  },
+  "rehobeth-al": {
+    "slug": "rehobeth-al",
+    "city": "Rehobeth",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Rehobeth, AL",
+    "county": "Alabama"
+  },
+  "repton-al": {
+    "slug": "repton-al",
+    "city": "Repton",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Repton, AL",
+    "county": "Alabama"
+  },
+  "ridgeville-al": {
+    "slug": "ridgeville-al",
+    "city": "Ridgeville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Ridgeville, AL",
+    "county": "Alabama"
+  },
+  "river-falls-al": {
+    "slug": "river-falls-al",
+    "city": "River Falls",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "River Falls, AL",
+    "county": "Alabama"
+  },
+  "riverside-al": {
+    "slug": "riverside-al",
+    "city": "Riverside",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Riverside, AL",
+    "county": "Alabama"
+  },
+  "riverview-al": {
+    "slug": "riverview-al",
+    "city": "Riverview",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Riverview, AL",
+    "county": "Alabama"
+  },
+  "roanoke-al": {
+    "slug": "roanoke-al",
+    "city": "Roanoke",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Roanoke, AL",
+    "county": "Alabama"
+  },
+  "robertsdale-al": {
+    "slug": "robertsdale-al",
+    "city": "Robertsdale",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Robertsdale, AL",
+    "county": "Baldwin County"
+  },
+  "rockford-al": {
+    "slug": "rockford-al",
+    "city": "Rockford",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Rockford, AL",
+    "county": "Alabama"
+  },
+  "rogersville-al": {
+    "slug": "rogersville-al",
+    "city": "Rogersville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Rogersville, AL",
+    "county": "Alabama"
+  },
+  "roosevelt-al": {
+    "slug": "roosevelt-al",
+    "city": "Roosevelt",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 30.6954,
+      "longitude": -88.0399
+    },
+    "display_title": "Roosevelt, AL",
+    "county": "Alabama"
+  },
+  "rosa-al": {
+    "slug": "rosa-al",
+    "city": "Rosa",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Rosa, AL",
+    "county": "Alabama"
+  },
+  "russellville-al": {
+    "slug": "russellville-al",
+    "city": "Russellville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Russellville, AL",
+    "county": "Alabama"
+  },
+  "rutledge-al": {
+    "slug": "rutledge-al",
+    "city": "Rutledge",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Rutledge, AL",
+    "county": "Alabama"
+  },
+  "saint-elmo-al": {
+    "slug": "saint-elmo-al",
+    "city": "Saint Elmo",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Saint Elmo, AL",
+    "county": "Alabama"
+  },
+  "saint-florian-al": {
+    "slug": "saint-florian-al",
+    "city": "Saint Florian",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Saint Florian, AL",
+    "county": "Alabama"
+  },
+  "saint-stephens-al": {
+    "slug": "saint-stephens-al",
+    "city": "Saint Stephens",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Saint Stephens, AL",
+    "county": "Alabama"
+  },
+  "samson-al": {
+    "slug": "samson-al",
+    "city": "Samson",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Samson, AL",
+    "county": "Alabama"
+  },
+  "sand-rock-al": {
+    "slug": "sand-rock-al",
+    "city": "Sand Rock",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Sand Rock, AL",
+    "county": "Alabama"
+  },
+  "sanford-al": {
+    "slug": "sanford-al",
+    "city": "Sanford",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Sanford, AL",
+    "county": "Alabama"
+  },
+  "saraland-al": {
+    "slug": "saraland-al",
+    "city": "Saraland",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Saraland, AL",
+    "county": "Mobile County"
+  },
+  "sardis-city-al": {
+    "slug": "sardis-city-al",
+    "city": "Sardis City",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Sardis City, AL",
+    "county": "Alabama"
+  },
+  "satsuma-al": {
+    "slug": "satsuma-al",
+    "city": "Satsuma",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Satsuma, AL",
+    "county": "Mobile County"
+  },
+  "scottsboro-al": {
+    "slug": "scottsboro-al",
+    "city": "Scottsboro",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Scottsboro, AL",
+    "county": "Alabama"
+  },
+  "section-al": {
+    "slug": "section-al",
+    "city": "Section",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Section, AL",
+    "county": "Alabama"
+  },
+  "selma-al": {
+    "slug": "selma-al",
+    "city": "Selma",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Selma, AL",
+    "county": "Alabama"
+  },
+  "semmes-al": {
+    "slug": "semmes-al",
+    "city": "Semmes",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Semmes, AL",
+    "county": "Mobile County"
+  },
+  "sheffield-al": {
+    "slug": "sheffield-al",
+    "city": "Sheffield",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Sheffield, AL",
+    "county": "Alabama"
+  },
+  "shiloh-al": {
+    "slug": "shiloh-al",
+    "city": "Shiloh",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Shiloh, AL",
+    "county": "Alabama"
+  },
+  "shorter-al": {
+    "slug": "shorter-al",
+    "city": "Shorter",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Shorter, AL",
+    "county": "Alabama"
+  },
+  "silas-al": {
+    "slug": "silas-al",
+    "city": "Silas",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Silas, AL",
+    "county": "Alabama"
+  },
+  "silverhill-al": {
+    "slug": "silverhill-al",
+    "city": "Silverhill",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Silverhill, AL",
+    "county": "Alabama"
+  },
+  "sipsey-al": {
+    "slug": "sipsey-al",
+    "city": "Sipsey",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Sipsey, AL",
+    "county": "Alabama"
+  },
+  "skyline-al": {
+    "slug": "skyline-al",
+    "city": "Skyline",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Skyline, AL",
+    "county": "Alabama"
+  },
+  "slocomb-al": {
+    "slug": "slocomb-al",
+    "city": "Slocomb",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Slocomb, AL",
+    "county": "Alabama"
+  },
+  "smiths-station-al": {
+    "slug": "smiths-station-al",
+    "city": "Smiths Station",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Smiths Station, AL",
+    "county": "Alabama"
+  },
+  "snead-al": {
+    "slug": "snead-al",
+    "city": "Snead",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Snead, AL",
+    "county": "Alabama"
+  },
+  "somerville-al": {
+    "slug": "somerville-al",
+    "city": "Somerville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Somerville, AL",
+    "county": "Alabama"
+  },
+  "south-vinemont-al": {
+    "slug": "south-vinemont-al",
+    "city": "South Vinemont",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "South Vinemont, AL",
+    "county": "Alabama"
+  },
+  "southside-al": {
+    "slug": "southside-al",
+    "city": "Southside",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Southside, AL",
+    "county": "Alabama"
+  },
+  "spanish-fort-al": {
+    "slug": "spanish-fort-al",
+    "city": "Spanish Fort",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Spanish Fort, AL",
+    "county": "Baldwin County"
+  },
+  "spring-hill-al": {
+    "slug": "spring-hill-al",
+    "city": "Spring Hill",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 30.6954,
+      "longitude": -88.0399
+    },
+    "display_title": "Spring Hill, AL",
+    "county": "Alabama"
+  },
+  "springville-al": {
+    "slug": "springville-al",
+    "city": "Springville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Springville, AL",
+    "county": "Alabama"
+  },
+  "st-florian-al": {
+    "slug": "st-florian-al",
+    "city": "St Florian",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 30.6954,
+      "longitude": -88.0399
+    },
+    "display_title": "St Florian, AL",
+    "county": "Alabama"
+  },
+  "stapleton-al": {
+    "slug": "stapleton-al",
+    "city": "Stapleton",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Stapleton, AL",
+    "county": "Alabama"
+  },
+  "steele-al": {
+    "slug": "steele-al",
+    "city": "Steele",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Steele, AL",
+    "county": "Alabama"
+  },
+  "stevenson-al": {
+    "slug": "stevenson-al",
+    "city": "Stevenson",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Stevenson, AL",
+    "county": "Alabama"
+  },
+  "stockton-al": {
+    "slug": "stockton-al",
+    "city": "Stockton",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Stockton, AL",
+    "county": "Alabama"
+  },
+  "sulligent-al": {
+    "slug": "sulligent-al",
+    "city": "Sulligent",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Sulligent, AL",
+    "county": "Alabama"
+  },
+  "sumiton-al": {
+    "slug": "sumiton-al",
+    "city": "Sumiton",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Sumiton, AL",
+    "county": "Alabama"
+  },
+  "summerdale-al": {
+    "slug": "summerdale-al",
+    "city": "Summerdale",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Summerdale, AL",
+    "county": "Baldwin County"
+  },
+  "susan-moore-al": {
+    "slug": "susan-moore-al",
+    "city": "Susan Moore",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Susan Moore, AL",
+    "county": "Alabama"
+  },
+  "sweet-water-al": {
+    "slug": "sweet-water-al",
+    "city": "Sweet Water",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Sweet Water, AL",
+    "county": "Alabama"
+  },
+  "sylacauga-al": {
+    "slug": "sylacauga-al",
+    "city": "Sylacauga",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Sylacauga, AL",
+    "county": "Alabama"
+  },
+  "sylvan-springs-al": {
+    "slug": "sylvan-springs-al",
+    "city": "Sylvan Springs",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Sylvan Springs, AL",
+    "county": "Alabama"
+  },
+  "sylvania-al": {
+    "slug": "sylvania-al",
+    "city": "Sylvania",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Sylvania, AL",
+    "county": "Alabama"
+  },
+  "talladega-al": {
+    "slug": "talladega-al",
+    "city": "Talladega",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Talladega, AL",
+    "county": "Alabama"
+  },
+  "talladega-springs-al": {
+    "slug": "talladega-springs-al",
+    "city": "Talladega Springs",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Talladega Springs, AL",
+    "county": "Alabama"
+  },
+  "tallassee-al": {
+    "slug": "tallassee-al",
+    "city": "Tallassee",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Tallassee, AL",
+    "county": "Alabama"
+  },
+  "tarrant-al": {
+    "slug": "tarrant-al",
+    "city": "Tarrant",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Tarrant, AL",
+    "county": "Alabama"
+  },
+  "taylor-al": {
+    "slug": "taylor-al",
+    "city": "Taylor",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Taylor, AL",
+    "county": "Alabama"
+  },
+  "tensaw-al": {
+    "slug": "tensaw-al",
+    "city": "Tensaw",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Tensaw, AL",
+    "county": "Alabama"
+  },
+  "theodore-al": {
+    "slug": "theodore-al",
+    "city": "Theodore",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Theodore, AL",
+    "county": "Mobile County"
+  },
+  "thomaston-al": {
+    "slug": "thomaston-al",
+    "city": "Thomaston",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Thomaston, AL",
+    "county": "Alabama"
+  },
+  "thomasville-al": {
+    "slug": "thomasville-al",
+    "city": "Thomasville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Thomasville, AL",
+    "county": "Alabama"
+  },
+  "thorsby-al": {
+    "slug": "thorsby-al",
+    "city": "Thorsby",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Thorsby, AL",
+    "county": "Alabama"
+  },
+  "tillmans-corner-al": {
+    "slug": "tillmans-corner-al",
+    "city": "Tillmans Corner",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 30.6954,
+      "longitude": -88.0399
+    },
+    "display_title": "Tillmans Corner, AL",
+    "county": "Alabama"
+  },
+  "toulminville-al": {
+    "slug": "toulminville-al",
+    "city": "Toulminville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Toulminville, AL",
+    "county": "Alabama"
+  },
+  "town-creek-al": {
+    "slug": "town-creek-al",
+    "city": "Town Creek",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Town Creek, AL",
+    "county": "Alabama"
+  },
+  "toxey-al": {
+    "slug": "toxey-al",
+    "city": "Toxey",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Toxey, AL",
+    "county": "Alabama"
+  },
+  "trafford-al": {
+    "slug": "trafford-al",
+    "city": "Trafford",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Trafford, AL",
+    "county": "Alabama"
+  },
+  "triana-al": {
+    "slug": "triana-al",
+    "city": "Triana",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Triana, AL",
+    "county": "Alabama"
+  },
+  "trinity-al": {
+    "slug": "trinity-al",
+    "city": "Trinity",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Trinity, AL",
+    "county": "Alabama"
+  },
+  "troy-al": {
+    "slug": "troy-al",
+    "city": "Troy",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Troy, AL",
+    "county": "Alabama"
+  },
+  "trussville-al": {
+    "slug": "trussville-al",
+    "city": "Trussville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 33.6198,
+      "longitude": -86.6089
+    },
+    "display_title": "Trussville, AL",
+    "county": "Alabama"
+  },
+  "tuscaloosa-al": {
+    "slug": "tuscaloosa-al",
+    "city": "Tuscaloosa",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 33.2098,
+      "longitude": -87.5692
+    },
+    "display_title": "Tuscaloosa, AL",
+    "county": "Alabama"
+  },
+  "tuscumbia-al": {
+    "slug": "tuscumbia-al",
+    "city": "Tuscumbia",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Tuscumbia, AL",
+    "county": "Alabama"
+  },
+  "tuskegee-al": {
+    "slug": "tuskegee-al",
+    "city": "Tuskegee",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Tuskegee, AL",
+    "county": "Alabama"
+  },
+  "twin-al": {
+    "slug": "twin-al",
+    "city": "Twin",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Twin, AL",
+    "county": "Alabama"
+  },
+  "union-al": {
+    "slug": "union-al",
+    "city": "Union",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 30.6954,
+      "longitude": -88.0399
+    },
+    "display_title": "Union, AL",
+    "county": "Alabama"
+  },
+  "union-grove-al": {
+    "slug": "union-grove-al",
+    "city": "Union Grove",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Union Grove, AL",
+    "county": "Alabama"
+  },
+  "union-springs-al": {
+    "slug": "union-springs-al",
+    "city": "Union Springs",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Union Springs, AL",
+    "county": "Alabama"
+  },
+  "uniontown-al": {
+    "slug": "uniontown-al",
+    "city": "Uniontown",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Uniontown, AL",
+    "county": "Alabama"
+  },
+  "valley-al": {
+    "slug": "valley-al",
+    "city": "Valley",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Valley, AL",
+    "county": "Alabama"
+  },
+  "valley-grande-al": {
+    "slug": "valley-grande-al",
+    "city": "Valley Grande",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Valley Grande, AL",
+    "county": "Alabama"
+  },
+  "valley-head-al": {
+    "slug": "valley-head-al",
+    "city": "Valley Head",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Valley Head, AL",
+    "county": "Alabama"
+  },
+  "vance-al": {
+    "slug": "vance-al",
+    "city": "Vance",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Vance, AL",
+    "county": "Alabama"
+  },
+  "vernon-al": {
+    "slug": "vernon-al",
+    "city": "Vernon",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Vernon, AL",
+    "county": "Alabama"
+  },
+  "vestavia-hills-al": {
+    "slug": "vestavia-hills-al",
+    "city": "Vestavia Hills",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "A",
+    "coordinates": {
+      "latitude": 33.4487,
+      "longitude": -86.7878
+    },
+    "display_title": "Vestavia Hills, AL",
+    "county": "Alabama"
+  },
+  "vina-al": {
+    "slug": "vina-al",
+    "city": "Vina",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Vina, AL",
+    "county": "Alabama"
+  },
+  "vincent-al": {
+    "slug": "vincent-al",
+    "city": "Vincent",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Vincent, AL",
+    "county": "Alabama"
+  },
+  "vredenburgh-al": {
+    "slug": "vredenburgh-al",
+    "city": "Vredenburgh",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Vredenburgh, AL",
+    "county": "Alabama"
+  },
+  "wadley-al": {
+    "slug": "wadley-al",
+    "city": "Wadley",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Wadley, AL",
+    "county": "Alabama"
+  },
+  "waldo-al": {
+    "slug": "waldo-al",
+    "city": "Waldo",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Waldo, AL",
+    "county": "Alabama"
+  },
+  "walnut-grove-al": {
+    "slug": "walnut-grove-al",
+    "city": "Walnut Grove",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Walnut Grove, AL",
+    "county": "Alabama"
+  },
+  "warrior-al": {
+    "slug": "warrior-al",
+    "city": "Warrior",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Warrior, AL",
+    "county": "Alabama"
+  },
+  "waterloo-al": {
+    "slug": "waterloo-al",
+    "city": "Waterloo",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Waterloo, AL",
+    "county": "Alabama"
+  },
+  "waverly-al": {
+    "slug": "waverly-al",
+    "city": "Waverly",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Waverly, AL",
+    "county": "Alabama"
+  },
+  "weaver-al": {
+    "slug": "weaver-al",
+    "city": "Weaver",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Weaver, AL",
+    "county": "Alabama"
+  },
+  "webb-al": {
+    "slug": "webb-al",
+    "city": "Webb",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Webb, AL",
+    "county": "Alabama"
+  },
+  "wedowee-al": {
+    "slug": "wedowee-al",
+    "city": "Wedowee",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Wedowee, AL",
+    "county": "Alabama"
+  },
+  "west-blocton-al": {
+    "slug": "west-blocton-al",
+    "city": "West Blocton",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "West Blocton, AL",
+    "county": "Alabama"
+  },
+  "west-jefferson-al": {
+    "slug": "west-jefferson-al",
+    "city": "West Jefferson",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "West Jefferson, AL",
+    "county": "Alabama"
+  },
+  "west-mobile-al": {
+    "slug": "west-mobile-al",
+    "city": "West Mobile",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 30.6954,
+      "longitude": -88.0399
+    },
+    "display_title": "West Mobile, AL",
+    "county": "Alabama"
+  },
+  "west-point-al": {
+    "slug": "west-point-al",
+    "city": "West Point",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "West Point, AL",
+    "county": "Alabama"
+  },
+  "weston-al": {
+    "slug": "weston-al",
+    "city": "Weston",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Weston, AL",
+    "county": "Alabama"
+  },
+  "westover-al": {
+    "slug": "westover-al",
+    "city": "Westover",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 30.6954,
+      "longitude": -88.0399
+    },
+    "display_title": "Westover, AL",
+    "county": "Alabama"
+  },
+  "wetumpka-al": {
+    "slug": "wetumpka-al",
+    "city": "Wetumpka",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Wetumpka, AL",
+    "county": "Alabama"
+  },
+  "whistler-al": {
+    "slug": "whistler-al",
+    "city": "Whistler",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Whistler, AL",
+    "county": "Alabama"
+  },
+  "white-hall-al": {
+    "slug": "white-hall-al",
+    "city": "White Hall",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "White Hall, AL",
+    "county": "Alabama"
+  },
+  "wilmer-al": {
+    "slug": "wilmer-al",
+    "city": "Wilmer",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Wilmer, AL",
+    "county": "Alabama"
+  },
+  "wilsonville-al": {
+    "slug": "wilsonville-al",
+    "city": "Wilsonville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Wilsonville, AL",
+    "county": "Alabama"
+  },
+  "wilton-al": {
+    "slug": "wilton-al",
+    "city": "Wilton",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Wilton, AL",
+    "county": "Alabama"
+  },
+  "winfield-al": {
+    "slug": "winfield-al",
+    "city": "Winfield",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Winfield, AL",
+    "county": "Alabama"
+  },
+  "woodland-al": {
+    "slug": "woodland-al",
+    "city": "Woodland",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Woodland, AL",
+    "county": "Alabama"
+  },
+  "woodstock-al": {
+    "slug": "woodstock-al",
+    "city": "Woodstock",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Woodstock, AL",
+    "county": "Alabama"
+  },
+  "woodville-al": {
+    "slug": "woodville-al",
+    "city": "Woodville",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Woodville, AL",
+    "county": "Alabama"
+  },
+  "yellow-bluff-al": {
+    "slug": "yellow-bluff-al",
+    "city": "Yellow Bluff",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "Yellow Bluff, AL",
+    "county": "Alabama"
+  },
+  "york-al": {
+    "slug": "york-al",
+    "city": "York",
+    "state": "AL",
+    "country": "US",
+    "service_area": true,
+    "indexable": true,
+    "tier": "B",
+    "coordinates": {
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    "display_title": "York, AL",
+    "county": "Alabama"
+  }
+}

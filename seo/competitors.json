@@ -1,0 +1,36 @@
+{
+  "competitors": {
+    "mandys-cleaning": {
+      "name": "Mandy's Cleaning Service LLC",
+      "domain": "mandysclean.com",
+      "target_market": "Mobile, AL & Baldwin County",
+      "strengths": ["No contract residential and business cleaning", "15+ years in business", "Locally known in Mobile AL"],
+      "weaknesses": ["Lacks modern schema.org JSON-LD markup", "Basic web design without real-time estimate calculator", "Limited commercial service pages"],
+      "zoiris_advantage": "Full Schema.org structured data, HEPA allergen filtration vacuuming, transparent instant quotes, 100% satisfaction guarantee."
+    },
+    "the-maids": {
+      "name": "The Maids",
+      "domain": "maids.com",
+      "target_market": "National franchise with Mobile AL presence",
+      "strengths": ["22-step cleaning process", "Backpack HEPA vacuums", "Strong national brand"],
+      "weaknesses": ["Rigid corporate pricing", "Franchise turnover", "Less personalized local service"],
+      "zoiris_advantage": "Locally owned and operated, personalized room-by-room checklists, zero rescheduling fees, transparent flat rates."
+    },
+    "two-maids": {
+      "name": "Two Maids",
+      "domain": "twomaidscleaning.com",
+      "target_market": "Daphne, Fairhope, Baldwin County & Mobile",
+      "strengths": ["Pay for performance model", "Strong local SEO in Baldwin County"],
+      "weaknesses": ["Corporate booking friction", "Variable team consistency"],
+      "zoiris_advantage": "100% W-2 in-house staff with rigorous background checks, zero contracts, 24/7 direct owner availability."
+    },
+    "merry-maids": {
+      "name": "Merry Maids",
+      "domain": "merrymaids.com",
+      "target_market": "Mobile AL Metro",
+      "strengths": ["Worry-free guarantee", "Established corporate name"],
+      "weaknesses": ["Higher franchise overhead pricing", "Strict cancellation windows"],
+      "zoiris_advantage": "Affordable flat rates, zero cancellation/reschedule fees, eco-friendly pet-safe cleaning supplies included."
+    }
+  }
+}

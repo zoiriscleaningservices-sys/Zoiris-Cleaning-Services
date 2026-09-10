@@ -1,0 +1,39 @@
+{
+  "brand_name": "Zoiris Cleaning Services",
+  "legal_name": "Zoiris Cleaning Services LLC",
+  "phone": "+1-251-220-2515",
+  "display_phone": "(251) 220-2515",
+  "tel": "tel:2512202515",
+  "email": "zoiriscleaningservices@gmail.com",
+  "website": "https://www.zoiriscleaningservices.com/",
+  "primary_address": {
+    "streetAddress": "Downtown Mobile",
+    "addressLocality": "Mobile",
+    "addressRegion": "AL",
+    "postalCode": "36602",
+    "addressCountry": "US"
+  },
+  "coordinates": {
+    "latitude": 30.6954,
+    "longitude": -88.0399
+  },
+  "social_profiles": {
+    "instagram": "https://www.instagram.com/zoiriscleaningservices/",
+    "tiktok": "https://www.tiktok.com/@zoiriscleaningservices",
+    "yelp": "https://www.yelp.com/user_details?userid=7SDy8Urgj43gfYxrR5o2eQ"
+  },
+  "payment_accepted": ["Cash", "Credit Card", "Debit Card", "Cash App", "Check"],
+  "cash_app": "$L4Ec",
+  "price_range": "$$",
+  "state": "Alabama",
+  "country": "US",
+  "rating": {
+    "rating_value": "4.9",
+    "review_count": "240"
+  },
+  "operating_hours": {
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+}

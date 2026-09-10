@@ -1,0 +1,282 @@
+{
+  "house-cleaning": {
+    "name": "House Cleaning",
+    "slug": "house-cleaning",
+    "intent": "transactional",
+    "category": "residential",
+    "primary_keywords": ["House Cleaning {City} AL", "House Cleaners {City} AL", "Home Cleaning Services {City} AL", "Residential Cleaning {City} AL"],
+    "secondary_keywords": ["recurring maid service {City}", "weekly house cleaning {City} AL", "biweekly maid service {City}", "affordable house cleaners {City}"],
+    "short_description": "Customized recurring or one-time residential house cleaning keeping your home spotless, sanitized, and allergen-free with zero locked contracts.",
+    "benefits": ["Zero contract lock-in", "Background-checked in-house cleaners", "HEPA vacuum allergen removal", "Customized room-by-room checklist", "100% Satisfaction guarantee"],
+    "process": ["Initial home assessment", "High-to-low dusting and cobweb removal", "Kitchen & bathroom deep sanitation", "HEPA filtration vacuuming", "Hardwood & tile mopping", "Final quality inspection"],
+    "faq": [
+      {
+        "question": "How often can I schedule house cleaning in {City}, AL?",
+        "answer": "We offer flexible scheduling including weekly, bi-weekly, monthly, or on-demand cleanings with zero locked-in contracts."
+      },
+      {
+        "question": "Do I need to be home during the house cleaning?",
+        "answer": "No. Many of our {City} clients provide a lockbox code or key. All our cleaners are fully vetted, background-checked, bonded, and insured."
+      }
+    ]
+  },
+  "deep-cleaning": {
+    "name": "Deep Cleaning",
+    "slug": "deep-cleaning",
+    "intent": "transactional",
+    "category": "residential",
+    "primary_keywords": ["Deep Cleaning {City} AL", "Deep House Cleaning {City} AL", "Spring Cleaning Services {City} AL", "Intensive House Cleaning {City}"],
+    "secondary_keywords": ["deep clean company {City} AL", "detailed home cleaning {City}", "top to bottom house scrub {City}"],
+    "short_description": "Intensive top-to-bottom detail scrub including baseboards, door frames, blinds, appliances, and stubborn buildup removal.",
+    "benefits": ["Hand-scrubbed baseboards & trims", "Interior oven & microwave detailing", "Heavy soap scum & scale removal", "Ceiling fan blades & air vents cleaned", "Zero contracts"],
+    "process": ["Room-by-room preparation", "Hand-washing baseboards and molding", "Deep scrubbing shower tiles and grout", "Grease extraction on stove and vent hoods", "Microfiber surface polishing", "Sanitized floor restoration"],
+    "faq": [
+      {
+        "question": "What is included in a deep cleaning in {City}, AL?",
+        "answer": "A deep clean includes everything in a standard clean plus hand-washing baseboards, door frames, dusting blinds, deep scrubbing grout, and removing heavy buildup."
+      },
+      {
+        "question": "How long does a deep cleaning take?",
+        "answer": "Depending on home square footage and condition, deep cleanings typically take between 3 to 6 hours with a dedicated multi-person team."
+      }
+    ]
+  },
+  "move-in-cleaning": {
+    "name": "Move-In Cleaning",
+    "slug": "move-in-cleaning",
+    "intent": "transactional",
+    "category": "residential",
+    "primary_keywords": ["Move In Cleaning {City} AL", "Move In Cleaners {City} AL", "New Home Cleaning {City} AL"],
+    "secondary_keywords": ["pre-move cleaning {City}", "sanitized move in cleaning {City} AL", "fresh home cleaning {City}"],
+    "short_description": "Complete sanitization and preparation of your new home so you unpack into an immaculate, germ-free environment.",
+    "benefits": ["Inside all cabinets & drawers disinfected", "Complete bathroom & kitchen sterilization", "Dust & allergen elimination", "Ready-for-move-in freshness"],
+    "process": ["Sanitizing all cabinet shelving", "Appliance interior and exterior detailing", "Bathrooms disinfected top to bottom", "Whole-home HEPA vacuuming & edge detailing", "Sanitized mop wash on all hard floors"],
+    "faq": [
+      {
+        "question": "When should I book move-in cleaning in {City}, AL?",
+        "answer": "We recommend booking 2 to 5 days before your moving truck arrives so the home is completely empty and accessible for thorough sanitization."
+      }
+    ]
+  },
+  "move-out-cleaning": {
+    "name": "Move-Out Cleaning",
+    "slug": "move-out-cleaning",
+    "intent": "transactional",
+    "category": "residential",
+    "primary_keywords": ["Move Out Cleaning {City} AL", "Move Out Cleaners {City} AL", "Security Deposit Cleaning {City} AL"],
+    "secondary_keywords": ["end of tenancy cleaning {City}", "apartment move out clean {City} AL", "landlord checklist cleaning {City}"],
+    "short_description": "Landlord-ready turnover cleaning designed to meet strict inspection checklists and help secure your full security deposit refund.",
+    "benefits": ["Deposit-guaranteed standard", "Inside cabinets, fridge & oven cleaned", "Baseboards & walls spot-scrubbed", "Fast turnaround for tenants & landlords"],
+    "process": ["Empty-property systematic walkthrough", "Scrubbing all appliance interiors & exteriors", "Wiping cabinet shelves and drawers", "Removing wall scuffs and baseboard marks", "Sanitizing bathrooms and floors"],
+    "faq": [
+      {
+        "question": "Will move-out cleaning help me get my full deposit back?",
+        "answer": "Yes. Our move-out checklist is specifically structured around property manager inspection standards across Alabama."
+      }
+    ]
+  },
+  "commercial-cleaning": {
+    "name": "Commercial Cleaning",
+    "slug": "commercial-cleaning",
+    "intent": "commercial",
+    "category": "commercial",
+    "primary_keywords": ["Commercial Cleaning {City} AL", "Commercial Cleaners {City} AL", "Commercial Janitorial {City} AL"],
+    "secondary_keywords": ["business cleaning {City} AL", "commercial office cleaning {City}", "corporate cleaning services {City}"],
+    "short_description": "Reliable, insured commercial facility maintenance tailored for corporate offices, retail stores, healthcare facilities, and financial institutions.",
+    "benefits": ["Fully bonded & insured ($2M+ liability)", "Custom after-hours or day porter shifts", "Restroom disinfection & supply restocking", "HEPA filtration for improved indoor air quality"],
+    "process": ["Facility security protocol check", "Restroom high-grade disinfection & restock", "Workstation & high-touch sanitization", "Commercial carpet vacuuming & floor buffing", "Trash emptying and relining", "Final secure lock-up"],
+    "faq": [
+      {
+        "question": "Do you provide after-hours commercial cleaning in {City}, AL?",
+        "answer": "Yes. We offer evening, night, and weekend cleaning schedules so your business operations are never interrupted."
+      }
+    ]
+  },
+  "office-janitorial-services": {
+    "name": "Office Janitorial Services",
+    "slug": "office-janitorial-services",
+    "intent": "commercial",
+    "category": "commercial",
+    "primary_keywords": ["Office Janitorial Services {City} AL", "Office Cleaning {City} AL", "Janitorial Service {City} AL"],
+    "secondary_keywords": ["business office cleaners {City}", "nightly janitorial {City} AL", "office sanitation {City}"],
+    "short_description": "Daily and weekly janitorial programs keeping corporate workplaces clean, healthy, and professional for staff and visiting clients.",
+    "benefits": ["Customized cleaning frequencies", "High-touch disinfection (phones, handles, desks)", "Trash management & recycling", "Breakroom and kitchenette detailing"],
+    "process": ["Reception & lobby detailing", "Conference room sanitization", "Restroom deep scrub & supply replenishment", "Carpet vacuuming & hard floor care"],
+    "faq": [
+      {
+        "question": "Can you provide recurring janitorial contracts in {City}, AL?",
+        "answer": "Yes, we structure customized recurring janitorial schedules with flexible terms and zero punitive lock-in clauses."
+      }
+    ]
+  },
+  "janitorial-cleaning-services": {
+    "name": "Janitorial Cleaning Services",
+    "slug": "janitorial-cleaning-services",
+    "intent": "commercial",
+    "category": "commercial",
+    "primary_keywords": ["Janitorial Cleaning Services {City} AL", "Janitorial Cleaners {City} AL", "Building Maintenance {City} AL"],
+    "secondary_keywords": ["contract janitorial {City}", "facility cleaning {City} AL"],
+    "short_description": "Full-spectrum building maintenance and janitorial operations for commercial properties of all sizes.",
+    "benefits": ["Vetted, uniformed personnel", "Consistent quality audits", "Emergency spill cleanup", "Hospital-grade chemicals"],
+    "process": ["Daily maintenance routine", "Restroom sanitation", "Floor preservation", "Waste removal"],
+    "faq": [
+      {
+        "question": "What types of facilities do you service?",
+        "answer": "We service commercial offices, medical practices, retail banks, auto dealerships, schools, and worship centers across Alabama."
+      }
+    ]
+  },
+  "vacation-rental-cleaning": {
+    "name": "Vacation Rental Cleaning",
+    "slug": "vacation-rental-cleaning",
+    "intent": "commercial",
+    "category": "property-management",
+    "primary_keywords": ["Vacation Rental Cleaning {City} AL", "Vacation Rental Cleaners {City} AL", "Short Term Rental Cleaning {City} AL"],
+    "secondary_keywords": ["beach house turnover {City} AL", "vacation home maid service {City}", "rental turnover cleaners {City}"],
+    "short_description": "Fast, high-standard turnover cleaning tailored for vacation homes, beachfront properties, and short-term rentals.",
+    "benefits": ["Fast turnaround between check-out & check-in", "Linen washing and bed staging", "Restocking guest toiletries", "Damage & missing item reporting"],
+    "process": ["Inspection for damage/left items", "Linen washing and fresh bed making", "Complete bathroom & kitchen sanitization", "Patio & balcony sweep", "Guest amenity staging"],
+    "faq": [
+      {
+        "question": "Can you handle same-day check-in/check-out turnovers?",
+        "answer": "Yes! Our vacation rental teams specialize in fast 10 AM to 3 PM turnover windows with photo confirmation."
+      }
+    ]
+  },
+  "airbnb-cleaning": {
+    "name": "Airbnb Cleaning",
+    "slug": "airbnb-cleaning",
+    "intent": "commercial",
+    "category": "property-management",
+    "primary_keywords": ["Airbnb Cleaning {City} AL", "Airbnb Cleaners {City} AL", "Airbnb Turnover Cleaning {City} AL"],
+    "secondary_keywords": ["superhost cleaning {City} AL", "VRBO cleaning {City}", "short term rental turnover {City}"],
+    "short_description": "5-Star standard Airbnb turnover cleaning designed to earn glowing reviews and maintain Superhost status.",
+    "benefits": ["5-star guest presentation standards", "Automated calendar sync support", "Restocking essentials", "Immediate maintenance alerts"],
+    "process": ["Property walk-through", "Laundering sheets & towels", "Full kitchen & bath disinfection", "Restocking guest supplies", "Photo verification"],
+    "faq": [
+      {
+        "question": "Do you sync with Airbnb host reservation calendars?",
+        "answer": "Yes, we coordinate directly with your booking schedule so cleanings are automatically scheduled after every checkout."
+      }
+    ]
+  },
+  "post-construction-cleanup": {
+    "name": "Post-Construction Cleanup",
+    "slug": "post-construction-cleanup",
+    "intent": "commercial",
+    "category": "specialty",
+    "primary_keywords": ["Post Construction Cleanup {City} AL", "Post Construction Cleaning {City} AL", "Builders Cleaning {City} AL"],
+    "secondary_keywords": ["remodel cleanup {City} AL", "drywall dust removal {City}", "contractor cleaning services {City}"],
+    "short_description": "Multi-phase construction cleaning removing drywall dust, paint overspray, adhesive, and debris for move-in perfection.",
+    "benefits": ["HEPA filtration drywall dust extraction", "Paint, sticker & adhesive removal from glass", "Detailing fixtures, registers & switches", "OSHA compliant safety trained crews"],
+    "process": ["Rough clean / debris removal", "Light clean & dust mitigation", "Final detail polish of glass, trim, and fixtures"],
+    "faq": [
+      {
+        "question": "Do you handle both residential and commercial post-construction cleaning?",
+        "answer": "Yes, we work with custom home builders, general contractors, and remodeling companies on projects of all sizes."
+      }
+    ]
+  },
+  "carpet-cleaning": {
+    "name": "Carpet Cleaning",
+    "slug": "carpet-cleaning",
+    "intent": "transactional",
+    "category": "specialty",
+    "primary_keywords": ["Carpet Cleaning {City} AL", "Carpet Cleaners {City} AL", "Professional Carpet Cleaning {City} AL"],
+    "secondary_keywords": ["steam carpet cleaning {City}", "stain & pet odor removal {City} AL", "commercial carpet cleaning {City}"],
+    "short_description": "Hot water extraction steam cleaning and enzyme spot treatment lifting deep ground-in soil, allergens, and pet odors.",
+    "benefits": ["Deep hot-water steam extraction", "Pet stain and odor neutralizing enzymes", "Fast drying times (4-6 hours)", "Extends carpet lifespan"],
+    "process": ["Pre-inspection and fiber testing", "High-traffic pre-treatment spray", "Agitation and hot water extraction", "Grooming and rapid dry setup"],
+    "faq": [
+      {
+        "question": "How long does carpet take to dry after steam cleaning?",
+        "answer": "Most carpets dry completely in 4 to 6 hours depending on air circulation and humidity."
+      }
+    ]
+  },
+  "pressure-washing": {
+    "name": "Pressure Washing",
+    "slug": "pressure-washing",
+    "intent": "transactional",
+    "category": "specialty",
+    "primary_keywords": ["Pressure Washing {City} AL", "Power Washing {City} AL", "Driveway Pressure Washing {City} AL"],
+    "secondary_keywords": ["house washing {City} AL", "concrete cleaning {City}", "patio power wash {City}"],
+    "short_description": "Commercial pressure washing and soft-washing removing mildew, algae, oil stains, and grime from driveways, siding, and decks.",
+    "benefits": ["Safe soft-wash for siding & stucco", "High-PSI concrete cleaning for driveways", "Removes slippery algae & mildew", "Boosts curb appeal instantly"],
+    "process": ["Surface evaluation & plant protection", "Eco-friendly surfactant application", "Surface cleaner concrete agitation", "Low-pressure soft rinse"],
+    "faq": [
+      {
+        "question": "Will pressure washing damage my home siding?",
+        "answer": "No. We use dedicated soft-wash low-pressure techniques with specialized cleaning solutions for vinyl and stucco siding."
+      }
+    ]
+  },
+  "window-cleaning": {
+    "name": "Window Cleaning",
+    "slug": "window-cleaning",
+    "intent": "transactional",
+    "category": "specialty",
+    "primary_keywords": ["Window Cleaning {City} AL", "Window Cleaners {City} AL", "Professional Window Washing {City} AL"],
+    "secondary_keywords": ["streak free window cleaning {City}", "residential window washing {City}"],
+    "short_description": "Crystal-clear, streak-free interior and exterior window washing including track detailing, sill wiping, and screen cleaning.",
+    "benefits": ["Streak-free purified water finish", "Sill and track detailing included", "Screen washing and debris removal"],
+    "process": ["Screen removal and scrub", "Glass washing with professional squeegee", "Track detailing and sill wipe down", "Screen replacement"],
+    "faq": [
+      {
+        "question": "Do you clean window tracks and screens?",
+        "answer": "Yes, our full window cleaning service includes wiping tracks, sills, and washing screens."
+      }
+    ]
+  },
+  "gutter-cleaning": {
+    "name": "Gutter Cleaning",
+    "slug": "gutter-cleaning",
+    "intent": "transactional",
+    "category": "specialty",
+    "primary_keywords": ["Gutter Cleaning {City} AL", "Gutter Cleaners {City} AL", "Downspout Cleaning {City} AL"],
+    "secondary_keywords": ["roof gutter cleaning {City}", "clogged gutter service {City} AL"],
+    "short_description": "Thorough clearing of leaves, moss, and debris from gutters and downspouts preventing foundation water damage.",
+    "benefits": ["Prevents roof and foundation water damage", "Downspout flow testing", "Safe ladder stabilizers used", "Debris bagged and removed"],
+    "process": ["Manual debris removal", "Downspout flush and obstruction check", "Ground cleanup of all fallen debris"],
+    "faq": [
+      {
+        "question": "How often should gutters be cleaned in Alabama?",
+        "answer": "We recommend cleaning gutters at least twice per year (spring and late autumn) to prevent seasonal clogs."
+      }
+    ]
+  },
+  "floor-stripping-waxing": {
+    "name": "Floor Stripping & Waxing",
+    "slug": "floor-stripping-waxing",
+    "intent": "commercial",
+    "category": "commercial",
+    "primary_keywords": ["Floor Stripping and Waxing {City} AL", "Commercial Floor Waxing {City} AL", "VCT Floor Cleaning {City} AL"],
+    "secondary_keywords": ["hard floor refinishing {City}", "vinyl tile waxing {City} AL"],
+    "short_description": "Commercial VCT and hard floor stripping, deep cleaning, and multi-coat high-gloss wax application.",
+    "benefits": ["Removes yellowed old wax and scuffs", "Applies 4+ coats of commercial polymer wax", "High-gloss mirror finish", "Protects floor against heavy foot traffic"],
+    "process": ["Old wax stripping solution application", "Rotary machine stripping agitation", "Neutralizing rinse and extraction", "Applying premium floor finish coats", "High-speed burnishing"],
+    "faq": [
+      {
+        "question": "How long does floor wax take to cure?",
+        "answer": "Floors are typically ready for light foot traffic within 8 to 12 hours after the final coat is applied."
+      }
+    ]
+  },
+  "luxury-estate-cleaning": {
+    "name": "Luxury Estate Cleaning",
+    "slug": "luxury-estate-cleaning",
+    "intent": "transactional",
+    "category": "residential",
+    "primary_keywords": ["Luxury Estate Cleaning {City} AL", "Luxury Home Cleaning {City} AL", "High End House Cleaning {City} AL"],
+    "secondary_keywords": ["mansion cleaning {City} AL", "white glove cleaning service {City}"],
+    "short_description": "White-glove housekeeping service tailored for luxury residences, historic estates, and high-value architectural finishes.",
+    "benefits": ["White-glove care for delicate marble, crystal & hardwood", "Dedicated discrete senior cleaning specialists", "Customized estate management checklists"],
+    "process": ["Pre-clean walk with homeowner", "Specialty surface preservation", "Room-by-room meticulous detail", "Quality checklist verification"],
+    "faq": [
+      {
+        "question": "Are your cleaners trained on specialty surfaces like marble and antique woodwork?",
+        "answer": "Yes. Our estate cleaning specialists use pH-neutral stone cleaners and specific care routines for fine materials."
+      }
+    ]
+  }
+}
