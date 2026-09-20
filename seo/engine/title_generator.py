@@ -5,11 +5,13 @@ def generate_title(info):
     tier = info.get("tier", "B")
     
     if page_type == "homepage":
-        return "House Cleaning & Maid Services in Mobile, AL | Top-Rated Cleaners - Zoiris"
+        return "House Cleaning & Maid Services in Mobile, AL | Free Instant Quote | Zoiris Cleaning"
         
     if page_type == "location_hub":
-        if tier == "A":
-            return f"House Cleaning & Maid Services in {city}, AL | Zoiris Cleaning"
+        if city.lower() == "mobile":
+            return "Mobile, AL Cleaning Services & Maid Directory | Zoiris Cleaning"
+        elif tier == "A":
+            return f"{city}, AL House Cleaning Services & Maid Directory | Zoiris"
         else:
             return f"House Cleaning Services in {city}, AL | Zoiris Cleaning Services"
             
