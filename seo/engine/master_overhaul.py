@@ -80,8 +80,10 @@ NEW_DESKTOP_LOC_DROPDOWN_INNER = """
                   <a class="contact-button text-sm py-2 hover:bg-blue-700" href="/birmingham-al/">Birmingham, AL</a>
                   <a class="contact-button text-sm py-2 hover:bg-blue-700" href="/huntsville-al/">Huntsville, AL</a>
                   <a class="contact-button text-sm py-2 hover:bg-blue-700" href="/montgomery-al/">Montgomery, AL</a>
-                  <a class="contact-button text-sm py-2 hover:bg-blue-700" href="/tuscaloosa-al/">Tuscaloosa, AL</a>
-                  <a class="contact-button text-sm py-2 bg-blue-700 font-bold" href="/locations/">All 504+ AL Cities &rarr;</a>
+                  <a class="contact-button text-sm py-2 hover:bg-blue-700" href="/counties/">All 67 AL Counties &rarr;</a>
+                  <a class="contact-button text-sm py-2 hover:bg-blue-700" href="/services/">All 29 Services &rarr;</a>
+                  <a class="contact-button text-sm py-2 hover:bg-blue-700" href="/guides/">Pricing &amp; Checklists &rarr;</a>
+                  <a class="contact-button text-sm py-2 bg-blue-700 font-bold" href="/locations/">All 503+ AL Cities &rarr;</a>
                 """
 
 def build_clean_head_top(title, desc, canonical_url, robots="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1", og_image="/images/services_action.png", schema_block=""):
@@ -107,12 +109,17 @@ def build_clean_head_top(title, desc, canonical_url, robots="index, follow, max-
   <meta name="twitter:description" content="{esc_d}" />
   <meta name="twitter:image" content="{full_img}" />
   <link rel="sitemap" type="application/xml" href="https://www.zoiriscleaningservices.com/sitemap_index.xml" />
+  <link rel="alternate" type="application/rss+xml" title="Zoiris Cleaning Services — Alabama Cleaning Guides &amp; Coverage" href="https://www.zoiriscleaningservices.com/feed.xml" />
+  <link rel="preload" as="image" href="/images/location_hero.webp" type="image/webp" fetchpriority="high" />
   <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
   <link rel="manifest" href="/favicon/site.webmanifest" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
   <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet" />
   {schema_block}
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
@@ -200,8 +207,11 @@ def sanitize_common_html(raw, loc_slug=None):
         "if (/^3[56]\\d{3}$/.test(zip) || serviceZips.includes(zip)) {"
     )
 
-    # Remove broken @font-face ...fa-solid-900.woff2 & ...fa-brands-400.woff2
+    # Remove broken @font-face ...fa-solid-900.woff2 & ...fa-brands-400.woff2 and render-blocking @import
     raw = BROKEN_WOFF_RE.sub("", raw)
+    raw = raw.replace("@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');", "")
+    raw = raw.replace("url('/images/location_hero.png')", "url('/images/location_hero.webp')")
+    raw = raw.replace('src="/images/services_action.png"', 'src="/images/services_action.webp"')
 
     # Ensure </head> closes cleanly before <body
     raw = CLOSE_STYLE_TO_BODY_RE.sub("</style>\n</head>\n", raw, count=1)
@@ -215,8 +225,17 @@ def sanitize_common_html(raw, loc_slug=None):
     raw = raw.replace("https://www.instagram.com/zoiriscleaning\"", "https://www.instagram.com/zoiriscleaningservices/\"")
     raw = raw.replace('href="https://tiktok.com"', 'href="https://www.tiktok.com/@zoiriscleaningservices"')
     raw = raw.replace('href="https://yelp.com"', 'href="https://www.yelp.com/user_details?userid=7SDy8Urgj43gfYxrR5o2eQ"')
-    raw = raw.replace('View All\n          480+ Locations', 'View All 504+ AL Locations')
-    raw = raw.replace('View All 480+ Locations', 'View All 504+ AL Locations')
+    raw = raw.replace('View All\n          480+ Locations', 'View All 503+ AL Locations')
+    raw = raw.replace('View All 480+ Locations', 'View All 503+ AL Locations')
+    raw = raw.replace('View All 504+ AL Locations', 'View All 503+ AL Locations')
+
+    # Inject 1-click Crawl Accelerator links to /services/, /counties/, and /guides/ in bottom bar if not present
+    if 'href="/counties/"' not in raw and 'href="/locations/"' in raw:
+        raw = raw.replace(
+            '<a href="/locations/" class="text-blue-500 hover:text-pink-400 font-bold text-xs transition-colors">',
+            '<a href="/services/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">All 29 Services</a>\n        <a href="/counties/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">All 67 AL Counties</a>\n        <a href="/guides/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">Pricing &amp; Checklists</a>\n        <a href="/locations/" class="text-blue-500 hover:text-pink-400 font-bold text-xs transition-colors">',
+            1
+        )
 
     return raw
 
@@ -361,7 +380,7 @@ def process_city_file(rel_and_fp):
     schema_block = build_jsonld_schema("location_service", canon_url, loc_slug=loc_slug, srv_key=srv_key, faqs=faqs, title=title, desc=desc)
     head_top = build_clean_head_top(title, desc, canon_url, og_image=srv["image"], schema_block=schema_block)
 
-    raw = HEAD_TO_STYLE_RE.sub(head_top, raw, count=1)
+    raw = HEAD_TO_STYLE_RE.sub(lambda _: head_top, raw, count=1)
     raw = HERO_H1_P_RE.sub(lambda m: f"{m.group(1)}\n          {html.escape(h1_txt)}\n        {m.group(3)}\n          {html.escape(sub_txt)}\n        {m.group(5)}", raw, count=1)
 
     hm = HERO_SECTION_RE.search(raw)
@@ -391,13 +410,19 @@ def update_global_and_root_pages():
     hp_schema = build_jsonld_schema("location_hub", hp_canon, loc_slug="mobile-al", faqs=hp_faqs, title=hp_title, desc=hp_desc)
     hp_head = build_clean_head_top(hp_title, hp_desc, hp_canon, og_image="/images/services_action.png", schema_block=hp_schema)
     raw_hp = HEAD_TO_STYLE_RE.sub(lambda _: hp_head, raw_hp, count=1)
-    # Replace or inject #faq on homepage right before #quote so visible FAQs 100% match JSON-LD!
-    from geo_service_content import render_faq_details_html
-    hp_faq_html = render_faq_details_html(
+    # Replace or inject #ai-quick-answer + #faq on homepage right before #quote so visible FAQs & Speakable 100% match JSON-LD!
+    from geo_service_content import render_faq_details_html, build_ai_hub_summary_and_table
+    hp_ai_sec = f"""    <section id="hp-ai-summary" class="py-12 px-4 sm:px-6 bg-transparent relative z-10">
+      <div class="max-w-5xl mx-auto">
+{build_ai_hub_summary_and_table(hp_prof)}
+      </div>
+    </section>"""
+    hp_faq_html = hp_ai_sec + "\n\n" + render_faq_details_html(
         hp_faqs,
         "Frequently Asked Questions About House Cleaning & Maid Service in Mobile, AL",
         "Answers on flat-rate pricing, zero locked contracts, HEPA equipment, and coverage across Mobile & Baldwin County."
     )
+    raw_hp = re.sub(r'<section\b[^>]*id=["\']hp-ai-summary["\'][^>]*>.*?</section>\s*', "", raw_hp, flags=re.I | re.S)
     old_faq_re = re.compile(r'<section\b[^>]*id=["\']faq["\'][^>]*>.*?</section>', re.I | re.S)
     if old_faq_re.search(raw_hp):
         raw_hp = old_faq_re.sub(lambda _: hp_faq_html, raw_hp, count=1)
@@ -615,7 +640,7 @@ def update_global_and_root_pages():
         if (sub === 'nearby-locations' || sub === 'gallery') { window.location.replace('/' + s + '/'); return; }
       }
       // Pattern 3: /<city-without-al>/<service>/
-      if (!s.endsWith('-al') && s !== 'locations' && s !== 'apply' && s !== 'gallery' && parts.length >= 1 && !s.includes('.')) {
+      if (!s.endsWith('-al') && s !== 'locations' && s !== 'apply' && s !== 'gallery' && s !== 'services' && s !== 'counties' && s !== 'guides' && parts.length >= 1 && !s.includes('.')) {
         if (parts.length === 2) { window.location.replace('/' + s + '-al/' + parts[1].toLowerCase() + '/'); return; }
       }
     })();

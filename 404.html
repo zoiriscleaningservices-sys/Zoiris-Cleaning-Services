@@ -27,7 +27,7 @@
         if (sub === 'nearby-locations' || sub === 'gallery') { window.location.replace('/' + s + '/'); return; }
       }
       // Pattern 3: /<city-without-al>/<service>/
-      if (!s.endsWith('-al') && s !== 'locations' && s !== 'apply' && s !== 'gallery' && parts.length >= 1 && !s.includes('.')) {
+      if (!s.endsWith('-al') && s !== 'locations' && s !== 'apply' && s !== 'gallery' && s !== 'services' && s !== 'counties' && s !== 'guides' && parts.length >= 1 && !s.includes('.')) {
         if (parts.length === 2) { window.location.replace('/' + s + '-al/' + parts[1].toLowerCase() + '/'); return; }
       }
     })();

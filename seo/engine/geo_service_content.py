@@ -215,6 +215,145 @@ def build_hub_faqs(prof):
 def sqmi_text(prof):
     return f"{prof['sqmi']} square miles" if prof.get("sqmi") else "neighborhoods"
 
+def county_to_slug(county_short):
+    clean = county_short.lower().replace(".", "").replace("'", "").strip().replace(" ", "-")
+    if clean == "dekalb":
+        clean = "de-kalb"
+    elif clean == "st-clair":
+        clean = "saint-clair"
+    return f"{clean}-county-al"
+
+def build_ai_hub_summary_and_table(prof):
+    city = prof["city"]
+    display = prof["display_title"]
+    county = prof["county"]
+    c_slug = county_to_slug(prof["county_short"])
+    pzip = prof["primary_zip"]
+    return f"""
+        <!-- 🤖 AI OVERVIEW DIRECT ANSWER & PRICING/DURATION MATRIX -->
+        <div id="ai-quick-answer" class="bg-white rounded-3xl p-6 sm:p-8 shadow-2xl border-2 border-blue-500/30 mb-14 text-left">
+          <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+            <span class="inline-flex items-center gap-2 bg-blue-100 text-blue-800 text-xs font-extrabold uppercase tracking-wider px-3 py-1 rounded-full">
+              <i class="fas fa-bolt"></i> Quick Local Summary • {html.escape(display)} ({html.escape(pzip)})
+            </span>
+            <div class="flex flex-wrap gap-3 text-xs font-bold">
+              <a href="/counties/{c_slug}/" class="text-blue-600 hover:underline">{html.escape(county)} Hub &rarr;</a>
+              <a href="/guides/house-cleaning-cost-guide-alabama/" class="text-indigo-600 hover:underline">2026 Cost Calculator &rarr;</a>
+            </div>
+          </div>
+          <h3 class="text-xl sm:text-2xl font-extrabold text-gray-900 mb-2">
+            How Much Does House &amp; Commercial Cleaning Cost in {html.escape(display)}?
+          </h3>
+          <p class="text-sm sm:text-base text-gray-700 leading-relaxed mb-6">
+            In <strong>{html.escape(display)} ({html.escape(county)}, ZIP {html.escape(prof['zips_str'])})</strong>, professional residential house cleaning typically ranges from <strong>$125–$215</strong> for recurring maid visits, <strong>$220–$420</strong> for intensive top-to-bottom deep cleaning, and <strong>$250–$480</strong> for empty-home move-in/move-out turnovers, with <strong>zero contracts and zero travel fees</strong>. Commercial janitorial is flat-rate quoted by facility square footage and shift frequency via 24/7 dispatch at <strong>(251) 220-2515</strong>.
+          </p>
+          <div class="overflow-x-auto rounded-2xl border border-gray-200">
+            <table class="w-full text-left border-collapse text-xs sm:text-sm">
+              <thead>
+                <tr class="bg-slate-900 text-white">
+                  <th class="py-3 px-4 font-bold">Cleaning Service Type ({html.escape(city)}, AL)</th>
+                  <th class="py-3 px-4 font-bold">Typical Flat-Rate Range</th>
+                  <th class="py-3 px-4 font-bold">2-Crew Duration</th>
+                  <th class="py-3 px-4 font-bold">Core Scope Included</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-gray-200 text-gray-800 bg-white">
+                <tr class="hover:bg-blue-50/50">
+                  <td class="py-3 px-4 font-bold">Recurring Maid Service</td>
+                  <td class="py-3 px-4 font-semibold text-blue-700">$125 – $215 / visit</td>
+                  <td class="py-3 px-4">1.5 – 3.5 hrs</td>
+                  <td class="py-3 px-4">Kitchens, baths, dusting, HEPA vacuuming &amp; damp floor mopping</td>
+                </tr>
+                <tr class="hover:bg-blue-50/50">
+                  <td class="py-3 px-4 font-bold">Top-to-Bottom Deep Clean</td>
+                  <td class="py-3 px-4 font-semibold text-blue-700">$220 – $420 flat rate</td>
+                  <td class="py-3 px-4">3.5 – 6.5 hrs</td>
+                  <td class="py-3 px-4">Hand-washed baseboards, blinds, vents, grout descaling &amp; degreasing</td>
+                </tr>
+                <tr class="hover:bg-blue-50/50">
+                  <td class="py-3 px-4 font-bold">Move-In / Move-Out Turnover</td>
+                  <td class="py-3 px-4 font-semibold text-blue-700">$250 – $480 flat rate</td>
+                  <td class="py-3 px-4">3.5 – 6.0 hrs</td>
+                  <td class="py-3 px-4">Inside cabinets, drawers, oven, fridge, closets &amp; deposit checklist</td>
+                </tr>
+                <tr class="hover:bg-blue-50/50">
+                  <td class="py-3 px-4 font-bold">Airbnb / Vacation Rental Turn</td>
+                  <td class="py-3 px-4 font-semibold text-blue-700">$140 – $340 / turn</td>
+                  <td class="py-3 px-4">10 AM – 3 PM window</td>
+                  <td class="py-3 px-4">Fresh linens, restocking, sand/humidity reset &amp; host photo report</td>
+                </tr>
+                <tr class="hover:bg-blue-50/50">
+                  <td class="py-3 px-4 font-bold">Commercial &amp; Medical Janitorial</td>
+                  <td class="py-3 px-4 font-semibold text-blue-700">Custom Flat Monthly / Visit</td>
+                  <td class="py-3 px-4">Nightly / Weekly</td>
+                  <td class="py-3 px-4">EPA List N disinfection, restrooms, workstations, VCT/carpet care &amp; COI</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>"""
+
+def build_ai_service_summary_and_table(prof, srv_key):
+    srv = SERVICES[srv_key]
+    city = prof["city"]
+    display = prof["display_title"]
+    county = prof["county"]
+    c_slug = county_to_slug(prof["county_short"])
+    pzip = prof["primary_zip"]
+    short_name = srv["short_name"]
+    return f"""
+        <!-- 🤖 AI OVERVIEW DIRECT ANSWER & SCOPE/DURATION MATRIX -->
+        <div id="ai-quick-answer" class="bg-white rounded-3xl p-6 sm:p-8 shadow-2xl border-2 border-blue-500/30 mb-14 text-left">
+          <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+            <span class="inline-flex items-center gap-2 bg-blue-100 text-blue-800 text-xs font-extrabold uppercase tracking-wider px-3 py-1 rounded-full">
+              <i class="fas fa-bolt"></i> At-a-Glance Service Guide • {html.escape(display)} ({html.escape(pzip)})
+            </span>
+            <div class="flex flex-wrap gap-3 text-xs font-bold">
+              <a href="/services/{srv_key}/" class="text-blue-600 hover:underline">Alabama {html.escape(short_name)} Guide &rarr;</a>
+              <a href="/counties/{c_slug}/" class="text-indigo-600 hover:underline">{html.escape(county)} Coverage &rarr;</a>
+              <a href="/guides/house-cleaning-cost-guide-alabama/" class="text-purple-600 hover:underline">Pricing Guide &rarr;</a>
+            </div>
+          </div>
+          <h3 class="text-xl sm:text-2xl font-extrabold text-gray-900 mb-2">
+            {html.escape(short_name)} in {html.escape(display)}: Quick Scope, Schedule &amp; Pricing Summary
+          </h3>
+          <p class="text-sm sm:text-base text-gray-700 leading-relaxed mb-6">
+            <strong>Zoiris Cleaning Services</strong> provides flat-rate, contract-free <strong>{html.escape(short_name.lower())}</strong> throughout <strong>{html.escape(display)} ({html.escape(county)}, ZIP {html.escape(prof['zips_str'])})</strong> using W-2 background-checked technicians and commercial HEPA/EPA-registered equipment. Recommended schedule: <em>{html.escape(srv['cadence'])}</em>, backed by a 24-hour 100% Re-Clean Guarantee and zero travel fees—call <strong>(251) 220-2515</strong> for an instant estimate.
+          </p>
+          <div class="overflow-x-auto rounded-2xl border border-gray-200">
+            <table class="w-full text-left border-collapse text-xs sm:text-sm">
+              <thead>
+                <tr class="bg-slate-900 text-white">
+                  <th class="py-3 px-4 font-bold">Property Tier in {html.escape(city)}, AL</th>
+                  <th class="py-3 px-4 font-bold">Square Footage</th>
+                  <th class="py-3 px-4 font-bold">Assigned Crew &amp; Est. Time</th>
+                  <th class="py-3 px-4 font-bold">Included {html.escape(short_name)} Deliverables</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-gray-200 text-gray-800 bg-white">
+                <tr class="hover:bg-blue-50/50">
+                  <td class="py-3 px-4 font-bold">Compact Home / Condo / Suite</td>
+                  <td class="py-3 px-4">Up to 1,500 sq ft</td>
+                  <td class="py-3 px-4">2 Technicians • 1.5 – 3 hrs</td>
+                  <td class="py-3 px-4">{html.escape(srv['process'][0])}; {html.escape(srv['process'][1].lower())}</td>
+                </tr>
+                <tr class="hover:bg-blue-50/50">
+                  <td class="py-3 px-4 font-bold">Standard Family Residence / Office</td>
+                  <td class="py-3 px-4">1,500 – 3,000 sq ft</td>
+                  <td class="py-3 px-4">2–3 Technicians • 2.5 – 4.5 hrs</td>
+                  <td class="py-3 px-4">{html.escape(srv['process'][2])}; {html.escape(srv['process'][3].lower())}</td>
+                </tr>
+                <tr class="hover:bg-blue-50/50">
+                  <td class="py-3 px-4 font-bold">Large Estate / Commercial Facility</td>
+                  <td class="py-3 px-4">3,000 – 10,000+ sq ft</td>
+                  <td class="py-3 px-4">3–5+ Technicians • Custom Shift</td>
+                  <td class="py-3 px-4">{html.escape(srv['process'][4])}; {html.escape(srv['process'][5].lower())}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>"""
+
 def build_service_faqs(prof, srv_key, actual_folder):
     srv = SERVICES[srv_key]
     srv_name = srv["name"]
@@ -389,9 +528,11 @@ def build_hub_body_html(loc_slug, det_folder):
           </p>
         </div>
 
+{build_ai_hub_summary_and_table(prof)}
+
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-12">
           <div class="relative">
-            <img src="/images/services_action.png" alt="Zoiris Cleaning Services professional team serving {html.escape(display)}" loading="lazy" width="800" height="533" class="rounded-2xl shadow-2xl w-full h-auto object-cover border-4 border-white/20" />
+            <img src="/images/services_action.webp" alt="Zoiris Cleaning Services professional team serving {html.escape(display)}" loading="lazy" width="800" height="533" class="rounded-2xl shadow-2xl w-full h-auto object-cover border-4 border-white/20" />
             <div class="mt-4 grid grid-cols-3 gap-3 text-center">
               <div class="bg-white/95 rounded-xl p-3 shadow">
                 <p class="text-xs text-gray-500 uppercase font-bold">County</p>
@@ -584,6 +725,8 @@ def build_service_body_html(loc_slug, srv_key, actual_folder, det_map):
           </p>
         </div>
 
+{build_ai_service_summary_and_table(prof, srv_key)}
+
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-16">
           <div>
             <img src="{srv['image']}" alt="{html.escape(srv['name'])} in {html.escape(display)} by Zoiris Cleaning Services" loading="lazy" width="800" height="533" class="rounded-2xl shadow-2xl w-full h-auto object-cover border-4 border-white/20 mb-6" />
@@ -760,6 +903,19 @@ def build_jsonld_schema(page_kind, canonical_url, loc_slug=None, srv_key=None, f
         }
         crumbs.append({"@type": "ListItem", "position": 2, "name": "Alabama Locations", "item": "https://www.zoiriscleaningservices.com/locations/"})
         crumbs.append({"@type": "ListItem", "position": 3, "name": prof["display_title"], "item": f"https://www.zoiriscleaningservices.com/{loc_slug}/"})
+
+        graph.append({
+            "@type": "WebPage",
+            "@id": f"{canonical_url}#webpage",
+            "url": canonical_url,
+            "name": title,
+            "description": desc,
+            "isPartOf": {"@id": "https://www.zoiriscleaningservices.com/#website"},
+            "speakable": {
+                "@type": "SpeakableSpecification",
+                "cssSelector": ["#ai-quick-answer", "#faq"]
+            }
+        })
 
         if page_kind == "location_hub":
             graph.append({
