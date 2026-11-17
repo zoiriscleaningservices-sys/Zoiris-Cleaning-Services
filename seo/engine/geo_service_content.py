@@ -672,7 +672,8 @@ def build_service_body_html(loc_slug, srv_key, actual_folder, det_map):
 def build_jsonld_schema(page_kind, canonical_url, loc_slug=None, srv_key=None, faqs=None, title="", desc=""):
     # Headquarters Service-Area Business entity (Google LocalBusiness / CleaningService compliant!)
     hq_business = {
-        "@type": "CleaningService",
+        "@type": "LocalBusiness",
+        "additionalType": "https://schema.org/CleaningService",
         "@id": "https://www.zoiriscleaningservices.com/#organization",
         "name": "Zoiris Cleaning Services",
         "legalName": "Zoiris Cleaning Services LLC",
