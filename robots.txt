@@ -1,7 +1,8 @@
 User-agent: *
 Allow: /
+Disallow: /seo/
+Disallow: /dashboard.html
+Disallow: /Gallery/Dash.html
+Disallow: /404.html
 
 Sitemap: https://www.zoiriscleaningservices.com/sitemap_index.xml
-Sitemap: https://www.zoiriscleaningservices.com/sitemap_priority.xml
-Sitemap: https://www.zoiriscleaningservices.com/sitemap_0.xml
-

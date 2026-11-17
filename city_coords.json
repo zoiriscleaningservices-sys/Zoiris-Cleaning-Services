@@ -1,1938 +1,2517 @@
 {
-    "Skyline": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Stevenson": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Cherokee": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Altoona": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Ohatchee": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Elba": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Saraland": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Gardendale": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Columbia": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Pollard": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Fort Payne": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Lisman": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Wilsonville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Banks": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Glen Allen": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Nectar": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Yellow Bluff": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Hobson City": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Goshen": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Helena": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Union Grove": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Clio": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Butler": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Garden City": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Lillian": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Point Clear": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Lincoln": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Twin": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Sweet Water": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Tillman's Corner": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Natural Bridge": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Vincent": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Faunsdale": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Good Hope": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Highland Lake": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Foley": {
-        "lat": 30.3729,
-        "lon": -87.6833
-    },
-    "Gurley": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Berry": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Newville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Decatur": {
-        "lat": 34.6059,
-        "lon": -86.9833
-    },
-    "Pinson": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Smiths Station": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Stapleton": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Atmore": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Fultondale": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Montevallo": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Fayette": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Indian Springs Village": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Waverly": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Cusseta": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Woodville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Cullman": {
-        "lat": 34.1748,
-        "lon": -86.8436
-    },
-    "Livingston": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "New Hope": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Hayneville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Gordon": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Whistler": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Brantley": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Brookwood": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Moulton": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Mountain Brook": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Glenwood": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Albertville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Bon Air": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Cleveland": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Kennedy": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Wetumpka": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Carolina": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Orrville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Madrid": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Oxford": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Anniston": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Semmes": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Memphis": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Dayton": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Franklin": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Red Bay": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Calvert": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Munford": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Sumiton": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Birmingham": {
-        "lat": 33.5186,
-        "lon": -86.8104
-    },
-    "Dothan": {
-        "lat": 31.2232,
-        "lon": -85.3905
-    },
-    "Douglas": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Heath": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Midfield": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Dauphin Island": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "McCalla": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Coker": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Rosa": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Section": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Perdido": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Walnut Grove": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Irvington": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Northport": {
-        "lat": 33.2221,
-        "lon": -87.5772
-    },
-    "Demopolis": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Chelsea": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Alabaster": {
-        "lat": 33.2443,
-        "lon": -86.8164
-    },
-    "Langston": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Choccolocco": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Henagar": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Hackleburg": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Lynn": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Littleville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Columbiana": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Toxey": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Collinsville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Fulton": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Hoover": {
-        "lat": 33.4054,
-        "lon": -86.8058
-    },
-    "Margaret": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Coaling": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Kinston": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Phenix City": {
-        "lat": 32.471,
-        "lon": -85.0016
-    },
-    "Five Points": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Avon": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Coffee Springs": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Gordonville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Cowarts": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Dadeville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Florence": {
-        "lat": 34.7998,
-        "lon": -87.6773
-    },
-    "Enterprise": {
-        "lat": 31.3152,
-        "lon": -85.8552
-    },
-    "Graysville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Loxley": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Prichard": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Vance": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Wilton": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Bucks": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Athens": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Leesburg": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Huntsville": {
-        "lat": 34.7304,
-        "lon": -86.5861
-    },
-    "Town Creek": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Sand Rock": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Holly Pond": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Warrior": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Petrey": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Theodore": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Addison": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Carrollton": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Brighton": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Daphne": {
-        "lat": 30.6034,
-        "lon": -87.9036
-    },
-    "Coffeeville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Concord": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Selma": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Courtland": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Needham": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Pisgah": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Hueytown": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Grand Bay": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Rabun": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Pine Apple": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Grant": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Cottonwood": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Sylacauga": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Ranburne": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Aliceville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Clay": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Grove Hill": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Killen": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Clanton": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Cedar Bluff": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Owens Cross Roads": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Trafford": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Trussville": {
-        "lat": 33.6198,
-        "lon": -86.6089
-    },
-    "Haleyville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Steele": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Satsuma": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Hurtsboro": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Evergreen": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Ozark": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "New Brockton": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Argo": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Onycha": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Greenville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Castleberry": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Baileyton": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Andalusia": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Georgiana": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Bessemer": {
-        "lat": 33.4018,
-        "lon": -86.9544
-    },
-    "Hanceville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Moody": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Providence": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Bay Minette": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Spanish Fort": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Hollywood": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Nokomis": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Sylvan Springs": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Clayhatchee": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Headland": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Priceville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Union Springs": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Millbrook": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Kinsey": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Wedowee": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "West Point": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Valley": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Mosses": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Guin": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Chunchula": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Vredenburgh": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Geneva": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Attalla": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Camden": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Tuscumbia": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Jemison": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Gaylesville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Flomaton": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Gadsden": {
-        "lat": 34.0143,
-        "lon": -86.0066
-    },
-    "Oak Hill": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Tensaw": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Thorsby": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Blue Springs": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Midway": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Bakerhill": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Hytop": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Hartford": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Valley Grande": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Fyffe": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Roanoke": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Coden": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Camp Hill": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Hartselle": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Napier Field": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Daleville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Nauvoo": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Opp": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Malvern": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Fort Deposit": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Adamsville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Russellville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "White Hall": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Pell City": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Saint Stephens": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Ashford": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Shorter": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Libertyville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Myrtlewood": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Powell": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Webb": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Waldo": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "West Jefferson": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Calera": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Chatom": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Troy": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Center Point": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Pickensville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Brewton": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Odenville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Pike Road": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Ethelsville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Fairhope": {
-        "lat": 30.5229,
-        "lon": -87.9032
-    },
-    "Monroeville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Benton": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Maplesville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Leighton": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Boligee": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Eutaw": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Snead": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Sardis City": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Glencoe": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Maytown": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Woodstock": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Hillsboro": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Hamilton": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Elmore": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Muscle Shoals": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Geiger": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Midland City": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Summerdale": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Crossville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Linden": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Montrose": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Colony": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Uniontown": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Jackson": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Clayton": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Childersburg": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Epes": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Bridgeport": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Double Springs": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Detroit": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Mulga": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Pinckard": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Winfield": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Tarrant": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Elkmont": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "East Brewton": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Slocomb": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Prattville": {
-        "lat": 32.464,
-        "lon": -86.4597
-    },
-    "Mount Vernon": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Riverside": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Silas": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Pelham": {
-        "lat": 33.2859,
-        "lon": -86.8119
-    },
-    "Millry": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "York": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Reece City": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Bayou La Batre": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Sanford": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Lake View": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Mentone": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Greensboro": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Creola": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Gainesville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Moundville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Reform": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Fruithurst": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Harpersville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Millport": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Vina": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Cuba": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Irondale": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Ider": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Rainsville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Lakeview": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Robertsdale": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Arley": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Weston": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Pleasant Groves": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Brookside": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Chickasaw": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Gordo": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Locust Fork": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Thomasville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Gulf Shores": {
-        "lat": 30.2706,
-        "lon": -87.7011
-    },
-    "Rockford": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Sipsey": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Pennington": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Rainbow City": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Tallassee": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Samson": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "McKenzie": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Toulminville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Marion": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Boaz": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Allgood": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Southside": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Heflin": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Haleburg": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "North Courtland": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Taylor": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Pine Hill": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Tuscaloosa": {
-        "lat": 33.2098,
-        "lon": -87.5692
-    },
-    "Parrish": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Eclectic": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Goodwater": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Level Plains": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Paint Rock": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Daviston": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Rehobeth": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Dutton": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Loachapoka": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Springville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Saint Elmo": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Eldridge": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Autaugaville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Riverview": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Pine Ridge": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Waterloo": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "West Blocton": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Talladega": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Brilliant": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Dodge City": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Bear Creek": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Alexander City": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Dora": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Centre": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Notasulga": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Triana": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Edwardsville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Lipscomb": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Black": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Ragland": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Hammondville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Eight Mile": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Ashland": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Madison": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Cardiff": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Sylvania": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Leeds": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Eufaula": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Saint Florian": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Falkville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Hokes Bluff": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Frisco City": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Piedmont": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Repton": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Opelika": {
-        "lat": 32.6454,
-        "lon": -85.3783
-    },
-    "Ariton": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Lockhart": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Thomaston": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Grimes": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Belk": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Stockton": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Vernon": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Oakman": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Weaver": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Akron": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Luverne": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Vestavia Hills": {
-        "lat": 33.4487,
-        "lon": -86.7878
-    },
-    "Sulligent": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "McMullen": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Elberta": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Susan Moore": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Wadley": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Trinity": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Citronelle": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Dozier": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Pleasant Grove": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Hayden": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Deatsville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Goldville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Shiloh": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Homewood": {
-        "lat": 33.4718,
-        "lon": -86.7933
-    },
-    "Coosada": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Centreville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Jasper": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Gulfcrest": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Cordova": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Horn Hill": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Fairfield": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Fairview": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Hodges": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Eva": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Forkland": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Valley Head": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Mooresville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Lineville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Carbon Hill": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Phil Campbell": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Anderson": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "River Falls": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Tuskegee": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Newbern": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Beatrice": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Jackson's Gap": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Jacksonville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Emelle": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Axis": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Lexington": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Arab": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Talladega Springs": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Magnolia Springs": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Rogersville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Sheffield": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Geraldine": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Ardmore": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "New Site": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Rutledge": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Somerville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Mobile": {
-        "lat": 30.6954,
-        "lon": -88.0399
-    },
-    "Babbie": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Ashville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Gilbertown": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Beaverton": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "County Line": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Excel": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Oneonta": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Orange Beach": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Billingsley": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Florala": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "LaFayette": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Morris": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Blountsville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Newton": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Gantt": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Brundidge": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Auburn": {
-        "lat": 32.6099,
-        "lon": -85.4808
-    },
-    "Woodland": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Kellyton": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Perdido Beach": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Lanett": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Lester": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Oak Grove": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "McIntosh": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Wilmer": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "South Vinemont": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Scottsboro": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Ridgeville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Gu-Win": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Brent": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Montgomery": {
-        "lat": 32.3668,
-        "lon": -86.3
-    },
-    "Kansas": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Abbeville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Red Level": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Silverhill": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    },
-    "Guntersville": {
-        "lat": 32.3182,
-        "lon": -86.9023
-    }
+  "Abbeville": {
+    "lat": 31.56471,
+    "lon": -85.25912,
+    "county": "Henry County"
+  },
+  "Adamsville": {
+    "lat": 33.60231,
+    "lon": -86.97153,
+    "county": "Jefferson County"
+  },
+  "Addison": {
+    "lat": 34.20268,
+    "lon": -87.178,
+    "county": "Winston County"
+  },
+  "Akron": {
+    "lat": 32.87907,
+    "lon": -87.7409,
+    "county": "Hale County"
+  },
+  "Alabaster": {
+    "lat": 33.21435,
+    "lon": -86.82308,
+    "county": "Shelby County"
+  },
+  "Albertville": {
+    "lat": 34.26313,
+    "lon": -86.21066,
+    "county": "Marshall County"
+  },
+  "Alexander City": {
+    "lat": 32.91672,
+    "lon": -85.94059,
+    "county": "Tallapoosa County"
+  },
+  "Aliceville": {
+    "lat": 33.12371,
+    "lon": -88.15934,
+    "county": "Pickens County"
+  },
+  "Allgood": {
+    "lat": 33.90762,
+    "lon": -86.51611,
+    "county": "Blount County"
+  },
+  "Altoona": {
+    "lat": 34.04001,
+    "lon": -86.30518,
+    "county": "Etowah County"
+  },
+  "Andalusia": {
+    "lat": 31.30944,
+    "lon": -86.47803,
+    "county": "Covington County"
+  },
+  "Anderson": {
+    "lat": 34.91568,
+    "lon": -87.27427,
+    "county": "Lauderdale County"
+  },
+  "Anniston": {
+    "lat": 33.67347,
+    "lon": -85.81089,
+    "county": "Calhoun County"
+  },
+  "Arab": {
+    "lat": 34.33239,
+    "lon": -86.50117,
+    "county": "Marshall County"
+  },
+  "Ardmore": {
+    "lat": 34.98784,
+    "lon": -86.82902,
+    "county": "Limestone County"
+  },
+  "Argo": {
+    "lat": 33.69102,
+    "lon": -86.50528,
+    "county": "Saint Clair County"
+  },
+  "Ariton": {
+    "lat": 31.59777,
+    "lon": -85.71306,
+    "county": "Dale County"
+  },
+  "Arley": {
+    "lat": 34.07623,
+    "lon": -87.21783,
+    "county": "Winston County"
+  },
+  "Ashford": {
+    "lat": 31.18528,
+    "lon": -85.23624,
+    "county": "Houston County"
+  },
+  "Ashland": {
+    "lat": 33.26989,
+    "lon": -85.83371,
+    "county": "Clay County"
+  },
+  "Ashville": {
+    "lat": 33.8352,
+    "lon": -86.27002,
+    "county": "Saint Clair County"
+  },
+  "Athens": {
+    "lat": 34.77902,
+    "lon": -86.9508,
+    "county": "Limestone County"
+  },
+  "Atmore": {
+    "lat": 31.12407,
+    "lon": -87.4578,
+    "county": "Escambia County"
+  },
+  "Attalla": {
+    "lat": 33.98619,
+    "lon": -86.12104,
+    "county": "Etowah County"
+  },
+  "Auburn": {
+    "lat": 32.60781,
+    "lon": -85.49475,
+    "county": "Lee County"
+  },
+  "Audubon": {
+    "lat": 32.3526,
+    "lon": -86.2799,
+    "county": "Montgomery County"
+  },
+  "Autaugaville": {
+    "lat": 32.43256,
+    "lon": -86.65875,
+    "county": "Autauga County"
+  },
+  "Avon": {
+    "lat": 31.17973,
+    "lon": -85.27921,
+    "county": "Houston County"
+  },
+  "Axis": {
+    "lat": 30.9316,
+    "lon": -88.0269,
+    "county": "Mobile County"
+  },
+  "Babbie": {
+    "lat": 31.30208,
+    "lon": -86.31944,
+    "county": "Covington County"
+  },
+  "Baileyton": {
+    "lat": 34.26086,
+    "lon": -86.60879,
+    "county": "Cullman County"
+  },
+  "Bakerhill": {
+    "lat": 31.77692,
+    "lon": -85.29541,
+    "county": "Barbour County"
+  },
+  "Banks": {
+    "lat": 31.81326,
+    "lon": -85.83643,
+    "county": "Pike County"
+  },
+  "Bay Minette": {
+    "lat": 30.89444,
+    "lon": -87.79131,
+    "county": "Baldwin County"
+  },
+  "Bayou La Batre": {
+    "lat": 30.40759,
+    "lon": -88.26327,
+    "county": "Mobile County"
+  },
+  "Bear Creek": {
+    "lat": 34.25548,
+    "lon": -87.7134,
+    "county": "Marion County"
+  },
+  "Beatrice": {
+    "lat": 31.73331,
+    "lon": -87.20905,
+    "county": "Monroe County"
+  },
+  "Beaverton": {
+    "lat": 33.93541,
+    "lon": -88.02178,
+    "county": "Lamar County"
+  },
+  "Belk": {
+    "lat": 33.65164,
+    "lon": -87.92861,
+    "county": "Fayette County"
+  },
+  "Benton": {
+    "lat": 32.30793,
+    "lon": -86.81755,
+    "county": "Lowndes County"
+  },
+  "Berlin": {
+    "lat": 34.185,
+    "lon": -86.74895,
+    "county": "Cullman County"
+  },
+  "Berry": {
+    "lat": 33.6667,
+    "lon": -87.60931,
+    "county": "Fayette County"
+  },
+  "Bessemer": {
+    "lat": 33.37086,
+    "lon": -86.97152,
+    "county": "Jefferson County"
+  },
+  "Billingsley": {
+    "lat": 32.66471,
+    "lon": -86.70671,
+    "county": "Autauga County"
+  },
+  "Birmingham": {
+    "lat": 33.52717,
+    "lon": -86.79704,
+    "county": "Shelby County"
+  },
+  "Black": {
+    "lat": 31.00977,
+    "lon": -85.74442,
+    "county": "Geneva County"
+  },
+  "Blountsville": {
+    "lat": 34.07584,
+    "lon": -86.58392,
+    "county": "Blount County"
+  },
+  "Blue Springs": {
+    "lat": 31.66352,
+    "lon": -85.50353,
+    "county": "Barbour County"
+  },
+  "Boaz": {
+    "lat": 34.19902,
+    "lon": -86.15515,
+    "county": "Marshall County"
+  },
+  "Boligee": {
+    "lat": 32.76808,
+    "lon": -88.02859,
+    "county": "Greene County"
+  },
+  "Bon Air": {
+    "lat": 33.25937,
+    "lon": -86.32715,
+    "county": "Talladega County"
+  },
+  "Brantley": {
+    "lat": 31.58199,
+    "lon": -86.25678,
+    "county": "Crenshaw County"
+  },
+  "Brent": {
+    "lat": 32.94489,
+    "lon": -87.17209,
+    "county": "Bibb County"
+  },
+  "Brewton": {
+    "lat": 31.10918,
+    "lon": -87.07658,
+    "county": "Escambia County"
+  },
+  "Bridgeport": {
+    "lat": 34.94931,
+    "lon": -85.72377,
+    "county": "Jackson County"
+  },
+  "Brighton": {
+    "lat": 33.43955,
+    "lon": -86.9454,
+    "county": "Jefferson County"
+  },
+  "Brilliant": {
+    "lat": 34.02567,
+    "lon": -87.76905,
+    "county": "Marion County"
+  },
+  "Brookside": {
+    "lat": 33.63462,
+    "lon": -86.90631,
+    "county": "Jefferson County"
+  },
+  "Brookwood": {
+    "lat": 33.23984,
+    "lon": -87.33149,
+    "county": "Tuscaloosa County"
+  },
+  "Brundidge": {
+    "lat": 31.71764,
+    "lon": -85.81755,
+    "county": "Pike County"
+  },
+  "Bucks": {
+    "lat": 31.0163,
+    "lon": -88.0258,
+    "county": "Mobile County"
+  },
+  "Butler": {
+    "lat": 32.09648,
+    "lon": -88.21078,
+    "county": "Choctaw County"
+  },
+  "Calera": {
+    "lat": 33.12232,
+    "lon": -86.74564,
+    "county": "Shelby County"
+  },
+  "Calvert": {
+    "lat": 31.1499,
+    "lon": -88.02155,
+    "county": "Washington County"
+  },
+  "Camden": {
+    "lat": 31.99849,
+    "lon": -87.28895,
+    "county": "Wilcox County"
+  },
+  "Camp Hill": {
+    "lat": 32.79733,
+    "lon": -85.65583,
+    "county": "Tallapoosa County"
+  },
+  "Carbon Hill": {
+    "lat": 33.89499,
+    "lon": -87.52208,
+    "county": "Walker County"
+  },
+  "Cardiff": {
+    "lat": 33.64729,
+    "lon": -86.93064,
+    "county": "Jefferson County"
+  },
+  "Carolina": {
+    "lat": 31.23415,
+    "lon": -86.521,
+    "county": "Covington County"
+  },
+  "Carrollton": {
+    "lat": 33.2619,
+    "lon": -88.09507,
+    "county": "Pickens County"
+  },
+  "Castleberry": {
+    "lat": 31.29968,
+    "lon": -87.02913,
+    "county": "Conecuh County"
+  },
+  "Cedar Bluff": {
+    "lat": 34.22142,
+    "lon": -85.58857,
+    "county": "Cherokee County"
+  },
+  "Center Point": {
+    "lat": 33.6439,
+    "lon": -86.68457,
+    "county": "Jefferson County"
+  },
+  "Centre": {
+    "lat": 34.15306,
+    "lon": -85.67168,
+    "county": "Cherokee County"
+  },
+  "Centreville": {
+    "lat": 32.95897,
+    "lon": -87.13204,
+    "county": "Bibb County"
+  },
+  "Chatom": {
+    "lat": 31.46915,
+    "lon": -88.24602,
+    "county": "Washington County"
+  },
+  "Chelsea": {
+    "lat": 33.30901,
+    "lon": -86.63514,
+    "county": "Shelby County"
+  },
+  "Cherokee": {
+    "lat": 34.7577,
+    "lon": -87.96559,
+    "county": "Colbert County"
+  },
+  "Cherokee Ridge": {
+    "lat": 34.4025,
+    "lon": -86.529,
+    "county": "Marshall County"
+  },
+  "Chickasaw": {
+    "lat": 30.77145,
+    "lon": -88.0797,
+    "county": "Mobile County"
+  },
+  "Childersburg": {
+    "lat": 33.29255,
+    "lon": -86.34084,
+    "county": "Talladega County"
+  },
+  "Choccolocco": {
+    "lat": 33.66773,
+    "lon": -85.70719,
+    "county": "Calhoun County"
+  },
+  "Chunchula": {
+    "lat": 30.9196,
+    "lon": -88.1989,
+    "county": "Mobile County"
+  },
+  "Citronelle": {
+    "lat": 31.09727,
+    "lon": -88.24984,
+    "county": "Mobile County"
+  },
+  "Clanton": {
+    "lat": 32.84557,
+    "lon": -86.61949,
+    "county": "Chilton County"
+  },
+  "Clay": {
+    "lat": 33.69658,
+    "lon": -86.60818,
+    "county": "Jefferson County"
+  },
+  "Clayhatchee": {
+    "lat": 31.23692,
+    "lon": -85.72148,
+    "county": "Geneva County"
+  },
+  "Clayton": {
+    "lat": 31.88228,
+    "lon": -85.46045,
+    "county": "Barbour County"
+  },
+  "Cleveland": {
+    "lat": 34.00218,
+    "lon": -86.56135,
+    "county": "Blount County"
+  },
+  "Clio": {
+    "lat": 31.70852,
+    "lon": -85.61104,
+    "county": "Barbour County"
+  },
+  "Coaling": {
+    "lat": 33.1699,
+    "lon": -87.34989,
+    "county": "Tuscaloosa County"
+  },
+  "Coden": {
+    "lat": 30.3885,
+    "lon": -88.2392,
+    "county": "Mobile County"
+  },
+  "Coffee Springs": {
+    "lat": 31.16584,
+    "lon": -85.9109,
+    "county": "Geneva County"
+  },
+  "Coffeeville": {
+    "lat": 31.76656,
+    "lon": -88.08605,
+    "county": "Clarke County"
+  },
+  "Coker": {
+    "lat": 33.24375,
+    "lon": -87.68133,
+    "county": "Tuscaloosa County"
+  },
+  "Collinsville": {
+    "lat": 34.26722,
+    "lon": -85.86861,
+    "county": "De Kalb County"
+  },
+  "Colony": {
+    "lat": 33.94139,
+    "lon": -86.902,
+    "county": "Cullman County"
+  },
+  "Columbia": {
+    "lat": 31.29535,
+    "lon": -85.1102,
+    "county": "Houston County"
+  },
+  "Columbiana": {
+    "lat": 33.19145,
+    "lon": -86.61562,
+    "county": "Shelby County"
+  },
+  "Concord": {
+    "lat": 33.46199,
+    "lon": -87.04043,
+    "county": "Jefferson County"
+  },
+  "Coosada": {
+    "lat": 32.49539,
+    "lon": -86.32654,
+    "county": "Elmore County"
+  },
+  "Cordova": {
+    "lat": 33.76179,
+    "lon": -87.19942,
+    "county": "Walker County"
+  },
+  "Cottage Hill": {
+    "lat": 30.6594,
+    "lon": -88.1519,
+    "county": "Mobile County"
+  },
+  "Cottonwood": {
+    "lat": 31.05403,
+    "lon": -85.29956,
+    "county": "Houston County"
+  },
+  "County Line": {
+    "lat": 33.8189,
+    "lon": -86.71471,
+    "county": "Blount County"
+  },
+  "Courtland": {
+    "lat": 34.66995,
+    "lon": -87.32789,
+    "county": "Lawrence County"
+  },
+  "Cowarts": {
+    "lat": 31.20625,
+    "lon": -85.30977,
+    "county": "Houston County"
+  },
+  "Creola": {
+    "lat": 30.87425,
+    "lon": -88.00954,
+    "county": "Mobile County"
+  },
+  "Crossville": {
+    "lat": 34.2827,
+    "lon": -85.99974,
+    "county": "De Kalb County"
+  },
+  "Cuba": {
+    "lat": 32.44073,
+    "lon": -88.3748,
+    "county": "Sumter County"
+  },
+  "Cullman": {
+    "lat": 34.17687,
+    "lon": -86.84066,
+    "county": "Cullman County"
+  },
+  "Cusseta": {
+    "lat": 32.78764,
+    "lon": -85.30577,
+    "county": "Lee County"
+  },
+  "Dadeville": {
+    "lat": 32.82611,
+    "lon": -85.7762,
+    "county": "Tallapoosa County"
+  },
+  "Daleville": {
+    "lat": 31.29153,
+    "lon": -85.71171,
+    "county": "Dale County"
+  },
+  "Daphne": {
+    "lat": 30.62607,
+    "lon": -87.88178,
+    "county": "Baldwin County"
+  },
+  "Dauphin Island": {
+    "lat": 30.25091,
+    "lon": -88.17127,
+    "county": "Mobile County"
+  },
+  "Daviston": {
+    "lat": 33.05684,
+    "lon": -85.63433,
+    "county": "Tallapoosa County"
+  },
+  "Dayton": {
+    "lat": 32.35096,
+    "lon": -87.64157,
+    "county": "Marengo County"
+  },
+  "Deatsville": {
+    "lat": 32.58904,
+    "lon": -86.38906,
+    "county": "Elmore County"
+  },
+  "Decatur": {
+    "lat": 34.57299,
+    "lon": -86.9899,
+    "county": "Morgan County"
+  },
+  "Demopolis": {
+    "lat": 32.49974,
+    "lon": -87.82668,
+    "county": "Marengo County"
+  },
+  "Detroit": {
+    "lat": 34.02738,
+    "lon": -88.16783,
+    "county": "Lamar County"
+  },
+  "Dodge City": {
+    "lat": 34.04328,
+    "lon": -86.88552,
+    "county": "Cullman County"
+  },
+  "Dog River": {
+    "lat": 30.5791,
+    "lon": -88.1014,
+    "county": "Mobile County"
+  },
+  "Dora": {
+    "lat": 33.72812,
+    "lon": -87.08129,
+    "county": "Jefferson County"
+  },
+  "Dothan": {
+    "lat": 31.2337,
+    "lon": -85.40682,
+    "county": "Houston County"
+  },
+  "Double Springs": {
+    "lat": 34.14965,
+    "lon": -87.38945,
+    "county": "Winston County"
+  },
+  "Douglas": {
+    "lat": 34.16826,
+    "lon": -86.32339,
+    "county": "Marshall County"
+  },
+  "Downtown Mobile": {
+    "lat": 30.6915,
+    "lon": -88.0431,
+    "county": "Mobile County"
+  },
+  "Dozier": {
+    "lat": 31.50541,
+    "lon": -86.36924,
+    "county": "Crenshaw County"
+  },
+  "Dutton": {
+    "lat": 34.60615,
+    "lon": -85.91185,
+    "county": "Jackson County"
+  },
+  "East Brewton": {
+    "lat": 31.09144,
+    "lon": -87.05535,
+    "county": "Escambia County"
+  },
+  "Eastern Shore": {
+    "lat": 30.6035,
+    "lon": -87.9036,
+    "county": "Baldwin County"
+  },
+  "Eclectic": {
+    "lat": 32.64022,
+    "lon": -86.04106,
+    "county": "Elmore County"
+  },
+  "Edwardsville": {
+    "lat": 33.88374,
+    "lon": -85.41412,
+    "county": "Cleburne County"
+  },
+  "Eight Mile": {
+    "lat": 30.7663,
+    "lon": -88.1286,
+    "county": "Mobile County"
+  },
+  "Elba": {
+    "lat": 31.41722,
+    "lon": -86.07712,
+    "county": "Coffee County"
+  },
+  "Elberta": {
+    "lat": 30.37375,
+    "lon": -87.59573,
+    "county": "Baldwin County"
+  },
+  "Eldridge": {
+    "lat": 33.92305,
+    "lon": -87.62287,
+    "county": "Walker County"
+  },
+  "Elkmont": {
+    "lat": 34.9326,
+    "lon": -86.97697,
+    "county": "Limestone County"
+  },
+  "Elmore": {
+    "lat": 32.55661,
+    "lon": -86.34103,
+    "county": "Elmore County"
+  },
+  "Emelle": {
+    "lat": 32.72868,
+    "lon": -88.31649,
+    "county": "Sumter County"
+  },
+  "Enterprise": {
+    "lat": 31.3269,
+    "lon": -85.84402,
+    "county": "Coffee County"
+  },
+  "Epes": {
+    "lat": 32.69505,
+    "lon": -88.14196,
+    "county": "Sumter County"
+  },
+  "Ethelsville": {
+    "lat": 33.41407,
+    "lon": -88.21609,
+    "county": "Pickens County"
+  },
+  "Eufaula": {
+    "lat": 31.90994,
+    "lon": -85.15271,
+    "county": "Barbour County"
+  },
+  "Eutaw": {
+    "lat": 32.84625,
+    "lon": -87.90033,
+    "county": "Greene County"
+  },
+  "Eva": {
+    "lat": 34.3265,
+    "lon": -86.76532,
+    "county": "Morgan County"
+  },
+  "Evergreen": {
+    "lat": 31.43322,
+    "lon": -86.97608,
+    "county": "Conecuh County"
+  },
+  "Excel": {
+    "lat": 31.42639,
+    "lon": -87.34366,
+    "county": "Monroe County"
+  },
+  "Fairfield": {
+    "lat": 33.4748,
+    "lon": -86.91941,
+    "county": "Jefferson County"
+  },
+  "Fairhope": {
+    "lat": 30.52092,
+    "lon": -87.87912,
+    "county": "Baldwin County"
+  },
+  "Fairview": {
+    "lat": 34.25019,
+    "lon": -86.67772,
+    "county": "Cullman County"
+  },
+  "Falkville": {
+    "lat": 34.37702,
+    "lon": -86.90955,
+    "county": "Morgan County"
+  },
+  "Faunsdale": {
+    "lat": 32.45761,
+    "lon": -87.59379,
+    "county": "Marengo County"
+  },
+  "Fayette": {
+    "lat": 33.69421,
+    "lon": -87.83117,
+    "county": "Fayette County"
+  },
+  "Five Points": {
+    "lat": 33.01731,
+    "lon": -85.35159,
+    "county": "Chambers County"
+  },
+  "Flomaton": {
+    "lat": 31.01482,
+    "lon": -87.25602,
+    "county": "Escambia County"
+  },
+  "Florala": {
+    "lat": 31.02239,
+    "lon": -86.31815,
+    "county": "Covington County"
+  },
+  "Florence": {
+    "lat": 34.83032,
+    "lon": -87.66614,
+    "county": "Lauderdale County"
+  },
+  "Foley": {
+    "lat": 30.39701,
+    "lon": -87.66421,
+    "county": "Baldwin County"
+  },
+  "Forkland": {
+    "lat": 32.64744,
+    "lon": -87.86744,
+    "county": "Greene County"
+  },
+  "Fort Deposit": {
+    "lat": 31.98626,
+    "lon": -86.56636,
+    "county": "Lowndes County"
+  },
+  "Fort Morgan": {
+    "lat": 30.233,
+    "lon": -87.9255,
+    "county": "Baldwin County"
+  },
+  "Fort Payne": {
+    "lat": 34.45733,
+    "lon": -85.68945,
+    "county": "De Kalb County"
+  },
+  "Franklin": {
+    "lat": 32.45269,
+    "lon": -85.78541,
+    "county": "Monroe County"
+  },
+  "Frisco City": {
+    "lat": 31.43949,
+    "lon": -87.40418,
+    "county": "Monroe County"
+  },
+  "Fruithurst": {
+    "lat": 33.72954,
+    "lon": -85.43125,
+    "county": "Cleburne County"
+  },
+  "Fulton": {
+    "lat": 31.79099,
+    "lon": -87.74421,
+    "county": "Clarke County"
+  },
+  "Fultondale": {
+    "lat": 33.61736,
+    "lon": -86.80144,
+    "county": "Jefferson County"
+  },
+  "Fyffe": {
+    "lat": 34.44896,
+    "lon": -85.90517,
+    "county": "De Kalb County"
+  },
+  "Gadsden": {
+    "lat": 34.0066,
+    "lon": -86.01608,
+    "county": "Etowah County"
+  },
+  "Gainesville": {
+    "lat": 32.81493,
+    "lon": -88.16079,
+    "county": "Sumter County"
+  },
+  "Gantt": {
+    "lat": 31.41074,
+    "lon": -86.48352,
+    "county": "Covington County"
+  },
+  "Garden City": {
+    "lat": 34.01469,
+    "lon": -86.74905,
+    "county": "Cullman County"
+  },
+  "Gardendale": {
+    "lat": 33.67659,
+    "lon": -86.80984,
+    "county": "Jefferson County"
+  },
+  "Gaylesville": {
+    "lat": 34.26744,
+    "lon": -85.56125,
+    "county": "Cherokee County"
+  },
+  "Geiger": {
+    "lat": 32.86872,
+    "lon": -88.31815,
+    "county": "Sumter County"
+  },
+  "Geneva": {
+    "lat": 31.04489,
+    "lon": -85.87682,
+    "county": "Geneva County"
+  },
+  "Georgiana": {
+    "lat": 31.63913,
+    "lon": -86.74676,
+    "county": "Butler County"
+  },
+  "Geraldine": {
+    "lat": 34.35909,
+    "lon": -86.00258,
+    "county": "De Kalb County"
+  },
+  "Gilbertown": {
+    "lat": 31.86625,
+    "lon": -88.30755,
+    "county": "Choctaw County"
+  },
+  "Glen Allen": {
+    "lat": 33.89211,
+    "lon": -87.73268,
+    "county": "Fayette County"
+  },
+  "Glencoe": {
+    "lat": 33.94834,
+    "lon": -85.93361,
+    "county": "Etowah County"
+  },
+  "Glenwood": {
+    "lat": 31.67127,
+    "lon": -86.17369,
+    "county": "Crenshaw County"
+  },
+  "Goldville": {
+    "lat": 33.08487,
+    "lon": -85.77798,
+    "county": "Clay County"
+  },
+  "Good Hope": {
+    "lat": 34.11069,
+    "lon": -86.8671,
+    "county": "Cullman County"
+  },
+  "Goodwater": {
+    "lat": 33.06071,
+    "lon": -86.05249,
+    "county": "Coosa County"
+  },
+  "Gordo": {
+    "lat": 33.32229,
+    "lon": -87.90368,
+    "county": "Pickens County"
+  },
+  "Gordon": {
+    "lat": 31.14361,
+    "lon": -85.0925,
+    "county": "Houston County"
+  },
+  "Gordonville": {
+    "lat": 32.15918,
+    "lon": -86.70423,
+    "county": "Lowndes County"
+  },
+  "Goshen": {
+    "lat": 31.72002,
+    "lon": -86.12324,
+    "county": "Pike County"
+  },
+  "Grand Bay": {
+    "lat": 30.47208,
+    "lon": -88.3444,
+    "county": "Mobile County"
+  },
+  "Grant": {
+    "lat": 34.51817,
+    "lon": -86.26043,
+    "county": "Marshall County"
+  },
+  "Graysville": {
+    "lat": 33.63376,
+    "lon": -86.9414,
+    "county": "Jefferson County"
+  },
+  "Greensboro": {
+    "lat": 32.70097,
+    "lon": -87.5937,
+    "county": "Hale County"
+  },
+  "Greenville": {
+    "lat": 31.84307,
+    "lon": -86.63695,
+    "county": "Butler County"
+  },
+  "Grimes": {
+    "lat": 31.29987,
+    "lon": -85.45029,
+    "county": "Dale County"
+  },
+  "Grove Hill": {
+    "lat": 31.69867,
+    "lon": -87.77287,
+    "county": "Clarke County"
+  },
+  "Gu-Win": {
+    "lat": 33.94433,
+    "lon": -87.87038,
+    "county": "Marion County"
+  },
+  "Guin": {
+    "lat": 33.98322,
+    "lon": -87.90236,
+    "county": "Marion County"
+  },
+  "Gulf Shores": {
+    "lat": 30.27584,
+    "lon": -87.70126,
+    "county": "Baldwin County"
+  },
+  "Gulfcrest": {
+    "lat": 30.99111,
+    "lon": -88.24223,
+    "county": "Mobile County"
+  },
+  "Guntersville": {
+    "lat": 34.36795,
+    "lon": -86.25232,
+    "county": "Marshall County"
+  },
+  "Gurley": {
+    "lat": 34.70136,
+    "lon": -86.38027,
+    "county": "Madison County"
+  },
+  "Hackleburg": {
+    "lat": 34.26935,
+    "lon": -87.8304,
+    "county": "Marion County"
+  },
+  "Haleburg": {
+    "lat": 31.40998,
+    "lon": -85.13807,
+    "county": "Henry County"
+  },
+  "Haleyville": {
+    "lat": 34.23383,
+    "lon": -87.61757,
+    "county": "Winston County"
+  },
+  "Hamilton": {
+    "lat": 34.13871,
+    "lon": -87.97083,
+    "county": "Marion County"
+  },
+  "Hammondville": {
+    "lat": 34.56623,
+    "lon": -85.64035,
+    "county": "De Kalb County"
+  },
+  "Hanceville": {
+    "lat": 34.06401,
+    "lon": -86.76444,
+    "county": "Cullman County"
+  },
+  "Harpersville": {
+    "lat": 33.31773,
+    "lon": -86.42843,
+    "county": "Shelby County"
+  },
+  "Hartford": {
+    "lat": 31.10535,
+    "lon": -85.69123,
+    "county": "Geneva County"
+  },
+  "Hartselle": {
+    "lat": 34.44043,
+    "lon": -86.94036,
+    "county": "Morgan County"
+  },
+  "Hayden": {
+    "lat": 33.89451,
+    "lon": -86.74422,
+    "county": "Blount County"
+  },
+  "Hayneville": {
+    "lat": 32.18259,
+    "lon": -86.57859,
+    "county": "Lowndes County"
+  },
+  "Headland": {
+    "lat": 31.35497,
+    "lon": -85.35703,
+    "county": "Henry County"
+  },
+  "Heath": {
+    "lat": 31.34484,
+    "lon": -86.46905,
+    "county": "Covington County"
+  },
+  "Heflin": {
+    "lat": 33.6474,
+    "lon": -85.56934,
+    "county": "Cleburne County"
+  },
+  "Helena": {
+    "lat": 33.28342,
+    "lon": -86.87918,
+    "county": "Shelby County"
+  },
+  "Henagar": {
+    "lat": 34.63064,
+    "lon": -85.73092,
+    "county": "De Kalb County"
+  },
+  "Highland Lake": {
+    "lat": 33.89459,
+    "lon": -86.42255,
+    "county": "Blount County"
+  },
+  "Hillsboro": {
+    "lat": 34.64259,
+    "lon": -87.17849,
+    "county": "Lawrence County"
+  },
+  "Hobson City": {
+    "lat": 33.6188,
+    "lon": -85.84615,
+    "county": "Calhoun County"
+  },
+  "Hodges": {
+    "lat": 34.33425,
+    "lon": -87.92316,
+    "county": "Franklin County"
+  },
+  "Hokes Bluff": {
+    "lat": 33.98968,
+    "lon": -85.86287,
+    "county": "Etowah County"
+  },
+  "Holly Pond": {
+    "lat": 34.16769,
+    "lon": -86.61207,
+    "county": "Cullman County"
+  },
+  "Hollywood": {
+    "lat": 34.71728,
+    "lon": -85.96558,
+    "county": "Jackson County"
+  },
+  "Homewood": {
+    "lat": 33.45855,
+    "lon": -86.80965,
+    "county": "Jefferson County"
+  },
+  "Hoover": {
+    "lat": 33.37903,
+    "lon": -86.8089,
+    "county": "Jefferson County"
+  },
+  "Horn Hill": {
+    "lat": 31.23814,
+    "lon": -86.32516,
+    "county": "Covington County"
+  },
+  "Hueytown": {
+    "lat": 33.4086,
+    "lon": -87.01656,
+    "county": "Jefferson County"
+  },
+  "Huntsville": {
+    "lat": 34.69772,
+    "lon": -86.67667,
+    "county": "Madison County"
+  },
+  "Hurtsboro": {
+    "lat": 32.24009,
+    "lon": -85.41467,
+    "county": "Russell County"
+  },
+  "Hytop": {
+    "lat": 34.89664,
+    "lon": -86.08918,
+    "county": "Jackson County"
+  },
+  "Ider": {
+    "lat": 34.7026,
+    "lon": -85.66896,
+    "county": "De Kalb County"
+  },
+  "Indian Springs Village": {
+    "lat": 33.36121,
+    "lon": -86.74686,
+    "county": "Shelby County"
+  },
+  "Irondale": {
+    "lat": 33.53991,
+    "lon": -86.65908,
+    "county": "Jefferson County"
+  },
+  "Irvington": {
+    "lat": 30.5055,
+    "lon": -88.2275,
+    "county": "Mobile County"
+  },
+  "Jackson": {
+    "lat": 31.53232,
+    "lon": -87.89118,
+    "county": "Clarke County"
+  },
+  "Jacksons' Gap": {
+    "lat": 32.8787,
+    "lon": -85.818,
+    "county": "Tallapoosa County"
+  },
+  "Jacksonville": {
+    "lat": 33.81007,
+    "lon": -85.75522,
+    "county": "Calhoun County"
+  },
+  "Jasper": {
+    "lat": 33.85111,
+    "lon": -87.26835,
+    "county": "Walker County"
+  },
+  "Jemison": {
+    "lat": 32.97071,
+    "lon": -86.73307,
+    "county": "Chilton County"
+  },
+  "Kansas": {
+    "lat": 33.90281,
+    "lon": -87.5566,
+    "county": "Walker County"
+  },
+  "Kellyton": {
+    "lat": 32.97919,
+    "lon": -86.03461,
+    "county": "Coosa County"
+  },
+  "Kennedy": {
+    "lat": 33.58072,
+    "lon": -87.9855,
+    "county": "Lamar County"
+  },
+  "Killen": {
+    "lat": 34.86095,
+    "lon": -87.52935,
+    "county": "Lauderdale County"
+  },
+  "Kimberly": {
+    "lat": 33.77699,
+    "lon": -86.80021,
+    "county": "Jefferson County"
+  },
+  "Kinsey": {
+    "lat": 31.29627,
+    "lon": -85.33499,
+    "county": "Houston County"
+  },
+  "Kinston": {
+    "lat": 31.2196,
+    "lon": -86.17007,
+    "county": "Coffee County"
+  },
+  "Lafayette": {
+    "lat": 32.92524,
+    "lon": -85.44256,
+    "county": "Chambers County"
+  },
+  "Lake View": {
+    "lat": 33.2801,
+    "lon": -87.1369,
+    "county": "Tuscaloosa County"
+  },
+  "Lakeview": {
+    "lat": 34.3912,
+    "lon": -85.975,
+    "county": "DeKalb County"
+  },
+  "Lanett": {
+    "lat": 32.85865,
+    "lon": -85.20779,
+    "county": "Chambers County"
+  },
+  "Langston": {
+    "lat": 34.54506,
+    "lon": -86.09335,
+    "county": "Jackson County"
+  },
+  "Leeds": {
+    "lat": 33.54685,
+    "lon": -86.57145,
+    "county": "Jefferson County"
+  },
+  "Leesburg": {
+    "lat": 34.17863,
+    "lon": -85.7779,
+    "county": "Cherokee County"
+  },
+  "Leighton": {
+    "lat": 34.69368,
+    "lon": -87.52428,
+    "county": "Colbert County"
+  },
+  "Lester": {
+    "lat": 34.98275,
+    "lon": -87.15553,
+    "county": "Limestone County"
+  },
+  "Level Plains": {
+    "lat": 31.30712,
+    "lon": -85.76872,
+    "county": "Dale County"
+  },
+  "Lexington": {
+    "lat": 34.95935,
+    "lon": -87.37283,
+    "county": "Lauderdale County"
+  },
+  "Libertyville": {
+    "lat": 31.24005,
+    "lon": -86.45695,
+    "county": "Covington County"
+  },
+  "Lillian": {
+    "lat": 30.4094,
+    "lon": -87.4397,
+    "county": "Baldwin County"
+  },
+  "Lincoln": {
+    "lat": 33.58017,
+    "lon": -86.12788,
+    "county": "Talladega County"
+  },
+  "Linden": {
+    "lat": 32.30136,
+    "lon": -87.79258,
+    "county": "Marengo County"
+  },
+  "Lineville": {
+    "lat": 33.31283,
+    "lon": -85.75228,
+    "county": "Clay County"
+  },
+  "Lipscomb": {
+    "lat": 33.42601,
+    "lon": -86.9261,
+    "county": "Jefferson County"
+  },
+  "Lisman": {
+    "lat": 32.17173,
+    "lon": -88.28409,
+    "county": "Choctaw County"
+  },
+  "Littleville": {
+    "lat": 34.59512,
+    "lon": -87.67073,
+    "county": "Colbert County"
+  },
+  "Livingston": {
+    "lat": 32.59555,
+    "lon": -88.18693,
+    "county": "Sumter County"
+  },
+  "Loachapoka": {
+    "lat": 32.60795,
+    "lon": -85.59848,
+    "county": "Lee County"
+  },
+  "Lockhart": {
+    "lat": 31.01301,
+    "lon": -86.35027,
+    "county": "Covington County"
+  },
+  "Locust Fork": {
+    "lat": 33.87679,
+    "lon": -86.64709,
+    "county": "Blount County"
+  },
+  "Louisville": {
+    "lat": 31.78105,
+    "lon": -85.55834,
+    "county": "Barbour County"
+  },
+  "Lowndesboro": {
+    "lat": 32.27642,
+    "lon": -86.61085,
+    "county": "Lowndes County"
+  },
+  "Loxley": {
+    "lat": 30.68459,
+    "lon": -87.73921,
+    "county": "Baldwin County"
+  },
+  "Luverne": {
+    "lat": 31.71894,
+    "lon": -86.26908,
+    "county": "Crenshaw County"
+  },
+  "Lynn": {
+    "lat": 34.05759,
+    "lon": -87.54864,
+    "county": "Winston County"
+  },
+  "Madison": {
+    "lat": 34.71053,
+    "lon": -86.76228,
+    "county": "Madison County"
+  },
+  "Madrid": {
+    "lat": 31.03563,
+    "lon": -85.3992,
+    "county": "Houston County"
+  },
+  "Magnolia Springs": {
+    "lat": 30.40341,
+    "lon": -87.7759,
+    "county": "Baldwin County"
+  },
+  "Malvern": {
+    "lat": 31.1437,
+    "lon": -85.52297,
+    "county": "Geneva County"
+  },
+  "Maplesville": {
+    "lat": 32.78439,
+    "lon": -86.87969,
+    "county": "Chilton County"
+  },
+  "Margaret": {
+    "lat": 33.67286,
+    "lon": -86.46394,
+    "county": "Saint Clair County"
+  },
+  "Marion": {
+    "lat": 32.63197,
+    "lon": -87.31733,
+    "county": "Perry County"
+  },
+  "Maytown": {
+    "lat": 33.54995,
+    "lon": -87.00004,
+    "county": "Jefferson County"
+  },
+  "McCalla": {
+    "lat": 33.30311,
+    "lon": -87.02666,
+    "county": "Bibb County"
+  },
+  "McIntosh": {
+    "lat": 31.26496,
+    "lon": -88.02837,
+    "county": "Washington County"
+  },
+  "McKenzie": {
+    "lat": 31.54647,
+    "lon": -86.72595,
+    "county": "Butler County"
+  },
+  "McMullen": {
+    "lat": 33.1481,
+    "lon": -88.17575,
+    "county": "Pickens County"
+  },
+  "Memphis": {
+    "lat": 33.13704,
+    "lon": -88.30594,
+    "county": "Pickens County"
+  },
+  "Mentone": {
+    "lat": 34.56321,
+    "lon": -85.5897,
+    "county": "De Kalb County"
+  },
+  "Midfield": {
+    "lat": 33.45527,
+    "lon": -86.92241,
+    "county": "Jefferson County"
+  },
+  "Midland City": {
+    "lat": 31.31567,
+    "lon": -85.49367,
+    "county": "Dale County"
+  },
+  "Midtown Mobile": {
+    "lat": 30.6869,
+    "lon": -88.0815,
+    "county": "Mobile County"
+  },
+  "Midway": {
+    "lat": 32.07637,
+    "lon": -85.52442,
+    "county": "Bullock County"
+  },
+  "Millbrook": {
+    "lat": 32.50147,
+    "lon": -86.37391,
+    "county": "Elmore County"
+  },
+  "Millport": {
+    "lat": 33.55593,
+    "lon": -88.08238,
+    "county": "Lamar County"
+  },
+  "Millry": {
+    "lat": 31.6212,
+    "lon": -88.32796,
+    "county": "Washington County"
+  },
+  "Mobile": {
+    "lat": 30.6954,
+    "lon": -88.0399,
+    "county": "Mobile County"
+  },
+  "Monroeville": {
+    "lat": 31.51622,
+    "lon": -87.32771,
+    "county": "Monroe County"
+  },
+  "Montevallo": {
+    "lat": 33.12605,
+    "lon": -86.8477,
+    "county": "Shelby County"
+  },
+  "Montgomery": {
+    "lat": 32.3485,
+    "lon": -86.26731,
+    "county": "Montgomery County"
+  },
+  "Montrose": {
+    "lat": 30.5652,
+    "lon": -87.8997,
+    "county": "Baldwin County"
+  },
+  "Moody": {
+    "lat": 33.60343,
+    "lon": -86.49379,
+    "county": "Saint Clair County"
+  },
+  "Mooresville": {
+    "lat": 34.62588,
+    "lon": -86.88003,
+    "county": "Limestone County"
+  },
+  "Morris": {
+    "lat": 33.74622,
+    "lon": -86.80075,
+    "county": "Jefferson County"
+  },
+  "Mosses": {
+    "lat": 32.18876,
+    "lon": -86.67943,
+    "county": "Lowndes County"
+  },
+  "Moulton": {
+    "lat": 34.4883,
+    "lon": -87.28271,
+    "county": "Lawrence County"
+  },
+  "Moundville": {
+    "lat": 32.99654,
+    "lon": -87.62754,
+    "county": "Hale County"
+  },
+  "Mount Vernon": {
+    "lat": 31.08773,
+    "lon": -88.01317,
+    "county": "Mobile County"
+  },
+  "Mountain Brook": {
+    "lat": 33.49149,
+    "lon": -86.73447,
+    "county": "Jefferson County"
+  },
+  "Mulga": {
+    "lat": 33.55631,
+    "lon": -86.9723,
+    "county": "Jefferson County"
+  },
+  "Munford": {
+    "lat": 33.52764,
+    "lon": -85.95381,
+    "county": "Talladega County"
+  },
+  "Muscle Shoals": {
+    "lat": 34.74266,
+    "lon": -87.63377,
+    "county": "Colbert County"
+  },
+  "Myrtlewood": {
+    "lat": 32.25209,
+    "lon": -87.94926,
+    "county": "Marengo County"
+  },
+  "Napier Field": {
+    "lat": 31.31492,
+    "lon": -85.45493,
+    "county": "Houston County"
+  },
+  "Natural Bridge": {
+    "lat": 34.09035,
+    "lon": -87.60141,
+    "county": "Winston County"
+  },
+  "Nauvoo": {
+    "lat": 33.98439,
+    "lon": -87.48544,
+    "county": "Walker County"
+  },
+  "Nectar": {
+    "lat": 33.97978,
+    "lon": -86.62061,
+    "county": "Blount County"
+  },
+  "Needham": {
+    "lat": 31.987,
+    "lon": -88.33656,
+    "county": "Choctaw County"
+  },
+  "New Brockton": {
+    "lat": 31.37671,
+    "lon": -85.91903,
+    "county": "Coffee County"
+  },
+  "New Hope": {
+    "lat": 34.53797,
+    "lon": -86.41237,
+    "county": "Madison County"
+  },
+  "New Site": {
+    "lat": 33.02604,
+    "lon": -85.78454,
+    "county": "Tallapoosa County"
+  },
+  "Newbern": {
+    "lat": 32.59167,
+    "lon": -87.53561,
+    "county": "Hale County"
+  },
+  "Newton": {
+    "lat": 31.34123,
+    "lon": -85.58831,
+    "county": "Dale County"
+  },
+  "Newville": {
+    "lat": 31.4206,
+    "lon": -85.33669,
+    "county": "Henry County"
+  },
+  "Nokomis": {
+    "lat": 31.0199,
+    "lon": -87.5814,
+    "county": "Escambia County"
+  },
+  "North Courtland": {
+    "lat": 34.68002,
+    "lon": -87.30572,
+    "county": "Lawrence County"
+  },
+  "North Johns": {
+    "lat": 33.36777,
+    "lon": -87.10072,
+    "county": "Jefferson County"
+  },
+  "Northport": {
+    "lat": 33.25756,
+    "lon": -87.5964,
+    "county": "Tuscaloosa County"
+  },
+  "Notasulga": {
+    "lat": 32.55541,
+    "lon": -85.66858,
+    "county": "Macon County"
+  },
+  "Oak Grove": {
+    "lat": 33.19036,
+    "lon": -86.30373,
+    "county": "Talladega County"
+  },
+  "Oak Hill": {
+    "lat": 31.92162,
+    "lon": -87.08523,
+    "county": "Wilcox County"
+  },
+  "Oakman": {
+    "lat": 33.71432,
+    "lon": -87.3887,
+    "county": "Walker County"
+  },
+  "Odenville": {
+    "lat": 33.70088,
+    "lon": -86.42337,
+    "county": "Saint Clair County"
+  },
+  "Ohatchee": {
+    "lat": 33.78976,
+    "lon": -86.02906,
+    "county": "Calhoun County"
+  },
+  "Oneonta": {
+    "lat": 33.94704,
+    "lon": -86.48979,
+    "county": "Blount County"
+  },
+  "Onycha": {
+    "lat": 31.22569,
+    "lon": -86.27602,
+    "county": "Covington County"
+  },
+  "Opelika": {
+    "lat": 32.66074,
+    "lon": -85.37889,
+    "county": "Lee County"
+  },
+  "Opp": {
+    "lat": 31.28438,
+    "lon": -86.25744,
+    "county": "Covington County"
+  },
+  "Orange Beach": {
+    "lat": 30.29399,
+    "lon": -87.59537,
+    "county": "Baldwin County"
+  },
+  "Orrville": {
+    "lat": 32.30677,
+    "lon": -87.24545,
+    "county": "Dallas County"
+  },
+  "Owens Cross Roads": {
+    "lat": 34.58546,
+    "lon": -86.45503,
+    "county": "Madison County"
+  },
+  "Oxford": {
+    "lat": 33.59641,
+    "lon": -85.86822,
+    "county": "Calhoun County"
+  },
+  "Ozark": {
+    "lat": 31.45162,
+    "lon": -85.64503,
+    "county": "Dale County"
+  },
+  "Paint Rock": {
+    "lat": 34.66093,
+    "lon": -86.33395,
+    "county": "Jackson County"
+  },
+  "Parrish": {
+    "lat": 33.73232,
+    "lon": -87.28013,
+    "county": "Walker County"
+  },
+  "Pelham": {
+    "lat": 33.32183,
+    "lon": -86.7422,
+    "county": "Shelby County"
+  },
+  "Pell City": {
+    "lat": 33.56031,
+    "lon": -86.26363,
+    "county": "Saint Clair County"
+  },
+  "Pennington": {
+    "lat": 32.20061,
+    "lon": -88.03757,
+    "county": "Choctaw County"
+  },
+  "Perdido": {
+    "lat": 31.00563,
+    "lon": -87.63027,
+    "county": "Baldwin County"
+  },
+  "Perdido Beach": {
+    "lat": 30.35388,
+    "lon": -87.5048,
+    "county": "Baldwin County"
+  },
+  "Petrey": {
+    "lat": 31.85216,
+    "lon": -86.20401,
+    "county": "Crenshaw County"
+  },
+  "Phenix City": {
+    "lat": 32.45371,
+    "lon": -85.03102,
+    "county": "Russell County"
+  },
+  "Phil Campbell": {
+    "lat": 34.35155,
+    "lon": -87.70736,
+    "county": "Franklin County"
+  },
+  "Pickensville": {
+    "lat": 33.23578,
+    "lon": -88.28944,
+    "county": "Pickens County"
+  },
+  "Piedmont": {
+    "lat": 33.92756,
+    "lon": -85.61527,
+    "county": "Calhoun County"
+  },
+  "Pike Road": {
+    "lat": 32.27361,
+    "lon": -86.11893,
+    "county": "Montgomery County"
+  },
+  "Pinckard": {
+    "lat": 31.31899,
+    "lon": -85.53784,
+    "county": "Dale County"
+  },
+  "Pine Apple": {
+    "lat": 31.87215,
+    "lon": -86.98906,
+    "county": "Wilcox County"
+  },
+  "Pine Hill": {
+    "lat": 31.98588,
+    "lon": -87.58752,
+    "county": "Wilcox County"
+  },
+  "Pine Level": {
+    "lat": 32.57954,
+    "lon": -86.45432,
+    "county": "Montgomery County"
+  },
+  "Pine Ridge": {
+    "lat": 34.44792,
+    "lon": -85.78383,
+    "county": "De Kalb County"
+  },
+  "Pinson": {
+    "lat": 33.70926,
+    "lon": -86.66361,
+    "county": "Jefferson County"
+  },
+  "Pisgah": {
+    "lat": 34.68437,
+    "lon": -85.84601,
+    "county": "Jackson County"
+  },
+  "Pleasant Grove": {
+    "lat": 33.49397,
+    "lon": -86.97815,
+    "county": "Jefferson County"
+  },
+  "Pleasant Groves": {
+    "lat": 34.73762,
+    "lon": -86.19764,
+    "county": "Jackson County"
+  },
+  "Point Clear": {
+    "lat": 30.4855,
+    "lon": -87.9219,
+    "county": "Baldwin County"
+  },
+  "Pollard": {
+    "lat": 31.02388,
+    "lon": -87.17298,
+    "county": "Escambia County"
+  },
+  "Powell": {
+    "lat": 34.53259,
+    "lon": -85.89755,
+    "county": "De Kalb County"
+  },
+  "Prattville": {
+    "lat": 32.44904,
+    "lon": -86.4494,
+    "county": "Autauga County"
+  },
+  "Priceville": {
+    "lat": 34.52958,
+    "lon": -86.88218,
+    "county": "Morgan County"
+  },
+  "Prichard": {
+    "lat": 30.77334,
+    "lon": -88.13142,
+    "county": "Mobile County"
+  },
+  "Providence": {
+    "lat": 32.34239,
+    "lon": -87.77612,
+    "county": "Marengo County"
+  },
+  "Rabun": {
+    "lat": 30.9702,
+    "lon": -87.7414,
+    "county": "Baldwin County"
+  },
+  "Ragland": {
+    "lat": 33.74833,
+    "lon": -86.13593,
+    "county": "Saint Clair County"
+  },
+  "Rainbow City": {
+    "lat": 33.92878,
+    "lon": -86.08423,
+    "county": "Etowah County"
+  },
+  "Rainsville": {
+    "lat": 34.49436,
+    "lon": -85.83651,
+    "county": "De Kalb County"
+  },
+  "Ranburne": {
+    "lat": 33.52585,
+    "lon": -85.33901,
+    "county": "Cleburne County"
+  },
+  "Red Bay": {
+    "lat": 34.4361,
+    "lon": -88.13652,
+    "county": "Franklin County"
+  },
+  "Red Level": {
+    "lat": 31.40671,
+    "lon": -86.60622,
+    "county": "Covington County"
+  },
+  "Reece City": {
+    "lat": 34.07724,
+    "lon": -86.0345,
+    "county": "Etowah County"
+  },
+  "Reform": {
+    "lat": 33.37826,
+    "lon": -88.01727,
+    "county": "Pickens County"
+  },
+  "Rehobeth": {
+    "lat": 31.12451,
+    "lon": -85.43961,
+    "county": "Houston County"
+  },
+  "Repton": {
+    "lat": 31.40972,
+    "lon": -87.23893,
+    "county": "Conecuh County"
+  },
+  "Ridgeville": {
+    "lat": 34.05693,
+    "lon": -86.10287,
+    "county": "Etowah County"
+  },
+  "River Falls": {
+    "lat": 31.3524,
+    "lon": -86.54461,
+    "county": "Covington County"
+  },
+  "Riverside": {
+    "lat": 33.61639,
+    "lon": -86.20436,
+    "county": "Saint Clair County"
+  },
+  "Riverview": {
+    "lat": 31.06126,
+    "lon": -87.07753,
+    "county": "Escambia County"
+  },
+  "Roanoke": {
+    "lat": 33.14531,
+    "lon": -85.36953,
+    "county": "Randolph County"
+  },
+  "Robertsdale": {
+    "lat": 30.55714,
+    "lon": -87.70472,
+    "county": "Baldwin County"
+  },
+  "Rockford": {
+    "lat": 32.89687,
+    "lon": -86.20835,
+    "county": "Coosa County"
+  },
+  "Rogersville": {
+    "lat": 34.82771,
+    "lon": -87.28409,
+    "county": "Lauderdale County"
+  },
+  "Roosevelt": {
+    "lat": 33.4396,
+    "lon": -86.9019,
+    "county": "Jefferson County"
+  },
+  "Rosa": {
+    "lat": 33.99276,
+    "lon": -86.50033,
+    "county": "Blount County"
+  },
+  "Russellville": {
+    "lat": 34.50572,
+    "lon": -87.72812,
+    "county": "Franklin County"
+  },
+  "Rutledge": {
+    "lat": 31.72407,
+    "lon": -86.30201,
+    "county": "Crenshaw County"
+  },
+  "Saint Elmo": {
+    "lat": 30.5046,
+    "lon": -88.2553,
+    "county": "Mobile County"
+  },
+  "St. Florian": {
+    "lat": 34.8741,
+    "lon": -87.62374,
+    "county": "Lauderdale County"
+  },
+  "St. Stephens": {
+    "lat": 31.57111,
+    "lon": -88.05283,
+    "county": "Washington County"
+  },
+  "Samson": {
+    "lat": 31.11242,
+    "lon": -86.04673,
+    "county": "Geneva County"
+  },
+  "Sand Rock": {
+    "lat": 34.23123,
+    "lon": -85.77042,
+    "county": "Cherokee County"
+  },
+  "Sanford": {
+    "lat": 31.29882,
+    "lon": -86.39885,
+    "county": "Covington County"
+  },
+  "Saraland": {
+    "lat": 30.85457,
+    "lon": -88.10984,
+    "county": "Mobile County"
+  },
+  "Sardis City": {
+    "lat": 34.17241,
+    "lon": -86.1191,
+    "county": "Dallas County"
+  },
+  "Satsuma": {
+    "lat": 30.85787,
+    "lon": -88.06338,
+    "county": "Mobile County"
+  },
+  "Scottsboro": {
+    "lat": 34.64462,
+    "lon": -86.04815,
+    "county": "Jackson County"
+  },
+  "Section": {
+    "lat": 34.58164,
+    "lon": -85.98494,
+    "county": "Jackson County"
+  },
+  "Selma": {
+    "lat": 32.41698,
+    "lon": -87.0357,
+    "county": "Dallas County"
+  },
+  "Semmes": {
+    "lat": 30.7777,
+    "lon": -88.2586,
+    "county": "Mobile County"
+  },
+  "Sheffield": {
+    "lat": 34.75702,
+    "lon": -87.69709,
+    "county": "Colbert County"
+  },
+  "Shiloh": {
+    "lat": 34.46267,
+    "lon": -85.87762,
+    "county": "De Kalb County"
+  },
+  "Shorter": {
+    "lat": 32.4115,
+    "lon": -85.97281,
+    "county": "Macon County"
+  },
+  "Silas": {
+    "lat": 31.7678,
+    "lon": -88.32592,
+    "county": "Choctaw County"
+  },
+  "Silverhill": {
+    "lat": 30.54536,
+    "lon": -87.75056,
+    "county": "Baldwin County"
+  },
+  "Sipsey": {
+    "lat": 33.82212,
+    "lon": -87.08292,
+    "county": "Walker County"
+  },
+  "Skyline": {
+    "lat": 34.79852,
+    "lon": -86.12243,
+    "county": "Jackson County"
+  },
+  "Slocomb": {
+    "lat": 31.11213,
+    "lon": -85.59866,
+    "county": "Geneva County"
+  },
+  "Smiths Station": {
+    "lat": 32.52285,
+    "lon": -85.09942,
+    "county": "Lee County"
+  },
+  "Snead": {
+    "lat": 34.11623,
+    "lon": -86.39092,
+    "county": "Etowah County"
+  },
+  "Somerville": {
+    "lat": 34.46705,
+    "lon": -86.7912,
+    "county": "Morgan County"
+  },
+  "South Vinemont": {
+    "lat": 34.23557,
+    "lon": -86.86396,
+    "county": "Cullman County"
+  },
+  "Southside": {
+    "lat": 33.89084,
+    "lon": -86.01802,
+    "county": "Etowah County"
+  },
+  "Spanish Fort": {
+    "lat": 30.72297,
+    "lon": -87.86592,
+    "county": "Baldwin County"
+  },
+  "Spring Hill": {
+    "lat": 30.7005,
+    "lon": -88.1444,
+    "county": "Mobile County"
+  },
+  "Springville": {
+    "lat": 33.74052,
+    "lon": -86.48409,
+    "county": "Saint Clair County"
+  },
+  "Stapleton": {
+    "lat": 30.7374,
+    "lon": -87.7897,
+    "county": "Baldwin County"
+  },
+  "Steele": {
+    "lat": 33.94138,
+    "lon": -86.19211,
+    "county": "Saint Clair County"
+  },
+  "Stevenson": {
+    "lat": 34.8768,
+    "lon": -85.81435,
+    "county": "Jackson County"
+  },
+  "Stockton": {
+    "lat": 31.00125,
+    "lon": -87.87393,
+    "county": "Baldwin County"
+  },
+  "Sulligent": {
+    "lat": 33.89119,
+    "lon": -88.12663,
+    "county": "Lamar County"
+  },
+  "Sumiton": {
+    "lat": 33.74927,
+    "lon": -87.0469,
+    "county": "Walker County"
+  },
+  "Summerdale": {
+    "lat": 30.47674,
+    "lon": -87.68756,
+    "county": "Baldwin County"
+  },
+  "Susan Moore": {
+    "lat": 34.092,
+    "lon": -86.43416,
+    "county": "Etowah County"
+  },
+  "Sweet Water": {
+    "lat": 32.10461,
+    "lon": -87.86189,
+    "county": "Marengo County"
+  },
+  "Sylacauga": {
+    "lat": 33.18867,
+    "lon": -86.2748,
+    "county": "Talladega County"
+  },
+  "Sylvan Springs": {
+    "lat": 33.53019,
+    "lon": -87.03116,
+    "county": "Jefferson County"
+  },
+  "Sylvania": {
+    "lat": 34.56204,
+    "lon": -85.80472,
+    "county": "De Kalb County"
+  },
+  "Talladega": {
+    "lat": 33.43176,
+    "lon": -86.09945,
+    "county": "Talladega County"
+  },
+  "Talladega Springs": {
+    "lat": 33.12045,
+    "lon": -86.43776,
+    "county": "Shelby County"
+  },
+  "Tallassee": {
+    "lat": 32.53267,
+    "lon": -85.89199,
+    "county": "Elmore County"
+  },
+  "Tarrant": {
+    "lat": 33.5929,
+    "lon": -86.76625,
+    "county": "Jefferson County"
+  },
+  "Taylor": {
+    "lat": 31.16881,
+    "lon": -85.47579,
+    "county": "Houston County"
+  },
+  "Tensaw": {
+    "lat": 31.0852,
+    "lon": -87.8489,
+    "county": "Baldwin County"
+  },
+  "Theodore": {
+    "lat": 30.5477,
+    "lon": -88.1753,
+    "county": "Mobile County"
+  },
+  "Thomaston": {
+    "lat": 32.26828,
+    "lon": -87.62371,
+    "county": "Marengo County"
+  },
+  "Thomasville": {
+    "lat": 31.91501,
+    "lon": -87.7372,
+    "county": "Clarke County"
+  },
+  "Thorsby": {
+    "lat": 32.91691,
+    "lon": -86.72034,
+    "county": "Chilton County"
+  },
+  "Tillman's Corner": {
+    "lat": 30.5902,
+    "lon": -88.1708,
+    "county": "Mobile County"
+  },
+  "Toulminville": {
+    "lat": 30.7185,
+    "lon": -88.0792,
+    "county": "Mobile County"
+  },
+  "Town Creek": {
+    "lat": 34.6713,
+    "lon": -87.40776,
+    "county": "Lawrence County"
+  },
+  "Toxey": {
+    "lat": 31.91071,
+    "lon": -88.30915,
+    "county": "Choctaw County"
+  },
+  "Trafford": {
+    "lat": 33.81871,
+    "lon": -86.7465,
+    "county": "Jefferson County"
+  },
+  "Triana": {
+    "lat": 34.58778,
+    "lon": -86.74849,
+    "county": "Madison County"
+  },
+  "Trinity": {
+    "lat": 34.59745,
+    "lon": -87.08135,
+    "county": "Morgan County"
+  },
+  "Troy": {
+    "lat": 31.80196,
+    "lon": -85.96713,
+    "county": "Pike County"
+  },
+  "Trussville": {
+    "lat": 33.65523,
+    "lon": -86.56324,
+    "county": "Jefferson County"
+  },
+  "Tuscaloosa": {
+    "lat": 33.2344,
+    "lon": -87.5283,
+    "county": "Tuscaloosa County"
+  },
+  "Tuscumbia": {
+    "lat": 34.7185,
+    "lon": -87.70259,
+    "county": "Colbert County"
+  },
+  "Tuskegee": {
+    "lat": 32.41872,
+    "lon": -85.68251,
+    "county": "Macon County"
+  },
+  "Twin": {
+    "lat": 33.99231,
+    "lon": -87.85229,
+    "county": "Marion County"
+  },
+  "Union": {
+    "lat": 32.99381,
+    "lon": -87.90718,
+    "county": "Greene County"
+  },
+  "Union Grove": {
+    "lat": 34.40617,
+    "lon": -86.45167,
+    "county": "Marshall County"
+  },
+  "Union Springs": {
+    "lat": 32.13951,
+    "lon": -85.71462,
+    "county": "Bullock County"
+  },
+  "Uniontown": {
+    "lat": 32.44662,
+    "lon": -87.48727,
+    "county": "Perry County"
+  },
+  "Valley": {
+    "lat": 32.80143,
+    "lon": -85.20444,
+    "county": "Lee County"
+  },
+  "Valley Grande": {
+    "lat": 32.48687,
+    "lon": -87.03277,
+    "county": "Dallas County"
+  },
+  "Valley Head": {
+    "lat": 34.5562,
+    "lon": -85.62304,
+    "county": "De Kalb County"
+  },
+  "Vance": {
+    "lat": 33.17399,
+    "lon": -87.22663,
+    "county": "Tuscaloosa County"
+  },
+  "Vernon": {
+    "lat": 33.75882,
+    "lon": -88.11429,
+    "county": "Lamar County"
+  },
+  "Vestavia Hills": {
+    "lat": 33.4625,
+    "lon": -86.73951,
+    "county": "Jefferson County"
+  },
+  "Vina": {
+    "lat": 34.37618,
+    "lon": -88.06057,
+    "county": "Franklin County"
+  },
+  "Vincent": {
+    "lat": 33.38314,
+    "lon": -86.40254,
+    "county": "Shelby County"
+  },
+  "Vredenburgh": {
+    "lat": 31.82323,
+    "lon": -87.31808,
+    "county": "Monroe County"
+  },
+  "Wadley": {
+    "lat": 33.1234,
+    "lon": -85.56859,
+    "county": "Randolph County"
+  },
+  "Waldo": {
+    "lat": 33.38708,
+    "lon": -86.04108,
+    "county": "Talladega County"
+  },
+  "Walnut Grove": {
+    "lat": 34.06459,
+    "lon": -86.28717,
+    "county": "Etowah County"
+  },
+  "Warrior": {
+    "lat": 33.81486,
+    "lon": -86.81565,
+    "county": "Jefferson County"
+  },
+  "Waterloo": {
+    "lat": 34.9172,
+    "lon": -88.06437,
+    "county": "Lauderdale County"
+  },
+  "Waverly": {
+    "lat": 32.73008,
+    "lon": -85.571,
+    "county": "Lee County"
+  },
+  "Weaver": {
+    "lat": 33.75907,
+    "lon": -85.80936,
+    "county": "Calhoun County"
+  },
+  "Webb": {
+    "lat": 31.25724,
+    "lon": -85.28962,
+    "county": "Houston County"
+  },
+  "Wedowee": {
+    "lat": 33.308,
+    "lon": -85.4865,
+    "county": "Randolph County"
+  },
+  "West Blocton": {
+    "lat": 33.11818,
+    "lon": -87.12523,
+    "county": "Bibb County"
+  },
+  "West Jefferson": {
+    "lat": 33.67338,
+    "lon": -87.04058,
+    "county": "Jefferson County"
+  },
+  "West Mobile": {
+    "lat": 30.6744,
+    "lon": -88.1986,
+    "county": "Mobile County"
+  },
+  "West Point": {
+    "lat": 34.23873,
+    "lon": -86.96402,
+    "county": "Cullman County"
+  },
+  "Weston": {
+    "lat": 34.1598,
+    "lon": -87.9814,
+    "county": "Marion County"
+  },
+  "Westover": {
+    "lat": 33.36734,
+    "lon": -86.53399,
+    "county": "Shelby County"
+  },
+  "Wetumpka": {
+    "lat": 32.54038,
+    "lon": -86.207,
+    "county": "Elmore County"
+  },
+  "Whistler": {
+    "lat": 30.7594,
+    "lon": -88.1069,
+    "county": "Mobile County"
+  },
+  "White Hall": {
+    "lat": 32.29741,
+    "lon": -86.71578,
+    "county": "Lowndes County"
+  },
+  "Wilmer": {
+    "lat": 30.8199,
+    "lon": -88.3592,
+    "county": "Mobile County"
+  },
+  "Wilsonville": {
+    "lat": 33.24075,
+    "lon": -86.49111,
+    "county": "Shelby County"
+  },
+  "Wilton": {
+    "lat": 33.08156,
+    "lon": -86.87965,
+    "county": "Shelby County"
+  },
+  "Winfield": {
+    "lat": 33.93472,
+    "lon": -87.79131,
+    "county": "Marion County"
+  },
+  "Woodland": {
+    "lat": 33.37563,
+    "lon": -85.39744,
+    "county": "Randolph County"
+  },
+  "Woodstock": {
+    "lat": 33.2175,
+    "lon": -87.14843,
+    "county": "Bibb County"
+  },
+  "Woodville": {
+    "lat": 34.62953,
+    "lon": -86.28356,
+    "county": "Jackson County"
+  },
+  "Yellow Bluff": {
+    "lat": 31.96234,
+    "lon": -87.47736,
+    "county": "Wilcox County"
+  },
+  "York": {
+    "lat": 32.50059,
+    "lon": -88.29139,
+    "county": "Sumter County"
+  }
 }

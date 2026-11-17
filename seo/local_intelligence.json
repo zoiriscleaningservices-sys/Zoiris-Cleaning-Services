@@ -104,7 +104,7 @@
     ],
     "service_nuances": {
       "deep_cleaning": "Intensive post-season sand and salt-air scrub, descaling coastal shower glass, polishing oxidized stainless fixtures, and deep extraction of sand from sofa crevices.",
-      "house_cleaning": "Regular maintenance designed for coastal living—HEPA vacuuming of silica dust, moisture-neutralizing hard surface wiping, and streak-free glass care.",
+      "house_cleaning": "Regular maintenance designed for coastal living\u2014HEPA vacuuming of silica dust, moisture-neutralizing hard surface wiping, and streak-free glass care.",
       "move_out_cleaning": "Comprehensive lease-end and owner turnover clean with photo verification for property managers and deposit security.",
       "airbnb_cleaning": "Same-day 5-star turnover service including linen stripping/washing, guest toiletries replenishment, kitchen restocking check, and digital lock sanitization.",
       "commercial_cleaning": "Specialized janitorial for coastal restaurants, boutique storefronts, rental management offices, and resort clubhouses.",
@@ -181,7 +181,7 @@
       "Dust mite and allergen accumulation in older homes requiring multi-stage HEPA filtration vacuuming"
     ],
     "service_nuances": {
-      "deep_cleaning": "Intensive historic architectural scrub—detailing ornate molding, ceiling fan globes, crystal light fixtures, and vintage tile grout.",
+      "deep_cleaning": "Intensive historic architectural scrub\u2014detailing ornate molding, ceiling fan globes, crystal light fixtures, and vintage tile grout.",
       "house_cleaning": "Flexible, reliable no-contract maid routines for busy professionals, doctors, and family homes in Spring Hill and Midtown.",
       "move_out_cleaning": "Deposit-guaranteed move-out sanitization for Downtown loft renters and West Mobile homeowners.",
       "commercial_cleaning": "Comprehensive commercial janitorial for corporate headquarters, medical practices, law firms, and educational facilities."
@@ -382,5 +382,415 @@
     },
     "local_landmarks": "Auburn University, Toomer's Corner, Moores Mill Club, Chewacla State Park, and Auburn Research Park",
     "customer_profiles": "University professors, university students, medical staff, and growing families"
+  },
+  "downtown_mobile_al": {
+    "region": "mobile_metro",
+    "market_name": "Downtown Mobile Central Business & Historic District",
+    "local_environment": "Port city marine humidity, urban festival foot traffic, historic brick/plaster dust, and commercial tower demand",
+    "neighborhoods": "Dauphin Street Entertainment District, De Tonti Square, Church Street East, Fort Conde Village, Water Street corporate towers, and Bienville Square",
+    "property_profiles": [
+      "Luxury urban lofts and historic warehouse conversions along Dauphin & St. Francis Streets",
+      "Antebellum townhomes and historic residences in De Tonti Square and Church Street East",
+      "Class-A corporate law, banking, and maritime offices along Royal and Water Streets",
+      "Boutique storefronts, hospitality venues, and executive short-term rentals"
+    ],
+    "cleaning_challenges": [
+      "High 12-to-14-foot ceilings, exposed historic brick, heart-pine floors, and tall sash windows",
+      "Mardi Gras, parade, and downtown event foot-traffic soil requiring rapid commercial turnarounds",
+      "Secure after-hours badge and keycard access for law firms, financial suites, and clinics"
+    ],
+    "local_landmarks": "Bienville Square, Dauphin Street, RSA Battle House Tower, De Tonti Square, Cooper Riverside Park, and Mobile Convention Center",
+    "customer_profiles": "Downtown loft residents, law & financial firms, historic homeowners, and Airbnb Superhosts"
+  },
+  "midtown_mobile_al": {
+    "region": "mobile_metro",
+    "market_name": "Midtown Mobile Historic Canopy & Azalea District",
+    "local_environment": "Centuries-old live oak canopies, heavy spring azalea & oak pollen, raised-cottage crawlspace humidity, and historic plaster care",
+    "neighborhoods": "Old Dauphin Way, Oakleigh Garden District, Leinkauf, Ashland Place, Monterey Place, Hannan Park, and FloClaire",
+    "property_profiles": [
+      "1900s\u20131930s Craftsman bungalows, Arts & Crafts cottages, and Tudor Revival homes",
+      "Grand historic residences along Government Street and Old Shell Road",
+      "Medical offices and boutique clinics near USA Health Children's & Women's and Infirmary campuses"
+    ],
+    "cleaning_challenges": [
+      "Original heart-pine floors, antique wavy glass, picture rails, and ornate fireplace mantels",
+      "Dense oak-canopy shade increasing bathroom grout moisture and screened-porch pollen buildup",
+      "Multi-pet family households needing sealed HEPA allergen and pet-hair extraction"
+    ],
+    "local_landmarks": "Old Dauphin Way Historic District, Bragg-Mitchell Mansion, Ladd-Peebles area, Murphy High campus, and Government Street",
+    "customer_profiles": "Physicians, historic preservation homeowners, professors, and Midtown families"
+  },
+  "west_mobile_al": {
+    "region": "mobile_metro",
+    "market_name": "West Mobile Suburban & Airport Corridor",
+    "local_environment": "Fast-growing suburban subdivisions, pine pollen blooms, red clay yard tracking, and busy family commuter schedules",
+    "neighborhoods": "Schillinger Road corridor, Hillcrest, Baker district, Cody Road, Dawes, Heron Lakes, and Westgate subdivisions",
+    "property_profiles": [
+      "Modern 3-to-5 bedroom brick family homes in master-planned HOA subdivisions",
+      "Golf course residences in Heron Lakes and Magnolia Grove",
+      "Retail plazas, dental/medical clinics, and offices along Airport Blvd, Hillcrest, and Schillinger Rd"
+    ],
+    "cleaning_challenges": [
+      "Busy two-income households with kids, sports gear, and pets tracking mud into open-concept kitchens",
+      "Large bonus rooms, LVP/tile expanses, and multi-bath layouts needing efficient 2-person teams",
+      "Move-in and move-out lease transitions near University of South Alabama and Regional Airport"
+    ],
+    "local_landmarks": "Airport Blvd & Schillinger Rd retail hub, Medal of Honor Park (Cottage Hill Park), RTJ Magnolia Grove, and USA campus",
+    "customer_profiles": "Suburban families, Coast Guard/aviation personnel, USA faculty, and healthcare staff"
+  },
+  "spring_hill_al": {
+    "region": "mobile_metro",
+    "market_name": "Spring Hill Luxury Estates & Collegiate Enclave",
+    "local_environment": "Elevated hilltop pine/oak ridge, country-club landscaping pollen, and fine architectural surface preservation",
+    "neighborhoods": "Country Club of Mobile estates, Spring Hill College corridor, Old Shell Road, Tuthill Lane, Wimbledon, and College Park",
+    "property_profiles": [
+      "Custom luxury estates and traditional brick residences surrounding the Country Club of Mobile",
+      "Classic Spring Hill cottages and renovated executive family homes",
+      "Upscale boutique shops, private academies, and professional medical/wealth-management suites"
+    ],
+    "cleaning_challenges": [
+      "Delicate natural marble, travertine, custom cabinetry, and waxed hardwood requiring pH-neutral care",
+      "Expansive entertaining patios, sunrooms, and multi-wing floor plans",
+      "Discreet, consistent W-2 housekeeping teams trusted by executive households"
+    ],
+    "local_landmarks": "Spring Hill College, Country Club of Mobile, Mobile Botanical Gardens, Langan Municipal Park, and Old Shell Road village",
+    "customer_profiles": "Executives, surgeons, attorneys, Country Club homeowners, and established families"
+  },
+  "tillmans_corner_al": {
+    "region": "mobile_metro",
+    "market_name": "Tillman's Corner I-10 Commercial & Residential Hub",
+    "local_environment": "I-10 & Hwy 90 commercial corridor dust, Gulf moisture, warehouse logistics traffic, and suburban family living",
+    "neighborhoods": "Hwy 90 commercial strip, Halls Mill Creek, Nevius Road, Three Notch-Kroner, and Cypress Shores",
+    "property_profiles": [
+      "Established brick ranch homes and quiet cul-de-sac subdivisions",
+      "Commercial retail centers, restaurants, and medical urgent-care offices along Government Blvd (US-90)",
+      "Light industrial, fleet, and distribution warehouses near I-10 and Rangeline Rd"
+    ],
+    "cleaning_challenges": [
+      "Highway particulate dust and humid Gulf rain tracking into entryways and commercial lobbies",
+      "Shift-worker households needing dependable flat-rate maid schedules with zero contracts",
+      "Commercial concrete, VCT tile, and restroom upkeep for high-traffic Hwy 90 businesses"
+    ],
+    "local_landmarks": "Government Blvd (US-90) & Schillinger South junction, I-10 Exit 15, Halls Mill Creek, and West Mobile Chamber district",
+    "customer_profiles": "Working families, logistics/aerospace employees, retail managers, and commercial landlords"
+  },
+  "cottage_hill_al": {
+    "region": "mobile_metro",
+    "market_name": "Cottage Hill & Medal of Honor Park Corridor",
+    "local_environment": "Suburban oak/pine pollen, family park foot traffic, and Mobile Bay humid summers",
+    "neighborhoods": "Cottage Hill Road corridor, Regency, Lloyds Lane, Knollwood, Demetropolis, and Lansdowne",
+    "property_profiles": [
+      "Classic brick split-levels and renovated ranch homes",
+      "Townhomes and patio homes near Knollwood",
+      "Medical and dental offices along Cottage Hill & University Blvd"
+    ],
+    "cleaning_challenges": [
+      "Pet dander, patio pollen, and kitchen/bath hard-water buildup",
+      "Busy commuter households needing flexible bi-weekly housekeeping"
+    ],
+    "local_landmarks": "Medal of Honor Park, Cottage Hill Road, University Blvd, and Infirmary West medical corridor",
+    "customer_profiles": "Families, nurses, retirees, and University corridor professionals"
+  },
+  "dog_river_al": {
+    "region": "mobile_metro",
+    "market_name": "Dog River Waterfront & Marina Enclave",
+    "local_environment": "Brackish river breeze, dockside humidity, boat-house salt mist, and shaded live oak moss",
+    "neighborhoods": "Dog River Scenic Route (dauphin Island Pkwy), Riviere du Chien, Alba Club area, and Marina waterfront",
+    "property_profiles": [
+      "Waterfront homes with private piers and boathouses",
+      "Raised coastal cottages and bayou-view estates",
+      "Yacht/marina clubhouses and marine service offices"
+    ],
+    "cleaning_challenges": [
+      "High river moisture requiring mildew-preventative bathroom & window-track sanitization",
+      "Expansive river-view glass sliders and screened porches"
+    ],
+    "local_landmarks": "Dog River Bridge, Alba Fishing & Hunting Club, Dog River Park, and Dauphin Island Parkway",
+    "customer_profiles": "Boating homeowners, waterfront estate owners, and coastal families"
+  },
+  "chickasaw_al": {
+    "region": "mobile_metro",
+    "market_name": "Chickasaw Historic Shipyard Village & North Mobile",
+    "local_environment": "Chickasabogue Creek wetland humidity, mature tree debris, and historic mill-village home care",
+    "neighborhoods": "Historic Chickasaw Village, Viaduct Road, Iroquois Street, and Chickasabogue Park border",
+    "property_profiles": [
+      "Historic 1940s Gulf Shipbuilding cottage homes",
+      "Renovated single-family rentals and starter homes",
+      "Light industrial and marine contractor offices near Hwy 43"
+    ],
+    "cleaning_challenges": [
+      "Moisture control in older bathrooms, window sills, and hardwood/vinyl floors",
+      "Fast tenant move-out and move-in turnovers for single-family rental investors"
+    ],
+    "local_landmarks": "Chickasabogue Park, Historic Chickasaw Civic Center, Viaduct Rd, and US-43 corridor",
+    "customer_profiles": "Homeowners, property investors, shipyard/port tradespeople, and retirees"
+  },
+  "satsuma_al": {
+    "region": "mobile_metro",
+    "market_name": "Satsuma School District & Bayou Sara Suburb",
+    "local_environment": "Quiet tree-lined suburban streets, Mobile Tensaw delta moisture, and seasonal pine/pecan pollen",
+    "neighborhoods": "Old Hwy 43 residential avenues, Baker Rd, Orange Ave, Satsuma High district, and Bayou Sara Estates",
+    "property_profiles": [
+      "Well-kept brick family homes on spacious shady lots",
+      "New construction subdivisions off Hwy 43",
+      "Local municipal, school, church, and small business offices"
+    ],
+    "cleaning_challenges": [
+      "Shaded-lot algae/mildew on exteriors and pine pollen on porches and blinds",
+      "Busy school-district family schedules needing zero-contract bi-weekly maid service"
+    ],
+    "local_landmarks": "Satsuma High School, Steele Creek Lodge & Park, Bayou Sara, and Highway 43",
+    "customer_profiles": "School-district families, commuters, plant supervisors, and retirees"
+  },
+  "dauphin_island_al": {
+    "region": "coastal_resort",
+    "market_name": "Dauphin Island Barrier Island & Sunset Capital",
+    "local_environment": "Direct Gulf surf salt mist, barrier-island white sand, stilt-home wind exposure, and peak vacation rental turnarounds",
+    "neighborhoods": "West End beachfront stilt homes, Audubon Bird Sanctuary village, Indian Bay, Silver Cay, and Holiday Isle Resort",
+    "property_profiles": [
+      "Elevated beachfront and sound-side vacation rental stilt houses",
+      "Holiday Isle luxury gulf-front condominiums",
+      "Island cottages and seasonal second homes"
+    ],
+    "cleaning_challenges": [
+      "Heavy beach sand in stairs/rugs and corrosive salt spray on balcony glass & stainless steel",
+      "Strict Saturday-to-Saturday and 10am\u20133pm summer vacation rental turnovers"
+    ],
+    "local_landmarks": "Fort Gaines, Dauphin Island Sea Lab, Audubon Bird Sanctuary, West End Beach, and Holiday Isle",
+    "customer_profiles": "VRBO/Airbnb beach house owners, Holiday Isle condo hosts, and island residents"
+  },
+  "grand_bay_al": {
+    "region": "mobile_metro",
+    "market_name": "Grand Bay Southwest Mobile Acreage & Agricultural Hub",
+    "local_environment": "Coastal plain sandy-clay soil, pecan orchard & farm pollen, I-10 corridor breeze, and rural homestead living",
+    "neighborhoods": "Grand Bay Wilmer Road, Old Pascagoula Rd, Hwy 90 corridor, pecan orchard estates, and St. Elmo border",
+    "property_profiles": [
+      "Country ranch homes and custom builds on multi-acre tracts",
+      "Family subdivisions off Grand Bay Wilmer Rd",
+      "Churches, schools, and Hwy 90 commercial shops"
+    ],
+    "cleaning_challenges": [
+      "Red dirt, sand, and pasture dust tracked through mudrooms and utility rooms",
+      "Well-water mineral spots on glass shower doors and chrome faucets"
+    ],
+    "local_landmarks": "Grand Bay National Wildlife Refuge border, Old US-90, I-10 Exit 4, and Grand Bay historic center",
+    "customer_profiles": "Homestead families, I-10 commuters to Mobile/Pascagoula, and local business owners"
+  },
+  "eastern_shore_al": {
+    "region": "eastern_shore",
+    "market_name": "Baldwin County Eastern Shore (Spanish Fort, Daphne, Fairhope & Point Clear)",
+    "local_environment": "Mobile Bay jubilee breezes, Scenic 98 live oak pollen, red clay bluff soil, and upscale commuter growth",
+    "neighborhoods": "Spanish Fort TimberCreek, Daphne Lake Forest & Sehoy, Montrose bluffs, Downtown Fairhope, and Point Clear",
+    "property_profiles": [
+      "Bayfront bluff estates and piers along Scenic Hwy 98",
+      "Master-planned golf & executive subdivisions off Hwy 181 & US-98",
+      "Medical plazas, upscale retail, and corporate offices"
+    ],
+    "cleaning_challenges": [
+      "Preserving custom oak/heart-pine hardwoods and natural stone against bay humidity",
+      "Coordinating reliable recurring teams for busy I-10 Bayway commuters"
+    ],
+    "local_landmarks": "Mobile Bay Causeway, Scenic Highway 98, Fairhope Pier, Daphne Bayfront, and Eastern Shore Centre",
+    "customer_profiles": "Eastern Shore executives, physicians, retirees, and growing suburban families"
+  },
+  "fort_morgan_al": {
+    "region": "coastal_resort",
+    "market_name": "Fort Morgan Peninsula Beachfront & Resort Corridor",
+    "local_environment": "Unspoiled Gulf & Bon Secour Bay salt air, fine quartz dune sand, and multi-story luxury beach house turnovers",
+    "neighborhoods": "Morgantown,The Beach Club Resort & Spa, Dunes, Surf Side Shores, Kiva Dunes Golf & Beach Resort, and Navy Cove",
+    "property_profiles": [
+      "5-to-10 bedroom gulf-front vacation rental houses",
+      "Resort condos and villas at The Beach Club and Kiva Dunes",
+      "Bayfront fishing retreats with boat docks on Navy Cove"
+    ],
+    "cleaning_challenges": [
+      "Large multi-level beach houses needing synchronized multi-cleaner crews inside 10am\u20133pm windows",
+      "Salt-haze removal on panoramic Gulf windows and sand extraction from bunk rooms"
+    ],
+    "local_landmarks": "Historic Fort Morgan, Kiva Dunes, The Beach Club Resort, Bon Secour National Wildlife Refuge, and Hwy 180",
+    "customer_profiles": "Luxury beach house investors, vacation rental hosts, and second-home snowbirds"
+  },
+  "loxley_al": {
+    "region": "baldwin_gulf_coast",
+    "market_name": "Loxley Central Baldwin Crossroads & Logistics Hub",
+    "local_environment": "Central Baldwin agricultural/strawberry-season dust, I-10 & Hwy 59 corridor growth, and new-build subdivision dust",
+    "neighborhoods": "Stonebridge master-planned community, Hwy 59 corridor, County Rd 64, and I-10 Exit 44 logistics park",
+    "property_profiles": [
+      "Brand-new Craftsman/brick homes in Stonebridge and fast-growing subdivisions",
+      "Large distribution centers and commercial offices off I-10 Exit 44",
+      "Country homesteads across Central Baldwin"
+    ],
+    "cleaning_challenges": [
+      "Post-construction drywall/red-clay settling in newer subdivisions",
+      "Warehouse, office, and breakroom sanitation for I-10 commercial operators"
+    ],
+    "local_landmarks": "Stonebridge community, Loxley Municipal Park, I-10 Exit 44 corridor, and Baldwin Beach Express",
+    "customer_profiles": "New-construction homeowners, commuters to Mobile/Pensacola, and logistics managers"
+  },
+  "robertsdale_al": {
+    "region": "baldwin_gulf_coast",
+    "market_name": "Robertsdale Central Baldwin Hub",
+    "local_environment": "Warm Baldwin County coastal plain air, seasonal pine/farm dust, and family-oriented residential neighborhoods",
+    "neighborhoods": "Highway 59 center, College Ave, Honey Road Park area, County Rd 48, and Beach Express residential estates",
+    "property_profiles": [
+      "Single-family brick homes and new builds",
+      "County service offices, clinics, churches, and Hwy 59 storefronts"
+    ],
+    "cleaning_challenges": [
+      "Red clay & sandy soil entry tracking plus seasonal pollen on blinds and vents",
+      "Flexible no-contract recurring cleaning for working Central Baldwin families"
+    ],
+    "local_landmarks": "Honeybee Park, Baldwin County Coliseum, Highway 59, and Robertsdale Trail",
+    "customer_profiles": "Baldwin County families, educators, tradespeople, and small business owners"
+  },
+  "bay_minette_al": {
+    "region": "baldwin_gulf_coast",
+    "market_name": "Bay Minette Baldwin County Seat & North Baldwin Hub",
+    "local_environment": "Pine forest canopy, Tensaw delta proximity, courthouse/industrial activity, and historic North Baldwin charm",
+    "neighborhoods": "Courthouse Square historic district, Holly Hills Country Club, McMeans Ave, Hwy 31 corridor, and Novelis industrial corridor",
+    "property_profiles": [
+      "Historic homes near Courthouse Square and golf homes in Holly Hills",
+      "Legal, title, municipal, and industrial contractor offices",
+      "Acreage properties surrounding North Baldwin"
+    ],
+    "cleaning_challenges": [
+      "Heavy pine straw/pollen buildup and industrial/construction relocation cleanings",
+      "Dependable commercial janitorial for legal, civic, and industrial administrative suites"
+    ],
+    "local_landmarks": "Baldwin County Courthouse Square, Coastal Alabama Community College, Holly Hills, and I-65 corridor",
+    "customer_profiles": "County professionals, industrial engineers/managers, and North Baldwin homeowners"
+  },
+  "point_clear_al": {
+    "region": "eastern_shore",
+    "market_name": "Point Clear Historic Boardwalk & Grand Bayfront Estates",
+    "local_environment": "Direct Mobile Bay salt-fresh breeze, moss-draped live oaks, boardwalk moisture, and museum-grade estate finishes",
+    "neighborhoods": "Scenic Hwy 98 boardwalk estates, Lakewood Club golf villas, Battles Wharf, Mullet Point, and Zundel Road",
+    "property_profiles": [
+      "Multi-million-dollar bayfront compounds with private piers and guest cottages",
+      "Luxury golf residences surrounding Lakewood Club and the Grand Hotel",
+      "Boutique vacation retreats"
+    ],
+    "cleaning_challenges": [
+      "White-glove care for heart pine, limestone, antique chandeliers, and bay-facing glass walls",
+      "Home watch and pre-arrival staging for multi-home estate owners"
+    ],
+    "local_landmarks": "Grand Hotel Golf Resort & Spa, Lakewood Club, Point Clear Boardwalk, and Punta Clara Kitchen",
+    "customer_profiles": "Bayfront estate owners, luxury retirees, executives, and seasonal second-home families"
+  },
+  "elberta_al": {
+    "region": "coastal_resort",
+    "market_name": "Elberta Wolf Bay & Perdido Bay Enclave",
+    "local_environment": "Wolf Bay & Perdido Bay marine air, heritage farmland breezes, and coastal cottage living",
+    "neighborhoods": "Ono Island proximity, Pirates Cove / Josephine waterfront, Wolf Bay estates, Miflin, and US-98 town center",
+    "property_profiles": [
+      "Waterfront boat-dock residences on Wolf Bay, Arnica Bay, and Perdido Bay",
+      "Spacious brick homes and rural estates along Hwy 98",
+      "Vacation cottages near Barber Marina"
+    ],
+    "cleaning_challenges": [
+      "Marine humidity, spider/bug debris on waterfront porches, and dockside glass salt mist",
+      "Seasonal home watch and deep cleaning for bayfront second homes"
+    ],
+    "local_landmarks": "Barber Marina, Pirates Cove, Wolf Bay, Baldwin County Heritage Museum, and Highway 98",
+    "customer_profiles": "Waterfront boaters, retirees, Ono/Josephine area homeowners, and coastal families"
+  },
+  "summerdale_al": {
+    "region": "baldwin_gulf_coast",
+    "market_name": "Summerdale Hwy 59 South Baldwin Community",
+    "local_environment": "South Baldwin sunshine, turf/sod farm dust, and fast access between Foley and Robertsdale",
+    "neighborhoods": "Hwy 59 corridor, County Rd 32, Fish River border estates, and new South Baldwin subdivisions",
+    "property_profiles": [
+      "Newer single-family brick subdivisions",
+      "Fish River waterfront retreats and rural mini-farms",
+      "Commercial shops and warehouses along Hwy 59"
+    ],
+    "cleaning_challenges": [
+      "Fine sandy soil, pet hair, and humidity control across family living rooms and porches"
+    ],
+    "local_landmarks": "Pioneer Park, Fish River proximity, and Highway 59 corridor",
+    "customer_profiles": "South Baldwin families, retirees, and local business owners"
+  },
+  "hoover_al": {
+    "region": "birmingham_metro",
+    "market_name": "Hoover Riverchase, Ross Bridge & Over-the-Mountain Hub",
+    "local_environment": "Shades Mountain pine pollen, Cahaba River valley humidity, and upscale suburban family living",
+    "neighborhoods": "Ross Bridge resort community, Greystone gated golf estates, Lake Cyrus, Bluff Park on Shades Mountain, Trace Crossings, and Riverchase",
+    "property_profiles": [
+      "Luxury golf estates in Greystone and Ross Bridge",
+      "Large 4\u20136 bedroom family homes in Trace Crossings and Lake Cyrus",
+      "Corporate offices, dental/medical clinics, and retail along Hwy 150, Hwy 31 & Hwy 280"
+    ],
+    "cleaning_challenges": [
+      "Multi-level 3,500+ sq ft floor plans with finished basements and tall foyers",
+      "Corporate & medical facility after-hours sanitation along the Riverchase/280 business corridor"
+    ],
+    "local_landmarks": "Riverchase Galleria, Renaissance Ross Bridge, Aldridge Gardens, Bluff Park, and Hoover Met Complex",
+    "customer_profiles": "Corporate executives, physicians, Greystone/Ross Bridge families, and commercial property managers"
+  },
+  "dothan_al": {
+    "region": "wiregrass",
+    "market_name": "Dothan Wiregrass Capital & Tri-State Medical Hub",
+    "local_environment": "Wiregrass sandy loam, agricultural peanut/pine harvest dust, warm South Alabama summers, and medical-corridor growth",
+    "neighborhoods": "Highland Oaks golf estates, Grove Park, Westgate, Ross Clark Circle commercial belt, Kelly Springs, and Historic Downtown Dothan",
+    "property_profiles": [
+      "Custom brick homes on Dothan's Westside & Highland Oaks",
+      "Medical & surgical clinics near Southeast Health and Flowers Hospital",
+      "Commercial retail & industrial facilities along Ross Clark Circle and US-231"
+    ],
+    "cleaning_challenges": [
+      "Fine Wiregrass sand/pollen settling on blinds, LVP/hardwood floors, and sunrooms",
+      "Clinical-grade EPA List N disinfection for Dothan's extensive healthcare practices"
+    ],
+    "local_landmarks": "Ross Clark Circle, Southeast Health, Flowers Hospital, Landmark Park, and Dothan Botanical Gardens",
+    "customer_profiles": "Healthcare specialists, Fort Novosel aviation commuters, business owners, and Wiregrass families"
+  },
+  "lake_view_al": {
+    "region": "west_alabama",
+    "market_name": "Lake View (Tuscaloosa County) Million Dollar Lakes & I-20/59 Corridor",
+    "local_environment": "Ski Lake / Million Dollar Lakes waterfront humidity, I-20/59 automotive corridor growth, and Tuscaloosa-Birmingham commuter living",
+    "neighborhoods": "Million Dollar Lakes waterfront, Tannehill Preserve proximity, Bucksville / Exit 100 corridor, and Lake View Estates",
+    "property_profiles": [
+      "Lakefront homes around Ski Lake and Million Dollar Lakes",
+      "New-build brick commuter subdivisions off I-20/59 between Tuscaloosa and Hoover",
+      "Automotive supplier & logistics offices near McCalla/Vance"
+    ],
+    "cleaning_challenges": [
+      "New-construction drywall dust in rapidly expanding subdivisions",
+      "Lake moisture and red-clay tracking across family entryways and decks"
+    ],
+    "local_landmarks": "Million Dollar Lakes, Tannehill Ironworks State Park border, and I-20/59 Exit 100 (ZIP 35111)",
+    "customer_profiles": "Birmingham-Tuscaloosa commuters, Mercedes-corridor professionals, and lakefront families"
+  },
+  "lakeview_al": {
+    "region": "northeast_highlands",
+    "market_name": "Lakeview (DeKalb County) Sand Mountain & Geraldine Plateau",
+    "local_environment": "Sand Mountain plateau breezes, rural DeKalb County farmland dust, and cool Lookout/Sand Mountain seasonal shifts",
+    "neighborhoods": "Hwy 227 & County Rd 43 corridor, Geraldine/Fyffe plateau farms, and Lakeview town center (ZIP 35971)",
+    "property_profiles": [
+      "Single-family Sand Mountain ranch homes and country homesteads",
+      "Local churches, workshops, and Northeast Alabama small business offices"
+    ],
+    "cleaning_challenges": [
+      "Fine plateau topsoil dust, wood-stove/heating winter soot, and spring tree pollen",
+      "No-travel-fee flat-rate scheduling across DeKalb County"
+    ],
+    "local_landmarks": "Sand Mountain Plateau, Lake Guntersville & Buck's Pocket proximity, and DeKalb County Hwy 227 (ZIP 35971)",
+    "customer_profiles": "Sand Mountain homeowners, agricultural families, and DeKalb County businesses"
+  },
+  "east_brewton_al": {
+    "region": "south_coastal_plain",
+    "market_name": "East Brewton Murder Creek & Escambia County Community",
+    "local_environment": "Murder Creek & Conecuh River basin humidity, longleaf pine pollen, and South Alabama timberland air",
+    "neighborhoods": "Forrest Ave (Hwy 29), Ashton St, Murder Creek residential streets, and Escambia County Hwy 41",
+    "property_profiles": [
+      "Established brick ranch homes and classic South Alabama cottages",
+      "Churches, municipal buildings, and commercial shops along Forrest Avenue"
+    ],
+    "cleaning_challenges": [
+      "Heavy pine pollen and river-bottom humidity requiring antimicrobial bath and floor care",
+      "Move-in/out and recurring residential care across Escambia County"
+    ],
+    "local_landmarks": "Murder Creek, Lovelace Park, Forrest Avenue (AL-29), and Brewton/East Brewton bridge (ZIP 36426)",
+    "customer_profiles": "Escambia County families, mill/forestry employees, educators, and retirees"
   }
 }

@@ -1,6 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="robots" content="noindex, nofollow" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zoiris Cleaning – My Dashboard</title>
@@ -394,7 +395,7 @@
         <div class="nav-container">
             <div class="nav-item active" onclick="show('home')"><i class="fas fa-home"></i><span>My Posts</span></div>
             <div class="nav-item" onclick="show('add')"><i class="fas fa-plus-circle"></i><span>New Post</span></div>
-            <div class="nav-item" onclick="window.location.href='https://www.zoiriscleaningservices.com/blog/'"><i class="fas fa-globe"></i><span>View Blog</span></div>
+            <div class="nav-item" onclick="window.location.href='https://www.zoiriscleaningservices.com/mobile-al/blog/'"><i class="fas fa-globe"></i><span>View Blog</span></div>
             <div class="nav-item" onclick="alert('Sign-out coming soon')"><i class="fas fa-sign-out-alt"></i><span>Sign Out</span></div>
         </div>
     </div>
@@ -523,7 +524,7 @@
             .replace(/>/g, '&gt;')
             .replace(/\*\*([^*]+?)\*\*/g, '<strong>$1</strong>')
             .replace(/__([^_]+?)__/g, '<strong>$1</strong>')
-            .replace(/(\(251\)\s?930-8621|2519308621|251-930-8621)/g, '<a href="tel:2512202515"><strong>251-220-2515</strong></a>')
+            .replace(/(\(251\)\s?930-8621|2519308621|(251) 220-2515)/g, '<a href="tel:2512202515"><strong>251-220-2515</strong></a>')
             .replace(/(\+?\d{1,4}[-.\s]?\(?\d{1,4}\)?[-.\s]?\d{1,9}[-.\s]?\d{1,9})/g, '<a href="tel:$1">$1</a>')
             .replace(/([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})/g, '<a href="mailto:$1">$1</a>')
             .replace(/(https?:\/\/[^\s<]+)/g, '<a href="$1" target="_blank">$1</a>')

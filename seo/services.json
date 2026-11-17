@@ -1,282 +1,930 @@
 {
   "house-cleaning": {
-    "name": "House Cleaning",
+    "name": "House Cleaning & Maid Service",
+    "short_name": "House Cleaning",
     "slug": "house-cleaning",
-    "intent": "transactional",
     "category": "residential",
-    "primary_keywords": ["House Cleaning {City} AL", "House Cleaners {City} AL", "Home Cleaning Services {City} AL", "Residential Cleaning {City} AL"],
-    "secondary_keywords": ["recurring maid service {City}", "weekly house cleaning {City} AL", "biweekly maid service {City}", "affordable house cleaners {City}"],
-    "short_description": "Customized recurring or one-time residential house cleaning keeping your home spotless, sanitized, and allergen-free with zero locked contracts.",
-    "benefits": ["Zero contract lock-in", "Background-checked in-house cleaners", "HEPA vacuum allergen removal", "Customized room-by-room checklist", "100% Satisfaction guarantee"],
-    "process": ["Initial home assessment", "High-to-low dusting and cobweb removal", "Kitchen & bathroom deep sanitation", "HEPA filtration vacuuming", "Hardwood & tile mopping", "Final quality inspection"],
-    "faq": [
-      {
-        "question": "How often can I schedule house cleaning in {City}, AL?",
-        "answer": "We offer flexible scheduling including weekly, bi-weekly, monthly, or on-demand cleanings with zero locked-in contracts."
-      },
-      {
-        "question": "Do I need to be home during the house cleaning?",
-        "answer": "No. Many of our {City} clients provide a lockbox code or key. All our cleaners are fully vetted, background-checked, bonded, and insured."
-      }
-    ]
+    "image": "/images/services/house_cleaning.jpg",
+    "title_tpl": "Maid Service & House Cleaning in {City}, AL | Flat-Rate Quotes | Zoiris",
+    "desc_tpl": "Trusted maid service & recurring house cleaning in {City}, AL ({Zip}). Background-checked W-2 cleaners, HEPA vacuuming, zero contracts & 100% guarantee. Call (251) 220-2515!",
+    "h1_tpl": "Maid Service & House Cleaning in {City}, AL",
+    "subtitle_tpl": "Dependable weekly, bi-weekly, monthly, and one-time residential maid service across {City} and {County} — flat-rate pricing with zero locked contracts.",
+    "short_description": "Customized recurring and on-demand residential housekeeping and maid service engineered to keep kitchens, bathrooms, bedrooms, and living areas spotless, sanitized, and allergen-free.",
+    "equipment": "Multi-stage commercial HEPA filtration vacuums (0.3-micron capture), color-coded microfiber cloths, pH-neutral hardwood/stone cleaners, and EPA-registered non-toxic surface disinfectants.",
+    "ideal_for": "Single-family homes, historic cottages, suburban residences, townhomes, and apartments",
+    "cadence": "Weekly, Bi-Weekly, Monthly, or One-Time Visits (2–4 hours with a 2-person crew)",
+    "benefits": [
+      "Zero binding contracts or cancellation penalties",
+      "Uniformed, background-checked W-2 house cleaners",
+      "Color-coded microfiber system preventing cross-contamination",
+      "Multi-stage HEPA vacuuming removing dust, pet dander & pollen",
+      "pH-balanced care safe for hardwood, quartz, marble & LVP",
+      "24-hour 100% Re-Clean Satisfaction Guarantee"
+    ],
+    "process": [
+      "Walkthrough & priority room customization for your household",
+      "High-to-low ceiling fan, trim, blind & cobweb micro-dusting",
+      "Kitchen countertop, stovetop, sink, backsplash & exterior appliance degreasing",
+      "Bathroom shower, tub, vanity, mirror & toilet hospital-grade disinfection",
+      "Whole-home HEPA carpet/rug vacuuming & damp microfiber hard-floor mopping",
+      "Final room-by-room quality inspection & secure lock-up"
+    ],
+    "related_services": ["deep-cleaning", "move-out-cleaning", "carpet-cleaning", "window-cleaning", "laundry-services", "luxury-estate-cleaning"]
   },
   "deep-cleaning": {
-    "name": "Deep Cleaning",
+    "name": "Deep Cleaning Services",
+    "short_name": "Deep Cleaning",
     "slug": "deep-cleaning",
-    "intent": "transactional",
     "category": "residential",
-    "primary_keywords": ["Deep Cleaning {City} AL", "Deep House Cleaning {City} AL", "Spring Cleaning Services {City} AL", "Intensive House Cleaning {City}"],
-    "secondary_keywords": ["deep clean company {City} AL", "detailed home cleaning {City}", "top to bottom house scrub {City}"],
-    "short_description": "Intensive top-to-bottom detail scrub including baseboards, door frames, blinds, appliances, and stubborn buildup removal.",
-    "benefits": ["Hand-scrubbed baseboards & trims", "Interior oven & microwave detailing", "Heavy soap scum & scale removal", "Ceiling fan blades & air vents cleaned", "Zero contracts"],
-    "process": ["Room-by-room preparation", "Hand-washing baseboards and molding", "Deep scrubbing shower tiles and grout", "Grease extraction on stove and vent hoods", "Microfiber surface polishing", "Sanitized floor restoration"],
-    "faq": [
-      {
-        "question": "What is included in a deep cleaning in {City}, AL?",
-        "answer": "A deep clean includes everything in a standard clean plus hand-washing baseboards, door frames, dusting blinds, deep scrubbing grout, and removing heavy buildup."
-      },
-      {
-        "question": "How long does a deep cleaning take?",
-        "answer": "Depending on home square footage and condition, deep cleanings typically take between 3 to 6 hours with a dedicated multi-person team."
-      }
-    ]
+    "image": "/images/services/deep_cleaning.jpg",
+    "title_tpl": "Deep House Cleaning Services in {City}, AL | Top-to-Bottom Scrub | Zoiris",
+    "desc_tpl": "Intensive top-to-bottom deep cleaning in {City}, AL ({Zip}). Hand-washed baseboards, grout descaling, blinds, vents & kitchen grease extraction. Free quote: (251) 220-2515!",
+    "h1_tpl": "Top-to-Bottom Deep Cleaning in {City}, AL",
+    "subtitle_tpl": "Restorative residential deep scrub in {City} ({County}) — hand-washing baseboards, door frames, blinds, tile grout, range hoods, and neglected buildup.",
+    "short_description": "Intensive restorative house scrub targeting heavy buildup, hand-scrubbed baseboards, blinds, air vents, shower scale, and kitchen grease before starting routine maid care or seasonal resets.",
+    "equipment": "Oscillating grout detail brushes, botanical citrus degreasers, acid-free mineral descalers, telescoping ceiling dusters, and sealed HEPA canister vacuums.",
+    "ideal_for": "First-time maid clients, seasonal spring/fall resets, pre-event prep, and homes needing restorative care",
+    "cadence": "Initial Reset Clean, Semi-Annual Seasonal Scrub, or Pre-Holiday Detail (3.5–6.5 hours)",
+    "benefits": [
+      "Wet hand-wiping of all baseboards, door frames, window sills & trim",
+      "Heavy bathroom soap scum, hard-water scale & tile grout scrubbing",
+      "Range hood baffle, stovetop burner & microwave interior degreasing",
+      "Ceiling fan blades, HVAC return grilles & light fixture detailing",
+      "Under-furniture edge vacuuming & closet floor clearing",
+      "Zero contracts — book once or transition into recurring maid visits"
+    ],
+    "process": [
+      "High architectural dusting of crown molding, ceiling fans & air registers",
+      "Wet hand-washing of window sills, blinds, doors, switch plates & baseboards",
+      "Deep kitchen degreasing of cabinets, backsplash, range hood & microwave interior",
+      "Descaling glass shower enclosures, ceramic grout lines, tubs & porcelain fixtures",
+      "Edge-crevice HEPA extraction along carpet tack strips & furniture perimeters",
+      "Multi-pass sanitized hard-floor restoration & supervisor checklist sign-off"
+    ],
+    "related_services": ["house-cleaning", "move-in-cleaning", "move-out-cleaning", "carpet-cleaning", "window-cleaning", "detailing"]
   },
   "move-in-cleaning": {
     "name": "Move-In Cleaning",
+    "short_name": "Move-In Cleaning",
     "slug": "move-in-cleaning",
-    "intent": "transactional",
     "category": "residential",
-    "primary_keywords": ["Move In Cleaning {City} AL", "Move In Cleaners {City} AL", "New Home Cleaning {City} AL"],
-    "secondary_keywords": ["pre-move cleaning {City}", "sanitized move in cleaning {City} AL", "fresh home cleaning {City}"],
-    "short_description": "Complete sanitization and preparation of your new home so you unpack into an immaculate, germ-free environment.",
-    "benefits": ["Inside all cabinets & drawers disinfected", "Complete bathroom & kitchen sterilization", "Dust & allergen elimination", "Ready-for-move-in freshness"],
-    "process": ["Sanitizing all cabinet shelving", "Appliance interior and exterior detailing", "Bathrooms disinfected top to bottom", "Whole-home HEPA vacuuming & edge detailing", "Sanitized mop wash on all hard floors"],
-    "faq": [
-      {
-        "question": "When should I book move-in cleaning in {City}, AL?",
-        "answer": "We recommend booking 2 to 5 days before your moving truck arrives so the home is completely empty and accessible for thorough sanitization."
-      }
-    ]
+    "image": "/images/services/move_in_cleaning.jpg",
+    "title_tpl": "Move-In Cleaning Services in {City}, AL | Empty-Home Sanitization | Zoiris",
+    "desc_tpl": "Turnkey move-in house cleaning in {City}, AL ({Zip}). Inside cabinets, drawers, fridge, oven & full bathroom sterilization before unpacking. Call (251) 220-2515!",
+    "h1_tpl": "Move-In Cleaning & Home Sanitization in {City}, AL",
+    "subtitle_tpl": "Unpack into a 100% sanitized, germ-free home in {City} — complete interior cabinet, pantry, appliance, closet, and bathroom sterilization prior to moving day.",
+    "short_description": "Complete pre-occupancy sanitization of vacant houses, condos, and apartments so incoming families unpack dishes, clothes, and groceries onto sterile shelves and spotless floors.",
+    "equipment": "EPA List N hospital-grade botanical disinfectants, food-safe cabinet & refrigerator sanitizers, steam detailers, and HEPA particulate vacuums.",
+    "ideal_for": "Homebuyers closing on a property, incoming relocating families, and new lease tenants",
+    "cadence": "One-Time Pre-Move Appointment (ideally 1–4 days before movers arrive; 3–6 hours)",
+    "benefits": [
+      "Inside every kitchen & bathroom cabinet, drawer & pantry shelf sanitized",
+      "Interior refrigerator, freezer & oven food-safe sterilization",
+      "Closet shelving, wire racks, shoe cubbies & laundry hookup wipeout",
+      "Full disinfection of toilets, tubs, shower drains, handles & switches",
+      "Eliminates previous occupant pet dander, cooking odors & remodeling dust",
+      "Flexible scheduling aligned with real estate closing & moving trucks"
+    ],
+    "process": [
+      "Vacant-home top-down dust purge of ceilings, vents, fans & closet shelves",
+      "Vacuuming & food-safe disinfecting inside all drawers, cabinets & pantries",
+      "Deep interior/exterior detailing of refrigerator, oven, dishwasher & range",
+      "Hospital-grade sterilization of all bathrooms, vanities, tubs & fixtures",
+      "Baseboard, door frame, window sill & interior glass polishing",
+      "HEPA vacuuming and sanitizing mop wash across every square foot of flooring"
+    ],
+    "related_services": ["move-out-cleaning", "deep-cleaning", "house-cleaning", "carpet-cleaning", "post-construction-cleanup", "window-cleaning"]
   },
   "move-out-cleaning": {
     "name": "Move-Out Cleaning",
+    "short_name": "Move-Out Cleaning",
     "slug": "move-out-cleaning",
-    "intent": "transactional",
     "category": "residential",
-    "primary_keywords": ["Move Out Cleaning {City} AL", "Move Out Cleaners {City} AL", "Security Deposit Cleaning {City} AL"],
-    "secondary_keywords": ["end of tenancy cleaning {City}", "apartment move out clean {City} AL", "landlord checklist cleaning {City}"],
-    "short_description": "Landlord-ready turnover cleaning designed to meet strict inspection checklists and help secure your full security deposit refund.",
-    "benefits": ["Deposit-guaranteed standard", "Inside cabinets, fridge & oven cleaned", "Baseboards & walls spot-scrubbed", "Fast turnaround for tenants & landlords"],
-    "process": ["Empty-property systematic walkthrough", "Scrubbing all appliance interiors & exteriors", "Wiping cabinet shelves and drawers", "Removing wall scuffs and baseboard marks", "Sanitizing bathrooms and floors"],
-    "faq": [
-      {
-        "question": "Will move-out cleaning help me get my full deposit back?",
-        "answer": "Yes. Our move-out checklist is specifically structured around property manager inspection standards across Alabama."
-      }
-    ]
-  },
-  "commercial-cleaning": {
-    "name": "Commercial Cleaning",
-    "slug": "commercial-cleaning",
-    "intent": "commercial",
-    "category": "commercial",
-    "primary_keywords": ["Commercial Cleaning {City} AL", "Commercial Cleaners {City} AL", "Commercial Janitorial {City} AL"],
-    "secondary_keywords": ["business cleaning {City} AL", "commercial office cleaning {City}", "corporate cleaning services {City}"],
-    "short_description": "Reliable, insured commercial facility maintenance tailored for corporate offices, retail stores, healthcare facilities, and financial institutions.",
-    "benefits": ["Fully bonded & insured ($2M+ liability)", "Custom after-hours or day porter shifts", "Restroom disinfection & supply restocking", "HEPA filtration for improved indoor air quality"],
-    "process": ["Facility security protocol check", "Restroom high-grade disinfection & restock", "Workstation & high-touch sanitization", "Commercial carpet vacuuming & floor buffing", "Trash emptying and relining", "Final secure lock-up"],
-    "faq": [
-      {
-        "question": "Do you provide after-hours commercial cleaning in {City}, AL?",
-        "answer": "Yes. We offer evening, night, and weekend cleaning schedules so your business operations are never interrupted."
-      }
-    ]
-  },
-  "office-janitorial-services": {
-    "name": "Office Janitorial Services",
-    "slug": "office-janitorial-services",
-    "intent": "commercial",
-    "category": "commercial",
-    "primary_keywords": ["Office Janitorial Services {City} AL", "Office Cleaning {City} AL", "Janitorial Service {City} AL"],
-    "secondary_keywords": ["business office cleaners {City}", "nightly janitorial {City} AL", "office sanitation {City}"],
-    "short_description": "Daily and weekly janitorial programs keeping corporate workplaces clean, healthy, and professional for staff and visiting clients.",
-    "benefits": ["Customized cleaning frequencies", "High-touch disinfection (phones, handles, desks)", "Trash management & recycling", "Breakroom and kitchenette detailing"],
-    "process": ["Reception & lobby detailing", "Conference room sanitization", "Restroom deep scrub & supply replenishment", "Carpet vacuuming & hard floor care"],
-    "faq": [
-      {
-        "question": "Can you provide recurring janitorial contracts in {City}, AL?",
-        "answer": "Yes, we structure customized recurring janitorial schedules with flexible terms and zero punitive lock-in clauses."
-      }
-    ]
-  },
-  "janitorial-cleaning-services": {
-    "name": "Janitorial Cleaning Services",
-    "slug": "janitorial-cleaning-services",
-    "intent": "commercial",
-    "category": "commercial",
-    "primary_keywords": ["Janitorial Cleaning Services {City} AL", "Janitorial Cleaners {City} AL", "Building Maintenance {City} AL"],
-    "secondary_keywords": ["contract janitorial {City}", "facility cleaning {City} AL"],
-    "short_description": "Full-spectrum building maintenance and janitorial operations for commercial properties of all sizes.",
-    "benefits": ["Vetted, uniformed personnel", "Consistent quality audits", "Emergency spill cleanup", "Hospital-grade chemicals"],
-    "process": ["Daily maintenance routine", "Restroom sanitation", "Floor preservation", "Waste removal"],
-    "faq": [
-      {
-        "question": "What types of facilities do you service?",
-        "answer": "We service commercial offices, medical practices, retail banks, auto dealerships, schools, and worship centers across Alabama."
-      }
-    ]
-  },
-  "vacation-rental-cleaning": {
-    "name": "Vacation Rental Cleaning",
-    "slug": "vacation-rental-cleaning",
-    "intent": "commercial",
-    "category": "property-management",
-    "primary_keywords": ["Vacation Rental Cleaning {City} AL", "Vacation Rental Cleaners {City} AL", "Short Term Rental Cleaning {City} AL"],
-    "secondary_keywords": ["beach house turnover {City} AL", "vacation home maid service {City}", "rental turnover cleaners {City}"],
-    "short_description": "Fast, high-standard turnover cleaning tailored for vacation homes, beachfront properties, and short-term rentals.",
-    "benefits": ["Fast turnaround between check-out & check-in", "Linen washing and bed staging", "Restocking guest toiletries", "Damage & missing item reporting"],
-    "process": ["Inspection for damage/left items", "Linen washing and fresh bed making", "Complete bathroom & kitchen sanitization", "Patio & balcony sweep", "Guest amenity staging"],
-    "faq": [
-      {
-        "question": "Can you handle same-day check-in/check-out turnovers?",
-        "answer": "Yes! Our vacation rental teams specialize in fast 10 AM to 3 PM turnover windows with photo confirmation."
-      }
-    ]
-  },
-  "airbnb-cleaning": {
-    "name": "Airbnb Cleaning",
-    "slug": "airbnb-cleaning",
-    "intent": "commercial",
-    "category": "property-management",
-    "primary_keywords": ["Airbnb Cleaning {City} AL", "Airbnb Cleaners {City} AL", "Airbnb Turnover Cleaning {City} AL"],
-    "secondary_keywords": ["superhost cleaning {City} AL", "VRBO cleaning {City}", "short term rental turnover {City}"],
-    "short_description": "5-Star standard Airbnb turnover cleaning designed to earn glowing reviews and maintain Superhost status.",
-    "benefits": ["5-star guest presentation standards", "Automated calendar sync support", "Restocking essentials", "Immediate maintenance alerts"],
-    "process": ["Property walk-through", "Laundering sheets & towels", "Full kitchen & bath disinfection", "Restocking guest supplies", "Photo verification"],
-    "faq": [
-      {
-        "question": "Do you sync with Airbnb host reservation calendars?",
-        "answer": "Yes, we coordinate directly with your booking schedule so cleanings are automatically scheduled after every checkout."
-      }
-    ]
-  },
-  "post-construction-cleanup": {
-    "name": "Post-Construction Cleanup",
-    "slug": "post-construction-cleanup",
-    "intent": "commercial",
-    "category": "specialty",
-    "primary_keywords": ["Post Construction Cleanup {City} AL", "Post Construction Cleaning {City} AL", "Builders Cleaning {City} AL"],
-    "secondary_keywords": ["remodel cleanup {City} AL", "drywall dust removal {City}", "contractor cleaning services {City}"],
-    "short_description": "Multi-phase construction cleaning removing drywall dust, paint overspray, adhesive, and debris for move-in perfection.",
-    "benefits": ["HEPA filtration drywall dust extraction", "Paint, sticker & adhesive removal from glass", "Detailing fixtures, registers & switches", "OSHA compliant safety trained crews"],
-    "process": ["Rough clean / debris removal", "Light clean & dust mitigation", "Final detail polish of glass, trim, and fixtures"],
-    "faq": [
-      {
-        "question": "Do you handle both residential and commercial post-construction cleaning?",
-        "answer": "Yes, we work with custom home builders, general contractors, and remodeling companies on projects of all sizes."
-      }
-    ]
+    "image": "/images/services/move_out_cleaning.jpg",
+    "title_tpl": "Move-Out Cleaning in {City}, AL | Deposit-Ready Lease Turnover | Zoiris",
+    "desc_tpl": "Inspection-ready move-out cleaning in {City}, AL ({Zip}) for tenants, landlords & home sellers. Inside oven, fridge, cabinets, baseboards & floors. Call (251) 220-2515!",
+    "h1_tpl": "Move-Out & Lease Turnover Cleaning in {City}, AL",
+    "subtitle_tpl": "Landlord and realtor inspection-ready move-out cleaning across {City} ({County}) engineered to pass walkthrough checklists and protect security deposits.",
+    "short_description": "Empty-property turnover cleaning engineered around Alabama landlord, apartment community, and real estate listing inspection checklists to secure security deposits and speed up closings.",
+    "equipment": "Heavy-duty carbonized oven degreasers, non-scratch scuff erasers, commercial HEPA vacuums, interior cabinet vacuums, and streak-free glass polishers.",
+    "ideal_for": "Departing renters protecting security deposits, landlords between leases, and sellers staging MLS listings",
+    "cadence": "One-Time Post-Move Turnover (fast 24–48 hr notice availability; 3.5–6 hours)",
+    "benefits": [
+      "Built directly around Alabama landlord & property manager walkthrough sheets",
+      "Inside oven baked-on grease removal & interior fridge/freezer washout",
+      "All empty cabinets, drawers, closets & laundry rooms vacuumed and wiped",
+      "Wall scuff spot-cleaning, hand-washed baseboards & blind detailing",
+      "Itemized completion receipt provided for landlord lease proof",
+      "Backed by our 24-hour Landlord Walkthrough Re-Clean Guarantee"
+    ],
+    "process": [
+      "Debris check & empty-cabinet crumb vacuuming across kitchen and baths",
+      "Intensive interior degreasing of oven racks, stove drip pans & refrigerator",
+      "Bathroom descaling of shower doors, tubs, toilets, exhaust fans & vanities",
+      "Baseboard washing, door/trim scuff removal, sill wiping & mirror polishing",
+      "Closet shelf wipe-down, garage entry sweep & utility room cleaning",
+      "Final HEPA floor extraction, sanitized wet mopping & inspection verification"
+    ],
+    "related_services": ["move-in-cleaning", "deep-cleaning", "carpet-cleaning", "pressure-washing", "property-management-janitorial", "window-cleaning"]
   },
   "carpet-cleaning": {
-    "name": "Carpet Cleaning",
+    "name": "Carpet & Upholstery Steam Cleaning",
+    "short_name": "Carpet Cleaning",
     "slug": "carpet-cleaning",
-    "intent": "transactional",
-    "category": "specialty",
-    "primary_keywords": ["Carpet Cleaning {City} AL", "Carpet Cleaners {City} AL", "Professional Carpet Cleaning {City} AL"],
-    "secondary_keywords": ["steam carpet cleaning {City}", "stain & pet odor removal {City} AL", "commercial carpet cleaning {City}"],
-    "short_description": "Hot water extraction steam cleaning and enzyme spot treatment lifting deep ground-in soil, allergens, and pet odors.",
-    "benefits": ["Deep hot-water steam extraction", "Pet stain and odor neutralizing enzymes", "Fast drying times (4-6 hours)", "Extends carpet lifespan"],
-    "process": ["Pre-inspection and fiber testing", "High-traffic pre-treatment spray", "Agitation and hot water extraction", "Grooming and rapid dry setup"],
-    "faq": [
-      {
-        "question": "How long does carpet take to dry after steam cleaning?",
-        "answer": "Most carpets dry completely in 4 to 6 hours depending on air circulation and humidity."
-      }
-    ]
-  },
-  "pressure-washing": {
-    "name": "Pressure Washing",
-    "slug": "pressure-washing",
-    "intent": "transactional",
-    "category": "specialty",
-    "primary_keywords": ["Pressure Washing {City} AL", "Power Washing {City} AL", "Driveway Pressure Washing {City} AL"],
-    "secondary_keywords": ["house washing {City} AL", "concrete cleaning {City}", "patio power wash {City}"],
-    "short_description": "Commercial pressure washing and soft-washing removing mildew, algae, oil stains, and grime from driveways, siding, and decks.",
-    "benefits": ["Safe soft-wash for siding & stucco", "High-PSI concrete cleaning for driveways", "Removes slippery algae & mildew", "Boosts curb appeal instantly"],
-    "process": ["Surface evaluation & plant protection", "Eco-friendly surfactant application", "Surface cleaner concrete agitation", "Low-pressure soft rinse"],
-    "faq": [
-      {
-        "question": "Will pressure washing damage my home siding?",
-        "answer": "No. We use dedicated soft-wash low-pressure techniques with specialized cleaning solutions for vinyl and stucco siding."
-      }
-    ]
+    "category": "residential",
+    "image": "/images/services/carpet_cleaning.jpg",
+    "title_tpl": "Carpet & Upholstery Steam Cleaning in {City}, AL | Stain & Odor Removal | Zoiris",
+    "desc_tpl": "Deep hot-water extraction carpet, area rug & upholstery cleaning in {City}, AL ({Zip}). Lifts red clay, pet odors, allergens & traffic lanes. Fast dry! Call (251) 220-2515!",
+    "h1_tpl": "Carpet, Rug & Upholstery Steam Cleaning in {City}, AL",
+    "subtitle_tpl": "Commercial hot-water steam extraction and enzyme stain treatment for carpets, area rugs, sofas, and upholstery across {City} and {County}.",
+    "short_description": "High-temperature hot-water extraction (steam cleaning), bio-enzymatic pet odor neutralization, and upholstery fabric care removing deep-embedded soil, red clay, sand, and allergens.",
+    "equipment": "High-PSI heated hot-water extraction units, counter-rotating pile agitators, bio-enzymatic pet urine neutralizers, low-moisture upholstery hand tools, and high-velocity air movers.",
+    "ideal_for": "Wall-to-wall residential carpeting, commercial carpet tile, sofas/sectionals, mattresses, and synthetic/wool area rugs",
+    "cadence": "Every 6–12 Months, Move-Out Lease Requirement, or Emergency Pet/Spill Treatment (Fast 3–5 hr dry time)",
+    "benefits": [
+      "200°F+ hot-water extraction flushes dirt, dust mites & detergent residue",
+      "Bio-enzymatic treatment neutralizes pet urine crystals & odors at the pad",
+      "Specialized upholstery & sofa steam detailing for microfiber, linen & blends",
+      "Targeted spot chemistry for Alabama red clay, coffee, wine & grease",
+      "Zero crunchy soap residue — fibers dry soft in 3 to 5 hours",
+      "Safe, non-toxic CRI-aligned rinsing formulas for crawling infants & pets"
+    ],
+    "process": [
+      "Fiber identification, UV pet-spot inspection & dry HEPA pre-vacuuming",
+      "Heated alkaline traffic-lane pre-spray & targeted stain/red-clay treatment",
+      "Mechanical pile agitation to suspend ground-in grit and dander",
+      "High-suction hot-water extraction rinse balancing fiber pH",
+      "Optional upholstery, sectional, dining chair & mattress steam sanitization",
+      "Carpet nap grooming and rapid-dry airflow verification"
+    ],
+    "related_services": ["deep-cleaning", "house-cleaning", "move-out-cleaning", "floor-stripping-waxing", "detailing", "luxury-estate-cleaning"]
   },
   "window-cleaning": {
-    "name": "Window Cleaning",
+    "name": "Window Cleaning Services",
+    "short_name": "Window Cleaning",
     "slug": "window-cleaning",
-    "intent": "transactional",
     "category": "specialty",
-    "primary_keywords": ["Window Cleaning {City} AL", "Window Cleaners {City} AL", "Professional Window Washing {City} AL"],
-    "secondary_keywords": ["streak free window cleaning {City}", "residential window washing {City}"],
-    "short_description": "Crystal-clear, streak-free interior and exterior window washing including track detailing, sill wiping, and screen cleaning.",
-    "benefits": ["Streak-free purified water finish", "Sill and track detailing included", "Screen washing and debris removal"],
-    "process": ["Screen removal and scrub", "Glass washing with professional squeegee", "Track detailing and sill wipe down", "Screen replacement"],
-    "faq": [
-      {
-        "question": "Do you clean window tracks and screens?",
-        "answer": "Yes, our full window cleaning service includes wiping tracks, sills, and washing screens."
-      }
-    ]
+    "image": "/images/services/window_cleaning.jpg",
+    "title_tpl": "Interior & Exterior Window Cleaning in {City}, AL | Streak-Free Glass | Zoiris",
+    "desc_tpl": "Crystal-clear residential & commercial window cleaning in {City}, AL ({Zip}). Purified water-fed poles, screen washing, sill & track detailing. Call (251) 220-2515!",
+    "h1_tpl": "Streak-Free Window Cleaning in {City}, AL",
+    "subtitle_tpl": "Purified deionized exterior glass washing, precision interior squeegee work, screen scrubbing, and window track detailing in {City} ({County}).",
+    "short_description": "Streak-free interior and exterior window washing utilizing multi-stage deionized pure water poles, surgical rubber squeegees, screen baths, and deep sill/track dirt extraction.",
+    "equipment": "4-stage RO/DI purified water-fed carbon-fiber poles (spot-free drying), Ettore/Moerman brass & stainless squeegees, non-scratch bronze wool pads, and track vacuum nozzles.",
+    "ideal_for": "Multi-story homes, French-pane historic sashes, sunroom glass, coastal sliders, and retail storefronts",
+    "cadence": "Semi-Annual Residential Care or Monthly/Quarterly Commercial Storefront Routes",
+    "benefits": [
+      "Deionized pure-water exterior rinse dries 100% spot-free without mineral rings",
+      "Window tracks, weep holes & sills vacuumed and hand-wiped clean",
+      "Removable insect screens gently brushed, washed & reinstalled",
+      "Safely removes pollen film, coastal salt haze, bug spots & hard-water mist",
+      "Padded ladder standoffs & carbon extension poles protect siding and landscaping",
+      "Interior drop-cloth shoe-cover protocol keeps floors and drapes immaculate"
+    ],
+    "process": [
+      "Property glass walkthrough, screen removal & interior drop-cloth placement",
+      "Screen frame & mesh gentle detergent wash and rinse",
+      "Vacuuming dead insects, pollen & grit out of window tracks and sills",
+      "Exterior glass scrubbing and deionized pure-water spot-free rinse",
+      "Interior hand applicator wash, precision squeegee blade pull & edge detailing",
+      "Multi-angle sunlight inspection for zero streaks, smears, or drips"
+    ],
+    "related_services": ["pressure-washing", "gutter-cleaning", "solar-panel-cleaning", "deep-cleaning", "house-cleaning", "post-construction-cleanup"]
+  },
+  "pressure-washing": {
+    "name": "Pressure Washing & Soft Washing",
+    "short_name": "Pressure Washing",
+    "slug": "pressure-washing",
+    "category": "specialty",
+    "image": "/images/services/pressure_washing.jpg",
+    "title_tpl": "Pressure Washing & House Soft Washing in {City}, AL | Concrete & Siding | Zoiris",
+    "desc_tpl": "Professional driveway pressure washing & low-pressure house soft washing in {City}, AL ({Zip}). Removes green algae, mildew & red clay stains. Call (251) 220-2515!",
+    "h1_tpl": "Pressure Washing & Exterior Soft Washing in {City}, AL",
+    "subtitle_tpl": "Rotary concrete surface cleaning and gentle low-PSI siding soft washing across {City} ({County}) — eliminating black mildew, green algae, and red clay staining.",
+    "short_description": "Commercial rotary concrete pressure washing for driveways, sidewalks, and pool decks paired with damage-free low-pressure soft washing for vinyl, Hardie plank, brick, and stucco siding.",
+    "equipment": "4+ GPM commercial belt-drive pressure washers, 20-inch rotary concrete surface cleaners (zero zebra stripes), dedicated 60-PSI soft-wash proportioners, and biodegradable algaecide surfactants.",
+    "ideal_for": "Concrete driveways, walkways, brick pavers, vinyl/Hardie/stucco house siding, pool decks, fences & commercial plazas",
+    "cadence": "Annual or Pre-Listing Curb Appeal Wash (2–5 hours)",
+    "benefits": [
+      "Low-pressure (<100 PSI) house soft wash kills mold & Gloeocapsa algae without damaging siding seals",
+      "Rotary surface cleaner restores concrete driveways evenly with zero wand etching",
+      "Specialized rust, oil drip & Alabama red clay stain pre-treatments",
+      "Thorough pre-wetting and post-rinsing protects shrubs, azaleas & flower beds",
+      "Eliminates slippery algae hazards on pool decks, front steps & shaded walkways",
+      "Boosts instant residential curb appeal and HOA compliance"
+    ],
+    "process": [
+      "Exterior surface audit, electrical outlet taping & landscape pre-saturation",
+      "Application of biodegradable soft-wash algaecide on siding, soffits & fascia",
+      "Gentle low-pressure fresh-water rinse leaving exterior walls bright and sanitized",
+      "Degreaser pre-treatment & rotary surface-cleaner pass across concrete driveways/patios",
+      "Precision edge rinsing along walkways, curbs, porches & garage aprons",
+      "Final plant hydration rinse and homeowner curb-appeal walkthrough"
+    ],
+    "related_services": ["gutter-cleaning", "window-cleaning", "solar-panel-cleaning", "property-maintenance", "post-construction-cleanup", "commercial-cleaning"]
   },
   "gutter-cleaning": {
-    "name": "Gutter Cleaning",
+    "name": "Gutter & Downspout Cleaning",
+    "short_name": "Gutter Cleaning",
     "slug": "gutter-cleaning",
-    "intent": "transactional",
     "category": "specialty",
-    "primary_keywords": ["Gutter Cleaning {City} AL", "Gutter Cleaners {City} AL", "Downspout Cleaning {City} AL"],
-    "secondary_keywords": ["roof gutter cleaning {City}", "clogged gutter service {City} AL"],
-    "short_description": "Thorough clearing of leaves, moss, and debris from gutters and downspouts preventing foundation water damage.",
-    "benefits": ["Prevents roof and foundation water damage", "Downspout flow testing", "Safe ladder stabilizers used", "Debris bagged and removed"],
-    "process": ["Manual debris removal", "Downspout flush and obstruction check", "Ground cleanup of all fallen debris"],
-    "faq": [
-      {
-        "question": "How often should gutters be cleaned in Alabama?",
-        "answer": "We recommend cleaning gutters at least twice per year (spring and late autumn) to prevent seasonal clogs."
-      }
-    ]
-  },
-  "floor-stripping-waxing": {
-    "name": "Floor Stripping & Waxing",
-    "slug": "floor-stripping-waxing",
-    "intent": "commercial",
-    "category": "commercial",
-    "primary_keywords": ["Floor Stripping and Waxing {City} AL", "Commercial Floor Waxing {City} AL", "VCT Floor Cleaning {City} AL"],
-    "secondary_keywords": ["hard floor refinishing {City}", "vinyl tile waxing {City} AL"],
-    "short_description": "Commercial VCT and hard floor stripping, deep cleaning, and multi-coat high-gloss wax application.",
-    "benefits": ["Removes yellowed old wax and scuffs", "Applies 4+ coats of commercial polymer wax", "High-gloss mirror finish", "Protects floor against heavy foot traffic"],
-    "process": ["Old wax stripping solution application", "Rotary machine stripping agitation", "Neutralizing rinse and extraction", "Applying premium floor finish coats", "High-speed burnishing"],
-    "faq": [
-      {
-        "question": "How long does floor wax take to cure?",
-        "answer": "Floors are typically ready for light foot traffic within 8 to 12 hours after the final coat is applied."
-      }
-    ]
+    "image": "/images/services/gutter_cleaning.jpg",
+    "title_tpl": "Gutter Cleaning & Downspout Flushing in {City}, AL | Roof Drainage | Zoiris",
+    "desc_tpl": "Safe, thorough gutter cleaning & downspout hydro-flushing in {City}, AL ({Zip}). Clears pine needles, oak leaves & roof grit; full debris haul-off. Call (251) 220-2515!",
+    "h1_tpl": "Gutter Cleaning & Downspout Clearing in {City}, AL",
+    "subtitle_tpl": "Protect your roof, fascia, and slab foundation in {City} ({County}) with complete gutter trough clearing, downspout flow testing, and bagged debris removal.",
+    "short_description": "Hand-cleared gutter trough cleaning and pressurized downspout flushing removing compacted pine straw, live oak leaves, shingle granules, and roof moss before heavy Alabama rainstorms.",
+    "equipment": "OSHA-rated ladder standoffs (never resting on gutter lips), gutter scoopers, pressurized downspout hydro-jet nozzles, and heavy-duty debris collection bags.",
+    "ideal_for": "Single- and two-story residences, wooded lots under pine/oak canopies, and commercial rooflines",
+    "cadence": "Twice Yearly (Late Spring post-pollen/oak drop & Late Autumn leaf fall)",
+    "benefits": [
+      "Prevents fascia rot, soffit water intrusion, mosquito breeding & foundation erosion",
+      "Every downspout & underground elbow hydro-tested for 100% free water flow",
+      "Padded standoff stabilizers prevent dents or scratches on seamless aluminum gutters",
+      "All wet muck, pine straw & leaves bagged at roofline — zero mess left on lawns",
+      "Visual check of gutter pitch, loose hangers & miter seam drips included",
+      "Fully insured crews — stay safely off ladders while we handle the heights"
+    ],
+    "process": [
+      "Perimeter safety setup with padded roof/wall standoff ladder stabilizers",
+      "Hand-extraction and bagging of packed leaves, pine needles & shingle sludge",
+      "Clearing downspout strainer cages and pressurized water flushing of all vertical drops",
+      "Exterior gutter face rinse to remove tiger-striping overflow drips",
+      "Complete ground, deck & flowerbed sweep ensuring zero fallen debris remains",
+      "Drainage confirmation report noting any loose spikes or seam wear"
+    ],
+    "related_services": ["pressure-washing", "window-cleaning", "solar-panel-cleaning", "property-maintenance", "home-watch-services", "deep-cleaning"]
   },
   "luxury-estate-cleaning": {
-    "name": "Luxury Estate Cleaning",
+    "name": "Luxury Estate & Fine Home Cleaning",
+    "short_name": "Luxury Estate Cleaning",
     "slug": "luxury-estate-cleaning",
-    "intent": "transactional",
     "category": "residential",
-    "primary_keywords": ["Luxury Estate Cleaning {City} AL", "Luxury Home Cleaning {City} AL", "High End House Cleaning {City} AL"],
-    "secondary_keywords": ["mansion cleaning {City} AL", "white glove cleaning service {City}"],
-    "short_description": "White-glove housekeeping service tailored for luxury residences, historic estates, and high-value architectural finishes.",
-    "benefits": ["White-glove care for delicate marble, crystal & hardwood", "Dedicated discrete senior cleaning specialists", "Customized estate management checklists"],
-    "process": ["Pre-clean walk with homeowner", "Specialty surface preservation", "Room-by-room meticulous detail", "Quality checklist verification"],
-    "faq": [
-      {
-        "question": "Are your cleaners trained on specialty surfaces like marble and antique woodwork?",
-        "answer": "Yes. Our estate cleaning specialists use pH-neutral stone cleaners and specific care routines for fine materials."
-      }
-    ]
+    "image": "/images/services/luxury_estate_cleaning.jpg",
+    "title_tpl": "Luxury Estate Cleaning & White-Glove Housekeeping in {City}, AL | Zoiris",
+    "desc_tpl": "Discreet white-glove luxury estate cleaning in {City}, AL ({Zip}). Specialized care for marble, heart pine, custom millwork & fine art residences. Call (251) 220-2515!",
+    "h1_tpl": "White-Glove Luxury Estate Cleaning in {City}, AL",
+    "subtitle_tpl": "Bespoke preservation housekeeping for custom residences, waterfront estates, and historic homes in {City} ({County}) with senior trained specialists.",
+    "short_description": "Discreet, conservation-grade white-glove housekeeping tailored for 3,500+ sq ft residences, bayfront/lakefront estates, and homes featuring Calacatta marble, heart pine, antique millwork, and fine art.",
+    "equipment": "Stone-safe neutral pH marble cleansers, Bona Pro hardwood systems, ultra-plush 500-GSM edgeless microfiber, horsehair brush HEPA attachments, and fragrance-free botanical sanitizers.",
+    "ideal_for": "Custom estates, waterfront properties, country-club residences, historic mansions, and executive homes",
+    "cadence": "Dedicated Weekly, Multi-Day Weekly, or Bi-Weekly Assigned Senior Team",
+    "benefits": [
+      "Acid-free, pH-7 stone care protecting honed marble, travertine, limestone & onyx",
+      "Consistent assigned senior specialists familiar with your estate's exact protocols",
+      "Telescoping high-reach care for two-story foyers, chandeliers, beams & transoms",
+      "Strict NDA discretion, alarm/gate protocol compliance & pet security awareness",
+      "Chef's kitchen detailing for Wolf, Sub-Zero, Viking & La Cornue appliances",
+      "Outdoor loggia, lanai, summer kitchen & glass veranda detailing available"
+    ],
+    "process": [
+      "Private estate walkthrough documenting stone, wood, art & off-limit zones",
+      "High architectural dusting of coffers, crown moldings, transoms & gallery lighting",
+      "Chef's kitchen stainless, custom cabinetry, butler's pantry & stone island care",
+      "Spa-bathroom natural stone, frameless glass, soaking tub & brass/nickel polishing",
+      "Horsehair-brush HEPA rug care and Bona-standard hardwood floor preservation",
+      "White-glove staging of primary suites, guest wings & covered outdoor living spaces"
+    ],
+    "related_services": ["luxury-estate-management", "home-watch-services", "deep-cleaning", "window-cleaning", "carpet-cleaning", "detailing"]
+  },
+  "laundry-services": {
+    "name": "Residential Laundry & Linen Service",
+    "short_name": "Laundry Services",
+    "slug": "laundry-services",
+    "category": "residential",
+    "image": "/images/services/laundry_services.jpg",
+    "title_tpl": "In-Home Laundry, Folding & Linen Service in {City}, AL | Zoiris Cleaning",
+    "desc_tpl": "Convenient residential laundry, wash-dry-fold & bed linen changing services in {City}, AL ({Zip}). Pair with maid visits or short-term turnovers. Call (251) 220-2515!",
+    "h1_tpl": "Laundry, Folding & Fresh Linen Service in {City}, AL",
+    "subtitle_tpl": "Reclaim your weekends in {City} ({County}) with meticulous wash-dry-fold laundry care, bed stripping and remaking, and vacation rental towel/linen staging.",
+    "short_description": "Dedicated in-home wash, dry, crisp fold, closet organization, and hotel-style bed linen changing for busy households, seniors, and short-term vacation rental properties.",
+    "equipment": "Fabric-safe sorting protocols, hypoallergenic/free-and-clear detergent compatibility, delicate garment mesh bags, steam wrinkle release, and crisp retail/hotel folding boards.",
+    "ideal_for": "Busy working families, executives, post-partum parents, seniors, and Airbnb/VRBO hosts",
+    "cadence": "Standalone Weekly Service or Integrated Add-On to Recurring House Cleaning",
+    "benefits": [
+      "Careful sorting by color, fabric weight & care-label temperature instructions",
+      "Uses your preferred hypoallergenic detergents or gentle eco-safe formulas",
+      "All master, kids & guest beds stripped and remade with crisp hospital corners",
+      "Bath towels, hand towels & sheets neatly folded and organized in linen closets",
+      "Eliminates multi-load laundry backlogs for active families",
+      "Zero contracts — add to any weekly or bi-weekly maid schedule"
+    ],
+    "process": [
+      "Stripping bed sheets, duvet covers & pillowcases across designated bedrooms",
+      "Sorting garments, towels & linens by color fastness and fabric delicacy",
+      "Precision wash & temperature-controlled dry cycles preventing shrinkage",
+      "Immediate warm removal, wrinkle smoothing & uniform folding/hanging",
+      "Hotel-grade bed remaking and organized placement into drawers/linen shelves",
+      "Lint trap cleaning and laundry room counter/appliance wipe-down"
+    ],
+    "related_services": ["house-cleaning", "airbnb-cleaning", "vacation-rental-cleaning", "luxury-estate-cleaning", "deep-cleaning", "luxury-estate-management"]
+  },
+  "detailing": {
+    "name": "Interior Surface & Home Detailing",
+    "short_name": "Interior Detailing",
+    "slug": "detailing",
+    "category": "residential",
+    "image": "/images/services/detailing.jpg",
+    "title_tpl": "Precision Interior Home & Surface Detailing in {City}, AL | Zoiris Cleaning",
+    "desc_tpl": "Micro-level interior home detailing in {City}, AL ({Zip}). Appliances, cabinetry, grout lines, blinds, vents, hardware & fine fixture restoration. Call (251) 220-2515!",
+    "h1_tpl": "Precision Interior Surface & Home Detailing in {City}, AL",
+    "subtitle_tpl": "Fine-tooth precision detailing for kitchens, baths, built-ins, interior appliances, grout, and architectural hardware across {City} and {County}.",
+    "short_description": "Surgical micro-detailing of high-wear interior zones—including oven/fridge interiors, cabinet hinges, tile grout lines, window blinds, HVAC registers, and architectural trim—restoring showroom brilliance.",
+    "equipment": "275°F dry-vapor steam detailers, Boar's-hair crevice brushes, non-scratch melamine & razor glass scrapers, stainless grain polishers, and HEPA micro-nozzle vacuums.",
+    "ideal_for": "Pre-sale real estate photo prep, newly purchased homes, gourmet kitchens, and detail-focused homeowners",
+    "cadence": "On-Demand Precision Session or Quarterly Detail Upgrade (3–6 hours)",
+    "benefits": [
+      "Dry-vapor steam sanitization blasts grime out of faucet bases, hinges & tracks",
+      "Complete interior oven, range hood filter, refrigerator & dishwasher detailing",
+      "Individual slat-by-slat plantation shutter & faux-wood blind hand washing",
+      "Grout line agitation & brightening across tiled showers, backsplashes & foyers",
+      "Cabinetry face degreasing removing kitchen cooking oils and fingerprints",
+      "Ideal before MLS real estate photography, open houses & holiday hosting"
+    ],
+    "process": [
+      "Zone-by-zone detail inspection identifying mineral scale, grease & crevice dust",
+      "High-pressure dry steam detailing around plumbing fixtures, drains & hinges",
+      "Appliance interior disassembly (shelves, crispers, racks) and deep degreasing",
+      "Hand detailing of shutters, blinds, wainscoting, built-in shelving & vents",
+      "Tile grout scrubbing and stainless/brass hardware buffing",
+      "White-glove inspection under bright LED task lighting"
+    ],
+    "related_services": ["deep-cleaning", "luxury-estate-cleaning", "carpet-cleaning", "window-cleaning", "move-in-cleaning", "house-cleaning"]
+  },
+  "commercial-cleaning": {
+    "name": "Commercial Cleaning Services",
+    "short_name": "Commercial Cleaning",
+    "slug": "commercial-cleaning",
+    "category": "commercial",
+    "image": "/images/services/commercial_cleaning.jpg",
+    "title_tpl": "Commercial Cleaning Services in {City}, AL | Insured Facility Care | Zoiris",
+    "desc_tpl": "Bonded & insured commercial cleaning in {City}, AL ({Zip}) for retail, banks, dealerships & corporate buildings. Flexible night/weekend shifts. Call (251) 220-2515!",
+    "h1_tpl": "Commercial Facility Cleaning Services in {City}, AL",
+    "subtitle_tpl": "Dependable, fully insured commercial cleaning programs for retail storefronts, banks, dealerships, and business facilities across {City} ({County}).",
+    "short_description": "Comprehensive commercial building sanitation and presentation care tailored for customer-facing retail spaces, financial branches, auto showrooms, and corporate centers with zero operational disruption.",
+    "equipment": "CRI-certified commercial backpack HEPA vacuums, hospital-grade quaternary/botanical EPA List N disinfectants, flat microfiber damp-mop systems, and commercial glass/floor equipment.",
+    "ideal_for": "Retail stores, banks & credit unions, auto showrooms, professional plazas, and commercial buildings",
+    "cadence": "Nightly, 2x–5x Weekly After-Hours, or Weekend Shifts — No Punitive Lock-In Clauses",
+    "benefits": [
+      "Comprehensive general liability & workers' compensation COI provided on request",
+      "Evening, overnight & weekend crews ensure zero business interruption",
+      "Customer lobby, glass entry, fitting room & showroom floor presentation focus",
+      "EPA-registered high-touch disinfection of counters, POS terminals & door pulls",
+      "Uniformed, badge-verified W-2 staff trained in alarm & lockbox security",
+      "Dedicated account supervisor & transparent flat-rate monthly billing"
+    ],
+    "process": [
+      "Site security sign-in and custom commercial scope-of-work verification",
+      "Entryway glass, lobby reception, waiting area & display dusting/polishing",
+      "High-touch disinfection of service counters, railings, elevators & break areas",
+      "Restroom deep sanitization, odor neutralization & soap/paper restocking",
+      "Commercial HEPA carpet vacuuming and hard-floor auto-scrubbing/damp mopping",
+      "Centralized waste/recycling removal, alarm arming & secure lock-up check"
+    ],
+    "related_services": ["office-janitorial-services", "janitorial-cleaning-services", "floor-stripping-waxing", "medical-dental-facility-cleaning", "window-cleaning", "pressure-washing"]
+  },
+  "office-janitorial-services": {
+    "name": "Office Cleaning & Workplace Janitorial",
+    "short_name": "Office Janitorial",
+    "slug": "office-janitorial-services",
+    "category": "commercial",
+    "image": "/images/services/office_janitorial_services.jpg",
+    "title_tpl": "Office Cleaning & Workplace Janitorial in {City}, AL | Nightly Crews | Zoiris",
+    "desc_tpl": "Professional office cleaning & corporate workstation sanitization in {City}, AL ({Zip}). Conference rooms, breakrooms, restrooms & floors. Free bid: (251) 220-2515!",
+    "h1_tpl": "Office Cleaning & Corporate Janitorial in {City}, AL",
+    "subtitle_tpl": "Keep your {City} workplace healthy, productive, and client-ready with tailored office desk, conference room, breakroom, and restroom sanitization.",
+    "short_description": "Specialized corporate and small-business office cleaning focused on employee wellness, reduced sick days, electronics-safe workstation dusting, conference room readiness, and hygienic office breakrooms.",
+    "equipment": "Quiet-decibel HEPA backpack vacuums, anti-static electronics-safe microfiber, touchpoint sanitizing wipes, and color-coded restroom vs. breakroom sanitation kits.",
+    "ideal_for": "Law firms, accounting & insurance offices, tech/engineering suites, real estate brokerages & administrative HQ",
+    "cadence": "Daily, 3x Weekly, Weekly, or Bi-Weekly After-Hours Office Schedules",
+    "benefits": [
+      "Strict color-coded separation between restroom tools and breakroom/desk cloths",
+      "Anti-static dusting safe around dual monitors, VoIP phones, docks & conference AV",
+      "Breakroom sink, coffee station, microwave interior & refrigerator handle sanitation",
+      "Reduces workplace cold/flu transmission across shared keyboards, doors & conference tables",
+      "Confidentiality-trained in-house employees — documents & desks never disturbed",
+      "Customizable scope scaling from 1,000 sq ft suites to multi-floor offices"
+    ],
+    "process": [
+      "Reception lobby, glass partition & conference room table sanitization",
+      "Open-office workstation perimeter dusting without disturbing paperwork",
+      "Office kitchen/breakroom counter, sink, appliance exterior & table disinfection",
+      "Restroom fixture descaling, stall partition wiping, mirror polish & consumable restock",
+      "Desk-side trash/shred-bin liner replacement and corridor HEPA vacuuming",
+      "Hard-surface mopping, light shutoff & building security alarm verification"
+    ],
+    "related_services": ["commercial-cleaning", "janitorial-cleaning-services", "medical-dental-facility-cleaning", "floor-stripping-waxing", "carpet-cleaning", "window-cleaning"]
+  },
+  "janitorial-cleaning-services": {
+    "name": "Contract Janitorial & Day Porter Services",
+    "short_name": "Janitorial Services",
+    "slug": "janitorial-cleaning-services",
+    "category": "commercial",
+    "image": "/images/services/janitorial_cleaning_services.jpg",
+    "title_tpl": "Janitorial Cleaning & Day Porter Services in {City}, AL | Facility Custodial | Zoiris",
+    "desc_tpl": "Full-service contract janitorial & day porter custodial operations in {City}, AL ({Zip}). Restroom supply management, high-traffic floors & QC audits. Call (251) 220-2515!",
+    "h1_tpl": "Contract Janitorial & Custodial Services in {City}, AL",
+    "subtitle_tpl": "Turnkey building custodial operations, day-porter staffing, consumable restocking, and quality-audited janitorial maintenance in {City} ({County}).",
+    "short_description": "Full-scope ongoing custodial management, day-porter attendance, multi-restroom consumable logistics, and scheduled floor care for high-traffic multi-tenant, municipal, and institutional buildings.",
+    "equipment": "Commercial janitorial carts, closed-loop chemical dilution dispensers, high-capacity walk-behind floor scrubbers, HEPA vacuums, and digital quality-audit checklists.",
+    "ideal_for": "Multi-tenant office buildings, municipal/civic centers, campuses, clinics & high-foot-traffic facilities",
+    "cadence": "5x–7x Weekly Custodial Contracts, Day Porter Shifts, or Hybrid Day/Night Programs",
+    "benefits": [
+      "Day-porter support for continuous lobby upkeep, spill response & restroom checks",
+      "Automated tracking and replenishment of paper towels, tissue, liners & hand soap",
+      "Routine supervisor walk-through inspections guaranteeing consistent KPI standards",
+      "Trained backup staffing pool guarantees zero missed shifts due to absences",
+      "OSHA Hazard Communication (HazCom) compliant chemical labeling & SDS binders",
+      "Bundled periodic carpet extraction, window washing & VCT floor burnishing"
+    ],
+    "process": [
+      "Custom building custodial matrix mapping daily, weekly & monthly frequencies",
+      "Continuous high-traffic entrance mat, elevator cab, stairwell & corridor care",
+      "Multi-stall restroom deep sanitation, floor drain odor control & dispenser restock",
+      "Breakroom, vending area & common lounge sanitation and waste consolidation",
+      "Mechanized hard-floor scrubbing and commercial HEPA carpet maintenance",
+      "Supervisor digital inspection log & proactive facility maintenance reporting"
+    ],
+    "related_services": ["commercial-cleaning", "office-janitorial-services", "floor-stripping-waxing", "industrial-warehouse-cleaning", "property-management-janitorial", "school-daycare-cleaning"]
+  },
+  "medical-dental-facility-cleaning": {
+    "name": "Medical & Dental Facility Cleaning",
+    "short_name": "Medical & Dental Cleaning",
+    "slug": "medical-dental-facility-cleaning",
+    "category": "commercial",
+    "image": "/images/services/medical_facility_cleaning.jpg",
+    "title_tpl": "Medical & Dental Office Cleaning in {City}, AL | OSHA & EPA Disinfection | Zoiris",
+    "desc_tpl": "Clinical-grade medical, dental & urgent care cleaning in {City}, AL ({Zip}). EPA List N disinfectants, exam room terminal sanitation & HIPAA discretion. Call (251) 220-2515!",
+    "h1_tpl": "Medical, Dental & Clinical Facility Cleaning in {City}, AL",
+    "subtitle_tpl": "Infection-control terminal cleaning and EPA List N disinfection for medical clinics, dental practices, surgery centers, and veterinary offices in {City}.",
+    "short_description": "Healthcare-grade environmental sanitation engineered around CDC, OSHA bloodborne pathogen awareness, and HIPAA privacy protocols for outpatient clinics, dental operatories, physical therapy, and urgent care centers.",
+    "equipment": "EPA List N hospital-grade tuberculocidal/virucidal disinfectants (verified dwell-time compliance), sealed ULPA/HEPA vacuums, single-room color-coded microfiber, and no-dip flat mop heads.",
+    "ideal_for": "Primary care clinics, dental & orthodontic practices, urgent care, pediatricians, med-spas, PT & veterinary clinics",
+    "cadence": "Nightly Terminal Cleaning or Custom Post-Patient Clinical Schedules",
+    "benefits": [
+      "Strict dwell-time disinfection killing MRSA, C. diff spores, norovirus & respiratory pathogens",
+      "One-cloth / one-mop-pad per exam room protocol eliminating cross-contamination",
+      "Waiting room chairs, check-in tablets, clipboards, door push-plates & kids' areas sanitized",
+      "Dental operatory cabinetry, X-ray arm exteriors, sinks & seamless vinyl floors detailed",
+      "HIPAA-aware, background-screened in-house staff protecting patient privacy",
+      "Audit-ready cleaning logs supporting clinical compliance inspections"
+    ],
+    "process": [
+      "PPE donning & isolation of clean vs. soiled microfiber pads per clinical zone",
+      "Waiting lobby, reception glass, patient intake counters & restroom disinfection",
+      "Exam room / dental operatory high-touch surface disinfection with full contact dwell time",
+      "Nurse station, lab counter exterior, staff breakroom & locker area sanitization",
+      "HEPA particulate filtration vacuuming and hospital-disinfectant seamless floor mopping",
+      "Regulated liner handling (non-sharps municipal waste) & clinical checklist sign-off"
+    ],
+    "related_services": ["office-janitorial-services", "commercial-cleaning", "janitorial-cleaning-services", "floor-stripping-waxing", "school-daycare-cleaning", "window-cleaning"]
+  },
+  "industrial-warehouse-cleaning": {
+    "name": "Industrial & Warehouse Cleaning",
+    "short_name": "Industrial & Warehouse Cleaning",
+    "slug": "industrial-warehouse-cleaning",
+    "category": "commercial",
+    "image": "/images/services/industrial_warehouse_cleaning.jpg",
+    "title_tpl": "Industrial & Warehouse Cleaning in {City}, AL | Concrete Floors & OSHA Care | Zoiris",
+    "desc_tpl": "Heavy-duty warehouse, distribution center & industrial cleaning in {City}, AL ({Zip}). Concrete floor scrubbing, high-bay dust, breakrooms & restrooms. Call (251) 220-2515!",
+    "h1_tpl": "Industrial, Warehouse & Distribution Cleaning in {City}, AL",
+    "subtitle_tpl": "OSHA-aligned industrial facility sanitation, concrete slab degreasing, shipping office cleaning, and employee welfare room care across {City} ({County}).",
+    "short_description": "Heavy-duty industrial sanitation for warehouses, logistics hubs, manufacturing plants, and fabrication shops—keeping concrete aisles, loading bays, employee locker rooms, and front offices safe and audit-ready.",
+    "equipment": "Cylindrical/disc concrete floor auto-scrubbers, industrial wet/dry HEPA shop extractors, forklift-tire mark degreasers, high-bay extension dusters, and OSHA PPE gear.",
+    "ideal_for": "Distribution warehouses, manufacturing plants, port/logistics terminals, machine shops & cold/dry storage hubs",
+    "cadence": "Scheduled Shift-Window Cleaning, Weekly Concrete Scrubbing, or Pre-Audit Deep Cleans",
+    "benefits": [
+      "Degreases concrete warehouse aisles removing pallet dust, oil drips & tire marks",
+      "OSHA safety-trained crews wearing high-vis vests, steel-toe footwear & eye protection",
+      "Heavy-soil employee locker rooms, shower stalls, time-clock zones & breakrooms sanitized",
+      "Front administrative offices & visitor conference rooms kept executive-ready",
+      "High-reach dust mitigation along racking, mezzanines, conduits & dock doors",
+      "Reduces slip-and-fall hazards and airborne silica/cardboard dust on packing lines"
+    ],
+    "process": [
+      "Site safety briefing, LOTO/aisle traffic coordination & PPE verification",
+      "Dry sweeping and HEPA vacuuming of warehouse aisles, staging zones & mezzanines",
+      "Degreasing pre-treatment and mechanized scrubbing of sealed/unsealed concrete floors",
+      "Intensive sanitization of shop restrooms, locker rooms & shift breakrooms",
+      "Administrative shipping office, dispatch window & conference suite cleaning",
+      "Loading dock apron debris clearing, gaylord/trash consolidation & safety sign-off"
+    ],
+    "related_services": ["commercial-cleaning", "floor-stripping-waxing", "pressure-washing", "janitorial-cleaning-services", "post-construction-cleanup", "property-maintenance"]
+  },
+  "floor-stripping-waxing": {
+    "name": "Floor Stripping, Waxing & Hard Floor Care",
+    "short_name": "Floor Stripping & Waxing",
+    "slug": "floor-stripping-waxing",
+    "category": "commercial",
+    "image": "/images/services/floor_stripping_waxing.jpg",
+    "title_tpl": "VCT Floor Stripping, Waxing & Hard Floor Care in {City}, AL | Zoiris Cleaning",
+    "desc_tpl": "Commercial VCT floor stripping & waxing, tile/grout scrubbing & hardwood floor care in {City}, AL ({Zip}). Multi-coat high-gloss polymer finish. Call (251) 220-2515!",
+    "h1_tpl": "Floor Stripping, Waxing & Hard Floor Restoration in {City}, AL",
+    "subtitle_tpl": "Restore mirror-gloss durability to VCT vinyl, terrazzo, ceramic tile, concrete, and hardwood floors across {City} and {County}.",
+    "short_description": "Complete hard-floor restoration including old yellowed acrylic wax stripping, pH neutralizing rinses, 4-to-6 coat high-solids commercial polymer finish application, high-speed burnishing, and tile/hardwood deep care.",
+    "equipment": "175-RPM weighted rotary swing machines with black stripping pads, wet-vac slurry extractors, pH-neutralizing rinses, rayon/microfiber finish applicators, and 1500+ RPM propane/electric burnishers.",
+    "ideal_for": "Retail aisles, grocery/convenience stores, schools, churches, medical clinics, offices & residential hard floors",
+    "cadence": "Annual/Semi-Annual Full Strip & Refinish + Quarterly Scrub-and-Recoat / Burnishing",
+    "benefits": [
+      "Strips 100% of discolored old wax, heel scuffs & embedded dirt down to bare VCT tile",
+      "Hand-scraped corners and baseboard edges prevent ugly dark wax buildup",
+      "Applies 4+ coats of 25%-solids commercial polymer finish for wet-look shine",
+      "Slip-resistant ASTM-compliant finish protects floors from heavy cart & foot traffic",
+      "Also offers ceramic tile & grout machine scrubbing and Bona hardwood screen-free buffing",
+      "Scheduled overnight or weekends so floors cure 100% before morning opening"
+    ],
+    "process": [
+      "Furniture/fixture moving, baseboard masking & caution perimeter setup",
+      "Alkaline wax-stripper dwell and 175-RPM rotary pad agitation + manual corner scraping",
+      "Wet-vacuum slurry extraction followed by two neutralizing clear-water flood rinses",
+      "Precision application of 4–5 thin, even coats of high-solids polymer floor finish",
+      "Controlled airflow curing between coats and high-speed pad burnishing",
+      "Slip-resistance check, fixture replacement & ongoing floor maintenance plan"
+    ],
+    "related_services": ["commercial-cleaning", "janitorial-cleaning-services", "industrial-warehouse-cleaning", "school-daycare-cleaning", "church-worship-center-cleaning", "carpet-cleaning"]
+  },
+  "gym-fitness-center-cleaning": {
+    "name": "Gym, Studio & Fitness Center Cleaning",
+    "short_name": "Gym & Fitness Cleaning",
+    "slug": "gym-fitness-center-cleaning",
+    "category": "commercial",
+    "image": "/images/services/gym_fitness_center_cleaning.jpg",
+    "title_tpl": "Gym & Fitness Center Cleaning in {City}, AL | Locker Room & Equipment Sanitation | Zoiris",
+    "desc_tpl": "Specialized gym, yoga/Pilates studio & fitness center cleaning in {City}, AL ({Zip}). Kills MRSA/ringworm on mats, weights, turf & locker showers. Call (251) 220-2515!",
+    "h1_tpl": "Gym, Fitness Studio & Locker Room Cleaning in {City}, AL",
+    "subtitle_tpl": "Athletic-grade antimicrobial sanitization for gyms, CrossFit boxes, Pilates/yoga studios, rubber floors, and locker showers in {City} ({County}).",
+    "short_description": "Specialized athletic facility sanitation neutralizing sweat odors, staph/MRSA, athlete's foot fungi, and chalk buildup across cardio decks, free weights, rubber/turf flooring, wall mirrors, and shower locker rooms.",
+    "equipment": "Non-corrosive EPA fungicidal/bactericidal equipment disinfectants (safe on vinyl pads & chrome), rubber-floor auto-scrubbers, locker-shower steam descalers, and HEPA chalk vacuums.",
+    "ideal_for": "24-hour gyms, boutique yoga/Pilates/barre studios, CrossFit boxes, martial arts academies & HOA fitness rooms",
+    "cadence": "Daily / Nightly Sanitation + Weekly Rubber Floor & Shower Deep Scrubs",
+    "benefits": [
+      "Pad-safe hospital disinfectants kill MRSA, staph, ringworm & viruses without cracking vinyl benches",
+      "Deep extraction scrubbing of porous recycled rubber gym mats & indoor synthetic turf",
+      "Locker room showers, sauna benches, tile grout & drains descaled and deodorized",
+      "Wall-to-wall studio mirrors polished 100% streak-free from sweat & chalk smudges",
+      "Eliminates lingering locker-room and gym-mat odors to boost member retention",
+      "Flexible midday lull or late-night cleaning windows"
+    ],
+    "process": [
+      "Cardio console, dumbbell rack, barbell knurling, kettlebell & bench pad disinfection",
+      "Streak-free polishing of full-height studio mirrors and glass entry doors",
+      "HEPA vacuuming of magnesium chalk, rubber crumb & dust beneath machine frames",
+      "Auto-scrubbing and antimicrobial rinsing of rubber gym flooring, studio wood & turf",
+      "Locker room shower tile descaling, locker exterior wiping & dispenser restocking",
+      "Odor-neutralizing air/drain check and member-ready walkthrough"
+    ],
+    "related_services": ["commercial-cleaning", "medical-dental-facility-cleaning", "janitorial-cleaning-services", "floor-stripping-waxing", "window-cleaning", "laundry-services"]
+  },
+  "school-daycare-cleaning": {
+    "name": "School, Preschool & Daycare Cleaning",
+    "short_name": "School & Daycare Cleaning",
+    "slug": "school-daycare-cleaning",
+    "category": "commercial",
+    "image": "/images/services/school_daycare_cleaning.jpg",
+    "title_tpl": "School, Daycare & Childcare Cleaning in {City}, AL | Child-Safe Disinfection | Zoiris",
+    "desc_tpl": "Non-toxic, child-safe school, daycare & learning center cleaning in {City}, AL ({Zip}). Background-checked staff, EPA Design for the Environment sanitizers. Call (251) 220-2515!",
+    "h1_tpl": "School, Daycare & Academy Cleaning in {City}, AL",
+    "subtitle_tpl": "Child-safe, non-toxic classroom, nursery, cafeteria, and restroom disinfection for daycares, private schools, and learning centers across {City}.",
+    "short_description": "Pediatric-safe educational facility sanitation combining non-toxic EPA-registered botanical disinfectants, background-screened staff, and meticulous high-touch desk, cubby, nap-mat, and restroom hygiene.",
+    "equipment": "EPA Safer Choice / Design for the Environment non-toxic virucidal disinfectants, sealed HEPA vacuums (asthma-safe), food-safe cafeteria sanitizers, and color-coded microfiber.",
+    "ideal_for": "Childcare centers, Montessori & preschools, private K-12 academies, tutoring centers & university buildings",
+    "cadence": "Nightly After-Dismissal Sanitation + Holiday/Summer Break Deep Restoration",
+    "benefits": [
+      "100% chlorine-free, non-toxic EPA virucidal formulas safe around infants, toddlers & toys",
+      "Multi-state criminal background-checked, uniformed W-2 cleaning personnel",
+      "Targets hand-foot-and-mouth, RSV, norovirus & flu on desks, cubbies, cribs & drinking fountains",
+      "Diaper-changing stations, toddler-height restrooms & classroom sinks sanitized nightly",
+      "Asthma-friendly HEPA filtration traps chalk dust, dander & seasonal Alabama pollen",
+      "Summer/winter break VCT hallway waxing and classroom carpet steam extraction available"
+    ],
+    "process": [
+      "Classroom desk, chair, cubby, whiteboard tray, doorknob & light switch disinfection",
+      "Nursery crib rail, changing station, play-mat & washable toy surface food-safe sanitation",
+      "Student & faculty restroom deep scrub, low-fixture detailing & soap/towel restock",
+      "Cafeteria/snack area table degreasing, food-contact rinse & floor mopping",
+      "Reading-rug HEPA vacuuming and corridor VCT damp mopping",
+      "Perimeter door-latch security check and daily sanitation log completion"
+    ],
+    "related_services": ["church-worship-center-cleaning", "janitorial-cleaning-services", "floor-stripping-waxing", "carpet-cleaning", "medical-dental-facility-cleaning", "commercial-cleaning"]
+  },
+  "church-worship-center-cleaning": {
+    "name": "Church & Worship Center Cleaning",
+    "short_name": "Church & Worship Cleaning",
+    "slug": "church-worship-center-cleaning",
+    "category": "commercial",
+    "image": "/images/services/church_worship_cleaning.jpg",
+    "title_tpl": "Church & Worship Center Cleaning in {City}, AL | Sanctuary & Fellowship Care | Zoiris",
+    "desc_tpl": "Respectful, reliable church & worship facility cleaning in {City}, AL ({Zip}). Sanctuaries, pews, nurseries, fellowship halls & multi-stall restrooms. Call (251) 220-2515!",
+    "h1_tpl": "Church & Worship Center Cleaning Services in {City}, AL",
+    "subtitle_tpl": "Reverent, thorough cleaning for sanctuaries, pews, church nurseries, fellowship kitchens, and classrooms across {City} and {County}.",
+    "short_description": "Respectful, budget-conscious worship facility cleaning preparing sanctuaries, wooden pews, upholstered auditorium seating, church nurseries, fellowship halls, and lobbies for Sunday services, midweek ministries, and weddings.",
+    "equipment": "Wood-preserving pew polishers, wide-area quiet HEPA carpet vacuums, child-safe nursery disinfectants, commercial kitchen degreasers, and high-ceiling cobweb extension poles.",
+    "ideal_for": "Churches, cathedrals, chapels, synagogues, mosques, fellowship halls & faith-based preschools",
+    "cadence": "Weekly Pre-Sunday / Post-Wednesday Schedules or Special Event / Wedding Turnovers",
+    "benefits": [
+      "Gentle wood-safe care for solid oak pews, hymnals, pulpits, altars & choir lofts",
+      "Child-safe non-toxic disinfection in infant nurseries and Sunday school classrooms",
+      "Fellowship hall kitchen, banquet table & VCT/carpet floor reset after community meals",
+      "High-volume sanctuary lobby glass, narthex & multi-stall restroom preparation",
+      "Respectful, background-verified teams coordinated around rehearsals & midweek services",
+      "Stewardship-friendly flat-rate church pricing with zero long-term contract lock-ins"
+    ],
+    "process": [
+      "Narthex entry glass, welcome counter, bulletin stations & foyer floor detailing",
+      "Sanctuary pew/chair dusting, book-rack clearing, chancel care & wide-aisle HEPA vacuuming",
+      "Church nursery & children's ministry non-toxic toy, crib, table & restroom sanitization",
+      "Fellowship hall kitchen sink, counter, appliance & dining floor degreasing/mopping",
+      "High-volume men's, women's & family restroom disinfection and paper/soap restock",
+      "HVAC thermostat check, lighting shutoff & secure church campus lock-up"
+    ],
+    "related_services": ["school-daycare-cleaning", "janitorial-cleaning-services", "carpet-cleaning", "floor-stripping-waxing", "window-cleaning", "commercial-cleaning"]
+  },
+  "solar-panel-cleaning": {
+    "name": "Solar Panel Cleaning Services",
+    "short_name": "Solar Panel Cleaning",
+    "slug": "solar-panel-cleaning",
+    "category": "specialty",
+    "image": "/images/services/solar_panel_cleaning.jpg",
+    "title_tpl": "Solar Panel Cleaning in {City}, AL | Deionized Pure-Water Array Wash | Zoiris",
+    "desc_tpl": "Boost solar kWh output up to 25% with purified-water solar panel cleaning in {City}, AL ({Zip}). Removes pine pollen, bird droppings & dust safely. Call (251) 220-2515!",
+    "h1_tpl": "Purified-Water Solar Panel Cleaning in {City}, AL",
+    "subtitle_tpl": "Warranty-safe, zero-chemical deionized pure-water solar array washing in {City} ({County}) removing baked-on pollen, dust, and bird droppings.",
+    "short_description": "Manufacturer-compliant photovoltaic (PV) solar array cleaning using 0-TDS deionized pure water and soft boar's-hair/nylon solar brushes—restoring 15–25% lost energy production without harsh chemicals or pressure damage.",
+    "equipment": "4-stage RO/DI 000-TDS deionized water filtration systems, non-abrasive soft solar-specific water-fed brushes, carbon-fiber insulated extension poles, and roof safety harnesses.",
+    "ideal_for": "Residential rooftop solar arrays, ground-mount solar racks, solar carports & commercial PV installations",
+    "cadence": "Twice Yearly (Post-Spring Pollen Bloom & Late Summer Dust Season)",
+    "benefits": [
+      "100% warranty-compliant: zero soaps, zero abrasives, zero high-pressure washers",
+      "0-TDS deionized water evaporates spot-free without leaving hard-water mineral scale",
+      "Removes heavy yellow Alabama pine/oak pollen, red dust, lichen & acidic bird droppings",
+      "Performed during cool morning hours to prevent thermal-shock micro-cracking on hot glass",
+      "Recovers 15%–25% lost photovoltaic wattage shaded by grime buildup",
+      "Visual check for squirrel/bird nesting under arrays and loose conduit clips"
+    ],
+    "process": [
+      "Cool-panel morning temperature check & pre-clean inverter output/visual inspection",
+      "Setup of 4-stage deionized 0-TDS pure-water filtration rig from ground level",
+      "Gentle pure-water pre-soak softening baked-on bird droppings and pollen crust",
+      "Soft solar-brush agitation across glass cells and aluminum perimeter frames",
+      "Generous spot-free deionized rinse flushing loosened sediment off lower panel lips",
+      "Post-wash visual array verification with before-and-after clarity check"
+    ],
+    "related_services": ["window-cleaning", "gutter-cleaning", "pressure-washing", "property-maintenance", "home-watch-services", "commercial-cleaning"]
+  },
+  "vacation-rental-cleaning": {
+    "name": "Vacation Rental Turnover Cleaning",
+    "short_name": "Vacation Rental Cleaning",
+    "slug": "vacation-rental-cleaning",
+    "category": "property-management",
+    "image": "/images/services/vacation_rental_cleaning.jpg",
+    "title_tpl": "Vacation Rental Cleaning in {City}, AL | Same-Day Beach & Condo Turnovers | Zoiris",
+    "desc_tpl": "5-Star vacation rental & VRBO turnover cleaning in {City}, AL ({Zip}). Fast 10am–3pm check-in turnarounds, fresh linens, staging & photo proof. Call (251) 220-2515!",
+    "h1_tpl": "Vacation Rental & VRBO Turnover Cleaning in {City}, AL",
+    "subtitle_tpl": "Same-day 10:00 AM–3:00 PM short-term rental turnarounds, hotel-grade bed staging, sand/humidity defense, and damage photo reporting in {City}.",
+    "short_description": "High-speed hospitality turnover cleaning engineered for multi-bedroom vacation homes, beachfront condos, lake houses, and VRBO properties requiring flawless 10 AM to 3 PM guest turnarounds.",
+    "equipment": "High-agitation HEPA sand/pet extractors, hospitality bed-staging kits, stainless/glass anti-salt polishers, amenity restock checklists, and timestamped photo verification.",
+    "ideal_for": "VRBO beach homes, resort condominiums, lakefront cabins, golf villas & multi-unit vacation portfolios",
+    "cadence": "Automated Per-Checkout Same-Day Turnovers + Pre/Post-Season Deep Cleans",
+    "benefits": [
+      "Guaranteed on-time completion inside tight 10:00 AM–3:00 PM peak-season turnover windows",
+      "Immediate checkout walkthrough documenting guest damage, stains or left-behind items",
+      "Crisp hotel-style bed making, towel folding & welcome amenity replenishment",
+      "Refrigerator emptied/sanitized, dishwasher unloaded & patio/balcony furniture wiped",
+      "Timestamped completion photos sent directly to remote owners or property managers",
+      "Trained on resort HOA rules, elevator passes, smart locks & lockbox codes"
+    ],
+    "process": [
+      "10 AM arrival inspection logging property condition, smart-lock status & left items",
+      "Stripping all used beds/towels, starting laundry cycles & staging fresh par-stock linens",
+      "Full kitchen reset: emptying fridge, running/unloading dishes, sanitizing counters & grill/patio check",
+      "Hospitality bathroom sterilization, glass polishing & starter toiletry staging",
+      "Whole-unit HEPA sand/dust extraction and streak-free hard-floor mopping",
+      "Thermostat reset, Staging Photo Report transmission & secure smart-lock engagement"
+    ],
+    "related_services": ["airbnb-cleaning", "airbnb-vacation-rental-management", "laundry-services", "deep-cleaning", "window-cleaning", "home-watch-services"]
+  },
+  "airbnb-cleaning": {
+    "name": "Airbnb Host Turnover Cleaning",
+    "short_name": "Airbnb Cleaning",
+    "slug": "airbnb-cleaning",
+    "category": "property-management",
+    "image": "/images/services/airbnb_cleaning.jpg",
+    "title_tpl": "Airbnb Cleaning Service in {City}, AL | Superhost 5-Star Turnovers | Zoiris",
+    "desc_tpl": "Reliable Airbnb turnover cleaning in {City}, AL ({Zip}) built for Superhost 5-star cleanliness ratings. Calendar sync, linens, restocking & photo checks. Call (251) 220-2515!",
+    "h1_tpl": "5-Star Airbnb Turnover Cleaning in {City}, AL",
+    "subtitle_tpl": "Protect your Superhost & Guest Favorite badge in {City} ({County}) with automated checkout turnovers, linen resets, supply tracking, and photo verification.",
+    "short_description": "Superhost-standard Airbnb turnover cleaning structured around Airbnb's 5-Step Enhanced Cleaning Process—preventing hair, smudge, odor, or dusty-baseboard complaints that hurt listing search rank.",
+    "equipment": "Lint-roller & blacklight/LED hair-check protocol, HEPA filtration vacuums, odor-eliminating botanical sanitizers, coffee/consumable staging checklists, and host photo alerts.",
+    "ideal_for": "Airbnb single-family listings, guest suites, downtown lofts, mid-term nurse rentals & investment duplexes",
+    "cadence": "Synced to Your Airbnb / Guesty / Hospitable Booking Calendar — Zero Contracts",
+    "benefits": [
+      "Engineered specifically to earn 5.0-star Cleanliness sub-ratings on Airbnb",
+      "Zero-hair inspection protocol across shower walls, pillowcases, drains & bathroom floors",
+      "Tracks low host inventory (coffee pods, toilet paper, trash bags, dish soap) proactively",
+      "Stages throw blankets, welcome books, remotes & decorative pillows to match listing photos",
+      "Handles back-to-back same-day checkouts without missed bookings",
+      "24/7 local dispatch backup if a guest requests an early check-in or mid-stay refresh"
+    ],
+    "process": [
+      "Calendar-synced arrival & immediate host alert for any damages, smoking odors or missing items",
+      "Linen swap & crisp bed dressing styled to match your Airbnb hero listing photos",
+      "Bathroom sanitization with drain-hair check, mirror polish & rolled towel presentation",
+      "Kitchen coffee bar reset, microwave/fridge wipeout, dish check & supply restocking",
+      "Under-bed check for forgotten guest chargers/items + HEPA vacuuming and floor mopping",
+      "Multi-photo host verification message confirming listing is 100% guest-ready"
+    ],
+    "related_services": ["vacation-rental-cleaning", "airbnb-vacation-rental-management", "laundry-services", "deep-cleaning", "carpet-cleaning", "property-maintenance"]
+  },
+  "airbnb-vacation-rental-management": {
+    "name": "Airbnb & Vacation Rental Operations Support",
+    "short_name": "Airbnb & Rental Management",
+    "slug": "airbnb-vacation-rental-management",
+    "category": "property-management",
+    "image": "/images/services/airbnb_rental_management.jpg",
+    "title_tpl": "Airbnb & Vacation Rental Turnover Management in {City}, AL | Host Support | Zoiris",
+    "desc_tpl": "End-to-end local Airbnb & vacation rental operational support in {City}, AL ({Zip}). Turnovers, linen logistics, consumable restocking & inspections. Call (251) 220-2515!",
+    "h1_tpl": "Airbnb & Vacation Rental Turnover Management in {City}, AL",
+    "subtitle_tpl": "Hands-off local ground operations for out-of-state investors and multi-unit STR hosts in {City} ({County}) — turnovers, inventory logistics, and property checks.",
+    "short_description": "Turnkey local boots-on-the-ground operations for remote short-term rental investors—combining automated turnover coordination, par-stock linen management, consumable inventory replenishment, and between-guest maintenance inspections.",
+    "equipment": "iCal/PMS turnover scheduling sync, standardized property staging playbooks, consumable inventory tracking logs, smart-lock battery/code checks, and digital inspection reports.",
+    "ideal_for": "Out-of-town STR investors, multi-listing co-hosts, corporate housing providers & vacation rental portfolios",
+    "cadence": "Ongoing Full-Calendar Portfolio Coordination (Zero Percentage Commission — Flat Service Rates!)",
+    "benefits": [
+      "Keep 100% of your booking revenue — flat per-service pricing instead of 25%–35% PM commissions",
+      "Automated booking calendar sync across Airbnb, VRBO, Booking.com & direct bookings",
+      "Manages consumable supply closets, air filter swaps, smart-lock batteries & bulb replacements",
+      "Pre-arrival vacant-unit freshness checks when a property sits empty between bookings",
+      "Coordinates quarterly deep cleans, carpet steam extraction & exterior pressure washing",
+      "Immediate local eyes-on-site after severe Gulf/Alabama storms or guest checkout issues"
+    ],
+    "process": [
+      "Property onboarding creating a custom room-by-room staging & supply-closet playbook",
+      "Automated iCal booking integration dispatching dedicated local turnover crews",
+      "Post-checkout 30-point condition, HVAC, plumbing, lock & inventory audit",
+      "Full 5-star hospitality turnover cleaning, linen rotation & guest welcome staging",
+      "Consumable par-level restocking & quarterly preventative deep-clean scheduling",
+      "Owner dashboard/photo verification after every single guest transition"
+    ],
+    "related_services": ["airbnb-cleaning", "vacation-rental-cleaning", "home-watch-services", "laundry-services", "property-maintenance", "property-management-janitorial"]
+  },
+  "post-construction-cleanup": {
+    "name": "Post-Construction & Remodel Cleanup",
+    "short_name": "Post-Construction Cleanup",
+    "slug": "post-construction-cleanup",
+    "category": "specialty",
+    "image": "/images/services/post_construction_cleanup.jpg",
+    "title_tpl": "Post-Construction Cleanup in {City}, AL | Rough, Final & Touch-Up Clean | Zoiris",
+    "desc_tpl": "OSHA-trained residential & commercial post-construction cleaning in {City}, AL ({Zip}). HEPA drywall dust extraction, window sticker/paint removal & final polish. Call (251) 220-2515!",
+    "h1_tpl": "Post-Construction & Renovation Cleanup in {City}, AL",
+    "subtitle_tpl": "Multi-phase rough, final, and touch-up builders cleaning across {City} ({County}) — removing superfine drywall dust, paint overspray, grout haze, and manufacturer stickers.",
+    "short_description": "Three-phase construction turnover cleaning for general contractors, custom home builders, commercial build-outs, and home remodelers—eliminating ultrafine gypsum/silica dust from every register, cabinet, track, and floor.",
+    "equipment": "Sealed commercial HEPA fine-dust extractors, non-scratch glass razor blades, masonry/grout-haze removers, adhesive solvents, extension pole vacuums, and OSHA PPE.",
+    "ideal_for": "New residential builds, commercial tenant build-outs, kitchen/bath remodels & multi-family developments",
+    "cadence": "Phase 1 Rough Clean, Phase 2 Final Detail Clean & Phase 3 Owner Punch-List Touch-Up",
+    "benefits": [
+      "True sealed HEPA extraction captures superfine drywall & sawdust instead of blowing it back into the air",
+      "Safe removal of manufacturer stickers, silicone residue & paint specks from tempered glass",
+      "Tile grout-haze buffing and sawdust vacuuming inside every drawer glide & cabinet hinge",
+      "HVAC supply/return vent, light fixture, closet shelf & window track fine-dust purge",
+      "Full COI (General Liability & Workers' Comp) issued fast for GC jobsite compliance",
+      "Reliable crew scaling to meet strict Certificate of Occupancy & owner walkthrough deadlines"
+    ],
+    "process": [
+      "Phase 1 Rough Clean: sweeping/bagging small construction scraps, stickers & floor protection removal",
+      "Top-down HEPA vacuuming of ceilings, beams, walls, ductwork grilles & light fixtures",
+      "Interior cabinet, drawer track, closet rod, baseboard & door-hinge fine gypsum extraction",
+      "Scratch-free window glass, frame, track & mirror cleaning removing adhesive and overspray",
+      "Bathroom & kitchen fixture polishing, grout-haze removal & stone/countertop detailing",
+      "Multi-pass HEPA floor vacuuming, damp microfiber tacking & GC punch-list walkthrough"
+    ],
+    "related_services": ["window-cleaning", "pressure-washing", "floor-stripping-waxing", "commercial-cleaning", "move-in-cleaning", "carpet-cleaning"]
+  },
+  "property-management-janitorial": {
+    "name": "Property Management, Apartment & HOA Cleaning",
+    "short_name": "Property Mgmt Janitorial",
+    "slug": "property-management-janitorial",
+    "category": "property-management",
+    "image": "/images/services/property_management_janitorial.jpg",
+    "title_tpl": "Property Management, Apartment & HOA Cleaning in {City}, AL | Zoiris",
+    "desc_tpl": "Reliable apartment turnover, HOA clubhouse & multi-family common-area janitorial in {City}, AL ({Zip}). Fast unit turns, corridors, gyms & leasing offices. Call (251) 220-2515!",
+    "h1_tpl": "Property Management, HOA & Multi-Family Janitorial in {City}, AL",
+    "subtitle_tpl": "Streamline vacant unit make-readies, condo hallways, HOA clubhouses, fitness rooms, and leasing offices across {City} and {County}.",
+    "short_description": "Dedicated vendor partner for residential property managers, apartment communities, condo associations (HOAs), and commercial landlords—delivering rapid vacant unit make-readies and spotless common-area upkeep.",
+    "equipment": "Multi-crew make-ready turnover kits, corridor HEPA backpack vacuums, elevator/stainless polishers, clubhouse/gym disinfectants, and consolidated Net-15/monthly PM invoicing.",
+    "ideal_for": "Apartment complexes, condominium HOAs, single-family rental portfolios, student housing & commercial plazas",
+    "cadence": "Recurring Weekly Common-Area Routes + On-Demand 24–48 Hr Vacant Unit Make-Readies",
+    "benefits": [
+      "Cuts vacant apartment days-on-market with rapid 24–48 hour unit turnover dispatching",
+      "Keeps leasing offices, model units, mailrooms, elevators & corridors tour-ready daily",
+      "HOA clubhouse, pool restroom, community fitness room & breezeway maintenance",
+      "Single insured vendor for unit cleanouts, carpet steam extraction & exterior pressure washing",
+      "Vendor-packet ready: W-9, General Liability & Workers' Comp COI provided same day",
+      "Streamlined work-order communication with photo completion proof per unit number"
+    ],
+    "process": [
+      "Work-order dispatch sync with property manager or maintenance superintendent",
+      "Common-area lobby, leasing office, mail kiosk, elevator & stairwell sanitization",
+      "HOA amenity clubhouse, shared kitchen, fitness center & pool restroom disinfection",
+      "Vacant apartment make-ready: full appliance, cabinet, bath, blind, baseboard & floor reset",
+      "Optional add-on unit carpet steam cleaning or breezeway pressure washing",
+      "Unit-by-unit photo sign-off confirming lease-ready inspection pass"
+    ],
+    "related_services": ["move-out-cleaning", "carpet-cleaning", "pressure-washing", "property-maintenance", "commercial-cleaning", "gym-fitness-center-cleaning"]
+  },
+  "property-maintenance": {
+    "name": "Exterior & Interior Property Upkeep Services",
+    "short_name": "Property Maintenance",
+    "slug": "property-maintenance",
+    "category": "property-management",
+    "image": "/images/services/property_maintenance.jpg",
+    "title_tpl": "Recurring Property Upkeep & Cleaning Maintenance in {City}, AL | Zoiris",
+    "desc_tpl": "Year-round interior & exterior property upkeep in {City}, AL ({Zip}). Bundled gutter clearing, soft washing, common-area cleaning & vacant-home care. Call (251) 220-2515!",
+    "h1_tpl": "Interior & Exterior Property Upkeep in {City}, AL",
+    "subtitle_tpl": "Preventative interior and exterior cleaning maintenance for rentals, second homes, estates, and commercial properties in {City} ({County}).",
+    "short_description": "Bundled year-round preventative property preservation combining interior sanitation, breezeway/porch sweeping, cobweb and wasp-nest clearing, gutter drainage checks, and exterior wash upkeep.",
+    "equipment": "Soft-wash exterior sprayers, telescoping cobweb/eave poles, gutter inspection tools, commercial blowers/vacuums, and interior sanitization kits.",
+    "ideal_for": "Rental portfolios, absentee-owned residences, commercial strip centers, HOAs & seasonal second homes",
+    "cadence": "Monthly, Quarterly, or Custom Seasonal Property Preservation Plans",
+    "benefits": [
+      "Combines interior cleaning with exterior porch, eave, gutter & walkway upkeep under one call",
+      "Prevents costly Alabama humidity mildew, clogged-gutter fascia rot & exterior algae staining",
+      "Keeps vacant listings, REO properties & between-tenant rentals clean and market-ready",
+      "Clears spider webs, mud dauber nests, porch pollen & entryway debris before tours",
+      "Photo condition reports highlight minor leaks, HVAC filter needs or exterior wear early",
+      "Zero multi-year lock-in — customize seasonal visits to your property's exact needs"
+    ],
+    "process": [
+      "Full interior and exterior perimeter walk documenting property cleanliness & drainage",
+      "Eave, porch ceiling, entryway light & shutter cobweb/debris brushing",
+      "Gutter trough & downspout flow check plus walkway/driveway debris clearing",
+      "Exterior glass, entry door, threshold & patio furniture wipe-down",
+      "Interior dust control, bathroom/kitchen water-trap flush & HEPA floor care",
+      "Timestamped photo condition summary delivered to owner or asset manager"
+    ],
+    "related_services": ["pressure-washing", "gutter-cleaning", "window-cleaning", "home-watch-services", "property-management-janitorial", "solar-panel-cleaning"]
+  },
+  "home-watch-services": {
+    "name": "Home Watch & Vacant Residence Care",
+    "short_name": "Home Watch Services",
+    "slug": "home-watch-services",
+    "category": "property-management",
+    "image": "/images/services/home_watch_services.jpg",
+    "title_tpl": "Home Watch & Seasonal Residence Care in {City}, AL | Inspections & Prep | Zoiris",
+    "desc_tpl": "Trusted home watch, humidity/storm checks & pre-arrival housekeeping for second homes in {City}, AL ({Zip}). Bonded W-2 staff with photo reports. Call (251) 220-2515!",
+    "h1_tpl": "Home Watch & Vacant Property Care in {City}, AL",
+    "subtitle_tpl": "Peace-of-mind scheduled inspections, humidity & leak checks, storm readiness, and pre-arrival welcome cleaning for second homes in {City} ({County}).",
+    "short_description": "Scheduled visual property inspections and pre-arrival housekeeping for snowbirds, coastal second-home owners, frequent travelers, and vacant estates—catching AC failures, humidity mold, or water leaks before damage spreads.",
+    "equipment": "Digital indoor hygrometers (humidity/temp verification), moisture-check flashlights, timestamped photo inspection checklists, and pre-arrival white-glove refresh kits.",
+    "ideal_for": "Coastal condos, lakefront retreats, snowbird residences, traveling executives & vacant estates on the market",
+    "cadence": "Weekly or Bi-Weekly Visual Inspections + Pre-Arrival / Post-Departure Housekeeping",
+    "benefits": [
+      "Verifies HVAC operation & indoor relative humidity (<55%) critical in Alabama's climate",
+      "Flushes toilets & runs sink/tub P-traps preventing dry-trap sewer gas odors and pests",
+      "Checks under sinks, water heaters, ice makers, ceilings & window sills for active leaks",
+      "Retrieves packages/mail flyers, checks lockboxes & verifies doors/windows are secure",
+      "Pre-arrival refresh clean: fresh bed linens, dust-free counters & chilled fridge before you land",
+      "Performed exclusively by bonded, insured, background-screened W-2 employees"
+    ],
+    "process": [
+      "Exterior perimeter walk checking roof/gutters, doors, screens, mail & storm debris",
+      "Indoor thermostat & digital hygrometer reading verifying AC dehumidification",
+      "Plumbing zone check: flushing toilets, running faucets to refill traps & checking under-sink pipes",
+      "Appliance, breaker panel, smoke-detector chirp & window-seal visual inspection",
+      "Optional light dust/floor refresh or full Pre-Arrival Owner Welcome Clean",
+      "Immediate GPS/timestamped photo report sent to homeowner upon lock-up"
+    ],
+    "related_services": ["luxury-estate-management", "luxury-estate-cleaning", "vacation-rental-cleaning", "property-maintenance", "house-cleaning", "window-cleaning"]
+  },
+  "luxury-estate-management": {
+    "name": "Luxury Estate Housekeeping & Stewardship",
+    "short_name": "Luxury Estate Management",
+    "slug": "luxury-estate-management",
+    "category": "property-management",
+    "image": "/images/services/luxury_estate_management.jpg",
+    "title_tpl": "Luxury Estate Management & Private Housekeeping in {City}, AL | Zoiris",
+    "desc_tpl": "Turnkey luxury estate stewardship & scheduled housekeeping management in {City}, AL ({Zip}). Recurring white-glove care, vendor coordination & event prep. Call (251) 220-2515!",
+    "h1_tpl": "Luxury Estate Stewardship & Housekeeping Management in {City}, AL",
+    "subtitle_tpl": "Comprehensive household care schedules, seasonal deep preservation, linen/pantry readiness, and event preparation for premier residences in {City}.",
+    "short_description": "Coordinated year-round household care for large private residences and multi-residence families—integrating recurring white-glove housekeeping, seasonal exterior/window/carpet scheduling, guest-wing readiness, and private event resets.",
+    "equipment": "Custom estate care binders, conservation-grade surface products, dedicated senior crew leaders, seasonal maintenance calendars, and private-client dispatch priority.",
+    "ideal_for": "Multi-acre estates, bayfront/golf residences, multi-home families, historic properties & executive compounds",
+    "cadence": "Customized Annual / Monthly Stewardship Calendar with Priority 24/7 Dispatch",
+    "benefits": [
+      "Single dedicated point of contact coordinating interior housekeeping, glass, carpets & exteriors",
+      "Custom zone rotation ensuring guest suites, libraries, wine cellars & carriage houses stay pristine",
+      "Pre-party silver/glass/patio staging and next-morning post-event residential restoration",
+      "Proactive seasonal calendar managing spring pollen washes, gutter care & holiday readiness",
+      "Complete household privacy, security gate protocols & consistent assigned senior staff",
+      "Flexible month-to-month customization with transparent itemized billing"
+    ],
+    "process": [
+      "Comprehensive estate assessment establishing surface care standards & zone rotation schedules",
+      "Assigned senior housekeeping team executing weekly/multi-weekly interior preservation",
+      "Guest-house, pool cabana, outdoor kitchen & veranda readiness inspections",
+      "Scheduled quarterly integration of pure-water window washing, stone/wood care & rug extraction",
+      "Pre- and post-entertaining rapid turnaround support for private dinners and holidays",
+      "Ongoing quality review with your dedicated Zoiris estate account director"
+    ],
+    "related_services": ["luxury-estate-cleaning", "home-watch-services", "detailing", "window-cleaning", "pressure-washing", "laundry-services"]
   }
 }
