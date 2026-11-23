@@ -229,23 +229,27 @@ def build_ai_hub_summary_and_table(prof):
     county = prof["county"]
     c_slug = county_to_slug(prof["county_short"])
     pzip = prof["primary_zip"]
+    coords = prof["coordinates"]
+    coord_txt = f"{coords['latitude']:.4f}°N, {abs(coords['longitude']):.4f}°W"
+    nearby_txt = prof["nearby_names"] or f"surrounding {county} communities"
     return f"""
         <!-- 🤖 AI OVERVIEW DIRECT ANSWER & PRICING/DURATION MATRIX -->
         <div id="ai-quick-answer" class="bg-white rounded-3xl p-6 sm:p-8 shadow-2xl border-2 border-blue-500/30 mb-14 text-left">
           <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
             <span class="inline-flex items-center gap-2 bg-blue-100 text-blue-800 text-xs font-extrabold uppercase tracking-wider px-3 py-1 rounded-full">
-              <i class="fas fa-bolt"></i> Quick Local Summary • {html.escape(display)} ({html.escape(pzip)})
+              <i class="fas fa-bolt"></i> Verified Local Dispatch • {html.escape(display)} ({html.escape(pzip)}) • {coord_txt}
             </span>
             <div class="flex flex-wrap gap-3 text-xs font-bold">
-              <a href="/counties/{c_slug}/" class="text-blue-600 hover:underline">{html.escape(county)} Hub &rarr;</a>
-              <a href="/guides/house-cleaning-cost-guide-alabama/" class="text-indigo-600 hover:underline">2026 Cost Calculator &rarr;</a>
+              <a href="/services/" class="text-blue-600 hover:underline">All 29 Services &rarr;</a>
+              <a href="/counties/{c_slug}/" class="text-indigo-600 hover:underline">{html.escape(county)} Hub &rarr;</a>
+              <a href="/guides/house-cleaning-cost-guide-alabama/" class="text-purple-600 hover:underline">2026 Cost Calculator &rarr;</a>
             </div>
           </div>
           <h3 class="text-xl sm:text-2xl font-extrabold text-gray-900 mb-2">
             How Much Does House &amp; Commercial Cleaning Cost in {html.escape(display)}?
           </h3>
           <p class="text-sm sm:text-base text-gray-700 leading-relaxed mb-6">
-            In <strong>{html.escape(display)} ({html.escape(county)}, ZIP {html.escape(prof['zips_str'])})</strong>, professional residential house cleaning typically ranges from <strong>$125–$215</strong> for recurring maid visits, <strong>$220–$420</strong> for intensive top-to-bottom deep cleaning, and <strong>$250–$480</strong> for empty-home move-in/move-out turnovers, with <strong>zero contracts and zero travel fees</strong>. Commercial janitorial is flat-rate quoted by facility square footage and shift frequency via 24/7 dispatch at <strong>(251) 220-2515</strong>.
+            Across all {html.escape(sqmi_text(prof))} of <strong>{html.escape(display)} ({html.escape(county)}, ZIP {html.escape(prof['zips_str'])}; adjacent to {html.escape(nearby_txt)})</strong>, professional residential house cleaning ranges from <strong>$125–$215</strong> for recurring maid visits, <strong>$220–$420</strong> for top-to-bottom deep cleaning, and <strong>$250–$480</strong> for empty-home move-in/move-out turnovers—with <strong>zero contracts and zero travel surcharges</strong>. Commercial, medical, and spa/bank janitorial is flat-rate quoted 24/7 at <strong>(251) 220-2515</strong>.
           </p>
           <div class="overflow-x-auto rounded-2xl border border-gray-200">
             <table class="w-full text-left border-collapse text-xs sm:text-sm">
@@ -301,24 +305,27 @@ def build_ai_service_summary_and_table(prof, srv_key):
     c_slug = county_to_slug(prof["county_short"])
     pzip = prof["primary_zip"]
     short_name = srv["short_name"]
+    coords = prof["coordinates"]
+    coord_txt = f"{coords['latitude']:.4f}°N, {abs(coords['longitude']):.4f}°W"
+    nearby_txt = prof["nearby_names"] or f"neighboring {county} towns"
     return f"""
         <!-- 🤖 AI OVERVIEW DIRECT ANSWER & SCOPE/DURATION MATRIX -->
         <div id="ai-quick-answer" class="bg-white rounded-3xl p-6 sm:p-8 shadow-2xl border-2 border-blue-500/30 mb-14 text-left">
           <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
             <span class="inline-flex items-center gap-2 bg-blue-100 text-blue-800 text-xs font-extrabold uppercase tracking-wider px-3 py-1 rounded-full">
-              <i class="fas fa-bolt"></i> At-a-Glance Service Guide • {html.escape(display)} ({html.escape(pzip)})
+              <i class="fas fa-bolt"></i> At-a-Glance Service Guide • {html.escape(display)} ({html.escape(pzip)}) • {coord_txt}
             </span>
             <div class="flex flex-wrap gap-3 text-xs font-bold">
               <a href="/services/{srv_key}/" class="text-blue-600 hover:underline">Alabama {html.escape(short_name)} Guide &rarr;</a>
               <a href="/counties/{c_slug}/" class="text-indigo-600 hover:underline">{html.escape(county)} Coverage &rarr;</a>
-              <a href="/guides/house-cleaning-cost-guide-alabama/" class="text-purple-600 hover:underline">Pricing Guide &rarr;</a>
+              <a href="/guides/" class="text-purple-600 hover:underline">All Cost &amp; Checklist Guides &rarr;</a>
             </div>
           </div>
           <h3 class="text-xl sm:text-2xl font-extrabold text-gray-900 mb-2">
             {html.escape(short_name)} in {html.escape(display)}: Quick Scope, Schedule &amp; Pricing Summary
           </h3>
           <p class="text-sm sm:text-base text-gray-700 leading-relaxed mb-6">
-            <strong>Zoiris Cleaning Services</strong> provides flat-rate, contract-free <strong>{html.escape(short_name.lower())}</strong> throughout <strong>{html.escape(display)} ({html.escape(county)}, ZIP {html.escape(prof['zips_str'])})</strong> using W-2 background-checked technicians and commercial HEPA/EPA-registered equipment. Recommended schedule: <em>{html.escape(srv['cadence'])}</em>, backed by a 24-hour 100% Re-Clean Guarantee and zero travel fees—call <strong>(251) 220-2515</strong> for an instant estimate.
+            <strong>Zoiris Cleaning Services</strong> provides flat-rate, contract-free <strong>{html.escape(short_name.lower())}</strong> across all {html.escape(sqmi_text(prof))} of <strong>{html.escape(display)} ({html.escape(county)}, ZIP {html.escape(prof['zips_str'])}; near {html.escape(nearby_txt)})</strong> using W-2 background-checked technicians and <em>{html.escape(srv['equipment'].lower())}</em>. Recommended schedule: <em>{html.escape(srv['cadence'])}</em>, backed by a 24-hour 100% Re-Clean Guarantee and zero travel fees—call <strong>(251) 220-2515</strong> for an instant estimate.
           </p>
           <div class="overflow-x-auto rounded-2xl border border-gray-200">
             <table class="w-full text-left border-collapse text-xs sm:text-sm">

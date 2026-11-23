@@ -936,7 +936,7 @@ def build_ai_llms_rss_indexnow_and_sitemaps(pillar_urls, county_urls, guide_urls
     for v in sorted([x for x in LOCATIONS.values() if x["sitemap_tier"] in ("priority", "metros")], key=lambda z: z["city"]):
         rss_sources.append((f"Cleaning Services in {v['display_title']} ({v['county']})", f"https://www.zoiriscleaningservices.com/{v['slug']}/", f"Professional residential & commercial cleaning in {v['display_title']} (ZIP {v['primary_zip']})."))
 
-    pub_rfc = "Tue, 17 Nov 2026 12:00:00 +0000"
+    pub_rfc = "Mon, 23 Nov 2026 22:30:00 +0000"
     for r_title, r_link, r_desc in rss_sources:
         rss_items.append(f"""    <item>
       <title>{html.escape(r_title)}</title>

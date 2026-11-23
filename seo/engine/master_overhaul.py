@@ -18,7 +18,7 @@ from geo_service_content import (
     build_hub_faqs, build_service_faqs, build_jsonld_schema
 )
 
-TODAY = "2026-11-17"
+TODAY = "2026-11-23"
 
 # 1. Discover exact Detailing folder names across all 504 *-al directories
 DET_MAP = {}
@@ -62,8 +62,14 @@ FAKE_NEIGHBORHOOD_LINK_RE = re.compile(r'href=(["\'])/(downtown|midtown|west)-([
 MAID_DOUBLE_AL_RE = re.compile(r'href=(["\'])/maid-service-([a-z0-9-]+-al)-al/\1', re.I)
 REGIONAL_UTILITY_LINK_RE = re.compile(r'href=(["\'])/([a-z0-9-]+-al)/(about|blog|contact)/\1', re.I)
 DESKTOP_LOC_DROPDOWN_RE = re.compile(
-    r'(<div class="absolute left-0 top-full hidden group-hover:flex flex-col w-56 z-50">).*?(</div>)',
+    r'(<div class="absolute left-0 top-full hidden group-hover:flex flex-col w-(?:56|64)[^"]*">).*?(</div>)',
     re.I | re.S
+)
+BROKEN_TOGGLE_MENU_RE = re.compile(r"toggle[A-Za-z0-9 .'&#;-]+?Menu\(")
+BROKEN_TOGGLE_DROPDOWN_RE = re.compile(r"toggle[A-Za-z0-9 .'&#;-]+?Dropdown\(")
+FOOTER_LOC_LINK_RE = re.compile(
+    r'(<a\s+href="/locations/"\s+class="text-blue-(?:400|500)\s+hover:text-pink-400\s+font-bold\s+text-xs\s+transition-colors">)',
+    re.I
 )
 
 NEW_DESKTOP_LOC_DROPDOWN_INNER = """
@@ -198,8 +204,12 @@ def sanitize_common_html(raw, loc_slug=None):
     # Consolidate regional about/blog/contact links to /mobile-al/{about|blog|contact}/
     raw = REGIONAL_UTILITY_LINK_RE.sub(fix_regional_utility, raw)
 
-    # Upgrade Desktop Header Locations Dropdown
+    # Upgrade Desktop Header Locations Dropdown (matches both w-56 city dropdowns and w-64 homepage dropdown!)
     raw = DESKTOP_LOC_DROPDOWN_RE.sub(lambda m: m.group(1) + NEW_DESKTOP_LOC_DROPDOWN_INNER + m.group(2), raw, count=1)
+
+    # Fix broken mobile drawer JavaScript function names in multi-word & apostrophe cities (e.g. toggleGulf ShoresMenu)
+    raw = BROKEN_TOGGLE_MENU_RE.sub("toggleMobileMenu(", raw)
+    raw = BROKEN_TOGGLE_DROPDOWN_RE.sub("toggleMobileDropdown(", raw)
 
     # Upgrade ZIP Code Finder so all valid Alabama 5-digit ZIP codes (35xxx & 36xxx) pass!
     raw = raw.replace(
@@ -229,15 +239,33 @@ def sanitize_common_html(raw, loc_slug=None):
     raw = raw.replace('View All 480+ Locations', 'View All 503+ AL Locations')
     raw = raw.replace('View All 504+ AL Locations', 'View All 503+ AL Locations')
 
-    # Inject 1-click Crawl Accelerator links to /services/, /counties/, and /guides/ in bottom bar if not present
-    if 'href="/counties/"' not in raw and 'href="/locations/"' in raw:
-        raw = raw.replace(
-            '<a href="/locations/" class="text-blue-500 hover:text-pink-400 font-bold text-xs transition-colors">',
-            '<a href="/services/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">All 29 Services</a>\n        <a href="/counties/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">All 67 AL Counties</a>\n        <a href="/guides/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">Pricing &amp; Checklists</a>\n        <a href="/locations/" class="text-blue-500 hover:text-pink-400 font-bold text-xs transition-colors">',
-            1
+    # Inject 1-click Crawl Accelerator links to /services/, /counties/, and /guides/ in bottom bar (both index.html & city pages!)
+    if 'data-crawl-hub="1"' not in raw:
+        raw = FOOTER_LOC_LINK_RE.sub(
+            lambda m: '<a data-crawl-hub="1" href="/services/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">All 29 Services</a>\n        <a href="/counties/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">All 67 AL Counties</a>\n        <a href="/guides/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">Pricing &amp; Checklists</a>\n        ' + m.group(1),
+            raw,
+            count=1
         )
 
     return raw
+
+def build_redirect_stub(target_url, target_rel, label):
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="follow" />
+  <title>Redirecting to {html.escape(label)} | Zoiris Cleaning Services</title>
+  <link rel="canonical" href="{target_url}" />
+  <meta http-equiv="refresh" content="0; url={target_rel}" />
+  <script>window.location.replace({json.dumps(target_rel)});</script>
+</head>
+<body style="background:#0f172a;color:#fff;font-family:sans-serif;display:flex;align-items:center;justify-content:center;min-height:100vh;">
+  <p>Redirecting to <a href="{target_rel}" style="color:#60a5fa;">{html.escape(target_url)}</a>...</p>
+</body>
+</html>
+"""
 
 def write_atomic(filepath, content):
     tmp = filepath + ".tmp"
@@ -250,28 +278,12 @@ def process_city_file(rel_and_fp):
     parts = rel.split("/")
     loc_slug = parts[0]
 
-    # Case 0: Space-named duplicate Detailing folder -> clean noindex + canonical + instant redirect stub
+    # Case 0: Space-named duplicate Detailing folder -> clean canonical + instant 0s redirect stub (no noindex!)
     if rel in SPACE_DUP_DETAILING:
         canon_det = DET_MAP[loc_slug]
         target_url = f"https://www.zoiriscleaningservices.com/{loc_slug}/{canon_det}/"
         target_rel = f"/{loc_slug}/{canon_det}/"
-        stub = f"""<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="robots" content="noindex, follow" />
-  <title>Redirecting to {html.escape(LOCATIONS[loc_slug]['display_title'])} Interior Detailing | Zoiris</title>
-  <link rel="canonical" href="{target_url}" />
-  <meta http-equiv="refresh" content="0; url={target_rel}" />
-  <script>window.location.replace({json.dumps(target_rel)});</script>
-</head>
-<body style="background:#0f172a;color:#fff;font-family:sans-serif;display:flex;align-items:center;justify-content:center;min-height:100vh;">
-  <p>Redirecting to <a href="{target_rel}" style="color:#60a5fa;">{target_url}</a>...</p>
-</body>
-</html>
-"""
-        write_atomic(fp, stub)
+        write_atomic(fp, build_redirect_stub(target_url, target_rel, f"{LOCATIONS[loc_slug]['display_title']} Interior Detailing"))
         return ("dup_stub", rel)
 
     with open(fp, "r", encoding="utf-8", errors="replace") as f:
@@ -288,12 +300,13 @@ def process_city_file(rel_and_fp):
     if len(parts) == 2 and parts[1] == "index.html":
         canon_url = f"https://www.zoiriscleaningservices.com/{loc_slug}/"
         if loc_slug == "mobile-al":
-            title = "Cleaning Services in Mobile, AL | Residential, Commercial & Maid Hub | Zoiris"
+            title = "Cleaning Services in Mobile, AL (All 29 Home & Office Services) | Zoiris"
+            desc = "4.9★ Local residential & commercial cleaning company in Mobile, AL (36602–36695). Maid service from $125, deep cleans, move-outs & janitorial: (251) 220-2515!"
         else:
-            title = f"Cleaning Services in {display} | Home, Deep & Commercial Cleaners | Zoiris"
-        desc = f"Top-rated residential & commercial cleaning services in {display} ({county}, ZIP {pzip}). Maid service, deep cleans, move-outs & janitorial — no contracts! Call (251) 220-2515!"
+            title = f"Cleaning Services in {display} (From $125) | 4.9★ Home & Office | Zoiris"
+            desc = f"4.9★ Rated house cleaning, maid service (from $125), deep cleans, move-outs & commercial janitorial in {display} ({county}, {pzip}). No contracts: (251) 220-2515!"
         h1_txt = f"Professional Cleaning Services in {display}"
-        sub_txt = f"Flat-rate, <strong>No-Contract</strong> residential housekeeping, deep cleaning, move turnovers, and commercial janitorial across {html.escape(city)} and {html.escape(county)} (ZIP {html.escape(prof['zips_str'])})."
+        sub_txt = f"Flat-rate, <strong>No-Contract</strong> residential housekeeping (from $125), deep cleaning, move turnovers, and commercial janitorial across {html.escape(city)} and {html.escape(county)} (ZIP {html.escape(prof['zips_str'])})."
 
         body_html, faqs = build_hub_body_html(loc_slug, det_folder)
         schema_block = build_jsonld_schema("location_hub", canon_url, loc_slug=loc_slug, faqs=faqs, title=title, desc=desc)
@@ -323,14 +336,14 @@ def process_city_file(rel_and_fp):
             # Primary brand About / Blog / Contact pages (INDEXABLE!)
             canon_url = f"https://www.zoiriscleaningservices.com/mobile-al/{sub_folder}/"
             if sub_folder == "about":
-                title = "About Zoiris Cleaning Services | Licensed & Insured Alabama Cleaners"
-                desc = "Meet Zoiris Cleaning Services LLC — headquartered in Mobile, AL and serving all 67 Alabama counties with vetted W-2 cleaners, HEPA filtration & zero locked contracts. Call (251) 220-2515!"
+                title = "About Zoiris Cleaning Services | 4.9★ Licensed & Insured AL Cleaners"
+                desc = "Meet Zoiris Cleaning Services LLC — headquartered in Mobile, AL and serving all 67 Alabama counties with vetted W-2 cleaners, HEPA filtration & zero contracts: (251) 220-2515!"
             elif sub_folder == "blog":
                 title = "Cleaning Tips, Checklists & Home Care Guides | Zoiris Cleaning Blog"
                 desc = "Expert residential & commercial cleaning guides, seasonal deep-cleaning checklists, and Gulf Coast humidity & stain care tips from Zoiris Cleaning Services."
             else:
-                title = "Contact Zoiris Cleaning Services | 24/7 Free Cleaning Quotes | (251) 220-2515"
-                desc = "Contact Zoiris Cleaning Services 24/7 at (251) 220-2515 or request a fast online flat-rate estimate for house cleaning, deep cleaning, move turnovers & commercial janitorial."
+                title = "Contact Zoiris Cleaning Services | 24/7 Free Quotes | (251) 220-2515"
+                desc = "Contact Zoiris Cleaning Services 24/7 at (251) 220-2515 or request a fast online flat-rate estimate for house cleaning (from $125), deep cleaning, move turnovers & janitorial."
             schema_block = build_jsonld_schema("global_page", canon_url, title=title, desc=desc)
             head_top = build_clean_head_top(title, desc, canon_url, schema_block=schema_block)
             raw = HEAD_TO_STYLE_RE.sub(lambda _: head_top, raw, count=1)
@@ -338,25 +351,18 @@ def process_city_file(rel_and_fp):
             write_atomic(fp, raw)
             return ("brand_utility", rel)
         else:
-            # 503 regional utility clones -> NOINDEX + canonical to /mobile-al/{sub_folder}/
-            canon_url = f"https://www.zoiriscleaningservices.com/mobile-al/{sub_folder}/"
-            title = f"{sub_folder.capitalize()} — {display} | Zoiris Cleaning Services"
-            desc = f"Zoiris Cleaning Services {sub_folder} information for {display} ({county}). Call (251) 220-2515 for a free flat-rate quote."
-            head_top = build_clean_head_top(title, desc, canon_url, robots="noindex, follow", schema_block="")
-            raw = HEAD_TO_STYLE_RE.sub(lambda _: head_top, raw, count=1)
-            raw = sanitize_common_html(raw, loc_slug=loc_slug)
-            write_atomic(fp, raw)
-            return ("noindex_utility", rel)
+            # 502 regional utility clones -> clean Canonical Consolidation Redirect Stub (ZERO noindex tag!)
+            target_url = f"https://www.zoiriscleaningservices.com/mobile-al/{sub_folder}/"
+            target_rel = f"/mobile-al/{sub_folder}/"
+            write_atomic(fp, build_redirect_stub(target_url, target_rel, f"Zoiris Cleaning Services {sub_folder.capitalize()}"))
+            return ("redirect_utility", rel)
 
     # Case 2B: Location Service Page (29 services including canonical Detailing!)
     srv_key = "detailing" if sub_folder.lower().startswith("detailing") else sub_folder
     if srv_key not in SERVICES:
-        # Safety fallback if any unexpected subfolder ever existed
-        canon_url = f"https://www.zoiriscleaningservices.com/{loc_slug}/"
-        head_top = build_clean_head_top(f"Cleaning Services in {display} | Zoiris", f"Cleaning services in {display}.", canon_url, robots="noindex, follow")
-        raw = HEAD_TO_STYLE_RE.sub(lambda _: head_top, raw, count=1)
-        raw = sanitize_common_html(raw, loc_slug=loc_slug)
-        write_atomic(fp, raw)
+        target_url = f"https://www.zoiriscleaningservices.com/{loc_slug}/"
+        target_rel = f"/{loc_slug}/"
+        write_atomic(fp, build_redirect_stub(target_url, target_rel, f"Cleaning Services in {display}"))
         return ("other_sub", rel)
 
     srv = SERVICES[srv_key]
@@ -401,26 +407,71 @@ def update_global_and_root_pages():
     # 1. Homepage (index.html)
     hp_path = os.path.join(root_dir, "index.html")
     raw_hp = open(hp_path, "r", encoding="utf-8", errors="replace").read()
-    hp_title = "House Cleaning & Maid Service in Mobile, AL | Free Flat-Rate Quote | Zoiris"
-    hp_desc = "4.9★ Rated House Cleaning & Maid Service in Mobile, AL, Semmes, Theodore & Baldwin County. Flat-rate pricing, no contracts, bonded W-2 cleaners. Call (251) 220-2515 24/7!"
+    hp_title = "House Cleaning & Maid Service Mobile, AL (From $125) | 4.9★ Zoiris"
+    hp_desc = "4.9★ Rated Mobile, AL house cleaning, maid service & deep cleaning from $125 flat-rate! Zero contracts, insured W-2 cleaners & 24-hr guarantee: (251) 220-2515."
     hp_canon = "https://www.zoiriscleaningservices.com/"
-    # Extract existing visible FAQ questions/answers on index.html or inject clean FAQ section matching schema
     hp_prof = get_enriched_profile("mobile-al")
     hp_faqs = build_hub_faqs(hp_prof)
     hp_schema = build_jsonld_schema("location_hub", hp_canon, loc_slug="mobile-al", faqs=hp_faqs, title=hp_title, desc=hp_desc)
     hp_head = build_clean_head_top(hp_title, hp_desc, hp_canon, og_image="/images/services_action.png", schema_block=hp_schema)
     raw_hp = HEAD_TO_STYLE_RE.sub(lambda _: hp_head, raw_hp, count=1)
-    # Replace or inject #ai-quick-answer + #faq on homepage right before #quote so visible FAQs & Speakable 100% match JSON-LD!
+    # Replace or inject #ai-quick-answer + Statewide Authority Hub Grid + #faq on homepage right before #quote!
     from geo_service_content import render_faq_details_html, build_ai_hub_summary_and_table
     hp_ai_sec = f"""    <section id="hp-ai-summary" class="py-12 px-4 sm:px-6 bg-transparent relative z-10">
-      <div class="max-w-5xl mx-auto">
+      <div class="max-w-6xl mx-auto">
 {build_ai_hub_summary_and_table(hp_prof)}
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mb-8">
+          <a href="/services/" class="bg-black/45 hover:bg-black/65 backdrop-blur-md border border-blue-400/40 rounded-2xl p-6 text-white transition shadow-xl flex flex-col justify-between">
+            <div>
+              <span class="text-xs font-extrabold uppercase tracking-wider text-blue-300">Complete Service Catalog</span>
+              <h3 class="text-xl font-extrabold mt-1 mb-2">All 29 Residential &amp; Commercial Services</h3>
+              <p class="text-xs sm:text-sm text-purple-100">Recurring maid, deep cleans, move-outs, Airbnb 10am–3pm turns, carpet steam, pure-water windows &amp; medical/office janitorial.</p>
+            </div>
+            <span class="mt-4 inline-block text-blue-300 font-bold text-sm">Browse All 29 Services &rarr;</span>
+          </a>
+          <a href="/counties/" class="bg-black/45 hover:bg-black/65 backdrop-blur-md border border-indigo-400/40 rounded-2xl p-6 text-white transition shadow-xl flex flex-col justify-between">
+            <div>
+              <span class="text-xs font-extrabold uppercase tracking-wider text-indigo-300">Statewide Coverage</span>
+              <h3 class="text-xl font-extrabold mt-1 mb-2">All 67 Alabama Counties &amp; 503 Cities</h3>
+              <p class="text-xs sm:text-sm text-purple-100">Priority 24/7 dispatch across Mobile, Semmes, Theodore &amp; Baldwin County plus full coverage in Birmingham, Huntsville &amp; Montgomery.</p>
+            </div>
+            <span class="mt-4 inline-block text-indigo-300 font-bold text-sm">Explore All 67 AL Counties &rarr;</span>
+          </a>
+          <a href="/guides/" class="bg-black/45 hover:bg-black/65 backdrop-blur-md border border-purple-400/40 rounded-2xl p-6 text-white transition shadow-xl flex flex-col justify-between">
+            <div>
+              <span class="text-xs font-extrabold uppercase tracking-wider text-purple-300">2026 Pricing &amp; Checklists</span>
+              <h3 class="text-xl font-extrabold mt-1 mb-2">Instant Cleaning Cost Calculator &amp; Guides</h3>
+              <p class="text-xs sm:text-sm text-purple-100">Calculate your flat-rate price by bedrooms &amp; baths, download landlord move-out checklists &amp; compare deep vs. regular cleans.</p>
+            </div>
+            <span class="mt-4 inline-block text-purple-300 font-bold text-sm">Open Cost Guides &amp; Checklists &rarr;</span>
+          </a>
+        </div>
+        <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-5 text-center">
+          <p class="text-xs font-extrabold uppercase tracking-wider text-blue-200 mb-3">Fast Local Dispatch — Select Your Branch:</p>
+          <div class="flex flex-wrap justify-center gap-2 text-xs font-bold">
+            <a href="/mobile-al/" class="bg-blue-600 hover:bg-blue-500 text-white px-3.5 py-2 rounded-full transition">Mobile, AL</a>
+            <a href="/semmes-al/" class="bg-blue-600/80 hover:bg-blue-500 text-white px-3.5 py-2 rounded-full transition">Semmes, AL</a>
+            <a href="/theodore-al/" class="bg-blue-600/80 hover:bg-blue-500 text-white px-3.5 py-2 rounded-full transition">Theodore, AL</a>
+            <a href="/saraland-al/" class="bg-white/15 hover:bg-white/25 text-white px-3.5 py-2 rounded-full transition">Saraland, AL</a>
+            <a href="/tillmans-corner-al/" class="bg-white/15 hover:bg-white/25 text-white px-3.5 py-2 rounded-full transition">Tillman's Corner</a>
+            <a href="/daphne-al/" class="bg-white/15 hover:bg-white/25 text-white px-3.5 py-2 rounded-full transition">Daphne, AL</a>
+            <a href="/fairhope-al/" class="bg-white/15 hover:bg-white/25 text-white px-3.5 py-2 rounded-full transition">Fairhope, AL</a>
+            <a href="/spanish-fort-al/" class="bg-white/15 hover:bg-white/25 text-white px-3.5 py-2 rounded-full transition">Spanish Fort, AL</a>
+            <a href="/foley-al/" class="bg-white/15 hover:bg-white/25 text-white px-3.5 py-2 rounded-full transition">Foley, AL</a>
+            <a href="/gulf-shores-al/" class="bg-white/15 hover:bg-white/25 text-white px-3.5 py-2 rounded-full transition">Gulf Shores, AL</a>
+            <a href="/orange-beach-al/" class="bg-white/15 hover:bg-white/25 text-white px-3.5 py-2 rounded-full transition">Orange Beach, AL</a>
+            <a href="/birmingham-al/" class="bg-white/15 hover:bg-white/25 text-white px-3.5 py-2 rounded-full transition">Birmingham, AL</a>
+            <a href="/huntsville-al/" class="bg-white/15 hover:bg-white/25 text-white px-3.5 py-2 rounded-full transition">Huntsville, AL</a>
+            <a href="/montgomery-al/" class="bg-white/15 hover:bg-white/25 text-white px-3.5 py-2 rounded-full transition">Montgomery, AL</a>
+            <a href="/locations/" class="bg-indigo-600 hover:bg-indigo-500 text-white px-3.5 py-2 rounded-full transition">All 503 AL Cities &rarr;</a>
+          </div>
+        </div>
       </div>
     </section>"""
     hp_faq_html = hp_ai_sec + "\n\n" + render_faq_details_html(
         hp_faqs,
         "Frequently Asked Questions About House Cleaning & Maid Service in Mobile, AL",
-        "Answers on flat-rate pricing, zero locked contracts, HEPA equipment, and coverage across Mobile & Baldwin County."
+        "Answers on flat-rate pricing (from $125), zero locked contracts, HEPA equipment, and coverage across Mobile & Baldwin County."
     )
     raw_hp = re.sub(r'<section\b[^>]*id=["\']hp-ai-summary["\'][^>]*>.*?</section>\s*', "", raw_hp, flags=re.I | re.S)
     old_faq_re = re.compile(r'<section\b[^>]*id=["\']faq["\'][^>]*>.*?</section>', re.I | re.S)
@@ -431,11 +482,11 @@ def update_global_and_root_pages():
     raw_hp = sanitize_common_html(raw_hp)
     write_atomic(hp_path, raw_hp)
 
-    # 2. /locations/index.html — Complete 67-County, 504-City Directory
+    # 2. /locations/index.html — Complete 67-County, 503-City Directory
     loc_idx_path = os.path.join(root_dir, "locations", "index.html")
     raw_loc = open(loc_idx_path, "r", encoding="utf-8", errors="replace").read()
-    loc_title = "Alabama Cleaning Service Areas (All 67 Counties & 504 Cities) | Zoiris"
-    loc_desc = "Browse all 504 Alabama cities & 67 counties served by Zoiris Cleaning Services — Mobile, Semmes, Theodore, Daphne, Fairhope, Gulf Shores, Birmingham, Huntsville & Montgomery. Call (251) 220-2515!"
+    loc_title = "Alabama Cleaning Service Areas (All 67 Counties & 503 Cities) | Zoiris"
+    loc_desc = "Browse all 503 Alabama cities & 67 counties served by Zoiris Cleaning Services — Mobile, Semmes, Theodore, Daphne, Fairhope, Gulf Shores, Birmingham, Huntsville & Montgomery: (251) 220-2515!"
     loc_canon = "https://www.zoiriscleaningservices.com/locations/"
     loc_schema = build_jsonld_schema("locations_index", loc_canon, title=loc_title, desc=loc_desc)
     loc_head = build_clean_head_top(loc_title, loc_desc, loc_canon, og_image="/images/service_areas.png", schema_block=loc_schema)
@@ -586,7 +637,7 @@ def update_global_and_root_pages():
         raw_gal = sanitize_common_html(raw_gal)
         write_atomic(gal_path, raw_gal)
 
-    # 5. privacy.html & terms.html (noindex, follow + unique titles — zero cannibalization!)
+    # 5. privacy.html & terms.html (index, follow + unique E-E-A-T legal titles & JSON-LD — zero cannibalization & zero noindex alerts!)
     for fname, t_txt, d_txt in [
         ("privacy.html", "Privacy Policy | Zoiris Cleaning Services LLC", "Official customer data and privacy policy for Zoiris Cleaning Services LLC in Mobile, AL and across Alabama."),
         ("terms.html", "Terms of Service & Booking Policies | Zoiris Cleaning Services LLC", "Official service terms, zero-contract scheduling policy, and 24-hour satisfaction guarantee terms for Zoiris Cleaning Services LLC.")
@@ -595,10 +646,46 @@ def update_global_and_root_pages():
         if os.path.exists(fpath):
             raw_f = open(fpath, "r", encoding="utf-8", errors="replace").read()
             c_url = f"https://www.zoiriscleaningservices.com/{fname}"
-            h_top = build_clean_head_top(t_txt, d_txt, c_url, robots="noindex, follow", schema_block="")
+            f_schema = build_jsonld_schema("global_page", c_url, title=t_txt, desc=d_txt)
+            h_top = build_clean_head_top(t_txt, d_txt, c_url, schema_block=f_schema)
             raw_f = HEAD_TO_STYLE_RE.sub(lambda _: h_top, raw_f, count=1)
             raw_f = sanitize_common_html(raw_f)
             write_atomic(fpath, raw_f)
+
+    # 5B. Update st-florian-al redirect stubs (remove any old noindex tag) + create 30 legacy root /<service>/ redirect stubs!
+    stf_dir = os.path.join(root_dir, "st-florian-al")
+    if os.path.isdir(stf_dir):
+        for r, _, files in os.walk(stf_dir):
+            for f in files:
+                if f.endswith(".html"):
+                    fp = os.path.join(r, f)
+                    rel_sub = os.path.relpath(fp, stf_dir).replace("\\", "/")
+                    if rel_sub == "index.html":
+                        t_rel = "/saint-florian-al/"
+                    else:
+                        sub_p = rel_sub.split("/")[0]
+                        if sub_p in ("about", "blog", "contact"):
+                            t_rel = f"/mobile-al/{sub_p}/"
+                        elif sub_p.lower().startswith("detailing"):
+                            t_rel = f"/saint-florian-al/{DET_MAP.get('saint-florian-al', 'Detailing-saint-florian-al')}/"
+                        else:
+                            t_rel = f"/saint-florian-al/{sub_p}/"
+                    t_url = "https://www.zoiriscleaningservices.com" + t_rel
+                    write_atomic(fp, build_redirect_stub(t_url, t_rel, "Saint Florian, AL Cleaning Services"))
+
+    for srv_k, srv_v in SERVICES.items():
+        r_dir = os.path.join(root_dir, srv_k)
+        os.makedirs(r_dir, exist_ok=True)
+        t_rel = f"/services/{srv_k}/"
+        t_url = f"https://www.zoiriscleaningservices.com{t_rel}"
+        write_atomic(os.path.join(r_dir, "index.html"), build_redirect_stub(t_url, t_rel, srv_v["name"]))
+
+    det_mob_dir = os.path.join(root_dir, "Detailing-Mobile-AL")
+    os.makedirs(det_mob_dir, exist_ok=True)
+    write_atomic(
+        os.path.join(det_mob_dir, "index.html"),
+        build_redirect_stub("https://www.zoiriscleaningservices.com/mobile-al/Detailing-Mobile-AL/", "/mobile-al/Detailing-Mobile-AL/", "Mobile, AL Interior Detailing")
+    )
 
     # 6. Admin dashboards (dashboard.html & Gallery/Dash.html) -> strict noindex, nofollow
     for admin_rel in ["dashboard.html", os.path.join("Gallery", "Dash.html")]:
@@ -714,6 +801,8 @@ def generate_clean_sitemaps_and_robots():
         "https://www.zoiriscleaningservices.com/mobile-al/blog/",
         "https://www.zoiriscleaningservices.com/Gallery/",
         "https://www.zoiriscleaningservices.com/apply/",
+        "https://www.zoiriscleaningservices.com/privacy.html",
+        "https://www.zoiriscleaningservices.com/terms.html",
     ]
     metro_urls = []
     north_urls = []

@@ -5,8 +5,8 @@
     "slug": "house-cleaning",
     "category": "residential",
     "image": "/images/services/house_cleaning.jpg",
-    "title_tpl": "Maid Service & House Cleaning in {City}, AL | Flat-Rate Quotes | Zoiris",
-    "desc_tpl": "Trusted maid service & recurring house cleaning in {City}, AL ({Zip}). Background-checked W-2 cleaners, HEPA vacuuming, zero contracts & 100% guarantee. Call (251) 220-2515!",
+    "title_tpl": "Maid Service & House Cleaning in {City}, AL (From $125) | 4.9★ Zoiris",
+    "desc_tpl": "4.9★ Rated maid service & recurring house cleaning in {City}, AL ({Zip}) from $125 flat-rate! Zero contracts, insured W-2 cleaners & HEPA care: (251) 220-2515.",
     "h1_tpl": "Maid Service & House Cleaning in {City}, AL",
     "subtitle_tpl": "Dependable weekly, bi-weekly, monthly, and one-time residential maid service across {City} and {County} — flat-rate pricing with zero locked contracts.",
     "short_description": "Customized recurring and on-demand residential housekeeping and maid service engineered to keep kitchens, bathrooms, bedrooms, and living areas spotless, sanitized, and allergen-free.",
@@ -29,7 +29,14 @@
       "Whole-home HEPA carpet/rug vacuuming & damp microfiber hard-floor mopping",
       "Final room-by-room quality inspection & secure lock-up"
     ],
-    "related_services": ["deep-cleaning", "move-out-cleaning", "carpet-cleaning", "window-cleaning", "laundry-services", "luxury-estate-cleaning"]
+    "related_services": [
+      "deep-cleaning",
+      "move-out-cleaning",
+      "carpet-cleaning",
+      "window-cleaning",
+      "laundry-services",
+      "luxury-estate-cleaning"
+    ]
   },
   "deep-cleaning": {
     "name": "Deep Cleaning Services",
@@ -37,8 +44,8 @@
     "slug": "deep-cleaning",
     "category": "residential",
     "image": "/images/services/deep_cleaning.jpg",
-    "title_tpl": "Deep House Cleaning Services in {City}, AL | Top-to-Bottom Scrub | Zoiris",
-    "desc_tpl": "Intensive top-to-bottom deep cleaning in {City}, AL ({Zip}). Hand-washed baseboards, grout descaling, blinds, vents & kitchen grease extraction. Free quote: (251) 220-2515!",
+    "title_tpl": "Deep House Cleaning in {City}, AL (From $220 Flat-Rate) | 4.9★ Zoiris",
+    "desc_tpl": "4.9★ Top-to-bottom deep house cleaning in {City}, AL ({Zip}) from $220! Hand-washed baseboards, grout descaling, blinds, vents & kitchen grease: (251) 220-2515.",
     "h1_tpl": "Top-to-Bottom Deep Cleaning in {City}, AL",
     "subtitle_tpl": "Restorative residential deep scrub in {City} ({County}) — hand-washing baseboards, door frames, blinds, tile grout, range hoods, and neglected buildup.",
     "short_description": "Intensive restorative house scrub targeting heavy buildup, hand-scrubbed baseboards, blinds, air vents, shower scale, and kitchen grease before starting routine maid care or seasonal resets.",
@@ -61,7 +68,14 @@
       "Edge-crevice HEPA extraction along carpet tack strips & furniture perimeters",
       "Multi-pass sanitized hard-floor restoration & supervisor checklist sign-off"
     ],
-    "related_services": ["house-cleaning", "move-in-cleaning", "move-out-cleaning", "carpet-cleaning", "window-cleaning", "detailing"]
+    "related_services": [
+      "house-cleaning",
+      "move-in-cleaning",
+      "move-out-cleaning",
+      "carpet-cleaning",
+      "window-cleaning",
+      "detailing"
+    ]
   },
   "move-in-cleaning": {
     "name": "Move-In Cleaning",
@@ -69,8 +83,8 @@
     "slug": "move-in-cleaning",
     "category": "residential",
     "image": "/images/services/move_in_cleaning.jpg",
-    "title_tpl": "Move-In Cleaning Services in {City}, AL | Empty-Home Sanitization | Zoiris",
-    "desc_tpl": "Turnkey move-in house cleaning in {City}, AL ({Zip}). Inside cabinets, drawers, fridge, oven & full bathroom sterilization before unpacking. Call (251) 220-2515!",
+    "title_tpl": "Move-In Cleaning in {City}, AL (From $245 Empty-Home) | 4.9★ Zoiris",
+    "desc_tpl": "4.9★ Empty-home move-in cleaning in {City}, AL ({Zip}) from $245! Sanitized cabinets, drawers, fridge, oven & bathrooms before unpacking: (251) 220-2515.",
     "h1_tpl": "Move-In Cleaning & Home Sanitization in {City}, AL",
     "subtitle_tpl": "Unpack into a 100% sanitized, germ-free home in {City} — complete interior cabinet, pantry, appliance, closet, and bathroom sterilization prior to moving day.",
     "short_description": "Complete pre-occupancy sanitization of vacant houses, condos, and apartments so incoming families unpack dishes, clothes, and groceries onto sterile shelves and spotless floors.",
@@ -93,7 +107,14 @@
       "Baseboard, door frame, window sill & interior glass polishing",
       "HEPA vacuuming and sanitizing mop wash across every square foot of flooring"
     ],
-    "related_services": ["move-out-cleaning", "deep-cleaning", "house-cleaning", "carpet-cleaning", "post-construction-cleanup", "window-cleaning"]
+    "related_services": [
+      "move-out-cleaning",
+      "deep-cleaning",
+      "house-cleaning",
+      "carpet-cleaning",
+      "post-construction-cleanup",
+      "window-cleaning"
+    ]
   },
   "move-out-cleaning": {
     "name": "Move-Out Cleaning",
@@ -101,8 +122,8 @@
     "slug": "move-out-cleaning",
     "category": "residential",
     "image": "/images/services/move_out_cleaning.jpg",
-    "title_tpl": "Move-Out Cleaning in {City}, AL | Deposit-Ready Lease Turnover | Zoiris",
-    "desc_tpl": "Inspection-ready move-out cleaning in {City}, AL ({Zip}) for tenants, landlords & home sellers. Inside oven, fridge, cabinets, baseboards & floors. Call (251) 220-2515!",
+    "title_tpl": "Move-Out Cleaning in {City}, AL (100% Deposit Guarantee) | 4.9★ Zoiris",
+    "desc_tpl": "Landlord-approved move-out cleaning in {City}, AL ({Zip}) from $250! Inside oven, fridge, cabinets, baseboards & floors + 24-hr guarantee: (251) 220-2515.",
     "h1_tpl": "Move-Out & Lease Turnover Cleaning in {City}, AL",
     "subtitle_tpl": "Landlord and realtor inspection-ready move-out cleaning across {City} ({County}) engineered to pass walkthrough checklists and protect security deposits.",
     "short_description": "Empty-property turnover cleaning engineered around Alabama landlord, apartment community, and real estate listing inspection checklists to secure security deposits and speed up closings.",
@@ -125,7 +146,14 @@
       "Closet shelf wipe-down, garage entry sweep & utility room cleaning",
       "Final HEPA floor extraction, sanitized wet mopping & inspection verification"
     ],
-    "related_services": ["move-in-cleaning", "deep-cleaning", "carpet-cleaning", "pressure-washing", "property-management-janitorial", "window-cleaning"]
+    "related_services": [
+      "move-in-cleaning",
+      "deep-cleaning",
+      "carpet-cleaning",
+      "pressure-washing",
+      "property-management-janitorial",
+      "window-cleaning"
+    ]
   },
   "carpet-cleaning": {
     "name": "Carpet & Upholstery Steam Cleaning",
@@ -133,8 +161,8 @@
     "slug": "carpet-cleaning",
     "category": "residential",
     "image": "/images/services/carpet_cleaning.jpg",
-    "title_tpl": "Carpet & Upholstery Steam Cleaning in {City}, AL | Stain & Odor Removal | Zoiris",
-    "desc_tpl": "Deep hot-water extraction carpet, area rug & upholstery cleaning in {City}, AL ({Zip}). Lifts red clay, pet odors, allergens & traffic lanes. Fast dry! Call (251) 220-2515!",
+    "title_tpl": "Carpet & Upholstery Steam Cleaning in {City}, AL | 4.9★ Stain Removal",
+    "desc_tpl": "200°F hot-water extraction carpet, rug & sofa upholstery cleaning in {City}, AL ({Zip}). Lifts red clay, pet urine odors & stains (3-hr dry): (251) 220-2515!",
     "h1_tpl": "Carpet, Rug & Upholstery Steam Cleaning in {City}, AL",
     "subtitle_tpl": "Commercial hot-water steam extraction and enzyme stain treatment for carpets, area rugs, sofas, and upholstery across {City} and {County}.",
     "short_description": "High-temperature hot-water extraction (steam cleaning), bio-enzymatic pet odor neutralization, and upholstery fabric care removing deep-embedded soil, red clay, sand, and allergens.",
@@ -157,7 +185,14 @@
       "Optional upholstery, sectional, dining chair & mattress steam sanitization",
       "Carpet nap grooming and rapid-dry airflow verification"
     ],
-    "related_services": ["deep-cleaning", "house-cleaning", "move-out-cleaning", "floor-stripping-waxing", "detailing", "luxury-estate-cleaning"]
+    "related_services": [
+      "deep-cleaning",
+      "house-cleaning",
+      "move-out-cleaning",
+      "floor-stripping-waxing",
+      "detailing",
+      "luxury-estate-cleaning"
+    ]
   },
   "window-cleaning": {
     "name": "Window Cleaning Services",
@@ -165,13 +200,13 @@
     "slug": "window-cleaning",
     "category": "specialty",
     "image": "/images/services/window_cleaning.jpg",
-    "title_tpl": "Interior & Exterior Window Cleaning in {City}, AL | Streak-Free Glass | Zoiris",
-    "desc_tpl": "Crystal-clear residential & commercial window cleaning in {City}, AL ({Zip}). Purified water-fed poles, screen washing, sill & track detailing. Call (251) 220-2515!",
+    "title_tpl": "Window Cleaning in {City}, AL (Home, Storefront & High-Rise) | Zoiris",
+    "desc_tpl": "Streak-free residential, storefront & mid/high-rise commercial window cleaning in {City}, AL ({Zip}). 0-TDS pure water poles, screens & tracks: (251) 220-2515!",
     "h1_tpl": "Streak-Free Window Cleaning in {City}, AL",
     "subtitle_tpl": "Purified deionized exterior glass washing, precision interior squeegee work, screen scrubbing, and window track detailing in {City} ({County}).",
     "short_description": "Streak-free interior and exterior window washing utilizing multi-stage deionized pure water poles, surgical rubber squeegees, screen baths, and deep sill/track dirt extraction.",
     "equipment": "4-stage RO/DI purified water-fed carbon-fiber poles (spot-free drying), Ettore/Moerman brass & stainless squeegees, non-scratch bronze wool pads, and track vacuum nozzles.",
-    "ideal_for": "Multi-story homes, French-pane historic sashes, sunroom glass, coastal sliders, and retail storefronts",
+    "ideal_for": "Single & multi-story homes, retail storefronts, commercial office buildings, and mid/high-rise exterior glass",
     "cadence": "Semi-Annual Residential Care or Monthly/Quarterly Commercial Storefront Routes",
     "benefits": [
       "Deionized pure-water exterior rinse dries 100% spot-free without mineral rings",
@@ -189,7 +224,14 @@
       "Interior hand applicator wash, precision squeegee blade pull & edge detailing",
       "Multi-angle sunlight inspection for zero streaks, smears, or drips"
     ],
-    "related_services": ["pressure-washing", "gutter-cleaning", "solar-panel-cleaning", "deep-cleaning", "house-cleaning", "post-construction-cleanup"]
+    "related_services": [
+      "pressure-washing",
+      "gutter-cleaning",
+      "solar-panel-cleaning",
+      "deep-cleaning",
+      "house-cleaning",
+      "post-construction-cleanup"
+    ]
   },
   "pressure-washing": {
     "name": "Pressure Washing & Soft Washing",
@@ -197,8 +239,8 @@
     "slug": "pressure-washing",
     "category": "specialty",
     "image": "/images/services/pressure_washing.jpg",
-    "title_tpl": "Pressure Washing & House Soft Washing in {City}, AL | Concrete & Siding | Zoiris",
-    "desc_tpl": "Professional driveway pressure washing & low-pressure house soft washing in {City}, AL ({Zip}). Removes green algae, mildew & red clay stains. Call (251) 220-2515!",
+    "title_tpl": "Pressure Washing & House Soft Wash in {City}, AL | 4.9★ Zoiris",
+    "desc_tpl": "Damage-free house soft washing (<100 PSI) & driveway rotary pressure washing in {City}, AL ({Zip}). Removes algae, mildew & red clay stains: (251) 220-2515!",
     "h1_tpl": "Pressure Washing & Exterior Soft Washing in {City}, AL",
     "subtitle_tpl": "Rotary concrete surface cleaning and gentle low-PSI siding soft washing across {City} ({County}) — eliminating black mildew, green algae, and red clay staining.",
     "short_description": "Commercial rotary concrete pressure washing for driveways, sidewalks, and pool decks paired with damage-free low-pressure soft washing for vinyl, Hardie plank, brick, and stucco siding.",
@@ -221,7 +263,14 @@
       "Precision edge rinsing along walkways, curbs, porches & garage aprons",
       "Final plant hydration rinse and homeowner curb-appeal walkthrough"
     ],
-    "related_services": ["gutter-cleaning", "window-cleaning", "solar-panel-cleaning", "property-maintenance", "post-construction-cleanup", "commercial-cleaning"]
+    "related_services": [
+      "gutter-cleaning",
+      "window-cleaning",
+      "solar-panel-cleaning",
+      "property-maintenance",
+      "post-construction-cleanup",
+      "commercial-cleaning"
+    ]
   },
   "gutter-cleaning": {
     "name": "Gutter & Downspout Cleaning",
@@ -229,8 +278,8 @@
     "slug": "gutter-cleaning",
     "category": "specialty",
     "image": "/images/services/gutter_cleaning.jpg",
-    "title_tpl": "Gutter Cleaning & Downspout Flushing in {City}, AL | Roof Drainage | Zoiris",
-    "desc_tpl": "Safe, thorough gutter cleaning & downspout hydro-flushing in {City}, AL ({Zip}). Clears pine needles, oak leaves & roof grit; full debris haul-off. Call (251) 220-2515!",
+    "title_tpl": "Gutter Cleaning & Downspout Flushing in {City}, AL | 4.9★ Insured",
+    "desc_tpl": "Insured roof gutter cleaning & downspout hydro-flushing in {City}, AL ({Zip}). Hand-bagged pine straw/leaves + 100% flow test & zero lawn mess: (251) 220-2515!",
     "h1_tpl": "Gutter Cleaning & Downspout Clearing in {City}, AL",
     "subtitle_tpl": "Protect your roof, fascia, and slab foundation in {City} ({County}) with complete gutter trough clearing, downspout flow testing, and bagged debris removal.",
     "short_description": "Hand-cleared gutter trough cleaning and pressurized downspout flushing removing compacted pine straw, live oak leaves, shingle granules, and roof moss before heavy Alabama rainstorms.",
@@ -253,7 +302,14 @@
       "Complete ground, deck & flowerbed sweep ensuring zero fallen debris remains",
       "Drainage confirmation report noting any loose spikes or seam wear"
     ],
-    "related_services": ["pressure-washing", "window-cleaning", "solar-panel-cleaning", "property-maintenance", "home-watch-services", "deep-cleaning"]
+    "related_services": [
+      "pressure-washing",
+      "window-cleaning",
+      "solar-panel-cleaning",
+      "property-maintenance",
+      "home-watch-services",
+      "deep-cleaning"
+    ]
   },
   "luxury-estate-cleaning": {
     "name": "Luxury Estate & Fine Home Cleaning",
@@ -261,8 +317,8 @@
     "slug": "luxury-estate-cleaning",
     "category": "residential",
     "image": "/images/services/luxury_estate_cleaning.jpg",
-    "title_tpl": "Luxury Estate Cleaning & White-Glove Housekeeping in {City}, AL | Zoiris",
-    "desc_tpl": "Discreet white-glove luxury estate cleaning in {City}, AL ({Zip}). Specialized care for marble, heart pine, custom millwork & fine art residences. Call (251) 220-2515!",
+    "title_tpl": "Luxury Estate & White-Glove Cleaning in {City}, AL | 4.9★ Zoiris",
+    "desc_tpl": "Discreet white-glove luxury estate housekeeping in {City}, AL ({Zip}). pH-neutral marble, heart-pine hardwood, custom millwork & senior W-2 crews: (251) 220-2515!",
     "h1_tpl": "White-Glove Luxury Estate Cleaning in {City}, AL",
     "subtitle_tpl": "Bespoke preservation housekeeping for custom residences, waterfront estates, and historic homes in {City} ({County}) with senior trained specialists.",
     "short_description": "Discreet, conservation-grade white-glove housekeeping tailored for 3,500+ sq ft residences, bayfront/lakefront estates, and homes featuring Calacatta marble, heart pine, antique millwork, and fine art.",
@@ -285,7 +341,14 @@
       "Horsehair-brush HEPA rug care and Bona-standard hardwood floor preservation",
       "White-glove staging of primary suites, guest wings & covered outdoor living spaces"
     ],
-    "related_services": ["luxury-estate-management", "home-watch-services", "deep-cleaning", "window-cleaning", "carpet-cleaning", "detailing"]
+    "related_services": [
+      "luxury-estate-management",
+      "home-watch-services",
+      "deep-cleaning",
+      "window-cleaning",
+      "carpet-cleaning",
+      "detailing"
+    ]
   },
   "laundry-services": {
     "name": "Residential Laundry & Linen Service",
@@ -293,8 +356,8 @@
     "slug": "laundry-services",
     "category": "residential",
     "image": "/images/services/laundry_services.jpg",
-    "title_tpl": "In-Home Laundry, Folding & Linen Service in {City}, AL | Zoiris Cleaning",
-    "desc_tpl": "Convenient residential laundry, wash-dry-fold & bed linen changing services in {City}, AL ({Zip}). Pair with maid visits or short-term turnovers. Call (251) 220-2515!",
+    "title_tpl": "In-Home Laundry, Folding & Linen Service in {City}, AL | 4.9★ Zoiris",
+    "desc_tpl": "Wash-dry-fold residential laundry & hotel bed-linen changing in {City}, AL ({Zip}). Zero contracts — pair with maid service or STR turnovers: (251) 220-2515!",
     "h1_tpl": "Laundry, Folding & Fresh Linen Service in {City}, AL",
     "subtitle_tpl": "Reclaim your weekends in {City} ({County}) with meticulous wash-dry-fold laundry care, bed stripping and remaking, and vacation rental towel/linen staging.",
     "short_description": "Dedicated in-home wash, dry, crisp fold, closet organization, and hotel-style bed linen changing for busy households, seniors, and short-term vacation rental properties.",
@@ -317,7 +380,14 @@
       "Hotel-grade bed remaking and organized placement into drawers/linen shelves",
       "Lint trap cleaning and laundry room counter/appliance wipe-down"
     ],
-    "related_services": ["house-cleaning", "airbnb-cleaning", "vacation-rental-cleaning", "luxury-estate-cleaning", "deep-cleaning", "luxury-estate-management"]
+    "related_services": [
+      "house-cleaning",
+      "airbnb-cleaning",
+      "vacation-rental-cleaning",
+      "luxury-estate-cleaning",
+      "deep-cleaning",
+      "luxury-estate-management"
+    ]
   },
   "detailing": {
     "name": "Interior Surface & Home Detailing",
@@ -325,8 +395,8 @@
     "slug": "detailing",
     "category": "residential",
     "image": "/images/services/detailing.jpg",
-    "title_tpl": "Precision Interior Home & Surface Detailing in {City}, AL | Zoiris Cleaning",
-    "desc_tpl": "Micro-level interior home detailing in {City}, AL ({Zip}). Appliances, cabinetry, grout lines, blinds, vents, hardware & fine fixture restoration. Call (251) 220-2515!",
+    "title_tpl": "Interior Home, Grout & Appliance Detailing in {City}, AL | 4.9★ Zoiris",
+    "desc_tpl": "275°F dry-steam interior home detailing in {City}, AL ({Zip}). Inside ovens/fridges, tile grout, plantation shutters, blinds & cabinetry: (251) 220-2515!",
     "h1_tpl": "Precision Interior Surface & Home Detailing in {City}, AL",
     "subtitle_tpl": "Fine-tooth precision detailing for kitchens, baths, built-ins, interior appliances, grout, and architectural hardware across {City} and {County}.",
     "short_description": "Surgical micro-detailing of high-wear interior zones—including oven/fridge interiors, cabinet hinges, tile grout lines, window blinds, HVAC registers, and architectural trim—restoring showroom brilliance.",
@@ -349,7 +419,14 @@
       "Tile grout scrubbing and stainless/brass hardware buffing",
       "White-glove inspection under bright LED task lighting"
     ],
-    "related_services": ["deep-cleaning", "luxury-estate-cleaning", "carpet-cleaning", "window-cleaning", "move-in-cleaning", "house-cleaning"]
+    "related_services": [
+      "deep-cleaning",
+      "luxury-estate-cleaning",
+      "carpet-cleaning",
+      "window-cleaning",
+      "move-in-cleaning",
+      "house-cleaning"
+    ]
   },
   "commercial-cleaning": {
     "name": "Commercial Cleaning Services",
@@ -357,13 +434,13 @@
     "slug": "commercial-cleaning",
     "category": "commercial",
     "image": "/images/services/commercial_cleaning.jpg",
-    "title_tpl": "Commercial Cleaning Services in {City}, AL | Insured Facility Care | Zoiris",
-    "desc_tpl": "Bonded & insured commercial cleaning in {City}, AL ({Zip}) for retail, banks, dealerships & corporate buildings. Flexible night/weekend shifts. Call (251) 220-2515!",
+    "title_tpl": "Commercial Cleaning in {City}, AL (Offices, Spas, Banks) | No Contracts",
+    "desc_tpl": "4.9★ Insured commercial cleaning in {City}, AL ({Zip}) for offices, med-spas, banks, retail & showrooms. Same-day COI, zero lock-in contracts: (251) 220-2515!",
     "h1_tpl": "Commercial Facility Cleaning Services in {City}, AL",
     "subtitle_tpl": "Dependable, fully insured commercial cleaning programs for retail storefronts, banks, dealerships, and business facilities across {City} ({County}).",
     "short_description": "Comprehensive commercial building sanitation and presentation care tailored for customer-facing retail spaces, financial branches, auto showrooms, and corporate centers with zero operational disruption.",
     "equipment": "CRI-certified commercial backpack HEPA vacuums, hospital-grade quaternary/botanical EPA List N disinfectants, flat microfiber damp-mop systems, and commercial glass/floor equipment.",
-    "ideal_for": "Retail stores, banks & credit unions, auto showrooms, professional plazas, and commercial buildings",
+    "ideal_for": "Corporate offices, medical/day spas & salons, banks & credit unions, retail stores, auto showrooms & commercial plazas",
     "cadence": "Nightly, 2x–5x Weekly After-Hours, or Weekend Shifts — No Punitive Lock-In Clauses",
     "benefits": [
       "Comprehensive general liability & workers' compensation COI provided on request",
@@ -381,7 +458,14 @@
       "Commercial HEPA carpet vacuuming and hard-floor auto-scrubbing/damp mopping",
       "Centralized waste/recycling removal, alarm arming & secure lock-up check"
     ],
-    "related_services": ["office-janitorial-services", "janitorial-cleaning-services", "floor-stripping-waxing", "medical-dental-facility-cleaning", "window-cleaning", "pressure-washing"]
+    "related_services": [
+      "office-janitorial-services",
+      "janitorial-cleaning-services",
+      "floor-stripping-waxing",
+      "medical-dental-facility-cleaning",
+      "window-cleaning",
+      "pressure-washing"
+    ]
   },
   "office-janitorial-services": {
     "name": "Office Cleaning & Workplace Janitorial",
@@ -389,8 +473,8 @@
     "slug": "office-janitorial-services",
     "category": "commercial",
     "image": "/images/services/office_janitorial_services.jpg",
-    "title_tpl": "Office Cleaning & Workplace Janitorial in {City}, AL | Nightly Crews | Zoiris",
-    "desc_tpl": "Professional office cleaning & corporate workstation sanitization in {City}, AL ({Zip}). Conference rooms, breakrooms, restrooms & floors. Free bid: (251) 220-2515!",
+    "title_tpl": "Office Cleaning & Workplace Janitorial in {City}, AL | No Contracts",
+    "desc_tpl": "Dependable night/weekend office cleaning & corporate janitorial in {City}, AL ({Zip}). Workstations, restrooms, breakrooms & flat monthly rates: (251) 220-2515!",
     "h1_tpl": "Office Cleaning & Corporate Janitorial in {City}, AL",
     "subtitle_tpl": "Keep your {City} workplace healthy, productive, and client-ready with tailored office desk, conference room, breakroom, and restroom sanitization.",
     "short_description": "Specialized corporate and small-business office cleaning focused on employee wellness, reduced sick days, electronics-safe workstation dusting, conference room readiness, and hygienic office breakrooms.",
@@ -413,7 +497,14 @@
       "Desk-side trash/shred-bin liner replacement and corridor HEPA vacuuming",
       "Hard-surface mopping, light shutoff & building security alarm verification"
     ],
-    "related_services": ["commercial-cleaning", "janitorial-cleaning-services", "medical-dental-facility-cleaning", "floor-stripping-waxing", "carpet-cleaning", "window-cleaning"]
+    "related_services": [
+      "commercial-cleaning",
+      "janitorial-cleaning-services",
+      "medical-dental-facility-cleaning",
+      "floor-stripping-waxing",
+      "carpet-cleaning",
+      "window-cleaning"
+    ]
   },
   "janitorial-cleaning-services": {
     "name": "Contract Janitorial & Day Porter Services",
@@ -421,8 +512,8 @@
     "slug": "janitorial-cleaning-services",
     "category": "commercial",
     "image": "/images/services/janitorial_cleaning_services.jpg",
-    "title_tpl": "Janitorial Cleaning & Day Porter Services in {City}, AL | Facility Custodial | Zoiris",
-    "desc_tpl": "Full-service contract janitorial & day porter custodial operations in {City}, AL ({Zip}). Restroom supply management, high-traffic floors & QC audits. Call (251) 220-2515!",
+    "title_tpl": "Contract-Free Janitorial & Day Porter Services in {City}, AL | Zoiris",
+    "desc_tpl": "Full-scope building janitorial & day porter custodial services in {City}, AL ({Zip}). Restroom restocking, auto-scrubbed floors & W-2 crews: (251) 220-2515!",
     "h1_tpl": "Contract Janitorial & Custodial Services in {City}, AL",
     "subtitle_tpl": "Turnkey building custodial operations, day-porter staffing, consumable restocking, and quality-audited janitorial maintenance in {City} ({County}).",
     "short_description": "Full-scope ongoing custodial management, day-porter attendance, multi-restroom consumable logistics, and scheduled floor care for high-traffic multi-tenant, municipal, and institutional buildings.",
@@ -445,7 +536,14 @@
       "Mechanized hard-floor scrubbing and commercial HEPA carpet maintenance",
       "Supervisor digital inspection log & proactive facility maintenance reporting"
     ],
-    "related_services": ["commercial-cleaning", "office-janitorial-services", "floor-stripping-waxing", "industrial-warehouse-cleaning", "property-management-janitorial", "school-daycare-cleaning"]
+    "related_services": [
+      "commercial-cleaning",
+      "office-janitorial-services",
+      "floor-stripping-waxing",
+      "industrial-warehouse-cleaning",
+      "property-management-janitorial",
+      "school-daycare-cleaning"
+    ]
   },
   "medical-dental-facility-cleaning": {
     "name": "Medical & Dental Facility Cleaning",
@@ -453,8 +551,8 @@
     "slug": "medical-dental-facility-cleaning",
     "category": "commercial",
     "image": "/images/services/medical_facility_cleaning.jpg",
-    "title_tpl": "Medical & Dental Office Cleaning in {City}, AL | OSHA & EPA Disinfection | Zoiris",
-    "desc_tpl": "Clinical-grade medical, dental & urgent care cleaning in {City}, AL ({Zip}). EPA List N disinfectants, exam room terminal sanitation & HIPAA discretion. Call (251) 220-2515!",
+    "title_tpl": "Medical, Dental & Med-Spa Cleaning in {City}, AL | EPA List N & OSHA",
+    "desc_tpl": "Clinical-grade medical, dental, urgent care & med-spa terminal cleaning in {City}, AL ({Zip}). EPA List N disinfection & HIPAA-trained staff: (251) 220-2515!",
     "h1_tpl": "Medical, Dental & Clinical Facility Cleaning in {City}, AL",
     "subtitle_tpl": "Infection-control terminal cleaning and EPA List N disinfection for medical clinics, dental practices, surgery centers, and veterinary offices in {City}.",
     "short_description": "Healthcare-grade environmental sanitation engineered around CDC, OSHA bloodborne pathogen awareness, and HIPAA privacy protocols for outpatient clinics, dental operatories, physical therapy, and urgent care centers.",
@@ -477,7 +575,14 @@
       "HEPA particulate filtration vacuuming and hospital-disinfectant seamless floor mopping",
       "Regulated liner handling (non-sharps municipal waste) & clinical checklist sign-off"
     ],
-    "related_services": ["office-janitorial-services", "commercial-cleaning", "janitorial-cleaning-services", "floor-stripping-waxing", "school-daycare-cleaning", "window-cleaning"]
+    "related_services": [
+      "office-janitorial-services",
+      "commercial-cleaning",
+      "janitorial-cleaning-services",
+      "floor-stripping-waxing",
+      "school-daycare-cleaning",
+      "window-cleaning"
+    ]
   },
   "industrial-warehouse-cleaning": {
     "name": "Industrial & Warehouse Cleaning",
@@ -485,8 +590,8 @@
     "slug": "industrial-warehouse-cleaning",
     "category": "commercial",
     "image": "/images/services/industrial_warehouse_cleaning.jpg",
-    "title_tpl": "Industrial & Warehouse Cleaning in {City}, AL | Concrete Floors & OSHA Care | Zoiris",
-    "desc_tpl": "Heavy-duty warehouse, distribution center & industrial cleaning in {City}, AL ({Zip}). Concrete floor scrubbing, high-bay dust, breakrooms & restrooms. Call (251) 220-2515!",
+    "title_tpl": "Industrial & Warehouse Cleaning in {City}, AL | OSHA Concrete & Bay Care",
+    "desc_tpl": "Heavy-duty warehouse, plant & distribution cleaning in {City}, AL ({Zip}). Auto-scrubbed concrete aisles, shop locker rooms & shipping offices: (251) 220-2515!",
     "h1_tpl": "Industrial, Warehouse & Distribution Cleaning in {City}, AL",
     "subtitle_tpl": "OSHA-aligned industrial facility sanitation, concrete slab degreasing, shipping office cleaning, and employee welfare room care across {City} ({County}).",
     "short_description": "Heavy-duty industrial sanitation for warehouses, logistics hubs, manufacturing plants, and fabrication shops—keeping concrete aisles, loading bays, employee locker rooms, and front offices safe and audit-ready.",
@@ -509,7 +614,14 @@
       "Administrative shipping office, dispatch window & conference suite cleaning",
       "Loading dock apron debris clearing, gaylord/trash consolidation & safety sign-off"
     ],
-    "related_services": ["commercial-cleaning", "floor-stripping-waxing", "pressure-washing", "janitorial-cleaning-services", "post-construction-cleanup", "property-maintenance"]
+    "related_services": [
+      "commercial-cleaning",
+      "floor-stripping-waxing",
+      "pressure-washing",
+      "janitorial-cleaning-services",
+      "post-construction-cleanup",
+      "property-maintenance"
+    ]
   },
   "floor-stripping-waxing": {
     "name": "Floor Stripping, Waxing & Hard Floor Care",
@@ -517,8 +629,8 @@
     "slug": "floor-stripping-waxing",
     "category": "commercial",
     "image": "/images/services/floor_stripping_waxing.jpg",
-    "title_tpl": "VCT Floor Stripping, Waxing & Hard Floor Care in {City}, AL | Zoiris Cleaning",
-    "desc_tpl": "Commercial VCT floor stripping & waxing, tile/grout scrubbing & hardwood floor care in {City}, AL ({Zip}). Multi-coat high-gloss polymer finish. Call (251) 220-2515!",
+    "title_tpl": "Floor Stripping, Waxing & Hardwood/Tile Care in {City}, AL | Zoiris",
+    "desc_tpl": "Commercial VCT floor stripping & 5-coat waxing, tile/grout scrubbing & Bona hardwood floor cleaning in {City}, AL ({Zip}). Free floor bid: (251) 220-2515!",
     "h1_tpl": "Floor Stripping, Waxing & Hard Floor Restoration in {City}, AL",
     "subtitle_tpl": "Restore mirror-gloss durability to VCT vinyl, terrazzo, ceramic tile, concrete, and hardwood floors across {City} and {County}.",
     "short_description": "Complete hard-floor restoration including old yellowed acrylic wax stripping, pH neutralizing rinses, 4-to-6 coat high-solids commercial polymer finish application, high-speed burnishing, and tile/hardwood deep care.",
@@ -541,7 +653,14 @@
       "Controlled airflow curing between coats and high-speed pad burnishing",
       "Slip-resistance check, fixture replacement & ongoing floor maintenance plan"
     ],
-    "related_services": ["commercial-cleaning", "janitorial-cleaning-services", "industrial-warehouse-cleaning", "school-daycare-cleaning", "church-worship-center-cleaning", "carpet-cleaning"]
+    "related_services": [
+      "commercial-cleaning",
+      "janitorial-cleaning-services",
+      "industrial-warehouse-cleaning",
+      "school-daycare-cleaning",
+      "church-worship-center-cleaning",
+      "carpet-cleaning"
+    ]
   },
   "gym-fitness-center-cleaning": {
     "name": "Gym, Studio & Fitness Center Cleaning",
@@ -549,8 +668,8 @@
     "slug": "gym-fitness-center-cleaning",
     "category": "commercial",
     "image": "/images/services/gym_fitness_center_cleaning.jpg",
-    "title_tpl": "Gym & Fitness Center Cleaning in {City}, AL | Locker Room & Equipment Sanitation | Zoiris",
-    "desc_tpl": "Specialized gym, yoga/Pilates studio & fitness center cleaning in {City}, AL ({Zip}). Kills MRSA/ringworm on mats, weights, turf & locker showers. Call (251) 220-2515!",
+    "title_tpl": "Gym, Spa & Fitness Studio Cleaning in {City}, AL | MRSA/Odor Defense",
+    "desc_tpl": "Antimicrobial gym, Pilates/yoga studio & spa locker room cleaning in {City}, AL ({Zip}). Disinfects mats, weights, turf, saunas & showers: (251) 220-2515!",
     "h1_tpl": "Gym, Fitness Studio & Locker Room Cleaning in {City}, AL",
     "subtitle_tpl": "Athletic-grade antimicrobial sanitization for gyms, CrossFit boxes, Pilates/yoga studios, rubber floors, and locker showers in {City} ({County}).",
     "short_description": "Specialized athletic facility sanitation neutralizing sweat odors, staph/MRSA, athlete's foot fungi, and chalk buildup across cardio decks, free weights, rubber/turf flooring, wall mirrors, and shower locker rooms.",
@@ -573,7 +692,14 @@
       "Locker room shower tile descaling, locker exterior wiping & dispenser restocking",
       "Odor-neutralizing air/drain check and member-ready walkthrough"
     ],
-    "related_services": ["commercial-cleaning", "medical-dental-facility-cleaning", "janitorial-cleaning-services", "floor-stripping-waxing", "window-cleaning", "laundry-services"]
+    "related_services": [
+      "commercial-cleaning",
+      "medical-dental-facility-cleaning",
+      "janitorial-cleaning-services",
+      "floor-stripping-waxing",
+      "window-cleaning",
+      "laundry-services"
+    ]
   },
   "school-daycare-cleaning": {
     "name": "School, Preschool & Daycare Cleaning",
@@ -581,8 +707,8 @@
     "slug": "school-daycare-cleaning",
     "category": "commercial",
     "image": "/images/services/school_daycare_cleaning.jpg",
-    "title_tpl": "School, Daycare & Childcare Cleaning in {City}, AL | Child-Safe Disinfection | Zoiris",
-    "desc_tpl": "Non-toxic, child-safe school, daycare & learning center cleaning in {City}, AL ({Zip}). Background-checked staff, EPA Design for the Environment sanitizers. Call (251) 220-2515!",
+    "title_tpl": "School, Daycare & Preschool Cleaning in {City}, AL | Child-Safe EPA",
+    "desc_tpl": "100% child-safe, non-toxic school & daycare cleaning in {City}, AL ({Zip}). Background-checked W-2 staff, HEPA vacuums & classroom disinfection: (251) 220-2515!",
     "h1_tpl": "School, Daycare & Academy Cleaning in {City}, AL",
     "subtitle_tpl": "Child-safe, non-toxic classroom, nursery, cafeteria, and restroom disinfection for daycares, private schools, and learning centers across {City}.",
     "short_description": "Pediatric-safe educational facility sanitation combining non-toxic EPA-registered botanical disinfectants, background-screened staff, and meticulous high-touch desk, cubby, nap-mat, and restroom hygiene.",
@@ -605,7 +731,14 @@
       "Reading-rug HEPA vacuuming and corridor VCT damp mopping",
       "Perimeter door-latch security check and daily sanitation log completion"
     ],
-    "related_services": ["church-worship-center-cleaning", "janitorial-cleaning-services", "floor-stripping-waxing", "carpet-cleaning", "medical-dental-facility-cleaning", "commercial-cleaning"]
+    "related_services": [
+      "church-worship-center-cleaning",
+      "janitorial-cleaning-services",
+      "floor-stripping-waxing",
+      "carpet-cleaning",
+      "medical-dental-facility-cleaning",
+      "commercial-cleaning"
+    ]
   },
   "church-worship-center-cleaning": {
     "name": "Church & Worship Center Cleaning",
@@ -613,8 +746,8 @@
     "slug": "church-worship-center-cleaning",
     "category": "commercial",
     "image": "/images/services/church_worship_cleaning.jpg",
-    "title_tpl": "Church & Worship Center Cleaning in {City}, AL | Sanctuary & Fellowship Care | Zoiris",
-    "desc_tpl": "Respectful, reliable church & worship facility cleaning in {City}, AL ({Zip}). Sanctuaries, pews, nurseries, fellowship halls & multi-stall restrooms. Call (251) 220-2515!",
+    "title_tpl": "Church & Worship Center Cleaning in {City}, AL | Sanctuary & Hall Care",
+    "desc_tpl": "Respectful, contract-free church & sanctuary cleaning in {City}, AL ({Zip}). Pews, nurseries, fellowship kitchens & multi-stall restrooms: (251) 220-2515!",
     "h1_tpl": "Church & Worship Center Cleaning Services in {City}, AL",
     "subtitle_tpl": "Reverent, thorough cleaning for sanctuaries, pews, church nurseries, fellowship kitchens, and classrooms across {City} and {County}.",
     "short_description": "Respectful, budget-conscious worship facility cleaning preparing sanctuaries, wooden pews, upholstered auditorium seating, church nurseries, fellowship halls, and lobbies for Sunday services, midweek ministries, and weddings.",
@@ -637,7 +770,14 @@
       "High-volume men's, women's & family restroom disinfection and paper/soap restock",
       "HVAC thermostat check, lighting shutoff & secure church campus lock-up"
     ],
-    "related_services": ["school-daycare-cleaning", "janitorial-cleaning-services", "carpet-cleaning", "floor-stripping-waxing", "window-cleaning", "commercial-cleaning"]
+    "related_services": [
+      "school-daycare-cleaning",
+      "janitorial-cleaning-services",
+      "carpet-cleaning",
+      "floor-stripping-waxing",
+      "window-cleaning",
+      "commercial-cleaning"
+    ]
   },
   "solar-panel-cleaning": {
     "name": "Solar Panel Cleaning Services",
@@ -645,8 +785,8 @@
     "slug": "solar-panel-cleaning",
     "category": "specialty",
     "image": "/images/services/solar_panel_cleaning.jpg",
-    "title_tpl": "Solar Panel Cleaning in {City}, AL | Deionized Pure-Water Array Wash | Zoiris",
-    "desc_tpl": "Boost solar kWh output up to 25% with purified-water solar panel cleaning in {City}, AL ({Zip}). Removes pine pollen, bird droppings & dust safely. Call (251) 220-2515!",
+    "title_tpl": "Solar Panel Cleaning in {City}, AL (+25% Output Pure-Water Wash) | Zoiris",
+    "desc_tpl": "Warranty-safe 0-TDS deionized solar panel cleaning in {City}, AL ({Zip}). Safely removes pine pollen, dust & bird droppings without harsh soap: (251) 220-2515!",
     "h1_tpl": "Purified-Water Solar Panel Cleaning in {City}, AL",
     "subtitle_tpl": "Warranty-safe, zero-chemical deionized pure-water solar array washing in {City} ({County}) removing baked-on pollen, dust, and bird droppings.",
     "short_description": "Manufacturer-compliant photovoltaic (PV) solar array cleaning using 0-TDS deionized pure water and soft boar's-hair/nylon solar brushes—restoring 15–25% lost energy production without harsh chemicals or pressure damage.",
@@ -669,7 +809,14 @@
       "Generous spot-free deionized rinse flushing loosened sediment off lower panel lips",
       "Post-wash visual array verification with before-and-after clarity check"
     ],
-    "related_services": ["window-cleaning", "gutter-cleaning", "pressure-washing", "property-maintenance", "home-watch-services", "commercial-cleaning"]
+    "related_services": [
+      "window-cleaning",
+      "gutter-cleaning",
+      "pressure-washing",
+      "property-maintenance",
+      "home-watch-services",
+      "commercial-cleaning"
+    ]
   },
   "vacation-rental-cleaning": {
     "name": "Vacation Rental Turnover Cleaning",
@@ -677,8 +824,8 @@
     "slug": "vacation-rental-cleaning",
     "category": "property-management",
     "image": "/images/services/vacation_rental_cleaning.jpg",
-    "title_tpl": "Vacation Rental Cleaning in {City}, AL | Same-Day Beach & Condo Turnovers | Zoiris",
-    "desc_tpl": "5-Star vacation rental & VRBO turnover cleaning in {City}, AL ({Zip}). Fast 10am–3pm check-in turnarounds, fresh linens, staging & photo proof. Call (251) 220-2515!",
+    "title_tpl": "Vacation Rental & VRBO Cleaning in {City}, AL (10am–3pm Turnovers)",
+    "desc_tpl": "5-Star vacation rental, condo & VRBO turnover cleaning in {City}, AL ({Zip}) from $140! Guaranteed 10am–3pm turns, fresh linens & photo proof: (251) 220-2515.",
     "h1_tpl": "Vacation Rental & VRBO Turnover Cleaning in {City}, AL",
     "subtitle_tpl": "Same-day 10:00 AM–3:00 PM short-term rental turnarounds, hotel-grade bed staging, sand/humidity defense, and damage photo reporting in {City}.",
     "short_description": "High-speed hospitality turnover cleaning engineered for multi-bedroom vacation homes, beachfront condos, lake houses, and VRBO properties requiring flawless 10 AM to 3 PM guest turnarounds.",
@@ -701,7 +848,14 @@
       "Whole-unit HEPA sand/dust extraction and streak-free hard-floor mopping",
       "Thermostat reset, Staging Photo Report transmission & secure smart-lock engagement"
     ],
-    "related_services": ["airbnb-cleaning", "airbnb-vacation-rental-management", "laundry-services", "deep-cleaning", "window-cleaning", "home-watch-services"]
+    "related_services": [
+      "airbnb-cleaning",
+      "airbnb-vacation-rental-management",
+      "laundry-services",
+      "deep-cleaning",
+      "window-cleaning",
+      "home-watch-services"
+    ]
   },
   "airbnb-cleaning": {
     "name": "Airbnb Host Turnover Cleaning",
@@ -709,8 +863,8 @@
     "slug": "airbnb-cleaning",
     "category": "property-management",
     "image": "/images/services/airbnb_cleaning.jpg",
-    "title_tpl": "Airbnb Cleaning Service in {City}, AL | Superhost 5-Star Turnovers | Zoiris",
-    "desc_tpl": "Reliable Airbnb turnover cleaning in {City}, AL ({Zip}) built for Superhost 5-star cleanliness ratings. Calendar sync, linens, restocking & photo checks. Call (251) 220-2515!",
+    "title_tpl": "Airbnb Turnover Cleaning in {City}, AL (5-Star Superhost Standard)",
+    "desc_tpl": "Superhost 5-star Airbnb turnover cleaning in {City}, AL ({Zip}) from $140! Auto calendar sync, zero-hair audit, linen reset & staging photos: (251) 220-2515.",
     "h1_tpl": "5-Star Airbnb Turnover Cleaning in {City}, AL",
     "subtitle_tpl": "Protect your Superhost & Guest Favorite badge in {City} ({County}) with automated checkout turnovers, linen resets, supply tracking, and photo verification.",
     "short_description": "Superhost-standard Airbnb turnover cleaning structured around Airbnb's 5-Step Enhanced Cleaning Process—preventing hair, smudge, odor, or dusty-baseboard complaints that hurt listing search rank.",
@@ -733,7 +887,14 @@
       "Under-bed check for forgotten guest chargers/items + HEPA vacuuming and floor mopping",
       "Multi-photo host verification message confirming listing is 100% guest-ready"
     ],
-    "related_services": ["vacation-rental-cleaning", "airbnb-vacation-rental-management", "laundry-services", "deep-cleaning", "carpet-cleaning", "property-maintenance"]
+    "related_services": [
+      "vacation-rental-cleaning",
+      "airbnb-vacation-rental-management",
+      "laundry-services",
+      "deep-cleaning",
+      "carpet-cleaning",
+      "property-maintenance"
+    ]
   },
   "airbnb-vacation-rental-management": {
     "name": "Airbnb & Vacation Rental Operations Support",
@@ -741,8 +902,8 @@
     "slug": "airbnb-vacation-rental-management",
     "category": "property-management",
     "image": "/images/services/airbnb_rental_management.jpg",
-    "title_tpl": "Airbnb & Vacation Rental Turnover Management in {City}, AL | Host Support | Zoiris",
-    "desc_tpl": "End-to-end local Airbnb & vacation rental operational support in {City}, AL ({Zip}). Turnovers, linen logistics, consumable restocking & inspections. Call (251) 220-2515!",
+    "title_tpl": "Airbnb & STR Turnover Operations in {City}, AL (0% Commission) | Zoiris",
+    "desc_tpl": "Keep 100% of booking revenue with flat-rate Airbnb & vacation rental ground ops in {City}, AL ({Zip}) — turnovers, linens, inventory & checks: (251) 220-2515!",
     "h1_tpl": "Airbnb & Vacation Rental Turnover Management in {City}, AL",
     "subtitle_tpl": "Hands-off local ground operations for out-of-state investors and multi-unit STR hosts in {City} ({County}) — turnovers, inventory logistics, and property checks.",
     "short_description": "Turnkey local boots-on-the-ground operations for remote short-term rental investors—combining automated turnover coordination, par-stock linen management, consumable inventory replenishment, and between-guest maintenance inspections.",
@@ -765,7 +926,14 @@
       "Consumable par-level restocking & quarterly preventative deep-clean scheduling",
       "Owner dashboard/photo verification after every single guest transition"
     ],
-    "related_services": ["airbnb-cleaning", "vacation-rental-cleaning", "home-watch-services", "laundry-services", "property-maintenance", "property-management-janitorial"]
+    "related_services": [
+      "airbnb-cleaning",
+      "vacation-rental-cleaning",
+      "home-watch-services",
+      "laundry-services",
+      "property-maintenance",
+      "property-management-janitorial"
+    ]
   },
   "post-construction-cleanup": {
     "name": "Post-Construction & Remodel Cleanup",
@@ -773,8 +941,8 @@
     "slug": "post-construction-cleanup",
     "category": "specialty",
     "image": "/images/services/post_construction_cleanup.jpg",
-    "title_tpl": "Post-Construction Cleanup in {City}, AL | Rough, Final & Touch-Up Clean | Zoiris",
-    "desc_tpl": "OSHA-trained residential & commercial post-construction cleaning in {City}, AL ({Zip}). HEPA drywall dust extraction, window sticker/paint removal & final polish. Call (251) 220-2515!",
+    "title_tpl": "Post-Construction Cleaning in {City}, AL (Rough, Final & Touch-Up)",
+    "desc_tpl": "3-phase builders & renovation post-construction cleanup in {City}, AL ({Zip}). Sealed HEPA drywall dust removal, window stickers & COI ready: (251) 220-2515!",
     "h1_tpl": "Post-Construction & Renovation Cleanup in {City}, AL",
     "subtitle_tpl": "Multi-phase rough, final, and touch-up builders cleaning across {City} ({County}) — removing superfine drywall dust, paint overspray, grout haze, and manufacturer stickers.",
     "short_description": "Three-phase construction turnover cleaning for general contractors, custom home builders, commercial build-outs, and home remodelers—eliminating ultrafine gypsum/silica dust from every register, cabinet, track, and floor.",
@@ -797,7 +965,14 @@
       "Bathroom & kitchen fixture polishing, grout-haze removal & stone/countertop detailing",
       "Multi-pass HEPA floor vacuuming, damp microfiber tacking & GC punch-list walkthrough"
     ],
-    "related_services": ["window-cleaning", "pressure-washing", "floor-stripping-waxing", "commercial-cleaning", "move-in-cleaning", "carpet-cleaning"]
+    "related_services": [
+      "window-cleaning",
+      "pressure-washing",
+      "floor-stripping-waxing",
+      "commercial-cleaning",
+      "move-in-cleaning",
+      "carpet-cleaning"
+    ]
   },
   "property-management-janitorial": {
     "name": "Property Management, Apartment & HOA Cleaning",
@@ -805,8 +980,8 @@
     "slug": "property-management-janitorial",
     "category": "property-management",
     "image": "/images/services/property_management_janitorial.jpg",
-    "title_tpl": "Property Management, Apartment & HOA Cleaning in {City}, AL | Zoiris",
-    "desc_tpl": "Reliable apartment turnover, HOA clubhouse & multi-family common-area janitorial in {City}, AL ({Zip}). Fast unit turns, corridors, gyms & leasing offices. Call (251) 220-2515!",
+    "title_tpl": "Apartment Make-Ready & HOA Cleaning in {City}, AL (24–48 Hr Turns)",
+    "desc_tpl": "Rapid 24–48 hr vacant apartment turnovers, HOA clubhouses & common-area janitorial in {City}, AL ({Zip}). W-9 & COI ready same day: (251) 220-2515!",
     "h1_tpl": "Property Management, HOA & Multi-Family Janitorial in {City}, AL",
     "subtitle_tpl": "Streamline vacant unit make-readies, condo hallways, HOA clubhouses, fitness rooms, and leasing offices across {City} and {County}.",
     "short_description": "Dedicated vendor partner for residential property managers, apartment communities, condo associations (HOAs), and commercial landlords—delivering rapid vacant unit make-readies and spotless common-area upkeep.",
@@ -829,7 +1004,14 @@
       "Optional add-on unit carpet steam cleaning or breezeway pressure washing",
       "Unit-by-unit photo sign-off confirming lease-ready inspection pass"
     ],
-    "related_services": ["move-out-cleaning", "carpet-cleaning", "pressure-washing", "property-maintenance", "commercial-cleaning", "gym-fitness-center-cleaning"]
+    "related_services": [
+      "move-out-cleaning",
+      "carpet-cleaning",
+      "pressure-washing",
+      "property-maintenance",
+      "commercial-cleaning",
+      "gym-fitness-center-cleaning"
+    ]
   },
   "property-maintenance": {
     "name": "Exterior & Interior Property Upkeep Services",
@@ -837,8 +1019,8 @@
     "slug": "property-maintenance",
     "category": "property-management",
     "image": "/images/services/property_maintenance.jpg",
-    "title_tpl": "Recurring Property Upkeep & Cleaning Maintenance in {City}, AL | Zoiris",
-    "desc_tpl": "Year-round interior & exterior property upkeep in {City}, AL ({Zip}). Bundled gutter clearing, soft washing, common-area cleaning & vacant-home care. Call (251) 220-2515!",
+    "title_tpl": "Recurring Interior & Exterior Property Upkeep in {City}, AL | Zoiris",
+    "desc_tpl": "Bundled monthly/quarterly interior cleaning, porch/eave cobweb clearing, gutter checks & soft washing in {City}, AL ({Zip}). No contracts: (251) 220-2515!",
     "h1_tpl": "Interior & Exterior Property Upkeep in {City}, AL",
     "subtitle_tpl": "Preventative interior and exterior cleaning maintenance for rentals, second homes, estates, and commercial properties in {City} ({County}).",
     "short_description": "Bundled year-round preventative property preservation combining interior sanitation, breezeway/porch sweeping, cobweb and wasp-nest clearing, gutter drainage checks, and exterior wash upkeep.",
@@ -861,7 +1043,14 @@
       "Interior dust control, bathroom/kitchen water-trap flush & HEPA floor care",
       "Timestamped photo condition summary delivered to owner or asset manager"
     ],
-    "related_services": ["pressure-washing", "gutter-cleaning", "window-cleaning", "home-watch-services", "property-management-janitorial", "solar-panel-cleaning"]
+    "related_services": [
+      "pressure-washing",
+      "gutter-cleaning",
+      "window-cleaning",
+      "home-watch-services",
+      "property-management-janitorial",
+      "solar-panel-cleaning"
+    ]
   },
   "home-watch-services": {
     "name": "Home Watch & Vacant Residence Care",
@@ -869,8 +1058,8 @@
     "slug": "home-watch-services",
     "category": "property-management",
     "image": "/images/services/home_watch_services.jpg",
-    "title_tpl": "Home Watch & Seasonal Residence Care in {City}, AL | Inspections & Prep | Zoiris",
-    "desc_tpl": "Trusted home watch, humidity/storm checks & pre-arrival housekeeping for second homes in {City}, AL ({Zip}). Bonded W-2 staff with photo reports. Call (251) 220-2515!",
+    "title_tpl": "Home Watch & Vacant Property Inspections in {City}, AL | Bonded W-2",
+    "desc_tpl": "Scheduled second-home watch, indoor humidity/leak checks & pre-arrival housekeeping in {City}, AL ({Zip}) with GPS timestamped photo reports: (251) 220-2515!",
     "h1_tpl": "Home Watch & Vacant Property Care in {City}, AL",
     "subtitle_tpl": "Peace-of-mind scheduled inspections, humidity & leak checks, storm readiness, and pre-arrival welcome cleaning for second homes in {City} ({County}).",
     "short_description": "Scheduled visual property inspections and pre-arrival housekeeping for snowbirds, coastal second-home owners, frequent travelers, and vacant estates—catching AC failures, humidity mold, or water leaks before damage spreads.",
@@ -893,7 +1082,14 @@
       "Optional light dust/floor refresh or full Pre-Arrival Owner Welcome Clean",
       "Immediate GPS/timestamped photo report sent to homeowner upon lock-up"
     ],
-    "related_services": ["luxury-estate-management", "luxury-estate-cleaning", "vacation-rental-cleaning", "property-maintenance", "house-cleaning", "window-cleaning"]
+    "related_services": [
+      "luxury-estate-management",
+      "luxury-estate-cleaning",
+      "vacation-rental-cleaning",
+      "property-maintenance",
+      "house-cleaning",
+      "window-cleaning"
+    ]
   },
   "luxury-estate-management": {
     "name": "Luxury Estate Housekeeping & Stewardship",
@@ -901,8 +1097,8 @@
     "slug": "luxury-estate-management",
     "category": "property-management",
     "image": "/images/services/luxury_estate_management.jpg",
-    "title_tpl": "Luxury Estate Management & Private Housekeeping in {City}, AL | Zoiris",
-    "desc_tpl": "Turnkey luxury estate stewardship & scheduled housekeeping management in {City}, AL ({Zip}). Recurring white-glove care, vendor coordination & event prep. Call (251) 220-2515!",
+    "title_tpl": "Private Estate Housekeeping & Stewardship in {City}, AL | Zoiris",
+    "desc_tpl": "Coordinated year-round luxury estate housekeeping, guest-wing readiness, pure-water glass & event prep in {City}, AL ({Zip}). Dedicated team: (251) 220-2515!",
     "h1_tpl": "Luxury Estate Stewardship & Housekeeping Management in {City}, AL",
     "subtitle_tpl": "Comprehensive household care schedules, seasonal deep preservation, linen/pantry readiness, and event preparation for premier residences in {City}.",
     "short_description": "Coordinated year-round household care for large private residences and multi-residence families—integrating recurring white-glove housekeeping, seasonal exterior/window/carpet scheduling, guest-wing readiness, and private event resets.",
@@ -925,6 +1121,13 @@
       "Pre- and post-entertaining rapid turnaround support for private dinners and holidays",
       "Ongoing quality review with your dedicated Zoiris estate account director"
     ],
-    "related_services": ["luxury-estate-cleaning", "home-watch-services", "detailing", "window-cleaning", "pressure-washing", "laundry-services"]
+    "related_services": [
+      "luxury-estate-cleaning",
+      "home-watch-services",
+      "detailing",
+      "window-cleaning",
+      "pressure-washing",
+      "laundry-services"
+    ]
   }
 }
