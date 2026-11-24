@@ -46,15 +46,6 @@
       "email": "zoiriscleaningservices@gmail.com",
       "image": "https://www.zoiriscleaningservices.com/images/services_action.png",
       "logo": "https://www.zoiriscleaningservices.com/images/logo.png",
-      "priceRange": "$$",
-      "currenciesAccepted": "USD",
-      "paymentAccepted": [
-        "Cash",
-        "Credit Card",
-        "Debit Card",
-        "Cash App",
-        "Check"
-      ],
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Downtown Mobile",
@@ -72,22 +63,6 @@
         "https://www.instagram.com/zoiriscleaningservices/",
         "https://www.tiktok.com/@zoiriscleaningservices",
         "https://www.yelp.com/user_details?userid=7SDy8Urgj43gfYxrR5o2eQ"
-      ],
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday",
-            "Sunday"
-          ],
-          "opens": "00:00",
-          "closes": "23:59"
-        }
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
@@ -687,7 +662,7 @@
                   <a class="contact-button text-sm py-2 hover:bg-blue-700" href="/montgomery-al/">Montgomery, AL</a>
                   <a class="contact-button text-sm py-2 hover:bg-blue-700" href="/counties/">All 67 AL Counties &rarr;</a>
                   <a class="contact-button text-sm py-2 hover:bg-blue-700" href="/services/">All 29 Services &rarr;</a>
-                  <a class="contact-button text-sm py-2 hover:bg-blue-700" href="/guides/">Pricing &amp; Checklists &rarr;</a>
+                  <a class="contact-button text-sm py-2 hover:bg-blue-700" href="/guides/">Cleaning Checklists &rarr;</a>
                   <a class="contact-button text-sm py-2 bg-blue-700 font-bold" href="/locations/">All 503+ AL Cities &rarr;</a>
                 </div>
               </div>
@@ -695,8 +670,7 @@
               <a href="/mobile-al/blog/" class="contact-button text-lg">Blog</a>
               <a href="/mobile-al/contact/" class="contact-button text-lg">Contact</a>
               <a href="#quote"
-                class="contact-button text-lg bg-blue-600 text-white hover:bg-blue-700 px-4 py-2 rounded-full shadow-lg shadow-blue-500/30">Get
-                a Quote</a>
+                class="contact-button text-lg bg-blue-600 text-white hover:bg-blue-700 px-4 py-2 rounded-full shadow-lg shadow-blue-500/30">Book With Us</a>
             </div>
           </div>
         </div>
@@ -951,8 +925,8 @@
           <div class="pt-6 mt-4">
             <a href="#quote"
               class="w-full flex items-center justify-center space-x-3 bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 text-white font-bold py-5 px-6 rounded-2xl shadow-[0_10px_25px_rgba(59,130,246,0.5)] transition duration-300 transform hover:-translate-y-1 cursor-pointer">
-              <i class="fas fa-file-invoice-dollar text-2xl group-hover:animate-bounce"></i>
-              <span class="text-xl">Get a Free Quote</span>
+              <i class="fas fa-calendar-check text-2xl group-hover:animate-bounce"></i>
+              <span class="text-xl">Book With Us</span>
             </a>
           </div>
 
@@ -1488,16 +1462,14 @@
       <button onclick="quickAsk('What is your email?')">&#128231; Email</button>
       <button onclick="quickAsk('What services do you offer?')">&#129529; Services</button>
       <button onclick="quickAsk('How can I book an appointment?')">&#128197; Booking</button>
-      <button onclick="quickAsk('What is your price?')">&#128178; Prices</button>
-    `;
+      `;
         } else {
           quick.innerHTML = `
       <button onclick="quickAsk('&iquest;Cu&aacute;l es su n&uacute;mero de tel&eacute;fono?')">&#128222; Tel&eacute;fono</button>
       <button onclick="quickAsk('&iquest;Cu&aacute;l es su correo electr&oacute;nico?')">&#128231; Correo</button>
       <button onclick="quickAsk('&iquest;Qu&eacute; servicios ofrecen?')">&#129529; Servicios</button>
       <button onclick="quickAsk('&iquest;C&oacute;mo puedo reservar una cita?')">&#128197; Reservar</button>
-      <button onclick="quickAsk('&iquest;Cu&aacute;l es su precio?')">&#128178; Precios</button>
-    `;
+      `;
         }
       }
 
@@ -1516,7 +1488,7 @@
           if (lang === "en") {
             if (q.includes("phone")) reply = "&#128222; <a href='tel:2512202515'>(251) 220-2515</a>";
             else if (q.includes("email")) reply = "&#128231; <a href='mailto:Zoiriscleaningservices@gmail.com'>Zoiriscleaningservices@gmail.com</a>";
-            else if (q.includes("price")) reply = "&#128178; Our prices vary depending on the service. Contact us for a free personalized quote!";
+            else if (q.includes("price") || q.includes("cost") || q.includes("hour")) reply = "&#128197; Book directly through our scheduling form or call <a href='tel:2512202515'>(251) 220-2515</a> to reserve your cleaning!";
             else if (q.includes("book")) reply = "&#128197; You can book in just 3 easy steps on our booking page!";
             else if (q.includes("location")) reply = "&#128205; We proudly serve Mobile, Alabama and nearby areas.";
             else if (q.includes("service")) reply = "&#129529; We provide House Cleaning, Office Cleaning, Window Cleaning, and Deep Cleaning.";
@@ -1524,7 +1496,7 @@
           } else {
             if (q.includes("tel&eacute;fono")) reply = "&#128222; <a href='tel:2512202515'>(251) 220-2515</a>";
             else if (q.includes("correo")) reply = "&#128231; <a href='mailto:Zoiriscleaningservices@gmail.com'>Zoiriscleaningservices@gmail.com</a>";
-            else if (q.includes("precio")) reply = "&#128178; Nuestros precios var&iacute;an seg&uacute;n el servicio. &iexcl;Cont&aacute;ctanos para una cotizaci&oacute;n gratis!";
+            else if (q.includes("precio") || q.includes("hora")) reply = "&#128197; &iexcl;Reserva directamente en nuestro formulario o ll&aacute;manos al <a href='tel:2512202515'>(251) 220-2515</a>!";
             else if (q.includes("reservar")) reply = "&#128197; Puedes reservar en nuestra p&aacute;gina de reservas.";
             else if (q.includes("ubicaci&oacute;n")) reply = "&#128205; Servimos Mobile, Alabama y &aacute;reas cercanas.";
             else if (q.includes("servicio")) reply = "&#129529; Ofrecemos Limpieza de Hogar, Oficinas, Ventanas y Limpieza Profunda.";
@@ -1684,9 +1656,9 @@
         <a href="/huntsville-al/" class="text-gray-400 hover:text-blue-400 text-xs transition-colors">Huntsville, AL</a>
         <a href="/foley-al/" class="text-gray-400 hover:text-blue-400 text-xs transition-colors">Foley, AL</a>
         <a href="/montgomery-al/" class="text-gray-400 hover:text-blue-400 text-xs transition-colors">Montgomery, AL</a>
-        <a data-crawl-hub="2" href="/services/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">All 29 Services</a>
+        <a data-crawl-hub="3" href="/services/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">All 29 Services</a>
         <a href="/counties/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">All 67 AL Counties</a>
-        <a href="/guides/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">Pricing &amp; Checklists</a>
+        <a href="/guides/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">Cleaning Checklists</a>
         <a href="/site-map/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">HTML Site Map</a>
         <a href="/locations/" class="text-blue-500 hover:text-pink-400 font-bold text-xs transition-colors">View All 503+ AL Locations</a>
       </div>

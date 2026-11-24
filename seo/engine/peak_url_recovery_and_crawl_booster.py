@@ -153,24 +153,24 @@ def build_html_site_map(shell):
         <div id="ai-quick-answer" class="bg-white rounded-3xl p-6 sm:p-8 shadow-2xl border-2 border-blue-500/30 mb-12">
           <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 mb-3">Complete Zoiris Cleaning Services HTML Site Directory</h2>
           <p class="text-sm sm:text-base text-gray-700 mb-6">
-            Direct 1-click navigation to all <strong>29 Cleaning Service Pillars</strong>, <strong>10 Pricing &amp; Checklist Guides</strong>, <strong>67 Alabama County Hubs</strong>, and <strong>503 Alabama City Service Hubs</strong> (supporting 15,209 total local pages).
+            Direct 1-click navigation to all <strong>29 Cleaning Service Pillars</strong>, <strong>10 Room-by-Room Checklist &amp; Care Guides</strong>, <strong>67 Alabama County Hubs</strong>, and <strong>503 Alabama City Service Hubs</strong> (supporting 15,209 total local pages).
           </p>
           <div class="flex flex-wrap gap-3 mb-6 text-xs sm:text-sm font-extrabold">
             <a href="/" class="bg-blue-600 text-white px-4 py-2 rounded-xl">Mobile, AL Homepage</a>
             <a href="/services/" class="bg-indigo-600 text-white px-4 py-2 rounded-xl">All 29 Services</a>
             <a href="/counties/" class="bg-purple-600 text-white px-4 py-2 rounded-xl">All 67 AL Counties</a>
-            <a href="/guides/" class="bg-slate-800 text-white px-4 py-2 rounded-xl">Cost Calculator &amp; Guides</a>
+            <a href="/guides/" class="bg-slate-800 text-white px-4 py-2 rounded-xl">Cleaning Checklists &amp; Guides</a>
             <a href="/locations/" class="bg-blue-800 text-white px-4 py-2 rounded-xl">Searchable Locations</a>
             <a href="/Gallery/" class="bg-gray-700 text-white px-4 py-2 rounded-xl">Results Gallery</a>
             <a href="/mobile-al/about/" class="bg-gray-700 text-white px-4 py-2 rounded-xl">About Us</a>
-            <a href="/mobile-al/contact/" class="bg-gray-700 text-white px-4 py-2 rounded-xl">24/7 Contact</a>
+            <a href="/mobile-al/contact/" class="bg-gray-700 text-white px-4 py-2 rounded-xl">Book &amp; Contact</a>
             <a href="/apply/" class="bg-gray-700 text-white px-4 py-2 rounded-xl">Careers</a>
           </div>
           <h3 class="text-xl font-extrabold text-gray-900 mb-3">29 Residential, Commercial &amp; Turnover Cleaning Services</h3>
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 mb-8">
 {srv_links}
           </div>
-          <h3 class="text-xl font-extrabold text-gray-900 mb-3">2026 Pricing Calculators, Checklists &amp; Stain Guides</h3>
+          <h3 class="text-xl font-extrabold text-gray-900 mb-3">Custom Cleaning Checklists, Scope Matrices &amp; Stain Guides</h3>
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
 {guide_links}
           </div>
@@ -195,10 +195,10 @@ def build_html_site_map(shell):
     sm_html = render_shell_page(
         shell,
         "Complete HTML Site Map — All 503 AL Cities, 67 Counties & 29 Services | Zoiris",
-        "Complete HTML directory of Zoiris Cleaning Services across Mobile, Semmes, Theodore, Baldwin County, all 67 Alabama counties, 503 cities, 29 services & cost guides.",
+        "Complete HTML directory of Zoiris Cleaning Services across Mobile, Semmes, Theodore, Baldwin County, all 67 Alabama counties, 503 cities, 29 services & checklist guides.",
         canon,
         "Complete Alabama Cleaning Services HTML Site Map",
-        "Fast 1-click directory to every city, county, cleaning service, and pricing guide across Alabama.",
+        "Fast 1-click directory to every city, county, cleaning service, and room-by-room checklist guide across Alabama.",
         body
     )
     write_atomic(os.path.join(sm_dir, "index.html"), sm_html)
@@ -271,7 +271,7 @@ def recover_all_historical_peak_urls(dl_dir):
 
 def upgrade_rss_feed_with_peak_winners(dl_dir):
     print("Upgrading /feed.xml with Top Historical Peak Canonical Pages + All Pillars, Counties & Guides...")
-    pub_rfc = "Mon, 23 Nov 2026 23:55:00 +0000"
+    pub_rfc = "Tue, 24 Nov 2026 15:05:00 +0000"
     seen = set()
     rss_sources = []
 
@@ -280,12 +280,12 @@ def upgrade_rss_feed_with_peak_winners(dl_dir):
             seen.add(url)
             rss_sources.append((title, url, desc))
 
-    add_item("#1 House Cleaning & Cleaning Services in Mobile, AL (From $125) | Zoiris", "https://www.zoiriscleaningservices.com/", "Top-rated residential maid service (from $125), deep cleaning, move turnovers & commercial janitorial across Mobile, Semmes, Theodore, Baldwin County & Alabama.")
-    add_item("Complete HTML Site Map — Zoiris Cleaning Services", "https://www.zoiriscleaningservices.com/site-map/", "Direct 1-click directory of all 503 Alabama cities, 67 counties, 29 cleaning services & 2026 pricing guides.")
+    add_item("#1 House Cleaning & Cleaning Services in Mobile, AL | Book Zoiris", "https://www.zoiriscleaningservices.com/", "Top-rated residential maid service, deep cleaning, move turnovers & commercial janitorial across Mobile, Semmes, Theodore, Baldwin County & Alabama. Book online or call (251) 220-2515.")
+    add_item("Complete HTML Site Map — Zoiris Cleaning Services", "https://www.zoiriscleaningservices.com/site-map/", "Direct 1-click directory of all 503 Alabama cities, 67 counties, 29 cleaning services & room-by-room checklist guides.")
     add_item("All 29 Residential & Commercial Cleaning Services in Alabama", "https://www.zoiriscleaningservices.com/services/", "Complete catalog of 29 cleaning services across all 67 Alabama counties.")
     add_item("All 67 Alabama Counties Cleaning Coverage Directory", "https://www.zoiriscleaningservices.com/counties/", "County-by-county cleaning service directory across Alabama.")
     add_item("All 503 Alabama Cities & Service Areas", "https://www.zoiriscleaningservices.com/locations/", "Searchable A-Z directory of all 503 Alabama cities and USPS ZIP codes.")
-    add_item("House Cleaning & Maid Service in Silverhill (Silver Hill), AL | From $125", "https://www.zoiriscleaningservices.com/silverhill-al/", "Top-rated house cleaning & maid service in Silverhill (Silver Hill), AL (36576) from $125 flat-rate.")
+    add_item("House Cleaning & Maid Service in Silverhill (Silver Hill), AL | Book Zoiris", "https://www.zoiriscleaningservices.com/silverhill-al/", "Top-rated house cleaning & maid service in Silverhill (Silver Hill), AL (36576) with zero locked contracts.")
 
     for g in GUIDES_DATA:
         add_item(g["title"], f"https://www.zoiriscleaningservices.com/guides/{g['slug']}/", g["answer"])
@@ -306,7 +306,7 @@ def upgrade_rss_feed_with_peak_winners(dl_dir):
                 canon_rel = "/" if (not p or p == "/") else map_legacy_path_to_canonical(p)
                 full_u = "https://www.zoiriscleaningservices.com" + canon_rel
                 label = canon_rel.strip("/").replace("/", " — ").replace("-", " ").title() or "Mobile AL Homepage"
-                add_item(f"Zoiris Cleaning Services — {label}", full_u, f"Top-rated flat-rate cleaning services ({canon_rel}) — call (251) 220-2515.")
+                add_item(f"Zoiris Cleaning Services — {label}", full_u, f"Top-rated residential & commercial cleaning services ({canon_rel}) — book online or call (251) 220-2515.")
 
     rss_items = [
         f"""    <item>
@@ -322,9 +322,9 @@ def upgrade_rss_feed_with_peak_winners(dl_dir):
     feed_xml = f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Zoiris Cleaning Services — Alabama Cleaning Guides, Pricing &amp; Local Hubs</title>
+    <title>Zoiris Cleaning Services — Alabama Cleaning Checklists, Guides &amp; Local Hubs</title>
     <link>https://www.zoiriscleaningservices.com/</link>
-    <description>Official service updates, 2026 cleaning cost guides, checklists, and local coverage across Mobile, Baldwin County, and all 67 Alabama counties.</description>
+    <description>Official service updates, room-by-room cleaning checklists, care guides, and local coverage across Mobile, Baldwin County, and all 67 Alabama counties.</description>
     <language>en-us</language>
     <lastBuildDate>{pub_rfc}</lastBuildDate>
     <atom:link href="https://www.zoiriscleaningservices.com/feed.xml" rel="self" type="application/rss+xml" />

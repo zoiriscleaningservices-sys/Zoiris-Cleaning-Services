@@ -33,7 +33,7 @@ REGION_PROFILES = {
         "label": "Alabama Gulf Coast & Pleasure Island",
         "climate": "salt-spray marine air, ultrafine white quartz beach sand, intense UV exposure, and peak summer vacation turnover cycles",
         "housing": "high-rise beachfront condominiums, multi-story stilt beach houses, marina villas, and golf-resort residences",
-        "care_focus": "agitated HEPA silica-sand extraction, anti-salt balcony glass descaling, and rapid 10:00 AM–3:00 PM guest turnover staging"
+        "care_focus": "agitated HEPA silica-sand extraction, anti-salt balcony glass descaling, and rapid same-day guest turnover staging"
     },
     "baldwin_gulf_coast": {
         "label": "Baldwin County & Gulf Corridor",
@@ -81,7 +81,7 @@ REGION_PROFILES = {
         "label": "Alabama Black Belt Prairie & River Heartland",
         "climate": "rich dark chalk-clay soil tracking, river-basin humidity, pecan/oak canopy debris, and hot summer seasons",
         "housing": "historic antebellum and Victorian homes, classic brick ranches, rural estates, and county-seat clinics and churches",
-        "care_focus": "gentle historic trim and floor care, deep soil extraction at entryways, and dependable flat-rate scheduling"
+        "care_focus": "gentle historic trim and floor care, deep soil extraction at entryways, and dependable flexible scheduling"
     },
     "tennessee_valley": {
         "label": "North Alabama & Tennessee River Valley",
@@ -192,7 +192,7 @@ def build_hub_faqs(prof):
         },
         {
             "q": f"Are there travel fees for {city} (ZIP {prof['primary_zip']}) or nearby {county} towns?",
-            "a": f"No. We provide upfront, flat-rate pricing with zero hidden mileage or travel surcharges across all {sqmi_text(prof)} of {city} as well as neighboring {nearby_plain}."
+            "a": f"No. We cover all {sqmi_text(prof)} of {city} as well as neighboring {nearby_plain} with zero hidden mileage or travel surcharges."
         },
         {
             "q": f"Are your cleaners background-checked employees or gig subcontractors?",
@@ -203,12 +203,12 @@ def build_hub_faqs(prof):
             "a": f"No—our crews arrive fully equipped with commercial HEPA filtration vacuums, sanitized microfiber mop pads, telescoping high-reach dusters, and child- and pet-safe non-toxic cleaning agents."
         },
         {
-            "q": f"How does your 24-Hour 100% Re-Clean Guarantee work in {display}?",
-            "a": f"If any room or detail does not meet your expectations, simply call or text us at (251) 220-2515 within 24 hours and our team will return promptly to re-clean the area at zero additional cost."
+            "q": f"How does your 100% Re-Clean Satisfaction Guarantee work in {display}?",
+            "a": f"If any room or detail does not meet your expectations, simply notify our team at (251) 220-2515 and we will return promptly to re-clean the area at zero additional charge."
         },
         {
-            "q": f"How fast can I get a quote and schedule cleaning in {city}, AL?",
-            "a": f"Call our 24/7 dispatch desk at (251) 220-2515 or complete the instant estimate form on this page for a customized flat-rate quote in minutes, with same-week and urgent turnover availability across {county}."
+            "q": f"How do I book a cleaning appointment in {city}, AL?",
+            "a": f"Complete the online booking request form on this page or call our team directly at (251) 220-2515 to schedule your residential or commercial cleaning across {county}."
         }
     ]
 
@@ -233,7 +233,7 @@ def build_ai_hub_summary_and_table(prof):
     coord_txt = f"{coords['latitude']:.4f}°N, {abs(coords['longitude']):.4f}°W"
     nearby_txt = prof["nearby_names"] or f"surrounding {county} communities"
     return f"""
-        <!-- 🤖 AI OVERVIEW DIRECT ANSWER & PRICING/DURATION MATRIX -->
+        <!-- 🤖 AI OVERVIEW DIRECT ANSWER & SERVICE SCOPE MATRIX -->
         <div id="ai-quick-answer" class="bg-white rounded-3xl p-6 sm:p-8 shadow-2xl border-2 border-blue-500/30 mb-14 text-left">
           <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
             <span class="inline-flex items-center gap-2 bg-blue-100 text-blue-800 text-xs font-extrabold uppercase tracking-wider px-3 py-1 rounded-full">
@@ -242,55 +242,55 @@ def build_ai_hub_summary_and_table(prof):
             <div class="flex flex-wrap gap-3 text-xs font-bold">
               <a href="/services/" class="text-blue-600 hover:underline">All 29 Services &rarr;</a>
               <a href="/counties/{c_slug}/" class="text-indigo-600 hover:underline">{html.escape(county)} Hub &rarr;</a>
-              <a href="/guides/house-cleaning-cost-guide-alabama/" class="text-purple-600 hover:underline">2026 Cost Calculator &rarr;</a>
+              <a href="/guides/" class="text-purple-600 hover:underline">Cleaning Checklists &rarr;</a>
             </div>
           </div>
           <h3 class="text-xl sm:text-2xl font-extrabold text-gray-900 mb-2">
-            How Much Does House &amp; Commercial Cleaning Cost in {html.escape(display)}?
+            Professional House &amp; Commercial Cleaning Scope in {html.escape(display)}
           </h3>
           <p class="text-sm sm:text-base text-gray-700 leading-relaxed mb-6">
-            Across all {html.escape(sqmi_text(prof))} of <strong>{html.escape(display)} ({html.escape(county)}, ZIP {html.escape(prof['zips_str'])}; adjacent to {html.escape(nearby_txt)})</strong>, our top-rated, eco-friendly house cleaning services range from <strong>$125–$215</strong> for recurring maid visits, <strong>$220–$420</strong> for deep cleaning with EPA &amp; UV-C grade sanitization, and <strong>$250–$480</strong> for empty-home move-in/move-out turnovers—with <strong>same-day quotes, zero contracts, and zero travel fees</strong>. Commercial, power washing, and warehouse concrete floor cleaning are quoted 24/7 at <strong>(251) 220-2515</strong>.
+            Across all {html.escape(sqmi_text(prof))} of <strong>{html.escape(display)} ({html.escape(county)}, ZIP {html.escape(prof['zips_str'])}; adjacent to {html.escape(nearby_txt)})</strong>, <strong>Zoiris Cleaning Services</strong> delivers top-rated, eco-friendly recurring maid service, restorative deep cleaning with EPA &amp; UV-C grade sanitization, empty-home move-in/move-out turnovers, vacation-rental staging, power washing, and commercial janitorial—with <strong>zero locked contracts and our 100% Re-Clean Satisfaction Guarantee</strong>. Book online below or call <strong>(251) 220-2515</strong> to schedule.
           </p>
           <div class="overflow-x-auto rounded-2xl border border-gray-200">
             <table class="w-full text-left border-collapse text-xs sm:text-sm">
               <thead>
                 <tr class="bg-slate-900 text-white">
-                  <th class="py-3 px-4 font-bold">Cleaning Service Type ({html.escape(city)}, AL)</th>
-                  <th class="py-3 px-4 font-bold">Typical Flat-Rate Range</th>
-                  <th class="py-3 px-4 font-bold">2-Crew Duration</th>
-                  <th class="py-3 px-4 font-bold">Core Scope Included</th>
+                  <th class="py-3 px-4 font-bold">Cleaning Service ({html.escape(city)}, AL)</th>
+                  <th class="py-3 px-4 font-bold">Available Schedules</th>
+                  <th class="py-3 px-4 font-bold">Core Checklist &amp; Surfaces Included</th>
+                  <th class="py-3 px-4 font-bold">Reserve Appointment</th>
                 </tr>
               </thead>
               <tbody class="divide-y divide-gray-200 text-gray-800 bg-white">
                 <tr class="hover:bg-blue-50/50">
                   <td class="py-3 px-4 font-bold">Recurring Maid Service</td>
-                  <td class="py-3 px-4 font-semibold text-blue-700">$125 – $215 / visit</td>
-                  <td class="py-3 px-4">1.5 – 3.5 hrs</td>
+                  <td class="py-3 px-4">Weekly, Bi-Weekly, Monthly or One-Time</td>
                   <td class="py-3 px-4">Kitchens, baths, dusting, HEPA vacuuming &amp; damp floor mopping</td>
+                  <td class="py-3 px-4 font-bold"><a href="#quote" class="text-blue-700 hover:underline">Book Online &rarr;</a></td>
                 </tr>
                 <tr class="hover:bg-blue-50/50">
                   <td class="py-3 px-4 font-bold">Top-to-Bottom Deep Clean</td>
-                  <td class="py-3 px-4 font-semibold text-blue-700">$220 – $420 flat rate</td>
-                  <td class="py-3 px-4">3.5 – 6.5 hrs</td>
+                  <td class="py-3 px-4">Initial Reset or Seasonal Scrub</td>
                   <td class="py-3 px-4">Hand-washed baseboards, blinds, vents, grout descaling &amp; degreasing</td>
+                  <td class="py-3 px-4 font-bold"><a href="#quote" class="text-blue-700 hover:underline">Book Online &rarr;</a></td>
                 </tr>
                 <tr class="hover:bg-blue-50/50">
                   <td class="py-3 px-4 font-bold">Move-In / Move-Out Turnover</td>
-                  <td class="py-3 px-4 font-semibold text-blue-700">$250 – $480 flat rate</td>
-                  <td class="py-3 px-4">3.5 – 6.0 hrs</td>
+                  <td class="py-3 px-4">Pre-Move or Post-Lease Turnover</td>
                   <td class="py-3 px-4">Inside cabinets, drawers, oven, fridge, closets &amp; deposit checklist</td>
+                  <td class="py-3 px-4 font-bold"><a href="#quote" class="text-blue-700 hover:underline">Book Online &rarr;</a></td>
                 </tr>
                 <tr class="hover:bg-blue-50/50">
                   <td class="py-3 px-4 font-bold">Airbnb / Vacation Rental Turn</td>
-                  <td class="py-3 px-4 font-semibold text-blue-700">$140 – $340 / turn</td>
-                  <td class="py-3 px-4">10 AM – 3 PM window</td>
+                  <td class="py-3 px-4">Synced Per-Checkout Turnover</td>
                   <td class="py-3 px-4">Fresh linens, restocking, sand/humidity reset &amp; host photo report</td>
+                  <td class="py-3 px-4 font-bold"><a href="#quote" class="text-blue-700 hover:underline">Book Online &rarr;</a></td>
                 </tr>
                 <tr class="hover:bg-blue-50/50">
                   <td class="py-3 px-4 font-bold">Commercial &amp; Medical Janitorial</td>
-                  <td class="py-3 px-4 font-semibold text-blue-700">Custom Flat Monthly / Visit</td>
-                  <td class="py-3 px-4">Nightly / Weekly</td>
+                  <td class="py-3 px-4">Daily, Weekly or Custom Schedule</td>
                   <td class="py-3 px-4">EPA List N disinfection, restrooms, workstations, VCT/carpet care &amp; COI</td>
+                  <td class="py-3 px-4 font-bold"><a href="#quote" class="text-blue-700 hover:underline">Book Online &rarr;</a></td>
                 </tr>
               </tbody>
             </table>
@@ -309,7 +309,7 @@ def build_ai_service_summary_and_table(prof, srv_key):
     coord_txt = f"{coords['latitude']:.4f}°N, {abs(coords['longitude']):.4f}°W"
     nearby_txt = prof["nearby_names"] or f"neighboring {county} towns"
     return f"""
-        <!-- 🤖 AI OVERVIEW DIRECT ANSWER & SCOPE/DURATION MATRIX -->
+        <!-- 🤖 AI OVERVIEW DIRECT ANSWER & SCOPE MATRIX -->
         <div id="ai-quick-answer" class="bg-white rounded-3xl p-6 sm:p-8 shadow-2xl border-2 border-blue-500/30 mb-14 text-left">
           <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
             <span class="inline-flex items-center gap-2 bg-blue-100 text-blue-800 text-xs font-extrabold uppercase tracking-wider px-3 py-1 rounded-full">
@@ -318,43 +318,43 @@ def build_ai_service_summary_and_table(prof, srv_key):
             <div class="flex flex-wrap gap-3 text-xs font-bold">
               <a href="/services/{srv_key}/" class="text-blue-600 hover:underline">Alabama {html.escape(short_name)} Guide &rarr;</a>
               <a href="/counties/{c_slug}/" class="text-indigo-600 hover:underline">{html.escape(county)} Coverage &rarr;</a>
-              <a href="/guides/" class="text-purple-600 hover:underline">All Cost &amp; Checklist Guides &rarr;</a>
+              <a href="/guides/" class="text-purple-600 hover:underline">All Cleaning Checklists &rarr;</a>
             </div>
           </div>
           <h3 class="text-xl sm:text-2xl font-extrabold text-gray-900 mb-2">
-            {html.escape(short_name)} in {html.escape(display)}: Quick Scope, Schedule &amp; Pricing Summary
+            {html.escape(short_name)} in {html.escape(display)}: Complete Scope, Checklist &amp; Booking Summary
           </h3>
           <p class="text-sm sm:text-base text-gray-700 leading-relaxed mb-6">
-            <strong>Zoiris Cleaning Services</strong> provides flat-rate, contract-free <strong>{html.escape(short_name.lower())}</strong> across all {html.escape(sqmi_text(prof))} of <strong>{html.escape(display)} ({html.escape(county)}, ZIP {html.escape(prof['zips_str'])}; near {html.escape(nearby_txt)})</strong> using W-2 background-checked technicians and <em>{html.escape(srv['equipment'].lower())}</em>. Recommended schedule: <em>{html.escape(srv['cadence'])}</em>, backed by a 24-hour 100% Re-Clean Guarantee and zero travel fees—call <strong>(251) 220-2515</strong> for an instant estimate.
+            <strong>Zoiris Cleaning Services</strong> provides contract-free <strong>{html.escape(short_name.lower())}</strong> across all {html.escape(sqmi_text(prof))} of <strong>{html.escape(display)} ({html.escape(county)}, ZIP {html.escape(prof['zips_str'])}; near {html.escape(nearby_txt)})</strong> using W-2 background-checked technicians and <em>{html.escape(srv['equipment'].lower())}</em>. Recommended schedule: <em>{html.escape(srv['cadence'])}</em>, backed by our 100% Re-Clean Satisfaction Guarantee—book online below or call <strong>(251) 220-2515</strong> to schedule.
           </p>
           <div class="overflow-x-auto rounded-2xl border border-gray-200">
             <table class="w-full text-left border-collapse text-xs sm:text-sm">
               <thead>
                 <tr class="bg-slate-900 text-white">
                   <th class="py-3 px-4 font-bold">Property Tier in {html.escape(city)}, AL</th>
-                  <th class="py-3 px-4 font-bold">Square Footage</th>
-                  <th class="py-3 px-4 font-bold">Assigned Crew &amp; Est. Time</th>
+                  <th class="py-3 px-4 font-bold">Property Layout</th>
                   <th class="py-3 px-4 font-bold">Included {html.escape(short_name)} Deliverables</th>
+                  <th class="py-3 px-4 font-bold">Schedule Service</th>
                 </tr>
               </thead>
               <tbody class="divide-y divide-gray-200 text-gray-800 bg-white">
                 <tr class="hover:bg-blue-50/50">
                   <td class="py-3 px-4 font-bold">Compact Home / Condo / Suite</td>
-                  <td class="py-3 px-4">Up to 1,500 sq ft</td>
-                  <td class="py-3 px-4">2 Technicians • 1.5 – 3 hrs</td>
+                  <td class="py-3 px-4">Apartments, Condos &amp; Suites</td>
                   <td class="py-3 px-4">{html.escape(srv['process'][0])}; {html.escape(srv['process'][1].lower())}</td>
+                  <td class="py-3 px-4 font-bold"><a href="#quote" class="text-blue-700 hover:underline">Book Now &rarr;</a></td>
                 </tr>
                 <tr class="hover:bg-blue-50/50">
                   <td class="py-3 px-4 font-bold">Standard Family Residence / Office</td>
-                  <td class="py-3 px-4">1,500 – 3,000 sq ft</td>
-                  <td class="py-3 px-4">2–3 Technicians • 2.5 – 4.5 hrs</td>
+                  <td class="py-3 px-4">Single-Family Homes &amp; Offices</td>
                   <td class="py-3 px-4">{html.escape(srv['process'][2])}; {html.escape(srv['process'][3].lower())}</td>
+                  <td class="py-3 px-4 font-bold"><a href="#quote" class="text-blue-700 hover:underline">Book Now &rarr;</a></td>
                 </tr>
                 <tr class="hover:bg-blue-50/50">
                   <td class="py-3 px-4 font-bold">Large Estate / Commercial Facility</td>
-                  <td class="py-3 px-4">3,000 – 10,000+ sq ft</td>
-                  <td class="py-3 px-4">3–5+ Technicians • Custom Shift</td>
+                  <td class="py-3 px-4">Estates &amp; Commercial Buildings</td>
                   <td class="py-3 px-4">{html.escape(srv['process'][4])}; {html.escape(srv['process'][5].lower())}</td>
+                  <td class="py-3 px-4 font-bold"><a href="#quote" class="text-blue-700 hover:underline">Book Now &rarr;</a></td>
                 </tr>
               </tbody>
             </table>
@@ -385,16 +385,16 @@ def build_service_faqs(prof, srv_key, actual_folder):
             "a": f"Every {city} crew arrives fully stocked with specialized gear: {srv['equipment']} This protects {prof['housing']} against {prof['climate']}."
         },
         {
-            "q": f"How long does {srv_lower} take and how often should {city} properties schedule it?",
-            "a": f"Recommended cadence: {srv['cadence']}. Exact appointment length depends on total square footage and property condition across {city}, and we send coordinated 2+ person teams for fast, thorough completion."
+            "q": f"How often should {city} properties schedule {srv_lower}?",
+            "a": f"Recommended cadence: {srv['cadence']}. We send coordinated 2+ person teams tailored to your {city} property's layout and room checklist."
         },
         {
             "q": f"Do you require long-term contracts for {srv_lower} in {city}, AL?",
             "a": f"No—never. Whether you need a single on-demand {srv_lower} appointment or ongoing recurring service in {city} (ZIP {prof['zips_str']}), there are zero binding contracts and zero rescheduling penalties."
         },
         {
-            "q": f"How is flat-rate pricing calculated for {srv_lower} in {county}?",
-            "a": f"Quotes are 100% upfront and based on property size, scope, and frequency—with zero hidden travel surcharges anywhere in {city} or adjacent {nearby_plain}. Call (251) 220-2515 for an instant estimate."
+            "q": f"How do I schedule {srv_lower} for my property in {county}?",
+            "a": f"Simply fill out the online booking form on this page or call (251) 220-2515 so our team can customize a cleaning checklist for your property in {city} or adjacent {nearby_plain}."
         },
         {
             "q": f"Are your {city} technicians licensed, bonded, and insured for {srv_lower}?",
@@ -406,15 +406,15 @@ def build_service_faqs(prof, srv_key, actual_folder):
         },
         {
             "q": f"Is {srv_lower} in {city}, AL backed by a satisfaction guarantee?",
-            "a": f"Yes—100%. Every {srv_lower} visit in {display} is protected by our 24-Hour Re-Clean Guarantee. Notify us within 24 hours at (251) 220-2515 if anything was missed and we will re-clean it free of charge."
+            "a": f"Yes—100%. Every {srv_lower} visit in {display} is protected by our Re-Clean Satisfaction Guarantee. Simply notify our team at (251) 220-2515 if anything was missed and we will re-clean it promptly."
         }
     ]
 
 def render_faq_details_html(faqs, heading_label, sub_label):
     cards = []
     icons = [
-        "fas fa-clipboard-check", "fas fa-spray-can-sparkles", "fas fa-clock",
-        "fas fa-file-signature", "fas fa-calculator", "fas fa-shield-alt",
+        "fas fa-clipboard-check", "fas fa-spray-can-sparkles", "fas fa-calendar-check",
+        "fas fa-file-signature", "fas fa-home", "fas fa-shield-alt",
         "fas fa-map-marked-alt", "fas fa-award"
     ]
     for i, item in enumerate(faqs):
@@ -439,7 +439,7 @@ def render_faq_details_html(faqs, heading_label, sub_label):
       <div class="max-w-5xl mx-auto">
         <div class="text-center max-w-3xl mx-auto mb-14">
           <span class="text-sm font-bold uppercase tracking-wider text-blue-100 bg-white/10 backdrop-blur-md border border-white/20 px-4 py-1.5 rounded-full">
-            ✦ Local Cleaning Answers &amp; Pricing Guide ✦
+            ✦ Local Cleaning Answers &amp; Booking Guide ✦
           </span>
           <h2 class="text-3xl md:text-4xl font-extrabold text-white mt-4 tracking-tight">
             {html.escape(heading_label)}
@@ -453,16 +453,16 @@ def render_faq_details_html(faqs, heading_label, sub_label):
 {joined}
         </div>
         <div class="mt-12 text-center bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl p-6 sm:p-8 text-white shadow-xl">
-          <h3 class="text-xl sm:text-2xl font-bold mb-2">Ready for a Spotless Property? Get Your Instant Flat-Rate Estimate</h3>
+          <h3 class="text-xl sm:text-2xl font-bold mb-2">Ready for a Spotless Property? Book Your Cleaning Today</h3>
           <p class="text-blue-100 text-sm sm:text-base mb-6 max-w-xl mx-auto">
-            Available 24/7 with zero locked contracts, vetted W-2 crews, and our 100% Re-Clean Satisfaction Guarantee.
+            Zero locked contracts, background-checked W-2 crews, and our 100% Re-Clean Satisfaction Guarantee.
           </p>
           <div class="flex flex-col sm:flex-row justify-center gap-4">
             <a href="tel:2512202515" class="bg-white text-blue-700 font-bold px-6 py-3 rounded-full hover:bg-gray-100 transition shadow-md">
               <i class="fas fa-phone-alt mr-2"></i> Call (251) 220-2515
             </a>
             <a href="#quote" class="bg-black/30 hover:bg-black/50 text-white font-bold px-6 py-3 rounded-full border border-white/30 transition">
-              <i class="fas fa-file-invoice mr-2"></i> Request Free Estimate Online
+              <i class="fas fa-calendar-check mr-2"></i> Book Online Now
             </a>
           </div>
         </div>
@@ -515,7 +515,7 @@ def build_hub_body_html(loc_slug, det_folder):
     faq_section = render_faq_details_html(
         faqs,
         f"Frequently Asked Questions About Cleaning Services in {display}",
-        f"Transparent answers on pricing, scheduling, HEPA equipment, and local service coverage across {city} ({county}, ZIP {prof['zips_str']})."
+        f"Answers on checklists, scheduling, HEPA equipment, and local service coverage across {city} ({county}, ZIP {prof['zips_str']})."
     )
 
     body = f"""
@@ -531,7 +531,7 @@ def build_hub_body_html(loc_slug, det_folder):
           </h2>
           <div class="mt-3 h-1 w-20 bg-blue-400 mx-auto rounded"></div>
           <p class="mt-4 text-purple-100 text-base md:text-lg leading-relaxed">
-            Serving {html.escape(prof['neighborhoods'])}, <strong>Zoiris Cleaning Services</strong> delivers flat-rate, contract-free housekeeping, restorative deep scrubs, turnover cleaning, and commercial janitorial across all {sqmi_text(prof)} of {html.escape(city)} in <strong>{html.escape(county)}</strong>.
+            Serving {html.escape(prof['neighborhoods'])}, <strong>Zoiris Cleaning Services</strong> delivers contract-free housekeeping, restorative deep scrubs, turnover cleaning, and commercial janitorial across all {sqmi_text(prof)} of {html.escape(city)} in <strong>{html.escape(county)}</strong>.
           </p>
         </div>
 
@@ -551,7 +551,7 @@ def build_hub_body_html(loc_slug, det_folder):
               </div>
               <div class="bg-white/95 rounded-xl p-3 shadow">
                 <p class="text-xs text-gray-500 uppercase font-bold">Guarantee</p>
-                <p class="text-sm font-extrabold text-blue-600">24-Hr Re-Clean</p>
+                <p class="text-sm font-extrabold text-blue-600">100% Re-Clean</p>
               </div>
             </div>
           </div>
@@ -702,7 +702,7 @@ def build_service_body_html(loc_slug, srv_key, actual_folder, det_map):
     faq_section = render_faq_details_html(
         faqs,
         f"Frequently Asked Questions About {srv['short_name']} in {display}",
-        f"Everything you need to know about our {srv['short_name'].lower()} checklist, equipment, scheduling, and flat-rate pricing across {city} and {county}."
+        f"Everything you need to know about our {srv['short_name'].lower()} checklist, equipment, scheduling, and local booking across {city} and {county}."
     )
 
     body = f"""
@@ -801,7 +801,7 @@ def build_service_body_html(loc_slug, srv_key, actual_folder, det_map):
             {html.escape(srv['short_name'])} in Nearby {html.escape(county)} &amp; Regional Communities
           </h2>
           <p class="text-purple-100 text-sm sm:text-base mt-2">
-            Need {html.escape(srv['short_name'].lower())} in a neighboring town near {html.escape(city)}? Explore local flat-rate coverage:
+            Need {html.escape(srv['short_name'].lower())} in a neighboring town near {html.escape(city)}? Select your community to book:
           </p>
         </div>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3">
@@ -812,7 +812,7 @@ def build_service_body_html(loc_slug, srv_key, actual_folder, det_map):
             {html.escape(display)} Cleaning Hub
           </a>
           <a href="/locations/" class="text-blue-300 hover:text-white font-bold text-sm underline">
-            All 504 Alabama Service Areas
+            All 503 Alabama Service Areas
           </a>
         </div>
       </div>
@@ -832,9 +832,6 @@ def build_jsonld_schema(page_kind, canonical_url, loc_slug=None, srv_key=None, f
         "email": "zoiriscleaningservices@gmail.com",
         "image": "https://www.zoiriscleaningservices.com/images/services_action.png",
         "logo": "https://www.zoiriscleaningservices.com/images/logo.png",
-        "priceRange": "$$",
-        "currenciesAccepted": "USD",
-        "paymentAccepted": ["Cash", "Credit Card", "Debit Card", "Cash App", "Check"],
         "address": {
             "@type": "PostalAddress",
             "streetAddress": "Downtown Mobile",
@@ -852,14 +849,6 @@ def build_jsonld_schema(page_kind, canonical_url, loc_slug=None, srv_key=None, f
             "https://www.instagram.com/zoiriscleaningservices/",
             "https://www.tiktok.com/@zoiriscleaningservices",
             "https://www.yelp.com/user_details?userid=7SDy8Urgj43gfYxrR5o2eQ"
-        ],
-        "openingHoursSpecification": [
-            {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-                "opens": "00:00",
-                "closes": "23:59"
-            }
         ],
         "aggregateRating": {
             "@type": "AggregateRating",

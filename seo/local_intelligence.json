@@ -22,7 +22,7 @@
       "move_out_cleaning": "100% deposit-ready turnover cleanings for Daphne rental properties, lease transitions, and real estate sales.",
       "move_in_cleaning": "Turnkey move-in sanitization ensuring new Daphne homeowners arrive to sparkling cabinets, sanitized appliances, and pristine bathrooms.",
       "airbnb_cleaning": "Same-day turnover and staging for Daphne Bay vacation rentals with linen service, restocking, and photo inspection.",
-      "commercial_cleaning": "Discreet after-hours janitorial for Highway 98 medical clinics, legal offices, and retail storefronts.",
+      "commercial_cleaning": "Discreet flexible scheduled janitorial for Highway 98 medical clinics, legal offices, and retail storefronts.",
       "carpet_cleaning": "Specialized red clay stain lifting and high-traffic carpet steam extraction.",
       "window_cleaning": "Streak-free exterior and interior glass cleaning removing coastal moisture haze and pollen."
     },
@@ -52,7 +52,7 @@
       "move_out_cleaning": "Meticulous real estate closing and transition cleanings for luxury buyers and sellers across Point Clear and Fairhope.",
       "move_in_cleaning": "Pristine turnkey preparation for newly acquired historic cottages and golf estates before moving day.",
       "airbnb_cleaning": "5-star luxury guest turnovers for Fairhope boutique cottages and bayfront rental retreats.",
-      "commercial_cleaning": "Immaculate after-hours janitorial for downtown Fairhope art galleries, boutique shops, and executive financial suites.",
+      "commercial_cleaning": "Immaculate flexible scheduled janitorial for downtown Fairhope art galleries, boutique shops, and executive financial suites.",
       "carpet_cleaning": "Gentle, non-abrasive fiber extraction for fine wool rugs, oriental carpets, and luxury bedroom carpeting.",
       "window_cleaning": "Meticulous hand-washing of historic multi-pane window sashes, French patio doors, and bay-view glass."
     },
@@ -100,7 +100,7 @@
       "Fine silica beach sand embedded in carpet fibers, baseboards, under-bed spaces, and tile grout",
       "Salt-spray film accumulation on exterior sliding glass doors, window tracks, and metal fixtures",
       "Humidity-driven moisture buildup in bathrooms, HVAC intake grills, and kitchen cabinets",
-      "Rapid 10:00 AM to 3:00 PM turnover windows during peak summer rental seasons"
+      "Back-to-back peak summer guest check-in turnovers requiring crisp hospitality staging"
     ],
     "service_nuances": {
       "deep_cleaning": "Intensive post-season sand and salt-air scrub, descaling coastal shower glass, polishing oxidized stainless fixtures, and deep extraction of sand from sofa crevices.",
@@ -207,7 +207,7 @@
     "service_nuances": {
       "deep_cleaning": "Top-to-bottom scrub removing family dust, degreasing kitchen appliances, and scrubbing bathroom grout.",
       "house_cleaning": "Dependable bi-weekly housekeeping for busy Saraland families and shift workers.",
-      "commercial_cleaning": "After-hours commercial janitorial for industrial administration suites and retail businesses along Hwy 43.",
+      "commercial_cleaning": "Flexible scheduled commercial janitorial for industrial administration suites and retail businesses along Hwy 43.",
       "move_out_cleaning": "Deposit-ready move cleans for Saraland homes and apartments."
     },
     "local_landmarks": "Saraland High School area, Bayou Sara, Celeste Road, Highway 43, and I-65 junction",
@@ -278,7 +278,7 @@
     "service_nuances": {
       "deep_cleaning": "Intensive whole-home seasonal resets, finished basement detailing, high-stairwell dusting, and gourmet kitchen degreasing.",
       "house_cleaning": "Consistent recurring maid visits with bonded staff tailored for busy executives and families.",
-      "commercial_cleaning": "After-hours commercial janitorial for financial institutions, law offices, tech startups, and medical suites."
+      "commercial_cleaning": "Flexible scheduled commercial janitorial for financial institutions, law offices, tech startups, and medical suites."
     },
     "local_landmarks": "Downtown Birmingham, Mountain Brook, Over-the-Mountain communities, UAB corridor, and Hwy 280 commercial strip",
     "customer_profiles": "Corporate executives, medical specialists, attorneys, and active suburban families"
@@ -397,7 +397,7 @@
     "cleaning_challenges": [
       "High 12-to-14-foot ceilings, exposed historic brick, heart-pine floors, and tall sash windows",
       "Mardi Gras, parade, and downtown event foot-traffic soil requiring rapid commercial turnarounds",
-      "Secure after-hours badge and keycard access for law firms, financial suites, and clinics"
+      "Secure flexible scheduled badge and keycard access for law firms, financial suites, and clinics"
     ],
     "local_landmarks": "Bienville Square, Dauphin Street, RSA Battle House Tower, De Tonti Square, Cooper Riverside Park, and Mobile Convention Center",
     "customer_profiles": "Downtown loft residents, law & financial firms, historic homeowners, and Airbnb Superhosts"
@@ -468,7 +468,7 @@
     ],
     "cleaning_challenges": [
       "Highway particulate dust and humid Gulf rain tracking into entryways and commercial lobbies",
-      "Shift-worker households needing dependable flat-rate maid schedules with zero contracts",
+      "Shift-worker households needing dependable custom maid schedules with zero contracts",
       "Commercial concrete, VCT tile, and restroom upkeep for high-traffic Hwy 90 businesses"
     ],
     "local_landmarks": "Government Blvd (US-90) & Schillinger South junction, I-10 Exit 15, Halls Mill Creek, and West Mobile Chamber district",
@@ -554,7 +554,7 @@
     ],
     "cleaning_challenges": [
       "Heavy beach sand in stairs/rugs and corrosive salt spray on balcony glass & stainless steel",
-      "Strict Saturday-to-Saturday and 10am\u20133pm summer vacation rental turnovers"
+      "Strict Saturday-to-Saturday and back-to-back summer vacation rental turnovers"
     ],
     "local_landmarks": "Fort Gaines, Dauphin Island Sea Lab, Audubon Bird Sanctuary, West End Beach, and Holiday Isle",
     "customer_profiles": "VRBO/Airbnb beach house owners, Holiday Isle condo hosts, and island residents"
@@ -604,7 +604,7 @@
       "Bayfront fishing retreats with boat docks on Navy Cove"
     ],
     "cleaning_challenges": [
-      "Large multi-level beach houses needing synchronized multi-cleaner crews inside 10am\u20133pm windows",
+      "Large multi-level beach houses needing synchronized multi-cleaner crews for tight back-to-back guest check-ins",
       "Salt-haze removal on panoramic Gulf windows and sand extraction from bunk rooms"
     ],
     "local_landmarks": "Historic Fort Morgan, Kiva Dunes, The Beach Club Resort, Bon Secour National Wildlife Refuge, and Hwy 180",
@@ -722,7 +722,7 @@
     ],
     "cleaning_challenges": [
       "Multi-level 3,500+ sq ft floor plans with finished basements and tall foyers",
-      "Corporate & medical facility after-hours sanitation along the Riverchase/280 business corridor"
+      "Corporate & medical facility flexible scheduled sanitation along the Riverchase/280 business corridor"
     ],
     "local_landmarks": "Riverchase Galleria, Renaissance Ross Bridge, Aldridge Gardens, Bluff Park, and Hoover Met Complex",
     "customer_profiles": "Corporate executives, physicians, Greystone/Ross Bridge families, and commercial property managers"
@@ -772,7 +772,7 @@
     ],
     "cleaning_challenges": [
       "Fine plateau topsoil dust, wood-stove/heating winter soot, and spring tree pollen",
-      "No-travel-fee flat-rate scheduling across DeKalb County"
+      "No-travel-fee custom scheduling across DeKalb County"
     ],
     "local_landmarks": "Sand Mountain Plateau, Lake Guntersville & Buck's Pocket proximity, and DeKalb County Hwy 227 (ZIP 35971)",
     "customer_profiles": "Sand Mountain homeowners, agricultural families, and DeKalb County businesses"

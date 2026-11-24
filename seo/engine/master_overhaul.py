@@ -18,7 +18,7 @@ from geo_service_content import (
     build_hub_faqs, build_service_faqs, build_jsonld_schema
 )
 
-TODAY = "2026-11-23"
+TODAY = "2026-11-24"
 
 # 1. Discover exact Detailing folder names across all 504 *-al directories
 DET_MAP = {}
@@ -88,7 +88,7 @@ NEW_DESKTOP_LOC_DROPDOWN_INNER = """
                   <a class="contact-button text-sm py-2 hover:bg-blue-700" href="/montgomery-al/">Montgomery, AL</a>
                   <a class="contact-button text-sm py-2 hover:bg-blue-700" href="/counties/">All 67 AL Counties &rarr;</a>
                   <a class="contact-button text-sm py-2 hover:bg-blue-700" href="/services/">All 29 Services &rarr;</a>
-                  <a class="contact-button text-sm py-2 hover:bg-blue-700" href="/guides/">Pricing &amp; Checklists &rarr;</a>
+                  <a class="contact-button text-sm py-2 hover:bg-blue-700" href="/guides/">Cleaning Checklists &rarr;</a>
                   <a class="contact-button text-sm py-2 bg-blue-700 font-bold" href="/locations/">All 503+ AL Cities &rarr;</a>
                 """
 
@@ -239,16 +239,96 @@ def sanitize_common_html(raw, loc_slug=None):
     raw = raw.replace('View All 480+ Locations', 'View All 503+ AL Locations')
     raw = raw.replace('View All 504+ AL Locations', 'View All 503+ AL Locations')
 
+    # Scrub ALL static template hours, time-promises, quote labels, and price buttons so clients simply book with Zoiris!
+    raw = raw.replace("Pricing &amp; Checklists &rarr;", "Cleaning Checklists &rarr;")
+    raw = raw.replace("Pricing & Checklists", "Cleaning Checklists")
+    raw = re.sub(r'(href="#quote"[^>]*>)\s*Get\s+a\s+Quote\s*(</a>)', r'\1Book With Us\2', raw, flags=re.I)
+    raw = raw.replace("fa-file-invoice-dollar", "fa-calendar-check")
+    raw = raw.replace('<span class="text-xl">Get a Free Quote</span>', '<span class="text-xl">Book With Us</span>')
+    raw = re.sub(
+        r'<i class="fa-solid fa-(?:circle-check|calendar-check) fa-beat mr-2"></i>\s*(?:Get a Free Estimate|Book With Us)',
+        '<i class="fa-solid fa-calendar-check fa-beat mr-2"></i> Book With Us',
+        raw,
+        flags=re.I
+    )
+    raw = raw.replace("✦ Fast &amp; Free Quote ✦", "✦ Easy Online Booking ✦")
+    raw = raw.replace("✦ Fast & Free Quote ✦", "✦ Easy Online Booking ✦")
+    raw = re.sub(
+        r'Get Your\s*<span([^>]*)>Free Quote</span>\s*Today',
+        r'Book Your <span\1>Cleaning</span> With Us',
+        raw,
+        flags=re.I
+    )
+    raw = re.sub(
+        r'Get Your\s*<span([^>]*)>Free Quote</span>',
+        r'Book Your <span\1>Cleaning Today</span>',
+        raw,
+        flags=re.I
+    )
+    raw = re.sub(
+        r'Fill out the form below and our team will get back to you in minutes!',
+        'Complete the booking form below to schedule your cleaning with us!',
+        raw,
+        flags=re.I
+    )
+    raw = re.sub(
+        r'Tell us about your\s+space and we\'ll reach out within minutes\.',
+        'Tell us about your space to book your cleaning with our team.',
+        raw,
+        flags=re.I | re.S
+    )
+    raw = re.sub(r'After-hours or daily commercial cleaning', 'Flexible scheduled or daily commercial cleaning', raw, flags=re.I)
+    raw = re.sub(
+        r'>\s*Hours</p>\s*<p style="font-size:0\.95rem;font-weight:800;color:#fff;margin:0;">24/7 Emergency Service</p>',
+        '>Scheduling</p>\n                    <p style="font-size:0.95rem;font-weight:800;color:#fff;margin:0;">Easy Online Booking</p>',
+        raw,
+        flags=re.I
+    )
+    raw = raw.replace('<i class="fas fa-clock" style="color:#a78bfa;"></i>', '<i class="fas fa-calendar-check" style="color:#a78bfa;"></i>')
+    raw = re.sub(
+        r'Get an\s+instant response\s*—\s*we typically reply in under 2 minutes!',
+        'Message our team directly on WhatsApp to book your cleaning!',
+        raw,
+        flags=re.I
+    )
+    raw = re.sub(
+        r'We call back within\s*<strong[^>]*>\s*15 minutes\s*</strong>\s*during business hours\.',
+        'Submit our booking form or call <strong style="color:#60a5fa;">(251) 220-2515</strong> to schedule your cleaning.',
+        raw,
+        flags=re.I | re.S
+    )
+    raw = re.sub(r'day or night,\s*24/7', 'on your preferred schedule', raw, flags=re.I)
+    raw = re.sub(
+        r'<!-- Clickable 24/7 -->\s*<p class="flex items-center text-white">\s*<i class="fas fa-clock[^"]*"></i>\s*<a class="text-white font-semibold contact-button text-lg" href="tel:\+12512202515">\s*Available 24/7\s*</a>\s*</p>',
+        '<!-- Clickable Book Now -->\n          <p class="flex items-center text-white">\n            <i class="fas fa-calendar-check text-blue-400 mr-2"></i>\n            <a class="text-white font-semibold contact-button text-lg" href="#quote">\n              Book Your Cleaning\n            </a>\n          </p>',
+        raw,
+        flags=re.I | re.S
+    )
+    raw = raw.replace("Available 24/7", "Book Online Today")
+    raw = raw.replace("<!-- Clickable 24/7 -->", "<!-- Clickable Book Now -->")
+    raw = raw.replace("fas fa-clock text-blue-600 mr-2 fa-beat-fade", "fas fa-calendar-check text-blue-600 mr-2")
+    raw = re.sub(r'<button onclick="quickAsk\([^"]*(?:price|precio)[^"]*\)">[^<]*</button>\s*', "", raw, flags=re.I)
+    raw = re.sub(
+        r'else if\s*\(q\.includes\("price"\)\)\s*reply\s*=\s*"[^"]*";',
+        'else if (q.includes("price") || q.includes("cost") || q.includes("hour")) reply = "&#128197; Book directly through our scheduling form or call <a href=\'tel:2512202515\'>(251) 220-2515</a> to reserve your cleaning!";',
+        raw
+    )
+    raw = re.sub(
+        r'else if\s*\(q\.includes\("precio"\)\)\s*reply\s*=\s*"[^"]*";',
+        'else if (q.includes("precio") || q.includes("hora")) reply = "&#128197; &iexcl;Reserva directamente en nuestro formulario o ll&aacute;manos al <a href=\'tel:2512202515\'>(251) 220-2515</a>!";',
+        raw
+    )
+
     # Inject 1-click Crawl Accelerator links to /services/, /counties/, /guides/, and /site-map/ in bottom bar!
     raw = re.sub(
-        r'<a data-crawl-hub="1" href="/services/".*?(?=<a\s+href="/locations/")',
+        r'<a data-crawl-hub="[12]" href="/services/".*?(?=<a\s+href="/locations/")',
         "",
         raw,
         flags=re.I | re.S
     )
-    if 'data-crawl-hub="2"' not in raw:
+    if 'data-crawl-hub="3"' not in raw:
         raw = FOOTER_LOC_LINK_RE.sub(
-            lambda m: '<a data-crawl-hub="2" href="/services/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">All 29 Services</a>\n        <a href="/counties/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">All 67 AL Counties</a>\n        <a href="/guides/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">Pricing &amp; Checklists</a>\n        <a href="/site-map/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">HTML Site Map</a>\n        ' + m.group(1),
+            lambda m: '<a data-crawl-hub="3" href="/services/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">All 29 Services</a>\n        <a href="/counties/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">All 67 AL Counties</a>\n        <a href="/guides/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">Cleaning Checklists</a>\n        <a href="/site-map/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">HTML Site Map</a>\n        ' + m.group(1),
             raw,
             count=1
         )
@@ -302,22 +382,22 @@ def process_city_file(rel_and_fp):
     pzip = prof["primary_zip"]
     det_folder = DET_MAP[loc_slug]
 
-    # Case 1: Location Hub (/<loc_slug>/index.html) — Fuses June 43.4K-Impression + March 262-Click Peak Formula!
+    # Case 1: Location Hub (/<loc_slug>/index.html) — June/March Peak Formula with ZERO prices & ZERO hours!
     if len(parts) == 2 and parts[1] == "index.html":
         canon_url = f"https://www.zoiriscleaningservices.com/{loc_slug}/"
         if loc_slug == "mobile-al":
             title = "Cleaning Services in Mobile, AL | Top-Rated Home & Commercial Cleaners"
-            desc = "Top-rated Cleaning Services & House Cleaning in Mobile, AL (36602–36695) from $125! Eco-friendly W-2 maids, deep cleans, move-outs & janitorial: (251) 220-2515."
+            desc = "Top-rated Cleaning Services & House Cleaning in Mobile, AL (36602–36695)! Eco-friendly W-2 maids, deep cleans, move-outs & janitorial. Book: (251) 220-2515!"
             h1_txt = "Top-Rated House Cleaning & Commercial Cleaning Services in Mobile, AL"
         elif loc_slug == "silverhill-al":
-            title = "House Cleaning & Maid Service in Silverhill (Silver Hill), AL | From $125"
-            desc = "Top-rated house cleaning & maid service in Silverhill (Silver Hill), AL (36576) from $125 flat-rate! Eco-friendly W-2 cleaners & zero contracts: (251) 220-2515."
+            title = "House Cleaning & Maid Service in Silverhill (Silver Hill), AL | Top Rated"
+            desc = "Top-rated house cleaning & maid service in Silverhill (Silver Hill), AL (36576)! Eco-friendly W-2 cleaners & zero contracts. Book online: (251) 220-2515!"
             h1_txt = "Find Trusted House Cleaning & Maid Service in Silverhill (Silver Hill), AL"
         else:
-            title = f"House Cleaning Services in {display} (From $125) - Top Rated Cleaners"
-            desc = f"Find top-rated house cleaning & commercial cleaning services in {display} ({county}, {pzip}) from $125 flat-rate! Insured W-2 maids & no contracts: (251) 220-2515."
+            title = f"House Cleaning Services in {display} - Top Rated Cleaners | Zoiris"
+            desc = f"Find top-rated house cleaning & commercial cleaning services in {display} ({county}, {pzip})! Insured W-2 maids, eco-friendly HEPA care & no contracts: (251) 220-2515."
             h1_txt = f"Find Trusted House Cleaning & Cleaning Services in {display}"
-        sub_txt = f"Top-rated, eco-friendly, <strong>No-Contract</strong> house cleaning (from $125), same-day flat-rate quotes, deep cleaning, move turnovers, and commercial janitorial across {html.escape(city)} and {html.escape(county)} (ZIP {html.escape(prof['zips_str'])})."
+        sub_txt = f"Top-rated, eco-friendly, <strong>No-Contract</strong> residential house cleaning, deep cleaning, move turnovers, and commercial janitorial across {html.escape(city)} and {html.escape(county)} (ZIP {html.escape(prof['zips_str'])}). Book your cleaning today!"
 
         body_html, faqs = build_hub_body_html(loc_slug, det_folder)
         schema_block = build_jsonld_schema("location_hub", canon_url, loc_slug=loc_slug, faqs=faqs, title=title, desc=desc)
@@ -353,8 +433,8 @@ def process_city_file(rel_and_fp):
                 title = "Cleaning Tips, Checklists & Home Care Guides | Zoiris Cleaning Blog"
                 desc = "Expert residential & commercial cleaning guides, seasonal deep-cleaning checklists, and Gulf Coast humidity & stain care tips from Zoiris Cleaning Services."
             else:
-                title = "Contact Zoiris Cleaning Services | 24/7 Free Quotes | (251) 220-2515"
-                desc = "Contact Zoiris Cleaning Services 24/7 at (251) 220-2515 or request a fast online flat-rate estimate for house cleaning (from $125), deep cleaning, move turnovers & janitorial."
+                title = "Book & Contact Zoiris Cleaning Services | Schedule Cleaning | (251) 220-2515"
+                desc = "Book your cleaning appointment with Zoiris Cleaning Services online or call (251) 220-2515 for house cleaning, deep cleaning, move turnovers & commercial janitorial."
             schema_block = build_jsonld_schema("global_page", canon_url, title=title, desc=desc)
             head_top = build_clean_head_top(title, desc, canon_url, schema_block=schema_block)
             raw = HEAD_TO_STYLE_RE.sub(lambda _: head_top, raw, count=1)
@@ -420,11 +500,11 @@ def process_city_file(rel_and_fp):
 def update_global_and_root_pages():
     print("Updating Homepage, /locations/, /apply/, /Gallery/, 404.html, privacy.html, terms.html, dashboard.html...")
 
-    # 1. Homepage (index.html) — Fuses March 2026 Click-Peak (#1 Cleaning Services in Mobile, AL) + June 2026 Impression-Peak (House Cleaning Services) + CTR Price Hook!
+    # 1. Homepage (index.html) — Fuses March 2026 Click-Peak (#1 Cleaning Services in Mobile, AL) + June 2026 Impression-Peak (House Cleaning Services) — ZERO prices & ZERO hours!
     hp_path = os.path.join(root_dir, "index.html")
     raw_hp = open(hp_path, "r", encoding="utf-8", errors="replace").read()
-    hp_title = "#1 House Cleaning & Cleaning Services in Mobile, AL (From $125) | Zoiris"
-    hp_desc = "Top-rated Cleaning Services & House Cleaning in Mobile, AL from $125 flat-rate! 4.9★ insured W-2 maids, same-day quotes & zero contracts: (251) 220-2515."
+    hp_title = "#1 House Cleaning & Cleaning Services in Mobile, AL | Book Zoiris"
+    hp_desc = "Top-rated Cleaning Services & House Cleaning in Mobile, AL! 4.9★ insured W-2 maids, eco-friendly HEPA care & zero locked contracts. Book online or call (251) 220-2515!"
     hp_canon = "https://www.zoiriscleaningservices.com/"
     hp_prof = get_enriched_profile("mobile-al")
     hp_faqs = build_hub_faqs(hp_prof)
@@ -432,7 +512,7 @@ def update_global_and_root_pages():
     hp_head = build_clean_head_top(hp_title, hp_desc, hp_canon, og_image="/images/services_action.png", schema_block=hp_schema)
     raw_hp = HEAD_TO_STYLE_RE.sub(lambda _: hp_head, raw_hp, count=1)
     raw_hp = HERO_H1_P_RE.sub(
-        lambda m: f"{m.group(1)}\n          #1 House Cleaning &amp; Cleaning Services in Mobile, AL\n        {m.group(3)}\n          Top-rated, eco-friendly residential maid service (from $125), deep cleaning, move turnovers, and commercial janitorial across Mobile, Semmes, Theodore &amp; Baldwin County — zero locked contracts.\n        {m.group(5)}",
+        lambda m: f"{m.group(1)}\n          #1 House Cleaning &amp; Cleaning Services in Mobile, AL\n        {m.group(3)}\n          Top-rated, eco-friendly residential maid service, deep cleaning, move turnovers, and commercial janitorial across Mobile, Semmes, Theodore &amp; Baldwin County — zero locked contracts. Book your cleaning with us today!\n        {m.group(5)}",
         raw_hp, count=1
     )
     # Replace or inject #ai-quick-answer + Statewide Authority Hub Grid + #faq on homepage right before #quote!
@@ -445,7 +525,7 @@ def update_global_and_root_pages():
             <div>
               <span class="text-xs font-extrabold uppercase tracking-wider text-blue-300">Complete Service Catalog</span>
               <h3 class="text-xl font-extrabold mt-1 mb-2">All 29 Residential &amp; Commercial Services</h3>
-              <p class="text-xs sm:text-sm text-purple-100">Recurring maid, deep cleans, move-outs, Airbnb 10am–3pm turns, carpet steam, pure-water windows &amp; medical/office janitorial.</p>
+              <p class="text-xs sm:text-sm text-purple-100">Recurring maid, deep cleans, move-outs, Airbnb turnovers, carpet steam, pure-water windows &amp; medical/office janitorial.</p>
             </div>
             <span class="mt-4 inline-block text-blue-300 font-bold text-sm">Browse All 29 Services &rarr;</span>
           </a>
@@ -453,17 +533,17 @@ def update_global_and_root_pages():
             <div>
               <span class="text-xs font-extrabold uppercase tracking-wider text-indigo-300">Statewide Coverage</span>
               <h3 class="text-xl font-extrabold mt-1 mb-2">All 67 Alabama Counties &amp; 503 Cities</h3>
-              <p class="text-xs sm:text-sm text-purple-100">Priority 24/7 dispatch across Mobile, Semmes, Theodore &amp; Baldwin County plus full coverage in Birmingham, Huntsville &amp; Montgomery.</p>
+              <p class="text-xs sm:text-sm text-purple-100">Dedicated local dispatch across Mobile, Semmes, Theodore &amp; Baldwin County plus full coverage in Birmingham, Huntsville &amp; Montgomery.</p>
             </div>
             <span class="mt-4 inline-block text-indigo-300 font-bold text-sm">Explore All 67 AL Counties &rarr;</span>
           </a>
           <a href="/guides/" class="bg-black/45 hover:bg-black/65 backdrop-blur-md border border-purple-400/40 rounded-2xl p-6 text-white transition shadow-xl flex flex-col justify-between">
             <div>
-              <span class="text-xs font-extrabold uppercase tracking-wider text-purple-300">2026 Pricing &amp; Checklists</span>
-              <h3 class="text-xl font-extrabold mt-1 mb-2">Instant Cleaning Cost Calculator &amp; Guides</h3>
-              <p class="text-xs sm:text-sm text-purple-100">Calculate your flat-rate price by bedrooms &amp; baths, download landlord move-out checklists &amp; compare deep vs. regular cleans.</p>
+              <span class="text-xs font-extrabold uppercase tracking-wider text-purple-300">Room-by-Room Checklists</span>
+              <h3 class="text-xl font-extrabold mt-1 mb-2">Custom Cleaning Plan &amp; Checklist Guides</h3>
+              <p class="text-xs sm:text-sm text-purple-100">Build your custom room checklist, explore landlord move-out standards &amp; compare deep vs. recurring cleaning scopes.</p>
             </div>
-            <span class="mt-4 inline-block text-purple-300 font-bold text-sm">Open Cost Guides &amp; Checklists &rarr;</span>
+            <span class="mt-4 inline-block text-purple-300 font-bold text-sm">Open Checklists &amp; Guides &rarr;</span>
           </a>
         </div>
         <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-5 text-center">
@@ -491,7 +571,7 @@ def update_global_and_root_pages():
     hp_faq_html = hp_ai_sec + "\n\n" + render_faq_details_html(
         hp_faqs,
         "Frequently Asked Questions About House Cleaning & Maid Service in Mobile, AL",
-        "Answers on flat-rate pricing (from $125), zero locked contracts, HEPA equipment, and coverage across Mobile & Baldwin County."
+        "Answers on custom cleaning checklists, zero locked contracts, HEPA equipment, and booking across Mobile & Baldwin County."
     )
     raw_hp = re.sub(r'<section\b[^>]*id=["\']hp-ai-summary["\'][^>]*>.*?</section>\s*', "", raw_hp, flags=re.I | re.S)
     old_faq_re = re.compile(r'<section\b[^>]*id=["\']faq["\'][^>]*>.*?</section>', re.I | re.S)
@@ -554,7 +634,7 @@ def update_global_and_root_pages():
         <!-- Tier 1 Gulf Coast Priority Grid -->
         <div class="bg-black/40 backdrop-blur-md border border-white/15 rounded-3xl p-6 sm:p-8 mb-12" id="gulfPriorityBlock">
           <h2 class="text-2xl font-extrabold text-white mb-2"><i class="fas fa-star text-yellow-400 mr-2"></i>Mobile &amp; Baldwin County Gulf Coast Hubs ({len(gulf_hubs)} Areas)</h2>
-          <p class="text-sm text-purple-200 mb-6">Immediate 24/7 dispatch across Greater Mobile, Eastern Shore, and Pleasure Island beaches:</p>
+          <p class="text-sm text-purple-200 mb-6">Dedicated local dispatch across Greater Mobile, Eastern Shore, and Pleasure Island beaches:</p>
           <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
 {gulf_cards}
           </div>
@@ -606,7 +686,7 @@ def update_global_and_root_pages():
     os.makedirs(apply_dir, exist_ok=True)
     contact_tpl = open(os.path.join(root_dir, "mobile-al", "contact", "index.html"), "r", encoding="utf-8", errors="replace").read()
     apply_title = "Cleaning Jobs & Careers in Mobile, AL & Alabama | Apply at Zoiris"
-    apply_desc = "Now hiring dependable W-2 residential & commercial cleaning technicians across Mobile, Semmes, Theodore, Baldwin County & Alabama. Competitive pay, flexible hours & paid training!"
+    apply_desc = "Now hiring dependable W-2 residential & commercial cleaning technicians across Mobile, Semmes, Theodore, Baldwin County & Alabama. Competitive pay, flexible schedules & paid training!"
     apply_canon = "https://www.zoiriscleaningservices.com/apply/"
     apply_schema = build_jsonld_schema("global_page", apply_canon, title=apply_title, desc=apply_desc)
     apply_head = build_clean_head_top(apply_title, apply_desc, apply_canon, schema_block=apply_schema)
@@ -620,20 +700,20 @@ def update_global_and_root_pages():
       <div class="max-w-5xl mx-auto">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           <div class="bg-white rounded-2xl p-6 shadow-xl">
-            <h2 class="text-xl font-extrabold text-gray-900 mb-2"><i class="fas fa-dollar-sign text-green-600 mr-2"></i>Competitive W-2 Pay</h2>
-            <p class="text-sm text-gray-700">Direct W-2 employment with weekly pay, performance bonuses, tips, and workers' compensation protection.</p>
+            <h2 class="text-xl font-extrabold text-gray-900 mb-2"><i class="fas fa-briefcase text-green-600 mr-2"></i>Direct W-2 Employment</h2>
+            <p class="text-sm text-gray-700">In-house W-2 employment with weekly direct deposit, performance bonuses, tips, and workers' compensation protection.</p>
           </div>
           <div class="bg-white rounded-2xl p-6 shadow-xl">
             <h2 class="text-xl font-extrabold text-gray-900 mb-2"><i class="fas fa-graduation-cap text-blue-600 mr-2"></i>Paid Hands-On Training</h2>
             <p class="text-sm text-gray-700">Full training on commercial HEPA systems, eco-safe disinfectants, fine hardwood/stone care, and team safety.</p>
           </div>
           <div class="bg-white rounded-2xl p-6 shadow-xl">
-            <h2 class="text-xl font-extrabold text-gray-900 mb-2"><i class="fas fa-calendar-check text-purple-600 mr-2"></i>Flexible Shifts</h2>
-            <p class="text-sm text-gray-700">Daytime residential routes, coastal vacation-rental teams, and evening commercial janitorial schedules available.</p>
+            <h2 class="text-xl font-extrabold text-gray-900 mb-2"><i class="fas fa-calendar-check text-purple-600 mr-2"></i>Flexible Schedules</h2>
+            <p class="text-sm text-gray-700">Residential routes, coastal vacation-rental teams, and commercial janitorial schedules available across Alabama.</p>
           </div>
         </div>
         <div class="bg-black/45 backdrop-blur-md border border-white/20 rounded-3xl p-8 text-center text-white">
-          <h2 class="text-2xl sm:text-3xl font-extrabold mb-3">Apply Today in 2 Minutes</h2>
+          <h2 class="text-2xl sm:text-3xl font-extrabold mb-3">Apply Online Today</h2>
           <p class="text-purple-100 max-w-2xl mx-auto mb-6">Email your name, phone number, city, and availability to <a href="mailto:zoiriscleaningservices@gmail.com?subject=Job%20Application%20-%20Zoiris%20Cleaning%20Services" class="text-blue-300 underline font-bold">zoiriscleaningservices@gmail.com</a> or call our hiring desk at <a href="tel:2512202515" class="text-blue-300 underline font-bold">(251) 220-2515</a>, or submit the contact form below.</p>
           <div class="flex flex-col sm:flex-row justify-center gap-4">
             <a href="mailto:zoiriscleaningservices@gmail.com?subject=Cleaner%20Application%20-%20Zoiris" class="bg-blue-600 hover:bg-blue-500 text-white font-bold px-6 py-3 rounded-full transition">Email Hiring Team</a>
@@ -667,7 +747,7 @@ def update_global_and_root_pages():
     # 5. privacy.html & terms.html (index, follow + unique E-E-A-T legal titles & JSON-LD — zero cannibalization & zero noindex alerts!)
     for fname, t_txt, d_txt in [
         ("privacy.html", "Privacy Policy | Zoiris Cleaning Services LLC", "Official customer data and privacy policy for Zoiris Cleaning Services LLC in Mobile, AL and across Alabama."),
-        ("terms.html", "Terms of Service & Booking Policies | Zoiris Cleaning Services LLC", "Official service terms, zero-contract scheduling policy, and 24-hour satisfaction guarantee terms for Zoiris Cleaning Services LLC.")
+        ("terms.html", "Terms of Service & Booking Policies | Zoiris Cleaning Services LLC", "Official service terms, zero-contract scheduling policy, and 100% satisfaction guarantee terms for Zoiris Cleaning Services LLC.")
     ]:
         fpath = os.path.join(root_dir, fname)
         if os.path.exists(fpath):
@@ -776,12 +856,12 @@ def update_global_and_root_pages():
     </span>
     <h1 class="text-4xl sm:text-5xl font-extrabold mb-4">Let's Get You to the Right Cleaning Page</h1>
     <p class="text-purple-200 text-lg mb-10">
-      The link you followed may be outdated, but our teams are available 24/7 across <strong>Mobile, Semmes, Theodore, Baldwin County, and all 504 Alabama communities</strong>.
+      The link you followed may be outdated, but our teams serve <strong>Mobile, Semmes, Theodore, Baldwin County, and all 503 Alabama communities</strong>.
     </p>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10 text-left">
       <a href="/" class="bg-white/10 hover:bg-white/20 border border-white/20 rounded-2xl p-5 transition">
         <h2 class="font-bold text-lg text-white"><i class="fas fa-home text-blue-400 mr-2"></i>Mobile, AL Homepage</h2>
-        <p class="text-xs text-gray-300 mt-1">Instant flat-rate quotes, maid service &amp; zero contracts.</p>
+        <p class="text-xs text-gray-300 mt-1">Book maid service, deep cleaning &amp; commercial care with zero contracts.</p>
       </a>
       <a href="/locations/" class="bg-white/10 hover:bg-white/20 border border-white/20 rounded-2xl p-5 transition">
         <h2 class="font-bold text-lg text-white"><i class="fas fa-map-marked-alt text-green-400 mr-2"></i>All 504 Alabama Locations</h2>
@@ -797,7 +877,7 @@ def update_global_and_root_pages():
       </a>
     </div>
     <a href="/mobile-al/contact/" class="inline-flex items-center bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-bold px-8 py-4 rounded-full shadow-xl transition">
-      Request a Free Cleaning Estimate <i class="fas fa-arrow-right ml-2"></i>
+      Book Your Cleaning With Us <i class="fas fa-arrow-right ml-2"></i>
     </a>
   </main>
 
