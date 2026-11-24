@@ -104,6 +104,14 @@
       "name": "Zoiris Cleaning Services",
       "publisher": {
         "@id": "https://www.zoiriscleaningservices.com/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.zoiriscleaningservices.com/locations/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
       }
     },
     {
@@ -1312,7 +1320,7 @@
 
     <!-- Hero Section -->
     
-                    <!-- Locations Directory Grid Section -->
+                        <!-- Locations Directory Grid Section -->
     <section class="min-h-screen pt-20 pb-20 flex flex-col items-center justify-start relative z-10 w-full">
       <div class="relative px-4 sm:px-6 lg:px-8 max-w-7xl w-full">
         <div class="text-center max-w-4xl mx-auto mb-12">
@@ -1959,6 +1967,13 @@
           card.style.display = (!q || hay.includes(q)) ? '' : 'none';
         });
       }
+      (function () {
+        const uq = new URLSearchParams(window.location.search).get('q');
+        if (uq) {
+          const inp = document.getElementById('citySearch');
+          if (inp) { inp.value = uq; filterCities(); }
+        }
+      })();
     </script>
 
     <footer class="bg-gradient-to-b from-gray-900 to-black text-gray-200 py-16 relative overflow-hidden font-sans">
@@ -2539,9 +2554,10 @@
         <a href="/huntsville-al/" class="text-gray-500 hover:text-blue-400 text-xs transition-colors">Huntsville, AL</a>
         <a href="/foley-al/" class="text-gray-500 hover:text-blue-400 text-xs transition-colors">Foley, AL</a>
         <a href="/montgomery-al/" class="text-gray-500 hover:text-blue-400 text-xs transition-colors">Montgomery, AL</a>
-        <a data-crawl-hub="1" href="/services/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">All 29 Services</a>
+        <a data-crawl-hub="2" href="/services/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">All 29 Services</a>
         <a href="/counties/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">All 67 AL Counties</a>
         <a href="/guides/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">Pricing &amp; Checklists</a>
+        <a href="/site-map/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">HTML Site Map</a>
         <a href="/locations/" class="text-blue-500 hover:text-pink-400 font-bold text-xs transition-colors">View All 503+ AL Locations</a>
       </div>
     </div>

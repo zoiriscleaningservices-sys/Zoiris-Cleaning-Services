@@ -97,7 +97,15 @@ def build_custom_page_schema(canon_url, title, desc, faqs=None, is_article=False
         "@id": "https://www.zoiriscleaningservices.com/#website",
         "url": "https://www.zoiriscleaningservices.com/",
         "name": "Zoiris Cleaning Services",
-        "publisher": {"@id": "https://www.zoiriscleaningservices.com/#organization"}
+        "publisher": {"@id": "https://www.zoiriscleaningservices.com/#organization"},
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://www.zoiriscleaningservices.com/locations/?q={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+        }
     }
     page_node = {
         "@type": "WebPage",
@@ -377,6 +385,17 @@ def build_county_hubs(shell):
             for sk, sv in SERVICES.items()
         )
 
+        full_county_matrix_blocks = []
+        for c in cities:
+            cs_links = " • ".join(
+                f'<a href="/{c["slug"]}/{DET_MAP[c["slug"]] if sk=="detailing" else sk}/" class="text-blue-200 hover:text-white underline">{html.escape(sv["short_name"])}</a>'
+                for sk, sv in SERVICES.items()
+            )
+            full_county_matrix_blocks.append(
+                f'          <div class="bg-white/5 border border-white/10 rounded-2xl p-4"><h3 class="text-sm font-extrabold text-white mb-2"><a href="/{c["slug"]}/" class="hover:text-blue-300">{html.escape(c["display_title"])} — All 29 Local Services</a></h3><p class="text-xs leading-relaxed text-purple-200">{cs_links}</p></div>'
+            )
+        full_county_matrix_html = "\n".join(full_county_matrix_blocks)
+
         c_faqs = [
             {"q": f"Which cities and communities in {cname} County, AL do you clean?", "a": f"Zoiris Cleaning Services covers all communities across {cname} County (ZIP codes {zips_str}), including " + ", ".join(c["city"] for c in cities) + "."},
             {"q": f"How much does house cleaning and deep cleaning cost in {cname} County, AL?", "a": f"Recurring maid visits in {cname} County typically range from $125–$215, top-to-bottom deep cleans from $220–$420, and empty-home move-in/move-out cleans from $250–$480—always flat-rate with zero contracts and zero travel surcharges."},
@@ -412,11 +431,18 @@ def build_county_hubs(shell):
           </div>
         </div>
 
-        <div class="bg-black/40 backdrop-blur-md border border-white/15 rounded-3xl p-6 sm:p-8">
+        <div class="bg-black/40 backdrop-blur-md border border-white/15 rounded-3xl p-6 sm:p-8 mb-10">
           <h2 class="text-2xl font-extrabold text-white mb-2">All 29 Services Available in {html.escape(cname)} County, AL</h2>
           <p class="text-sm text-purple-200 mb-6">Flat-rate upfront quotes with zero travel fees anywhere in {html.escape(cname)} County:</p>
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5">
 {srv_pills}
+          </div>
+        </div>
+
+        <div class="bg-black/30 backdrop-blur-md border border-white/15 rounded-3xl p-6 sm:p-8">
+          <h2 class="text-xl sm:text-2xl font-extrabold text-white mb-4">Complete {html.escape(cname)} County City &amp; Service Directory</h2>
+          <div class="space-y-3">
+{full_county_matrix_html}
           </div>
         </div>
       </div>

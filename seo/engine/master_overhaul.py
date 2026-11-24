@@ -239,10 +239,16 @@ def sanitize_common_html(raw, loc_slug=None):
     raw = raw.replace('View All 480+ Locations', 'View All 503+ AL Locations')
     raw = raw.replace('View All 504+ AL Locations', 'View All 503+ AL Locations')
 
-    # Inject 1-click Crawl Accelerator links to /services/, /counties/, and /guides/ in bottom bar (both index.html & city pages!)
-    if 'data-crawl-hub="1"' not in raw:
+    # Inject 1-click Crawl Accelerator links to /services/, /counties/, /guides/, and /site-map/ in bottom bar!
+    raw = re.sub(
+        r'<a data-crawl-hub="1" href="/services/".*?(?=<a\s+href="/locations/")',
+        "",
+        raw,
+        flags=re.I | re.S
+    )
+    if 'data-crawl-hub="2"' not in raw:
         raw = FOOTER_LOC_LINK_RE.sub(
-            lambda m: '<a data-crawl-hub="1" href="/services/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">All 29 Services</a>\n        <a href="/counties/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">All 67 AL Counties</a>\n        <a href="/guides/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">Pricing &amp; Checklists</a>\n        ' + m.group(1),
+            lambda m: '<a data-crawl-hub="2" href="/services/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">All 29 Services</a>\n        <a href="/counties/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">All 67 AL Counties</a>\n        <a href="/guides/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">Pricing &amp; Checklists</a>\n        <a href="/site-map/" class="text-blue-400 hover:text-pink-400 font-bold text-xs transition-colors">HTML Site Map</a>\n        ' + m.group(1),
             raw,
             count=1
         )
@@ -296,17 +302,22 @@ def process_city_file(rel_and_fp):
     pzip = prof["primary_zip"]
     det_folder = DET_MAP[loc_slug]
 
-    # Case 1: Location Hub (/<loc_slug>/index.html)
+    # Case 1: Location Hub (/<loc_slug>/index.html) — Fuses June 43.4K-Impression + March 262-Click Peak Formula!
     if len(parts) == 2 and parts[1] == "index.html":
         canon_url = f"https://www.zoiriscleaningservices.com/{loc_slug}/"
         if loc_slug == "mobile-al":
-            title = "Cleaning Services in Mobile, AL (All 29 Home & Office Services) | Zoiris"
-            desc = "4.9★ Local residential & commercial cleaning company in Mobile, AL (36602–36695). Maid service from $125, deep cleans, move-outs & janitorial: (251) 220-2515!"
+            title = "Cleaning Services in Mobile, AL | Top-Rated Home & Commercial Cleaners"
+            desc = "Top-rated Cleaning Services & House Cleaning in Mobile, AL (36602–36695) from $125! Eco-friendly W-2 maids, deep cleans, move-outs & janitorial: (251) 220-2515."
+            h1_txt = "Top-Rated House Cleaning & Commercial Cleaning Services in Mobile, AL"
+        elif loc_slug == "silverhill-al":
+            title = "House Cleaning & Maid Service in Silverhill (Silver Hill), AL | From $125"
+            desc = "Top-rated house cleaning & maid service in Silverhill (Silver Hill), AL (36576) from $125 flat-rate! Eco-friendly W-2 cleaners & zero contracts: (251) 220-2515."
+            h1_txt = "Find Trusted House Cleaning & Maid Service in Silverhill (Silver Hill), AL"
         else:
-            title = f"Cleaning Services in {display} (From $125) | 4.9★ Home & Office | Zoiris"
-            desc = f"4.9★ Rated house cleaning, maid service (from $125), deep cleans, move-outs & commercial janitorial in {display} ({county}, {pzip}). No contracts: (251) 220-2515!"
-        h1_txt = f"Professional Cleaning Services in {display}"
-        sub_txt = f"Flat-rate, <strong>No-Contract</strong> residential housekeeping (from $125), deep cleaning, move turnovers, and commercial janitorial across {html.escape(city)} and {html.escape(county)} (ZIP {html.escape(prof['zips_str'])})."
+            title = f"House Cleaning Services in {display} (From $125) - Top Rated Cleaners"
+            desc = f"Find top-rated house cleaning & commercial cleaning services in {display} ({county}, {pzip}) from $125 flat-rate! Insured W-2 maids & no contracts: (251) 220-2515."
+            h1_txt = f"Find Trusted House Cleaning & Cleaning Services in {display}"
+        sub_txt = f"Top-rated, eco-friendly, <strong>No-Contract</strong> house cleaning (from $125), same-day flat-rate quotes, deep cleaning, move turnovers, and commercial janitorial across {html.escape(city)} and {html.escape(county)} (ZIP {html.escape(prof['zips_str'])})."
 
         body_html, faqs = build_hub_body_html(loc_slug, det_folder)
         schema_block = build_jsonld_schema("location_hub", canon_url, loc_slug=loc_slug, faqs=faqs, title=title, desc=desc)
@@ -373,8 +384,13 @@ def process_city_file(rel_and_fp):
         "County": county,
         "Zip": pzip
     }
-    # For Lake View vs Lakeview, ensure title clearly includes county disambiguator!
-    city_for_tpl = f"{city} ({prof['county_short']} Co.)" if loc_slug in ("lake-view-al", "lakeview-al") else city
+    # For Lake View vs Lakeview & Silverhill (Silver Hill), ensure title includes exact searcher phrasing!
+    if loc_slug in ("lake-view-al", "lakeview-al"):
+        city_for_tpl = f"{city} ({prof['county_short']} Co.)"
+    elif loc_slug == "silverhill-al":
+        city_for_tpl = "Silverhill (Silver Hill)"
+    else:
+        city_for_tpl = city
     tpl_vars = {"City": city_for_tpl, "County": county, "Zip": pzip}
 
     title = srv["title_tpl"].format(**tpl_vars)
@@ -404,17 +420,21 @@ def process_city_file(rel_and_fp):
 def update_global_and_root_pages():
     print("Updating Homepage, /locations/, /apply/, /Gallery/, 404.html, privacy.html, terms.html, dashboard.html...")
 
-    # 1. Homepage (index.html)
+    # 1. Homepage (index.html) — Fuses March 2026 Click-Peak (#1 Cleaning Services in Mobile, AL) + June 2026 Impression-Peak (House Cleaning Services) + CTR Price Hook!
     hp_path = os.path.join(root_dir, "index.html")
     raw_hp = open(hp_path, "r", encoding="utf-8", errors="replace").read()
-    hp_title = "House Cleaning & Maid Service Mobile, AL (From $125) | 4.9★ Zoiris"
-    hp_desc = "4.9★ Rated Mobile, AL house cleaning, maid service & deep cleaning from $125 flat-rate! Zero contracts, insured W-2 cleaners & 24-hr guarantee: (251) 220-2515."
+    hp_title = "#1 House Cleaning & Cleaning Services in Mobile, AL (From $125) | Zoiris"
+    hp_desc = "Top-rated Cleaning Services & House Cleaning in Mobile, AL from $125 flat-rate! 4.9★ insured W-2 maids, same-day quotes & zero contracts: (251) 220-2515."
     hp_canon = "https://www.zoiriscleaningservices.com/"
     hp_prof = get_enriched_profile("mobile-al")
     hp_faqs = build_hub_faqs(hp_prof)
     hp_schema = build_jsonld_schema("location_hub", hp_canon, loc_slug="mobile-al", faqs=hp_faqs, title=hp_title, desc=hp_desc)
     hp_head = build_clean_head_top(hp_title, hp_desc, hp_canon, og_image="/images/services_action.png", schema_block=hp_schema)
     raw_hp = HEAD_TO_STYLE_RE.sub(lambda _: hp_head, raw_hp, count=1)
+    raw_hp = HERO_H1_P_RE.sub(
+        lambda m: f"{m.group(1)}\n          #1 House Cleaning &amp; Cleaning Services in Mobile, AL\n        {m.group(3)}\n          Top-rated, eco-friendly residential maid service (from $125), deep cleaning, move turnovers, and commercial janitorial across Mobile, Semmes, Theodore &amp; Baldwin County — zero locked contracts.\n        {m.group(5)}",
+        raw_hp, count=1
+    )
     # Replace or inject #ai-quick-answer + Statewide Authority Hub Grid + #faq on homepage right before #quote!
     from geo_service_content import render_faq_details_html, build_ai_hub_summary_and_table
     hp_ai_sec = f"""    <section id="hp-ai-summary" class="py-12 px-4 sm:px-6 bg-transparent relative z-10">
@@ -567,6 +587,13 @@ def update_global_and_root_pages():
           card.style.display = (!q || hay.includes(q)) ? '' : 'none';
         }});
       }}
+      (function () {{
+        const uq = new URLSearchParams(window.location.search).get('q');
+        if (uq) {{
+          const inp = document.getElementById('citySearch');
+          if (inp) {{ inp.value = uq; filterCities(); }}
+        }}
+      }})();
     </script>"""
 
     loc_sec_re = re.compile(r'<!-- Locations Directory Grid Section -->.*?(?=<footer\b)', re.I | re.S)
@@ -796,6 +823,7 @@ def generate_clean_sitemaps_and_robots():
     priority_urls = [
         "https://www.zoiriscleaningservices.com/",
         "https://www.zoiriscleaningservices.com/locations/",
+        "https://www.zoiriscleaningservices.com/site-map/",
         "https://www.zoiriscleaningservices.com/mobile-al/about/",
         "https://www.zoiriscleaningservices.com/mobile-al/contact/",
         "https://www.zoiriscleaningservices.com/mobile-al/blog/",
