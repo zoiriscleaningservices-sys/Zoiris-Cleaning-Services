@@ -24,11 +24,22 @@ SPECIAL_CITY_FALLBACKS = {
     "jack-al": "/counties/coffee-county-al/",
     "alys-beach": "/orange-beach-al/",
     "cleaning-services-bradenton-fl": "/",
+    "jackson's-gap-al": "/jacksons-gap-al/",
+    "jackson&#39;s-gap-al": "/jacksons-gap-al/",
+    "jackson&amp;#39;s-gap-al": "/jacksons-gap-al/",
+    "jackson's-gap": "/jacksons-gap-al/",
+    "jacksons-gap": "/jacksons-gap-al/",
 }
+
+def normalize_city_token(tok):
+    t = tok.lower().replace("&amp;#39;", "").replace("&#39;", "").replace("'", "")
+    return t
 
 def map_legacy_path_to_canonical(p):
     clean = p.strip()
-    if clean.endswith(".html"):
+    if clean.endswith("/index.html"):
+        stem = clean.lstrip("/")[:-11]
+    elif clean.endswith(".html"):
         stem = clean.lstrip("/")[:-5]
     else:
         stem = clean.strip("/")
@@ -39,11 +50,12 @@ def map_legacy_path_to_canonical(p):
 
     if len(parts) == 1:
         sl = parts[0].lower()
-        if sl == "about":
+        sl_norm = normalize_city_token(sl)
+        if sl in ("about",):
             return "/mobile-al/about/"
-        if sl == "contact":
+        if sl in ("contact",):
             return "/mobile-al/contact/"
-        if sl == "blog":
+        if sl in ("blog",):
             return "/guides/"
         if sl == "services":
             return "/services/"
@@ -53,11 +65,11 @@ def map_legacy_path_to_canonical(p):
             return f"/services/{sl}/"
         if sl in SPECIAL_CITY_FALLBACKS:
             return SPECIAL_CITY_FALLBACKS[sl]
-        if sl in LOCATIONS:
-            return f"/{sl}/"
-        if f"{sl}-al" in LOCATIONS:
-            return f"/{sl}-al/"
-        m_maid = re.match(r"^maid-service-(.+?)(?:-al)?$", sl)
+        if sl_norm in LOCATIONS:
+            return f"/{sl_norm}/"
+        if f"{sl_norm}-al" in LOCATIONS:
+            return f"/{sl_norm}-al/"
+        m_maid = re.match(r"^maid-service-(.+?)(?:-al)?(?:-al)?$", sl_norm)
         if m_maid:
             c_base = m_maid.group(1)
             if not c_base.endswith("-al"):
@@ -65,7 +77,7 @@ def map_legacy_path_to_canonical(p):
             if c_base in LOCATIONS:
                 return f"/{c_base}/house-cleaning/"
             return "/mobile-al/house-cleaning/"
-        m_pref = re.match(r"^(?:downtown|midtown|west)-(.+)$", sl)
+        m_pref = re.match(r"^(?:downtown|midtown|west)-(.+)$", sl_norm)
         if m_pref:
             c_base = m_pref.group(1)
             if not c_base.endswith("-al"):
@@ -74,9 +86,9 @@ def map_legacy_path_to_canonical(p):
                 return f"/{c_base}/"
         return "/"
 
-    c_raw, sub_raw = parts[0].lower(), parts[1].lower()
+    c_raw, sub_raw = normalize_city_token(parts[0]), parts[1].lower()
     city_slug = None
-    m_maid = re.match(r"^maid-service-(.+?)(?:-al)?$", c_raw)
+    m_maid = re.match(r"^maid-service-(.+?)(?:-al)?(?:-al)?$", c_raw)
     if m_maid:
         cand = m_maid.group(1)
         if not cand.endswith("-al"):
@@ -86,8 +98,8 @@ def map_legacy_path_to_canonical(p):
         city_slug = c_raw
     elif f"{c_raw}-al" in LOCATIONS:
         city_slug = f"{c_raw}-al"
-    elif c_raw in SPECIAL_CITY_FALLBACKS:
-        fb = SPECIAL_CITY_FALLBACKS[c_raw]
+    elif parts[0].lower() in SPECIAL_CITY_FALLBACKS:
+        fb = SPECIAL_CITY_FALLBACKS[parts[0].lower()]
         if fb.startswith("/counties/") or fb == "/":
             return fb
         city_slug = fb.strip("/")
@@ -102,7 +114,7 @@ def map_legacy_path_to_canonical(p):
     if sub_raw in ("nearby-locations", "gallery"):
         return f"/{city_slug}/"
 
-    sub_clean = re.sub(r"^(?:best|top-rated|affordable)-", "", sub_raw)
+    sub_clean = re.sub(r"^(?:best|top-rated|affordable|\d{5})-", "", sub_raw)
     city_no_al = city_slug[:-3]
     if sub_clean.endswith(f"-{city_no_al}"):
         sub_clean = sub_clean[: -(len(city_no_al) + 1)]
@@ -271,7 +283,7 @@ def recover_all_historical_peak_urls(dl_dir):
 
 def upgrade_rss_feed_with_peak_winners(dl_dir):
     print("Upgrading /feed.xml with Top Historical Peak Canonical Pages + All Pillars, Counties & Guides...")
-    pub_rfc = "Tue, 24 Nov 2026 15:05:00 +0000"
+    pub_rfc = "Wed, 25 Nov 2026 16:00:00 +0000"
     seen = set()
     rss_sources = []
 

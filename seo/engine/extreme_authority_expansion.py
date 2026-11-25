@@ -784,16 +784,73 @@ def build_guides_and_blog(shell):
     write_atomic(os.path.join(g_root, "index.html"), g_idx_html)
     guide_urls.append(g_idx_canon)
 
-    # Also upgrade /mobile-al/blog/index.html so it showcases all 10 authority guides!
+    # Build a 100% unique Mobile Bay & Alabama Seasonal Cleaning Journal for /mobile-al/blog/index.html (zero body duplication with /guides/)!
     blog_canon = "https://www.zoiriscleaningservices.com/mobile-al/blog/"
+    blog_faqs = [
+        {"q": "How do Mobile and Baldwin County homeowners prevent live-oak pollen and humidity buildup indoors?", "a": "During Gulf Coast spring pollen blooms and humid summer months, sealed 0.3-micron commercial HEPA vacuuming paired with damp microfiber trim wiping and HVAC return-grille dusting prevents airborne allergens and bathroom mildew from taking hold."},
+        {"q": "What is the best cleaning routine for historic Midtown Mobile and Fairhope hardwood floors?", "a": "Heart-pine and white-oak floors should never be steam-mopped or soaked. Our W-2 teams dry-extract grit with soft-bristle HEPA floor heads and damp-clean using pH-neutral Bona-standard wood cleaners."},
+        {"q": "Where can I find printable room-by-room Zoiris checklists for deep cleaning and move-outs?", "a": "Explore our complete interactive Custom Cleaning Plan Builder and all 10 technical room-by-room checklists in our Alabama Cleaning Guides library."}
+    ]
+    blog_body = f"""
+    <section class="px-6 py-20 bg-transparent relative z-10">
+      <div class="max-w-6xl mx-auto">
+        <div id="ai-quick-answer" class="bg-white rounded-3xl p-6 sm:p-8 shadow-2xl border-2 border-blue-500/30 mb-12">
+          <span class="inline-block bg-blue-100 text-blue-800 text-xs font-extrabold uppercase px-3 py-1 rounded-full mb-2">Gulf Coast &amp; Statewide Field Notes</span>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 mb-3">Mobile Bay, Eastern Shore &amp; Alabama Seasonal Cleaning Insights</h2>
+          <p class="text-sm sm:text-base text-gray-700 leading-relaxed">
+            Written by the local W-2 field supervisors at <strong>Zoiris Cleaning Services LLC</strong> in Downtown Mobile, AL—discover regional home-care strategies tailored for Gulf Coast subtropical humidity, historic Spring Hill &amp; Midtown woodwork, Pleasure Island beach-sand extraction, and Piedmont red-clay protection.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+          <div class="bg-white rounded-2xl p-6 shadow-xl border border-gray-100 flex flex-col justify-between">
+            <div>
+              <span class="text-xs font-extrabold uppercase tracking-wider text-blue-600">Spring &amp; Summer Care • Mobile &amp; Daphne</span>
+              <h3 class="text-lg font-extrabold text-gray-900 mt-1 mb-2">Beating Live-Oak Pollen &amp; Gulf Humidity Indoors</h3>
+              <p class="text-sm text-gray-600 leading-relaxed mb-4">Why dry feather dusting spreads yellow pine and oak spores across vents—and how sealed 0.3-micron HEPA filtration plus EPA botanical bath sanitization keeps coastal homes fresh.</p>
+            </div>
+            <a href="/guides/remove-red-clay-mildew-hard-water-stains/" class="text-blue-700 font-bold text-sm hover:underline">Read Regional Stain &amp; Mildew Protocol &rarr;</a>
+          </div>
+          <div class="bg-white rounded-2xl p-6 shadow-xl border border-gray-100 flex flex-col justify-between">
+            <div>
+              <span class="text-xs font-extrabold uppercase tracking-wider text-indigo-600">Coastal Hosts • Gulf Shores &amp; Orange Beach</span>
+              <h3 class="text-lg font-extrabold text-gray-900 mt-1 mb-2">Zero-Sand Condo &amp; Beach House Guest Turnovers</h3>
+              <p class="text-sm text-gray-600 leading-relaxed mb-4">How Superhosts eliminate ultrafine quartz beach sand from LVP seams, descale salt-mist balcony sliders, and stage crisp par-stock linens between back-to-back bookings.</p>
+            </div>
+            <a href="/guides/airbnb-turnover-cleaning-checklist/" class="text-indigo-700 font-bold text-sm hover:underline">Open Superhost Turnover Checklist &rarr;</a>
+          </div>
+          <div class="bg-white rounded-2xl p-6 shadow-xl border border-gray-100 flex flex-col justify-between">
+            <div>
+              <span class="text-xs font-extrabold uppercase tracking-wider text-purple-600">Relocation &amp; Leasing • Statewide AL</span>
+              <h3 class="text-lg font-extrabold text-gray-900 mt-1 mb-2">Passing Your Landlord Walkthrough on the First Try</h3>
+              <p class="text-sm text-gray-600 leading-relaxed mb-4">From oven racks and refrigerator crisper bins to hand-wiped baseboards and blind slats—the exact inspection points property managers verify across Alabama.</p>
+            </div>
+            <a href="/guides/ultimate-move-out-cleaning-checklist/" class="text-purple-700 font-bold text-sm hover:underline">See Move-Out Inspection Checklist &rarr;</a>
+          </div>
+        </div>
+
+        <div class="bg-black/40 backdrop-blur-md border border-white/15 rounded-3xl p-6 sm:p-8">
+          <div class="flex flex-wrap justify-between items-center gap-3 mb-6">
+            <h2 class="text-2xl font-extrabold text-white">Explore All 10 Technical Checklists &amp; Surface Guides</h2>
+            <a href="/guides/" class="text-blue-300 hover:text-white text-sm font-bold underline">View Full Guides Hub &rarr;</a>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+{chr(10).join(cards)}
+          </div>
+        </div>
+      </div>
+    </section>
+{render_faq_details_html(blog_faqs, "Mobile & Gulf Coast Home Care FAQs", "Local cleaning advice from Zoiris Cleaning Services in Mobile, AL.")}"""
+
     blog_html = render_shell_page(
         shell,
-        "Cleaning Tips, Room Checklists & Care Guides | Zoiris Cleaning Blog",
-        "Official Zoiris Cleaning Services resource hub: custom house cleaning checklists, move-out inspection guides, Airbnb turnover systems & Gulf Coast humidity care.",
+        "Mobile, AL Cleaning Blog & Seasonal Home Care Tips | Zoiris Cleaning",
+        "Official Zoiris Cleaning Services Mobile, AL blog: Gulf Coast humidity & pollen tips, historic hardwood care, beach condo turnover guides & room checklists.",
         blog_canon,
-        "Zoiris Cleaning Resource Center & Expert Blog",
-        "Actionable room-by-room checklists, custom service guides, and Alabama surface-care expertise from our professional cleaning crews.",
-        g_idx_body
+        "Mobile, AL & Gulf Coast Cleaning Journal",
+        "Local seasonal cleaning insights, coastal surface-care tips, and room-by-room checklists from our Downtown Mobile headquarters.",
+        blog_body,
+        faqs=blog_faqs
     )
     write_atomic(os.path.join(root_dir, "mobile-al", "blog", "index.html"), blog_html)
 

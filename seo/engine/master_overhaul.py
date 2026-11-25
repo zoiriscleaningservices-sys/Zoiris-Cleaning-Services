@@ -18,7 +18,7 @@ from geo_service_content import (
     build_hub_faqs, build_service_faqs, build_jsonld_schema
 )
 
-TODAY = "2026-11-24"
+TODAY = "2026-11-25"
 
 # 1. Discover exact Detailing folder names across all 504 *-al directories
 DET_MAP = {}
