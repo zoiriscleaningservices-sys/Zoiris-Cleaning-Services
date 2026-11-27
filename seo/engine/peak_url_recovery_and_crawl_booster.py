@@ -165,7 +165,7 @@ def build_html_site_map(shell):
         <div id="ai-quick-answer" class="bg-white rounded-3xl p-6 sm:p-8 shadow-2xl border-2 border-blue-500/30 mb-12">
           <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 mb-3">Complete Zoiris Cleaning Services HTML Site Directory</h2>
           <p class="text-sm sm:text-base text-gray-700 mb-6">
-            Direct 1-click navigation to all <strong>29 Cleaning Service Pillars</strong>, <strong>10 Room-by-Room Checklist &amp; Care Guides</strong>, <strong>67 Alabama County Hubs</strong>, and <strong>503 Alabama City Service Hubs</strong> (supporting 15,209 total local pages).
+            Direct 1-click navigation to all <strong>29 Cleaning Service Pillars</strong>, <strong>10 Room-by-Room Checklist &amp; Care Guides</strong>, <strong>67 Alabama County Hubs</strong>, and <strong>503 Alabama City Service Hubs</strong>.
           </p>
           <div class="flex flex-wrap gap-3 mb-6 text-xs sm:text-sm font-extrabold">
             <a href="/" class="bg-blue-600 text-white px-4 py-2 rounded-xl">Mobile, AL Homepage</a>
@@ -283,7 +283,7 @@ def recover_all_historical_peak_urls(dl_dir):
 
 def upgrade_rss_feed_with_peak_winners(dl_dir):
     print("Upgrading /feed.xml with Top Historical Peak Canonical Pages + All Pillars, Counties & Guides...")
-    pub_rfc = "Wed, 25 Nov 2026 16:00:00 +0000"
+    pub_rfc = "Fri, 27 Nov 2026 20:10:00 +0000"
     seen = set()
     rss_sources = []
 
@@ -292,17 +292,17 @@ def upgrade_rss_feed_with_peak_winners(dl_dir):
             seen.add(url)
             rss_sources.append((title, url, desc))
 
-    add_item("#1 House Cleaning & Cleaning Services in Mobile, AL | Book Zoiris", "https://www.zoiriscleaningservices.com/", "Top-rated residential maid service, deep cleaning, move turnovers & commercial janitorial across Mobile, Semmes, Theodore, Baldwin County & Alabama. Book online or call (251) 220-2515.")
-    add_item("Complete HTML Site Map — Zoiris Cleaning Services", "https://www.zoiriscleaningservices.com/site-map/", "Direct 1-click directory of all 503 Alabama cities, 67 counties, 29 cleaning services & room-by-room checklist guides.")
+    add_item("House Cleaning & Maid Service in Mobile, AL | Zoiris Cleaning Services", "https://www.zoiriscleaningservices.com/", "Trusted residential maid service, deep cleaning, move turnovers & commercial janitorial across Mobile, Semmes, Theodore, Baldwin County & Alabama. Book online or call (251) 220-2515.")
+    for sk, sv in SERVICES.items():
+        add_item(f"{sv['name']} in Alabama", f"https://www.zoiriscleaningservices.com/services/{sk}/", sv["short_description"])
     add_item("All 29 Residential & Commercial Cleaning Services in Alabama", "https://www.zoiriscleaningservices.com/services/", "Complete catalog of 29 cleaning services across all 67 Alabama counties.")
+    add_item("Complete HTML Site Map — Zoiris Cleaning Services", "https://www.zoiriscleaningservices.com/site-map/", "Direct 1-click directory of all 503 Alabama cities, 67 counties, 29 cleaning services & room-by-room checklist guides.")
     add_item("All 67 Alabama Counties Cleaning Coverage Directory", "https://www.zoiriscleaningservices.com/counties/", "County-by-county cleaning service directory across Alabama.")
     add_item("All 503 Alabama Cities & Service Areas", "https://www.zoiriscleaningservices.com/locations/", "Searchable A-Z directory of all 503 Alabama cities and USPS ZIP codes.")
-    add_item("House Cleaning & Maid Service in Silverhill (Silver Hill), AL | Book Zoiris", "https://www.zoiriscleaningservices.com/silverhill-al/", "Top-rated house cleaning & maid service in Silverhill (Silver Hill), AL (36576) with zero locked contracts.")
+    add_item("House Cleaning & Maid Service in Silverhill (Silver Hill), AL | Zoiris", "https://www.zoiriscleaningservices.com/silverhill-al/", "Trusted house cleaning & maid service in Silverhill (Silver Hill), AL (36576) with zero locked contracts.")
 
     for g in GUIDES_DATA:
         add_item(g["title"], f"https://www.zoiriscleaningservices.com/guides/{g['slug']}/", g["answer"])
-    for sk, sv in SERVICES.items():
-        add_item(f"{sv['name']} in Alabama", f"https://www.zoiriscleaningservices.com/services/{sk}/", sv["short_description"])
     for c in ALL_67_ALABAMA_COUNTIES:
         cslug = county_to_slug(c)
         add_item(f"Cleaning Services in {c} County, AL", f"https://www.zoiriscleaningservices.com/counties/{cslug}/", f"House cleaning, deep cleaning & commercial janitorial across {c} County, Alabama.")

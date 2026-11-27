@@ -15,10 +15,11 @@ sys.path.insert(0, engine_dir)
 from geo_service_content import (
     LOCATIONS, SERVICES, get_enriched_profile,
     build_hub_body_html, build_service_body_html,
-    build_hub_faqs, build_service_faqs, build_jsonld_schema
+    build_hub_faqs, build_service_faqs, build_jsonld_schema,
+    is_indexable_service_subpage
 )
 
-TODAY = "2026-11-25"
+TODAY = "2026-11-27"
 
 # 1. Discover exact Detailing folder names across all 504 *-al directories
 DET_MAP = {}
@@ -382,21 +383,21 @@ def process_city_file(rel_and_fp):
     pzip = prof["primary_zip"]
     det_folder = DET_MAP[loc_slug]
 
-    # Case 1: Location Hub (/<loc_slug>/index.html) — June/March Peak Formula with ZERO prices & ZERO hours!
+    # Case 1: Location Hub (/<loc_slug>/index.html) — Clean, natural high-CTR titles & H1s with ZERO prices & ZERO hours!
     if len(parts) == 2 and parts[1] == "index.html":
         canon_url = f"https://www.zoiriscleaningservices.com/{loc_slug}/"
         if loc_slug == "mobile-al":
-            title = "Cleaning Services in Mobile, AL | Top-Rated Home & Commercial Cleaners"
-            desc = "Top-rated Cleaning Services & House Cleaning in Mobile, AL (36602–36695)! Eco-friendly W-2 maids, deep cleans, move-outs & janitorial. Book: (251) 220-2515!"
-            h1_txt = "Top-Rated House Cleaning & Commercial Cleaning Services in Mobile, AL"
+            title = "Mobile, AL Neighborhood Cleaning & Commercial Janitorial | Zoiris"
+            desc = "Local residential maid service, deep cleaning, move turnovers & commercial janitorial across Downtown Mobile, Midtown, Spring Hill & West Mobile (36602–36695). Call (251) 220-2515!"
+            h1_txt = "Local Residential & Commercial Cleaners Across Mobile, AL Neighborhoods"
         elif loc_slug == "silverhill-al":
-            title = "House Cleaning & Maid Service in Silverhill (Silver Hill), AL | Top Rated"
-            desc = "Top-rated house cleaning & maid service in Silverhill (Silver Hill), AL (36576)! Eco-friendly W-2 cleaners & zero contracts. Book online: (251) 220-2515!"
-            h1_txt = "Find Trusted House Cleaning & Maid Service in Silverhill (Silver Hill), AL"
+            title = "House Cleaning & Maid Service in Silverhill (Silver Hill), AL | Zoiris"
+            desc = "Trusted house cleaning & maid service in Silverhill (Silver Hill), AL (36576)! Eco-friendly W-2 cleaners & zero contracts. Book online or call (251) 220-2515!"
+            h1_txt = "Trusted House Cleaning & Maid Service in Silverhill (Silver Hill), AL"
         else:
-            title = f"House Cleaning Services in {display} - Top Rated Cleaners | Zoiris"
-            desc = f"Find top-rated house cleaning & commercial cleaning services in {display} ({county}, {pzip})! Insured W-2 maids, eco-friendly HEPA care & no contracts: (251) 220-2515."
-            h1_txt = f"Find Trusted House Cleaning & Cleaning Services in {display}"
+            title = f"House Cleaning Services in {display} | Zoiris Cleaning Services"
+            desc = f"Trusted house cleaning, deep cleaning & commercial janitorial in {display} ({county}, {pzip}). Insured W-2 maids, HEPA filtration & zero contracts — book at (251) 220-2515!"
+            h1_txt = f"Trusted House Cleaning & Maid Services in {display}"
         sub_txt = f"Top-rated, eco-friendly, <strong>No-Contract</strong> residential house cleaning, deep cleaning, move turnovers, and commercial janitorial across {html.escape(city)} and {html.escape(county)} (ZIP {html.escape(prof['zips_str'])}). Book your cleaning today!"
 
         body_html, faqs = build_hub_body_html(loc_slug, det_folder)
@@ -457,7 +458,11 @@ def process_city_file(rel_and_fp):
         return ("other_sub", rel)
 
     srv = SERVICES[srv_key]
-    canon_url = f"https://www.zoiriscleaningservices.com/{loc_slug}/{sub_folder}/"
+    if is_indexable_service_subpage(loc_slug, srv_key, sub_folder):
+        canon_url = f"https://www.zoiriscleaningservices.com/{loc_slug}/{sub_folder}/"
+    else:
+        # Consolidate zero-demand rural doorway subpage into its rich parent City Hub (0 404s, 0 noindex alerts!)
+        canon_url = f"https://www.zoiriscleaningservices.com/{loc_slug}/"
     fmt_vars = {
         "City": display[:-4] if display.endswith(", AL") else display,
         "DisplayCity": display,
@@ -500,26 +505,94 @@ def process_city_file(rel_and_fp):
 def update_global_and_root_pages():
     print("Updating Homepage, /locations/, /apply/, /Gallery/, 404.html, privacy.html, terms.html, dashboard.html...")
 
-    # 1. Homepage (index.html) — Fuses March 2026 Click-Peak (#1 Cleaning Services in Mobile, AL) + June 2026 Impression-Peak (House Cleaning Services) — ZERO prices & ZERO hours!
+    # 1. Homepage (index.html) — Clean, natural, non-cannibalizing Headquarters & Gulf Coast Authority Hub (ZERO prices, ZERO hours, ZERO duplicate copy with /mobile-al/)!
     hp_path = os.path.join(root_dir, "index.html")
     raw_hp = open(hp_path, "r", encoding="utf-8", errors="replace").read()
-    hp_title = "#1 House Cleaning & Cleaning Services in Mobile, AL | Book Zoiris"
-    hp_desc = "Top-rated Cleaning Services & House Cleaning in Mobile, AL! 4.9★ insured W-2 maids, eco-friendly HEPA care & zero locked contracts. Book online or call (251) 220-2515!"
+    hp_title = "House Cleaning & Maid Service in Mobile, AL | Zoiris Cleaning Services"
+    hp_desc = "Trusted house cleaning, deep cleaning, move-out turnovers & commercial janitorial in Mobile, Semmes, Theodore, Daphne, Fairhope & Gulf Shores, AL. Insured W-2 maids — call (251) 220-2515!"
     hp_canon = "https://www.zoiriscleaningservices.com/"
-    hp_prof = get_enriched_profile("mobile-al")
-    hp_faqs = build_hub_faqs(hp_prof)
+    hp_faqs = [
+        {"q": "Which areas around Mobile and Baldwin County does Zoiris Cleaning Services cover?", "a": "Headquartered in Downtown Mobile (36602), our W-2 cleaning teams serve Mobile, Midtown, Spring Hill, West Mobile, Semmes, Theodore, Saraland, Tillman's Corner, Dauphin Island, Spanish Fort, Daphne, Fairhope, Silverhill, Foley, Gulf Shores, Orange Beach, and communities statewide with zero travel surcharges."},
+        {"q": "Do I have to sign a long-term contract to book house cleaning or office janitorial?", "a": "Never. Every recurring weekly, bi-weekly, monthly, and one-time cleaning plan is 100% contract-free with flexible scheduling and zero cancellation penalties."},
+        {"q": "What is the difference between your Recurring Maid Service and Top-to-Bottom Deep Cleaning?", "a": "Recurring maid visits maintain kitchens, bathrooms, mirrors, dusting, and 0.3-micron HEPA floors, while our Top-to-Bottom Deep Clean adds wet hand-scrubbed baseboards, window blinds, ceiling fans, HVAC vents, and heavy bathroom grout descaling."},
+        {"q": "Are all Zoiris cleaners background-checked employees and insured?", "a": "Yes—100% of our technicians are uniformed, background-screened W-2 employees covered by comprehensive general liability insurance and workers' compensation."},
+        {"q": "Do your crews bring all HEPA vacuums and child/pet-safe cleaning supplies?", "a": "Yes. Every crew arrives fully stocked with commercial sealed HEPA vacuums, color-coded microfiber pads, and EPA-registered non-toxic botanical disinfectants."},
+        {"q": "How does your 100% Re-Clean Satisfaction Guarantee work?", "a": "If any detail of your home, vacation rental, or facility is missed, notify our team at (251) 220-2515 and we will return promptly to make it spotless at zero extra charge."}
+    ]
     hp_schema = build_jsonld_schema("location_hub", hp_canon, loc_slug="mobile-al", faqs=hp_faqs, title=hp_title, desc=hp_desc)
     hp_head = build_clean_head_top(hp_title, hp_desc, hp_canon, og_image="/images/services_action.png", schema_block=hp_schema)
     raw_hp = HEAD_TO_STYLE_RE.sub(lambda _: hp_head, raw_hp, count=1)
     raw_hp = HERO_H1_P_RE.sub(
-        lambda m: f"{m.group(1)}\n          #1 House Cleaning &amp; Cleaning Services in Mobile, AL\n        {m.group(3)}\n          Top-rated, eco-friendly residential maid service, deep cleaning, move turnovers, and commercial janitorial across Mobile, Semmes, Theodore &amp; Baldwin County — zero locked contracts. Book your cleaning with us today!\n        {m.group(5)}",
+        lambda m: f"{m.group(1)}\n          Trusted House Cleaning &amp; Maid Services in Mobile, AL\n        {m.group(3)}\n          Eco-friendly residential maid service, restorative deep cleaning, move turnovers, and commercial janitorial across Mobile, Semmes, Theodore &amp; Baldwin County — zero locked contracts. Book your cleaning with us today!\n        {m.group(5)}",
         raw_hp, count=1
     )
-    # Replace or inject #ai-quick-answer + Statewide Authority Hub Grid + #faq on homepage right before #quote!
-    from geo_service_content import render_faq_details_html, build_ai_hub_summary_and_table
+    from geo_service_content import render_faq_details_html
+    hp_unique_matrix = """
+        <div id="ai-quick-answer" class="bg-white rounded-3xl p-6 sm:p-8 shadow-2xl border-2 border-blue-500/30 mb-14 text-left">
+          <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+            <span class="inline-flex items-center gap-2 bg-blue-100 text-blue-800 text-xs font-extrabold uppercase tracking-wider px-3 py-1 rounded-full">
+              <i class="fas fa-star"></i> Downtown Mobile Headquarters • Serving Mobile Bay, Eastern Shore &amp; Alabama
+            </span>
+            <div class="flex flex-wrap gap-3 text-xs font-bold">
+              <a href="/services/" class="text-blue-600 hover:underline">All 29 Services &rarr;</a>
+              <a href="/counties/mobile-county-al/" class="text-indigo-600 hover:underline">Mobile County &rarr;</a>
+              <a href="/counties/baldwin-county-al/" class="text-purple-600 hover:underline">Baldwin County &rarr;</a>
+            </div>
+          </div>
+          <h2 class="text-xl sm:text-2xl font-extrabold text-gray-900 mb-2">
+            Complete Residential, Vacation-Rental &amp; Commercial Cleaning Programs
+          </h2>
+          <p class="text-sm sm:text-base text-gray-700 leading-relaxed mb-6">
+            <strong>Zoiris Cleaning Services LLC</strong> is a locally owned, licensed, bonded, and insured cleaning company headquartered in <strong>Downtown Mobile, AL (36602)</strong>. Our background-checked W-2 crews use 0.3-micron commercial HEPA filtration and EPA-registered disinfectants across <strong>Mobile, Semmes, Theodore, Saraland, Daphne, Fairhope, Spanish Fort, Foley, Gulf Shores, and Orange Beach</strong>—backed by zero locked contracts and our 100% Re-Clean Satisfaction Guarantee.
+          </p>
+          <div class="overflow-x-auto rounded-2xl border border-gray-200">
+            <table class="w-full text-left border-collapse text-xs sm:text-sm">
+              <thead>
+                <tr class="bg-slate-900 text-white">
+                  <th class="py-3 px-4 font-bold">Core Cleaning Program</th>
+                  <th class="py-3 px-4 font-bold">Scheduling Options</th>
+                  <th class="py-3 px-4 font-bold">What Our W-2 Crew Completes</th>
+                  <th class="py-3 px-4 font-bold">Direct Booking</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-gray-200 text-gray-800 bg-white">
+                <tr class="hover:bg-blue-50/50">
+                  <td class="py-3 px-4 font-bold"><a href="/services/house-cleaning/" class="text-blue-800 hover:underline">Recurring Maid &amp; House Cleaning</a></td>
+                  <td class="py-3 px-4">Weekly, Bi-Weekly, Monthly or One-Time</td>
+                  <td class="py-3 px-4">Kitchens, bathrooms, mirrors, high-to-low microfiber dusting &amp; HEPA floor care</td>
+                  <td class="py-3 px-4 font-bold"><a href="#quote" class="text-blue-700 hover:underline">Book With Us &rarr;</a></td>
+                </tr>
+                <tr class="hover:bg-blue-50/50">
+                  <td class="py-3 px-4 font-bold"><a href="/services/deep-cleaning/" class="text-blue-800 hover:underline">Top-to-Bottom Deep Cleaning</a></td>
+                  <td class="py-3 px-4">First-Time Reset or Seasonal Scrub</td>
+                  <td class="py-3 px-4">Wet hand-washed baseboards, window blinds, ceiling fans, vents &amp; grout descaling</td>
+                  <td class="py-3 px-4 font-bold"><a href="#quote" class="text-blue-700 hover:underline">Book With Us &rarr;</a></td>
+                </tr>
+                <tr class="hover:bg-blue-50/50">
+                  <td class="py-3 px-4 font-bold"><a href="/services/move-out-cleaning/" class="text-blue-800 hover:underline">Move-In / Move-Out Turnovers</a></td>
+                  <td class="py-3 px-4">Pre-Closing or End-of-Lease Inspection</td>
+                  <td class="py-3 px-4">Inside all cabinets, drawers, closets, oven &amp; refrigerator landlord walkthrough prep</td>
+                  <td class="py-3 px-4 font-bold"><a href="#quote" class="text-blue-700 hover:underline">Book With Us &rarr;</a></td>
+                </tr>
+                <tr class="hover:bg-blue-50/50">
+                  <td class="py-3 px-4 font-bold"><a href="/services/airbnb-cleaning/" class="text-blue-800 hover:underline">Airbnb &amp; Beach Condo Turnovers</a></td>
+                  <td class="py-3 px-4">Synced Per-Checkout Guest Reset</td>
+                  <td class="py-3 px-4">Par-stock linen staging, zero-hair bath audit, beach-sand HEPA extraction &amp; host photos</td>
+                  <td class="py-3 px-4 font-bold"><a href="#quote" class="text-blue-700 hover:underline">Book With Us &rarr;</a></td>
+                </tr>
+                <tr class="hover:bg-blue-50/50">
+                  <td class="py-3 px-4 font-bold"><a href="/services/commercial-cleaning/" class="text-blue-800 hover:underline">Commercial &amp; Medical Janitorial</a></td>
+                  <td class="py-3 px-4">Daily, Multi-Day or Weekly Plans</td>
+                  <td class="py-3 px-4">Offices, clinics, EPA List N disinfection, restrooms, VCT/carpet care &amp; COI provided</td>
+                  <td class="py-3 px-4 font-bold"><a href="#quote" class="text-blue-700 hover:underline">Book With Us &rarr;</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>"""
     hp_ai_sec = f"""    <section id="hp-ai-summary" class="py-12 px-4 sm:px-6 bg-transparent relative z-10">
       <div class="max-w-6xl mx-auto">
-{build_ai_hub_summary_and_table(hp_prof)}
+{hp_unique_matrix}
         <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mb-8">
           <a href="/services/" class="bg-black/45 hover:bg-black/65 backdrop-blur-md border border-blue-400/40 rounded-2xl p-6 text-white transition shadow-xl flex flex-col justify-between">
             <div>
@@ -932,7 +1005,7 @@ def generate_clean_sitemaps_and_robots():
 
         for sk in SERVICES.keys():
             folder = DET_MAP[loc_slug] if sk == "detailing" else sk
-            if os.path.isfile(os.path.join(loc_dir, folder, "index.html")):
+            if is_indexable_service_subpage(loc_slug, sk, folder) and os.path.isfile(os.path.join(loc_dir, folder, "index.html")):
                 bucket.append(f"https://www.zoiriscleaningservices.com/{loc_slug}/{folder}/")
 
     write_urlset(priority_urls, "sitemap_priority.xml")

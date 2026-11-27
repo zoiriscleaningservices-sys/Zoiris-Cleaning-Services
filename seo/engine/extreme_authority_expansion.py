@@ -11,7 +11,8 @@ sys.path.insert(0, engine_dir)
 
 from geo_service_content import (
     LOCATIONS, SERVICES, REGION_PROFILES,
-    county_to_slug, render_faq_details_html, build_jsonld_schema
+    county_to_slug, render_faq_details_html, build_jsonld_schema,
+    is_indexable_service_subpage
 )
 from master_overhaul import (
     DET_MAP, HEAD_TO_STYLE_RE, HERO_H1_P_RE, HERO_SECTION_RE,
@@ -216,7 +217,7 @@ def build_service_pillars(shell):
             for v in gulf_locs
         )
         metro_city_links = "\n".join(
-            f'            <a href="/{v["slug"]}/{DET_MAP[v["slug"]] if sk=="detailing" else sk}/" class="bg-white/10 hover:bg-white/20 border border-white/20 rounded-xl px-4 py-2.5 text-white text-xs sm:text-sm font-semibold flex justify-between items-center transition"><span>{html.escape(sv["short_name"])} in {html.escape(v["city"])}, AL</span><span class="text-purple-200 text-xs">{html.escape(v["county_short"])} Co.</span></a>'
+            f'            <a href="{("/" + v["slug"] + "/" + (DET_MAP[v["slug"]] if sk=="detailing" else sk) + "/") if is_indexable_service_subpage(v["slug"], sk, DET_MAP[v["slug"]] if sk=="detailing" else sk) else ("/" + v["slug"] + "/")}" class="bg-white/10 hover:bg-white/20 border border-white/20 rounded-xl px-4 py-2.5 text-white text-xs sm:text-sm font-semibold flex justify-between items-center transition"><span>{html.escape(sv["short_name"] + " in " + v["city"] + ", AL" if is_indexable_service_subpage(v["slug"], sk, DET_MAP[v["slug"]] if sk=="detailing" else sk) else v["city"] + ", AL Cleaning Hub")}</span><span class="text-purple-200 text-xs">{html.escape(v["county_short"])} Co.</span></a>'
             for v in metro_locs
         )
         steps_rows = "\n".join(
@@ -366,26 +367,22 @@ def build_county_hubs(shell):
         reg = REGION_PROFILES.get(reg_key, REGION_PROFILES["mobile_metro"])
         lead_city = cities[0]
 
+        def _city_srv_cell(c):
+            links = []
+            for sk_i, lbl_i in [("house-cleaning", "Maid"), ("deep-cleaning", "Deep Clean"), ("move-out-cleaning", "Move-Out"), ("commercial-cleaning", "Commercial")]:
+                u_i = f'/{c["slug"]}/{sk_i}/' if is_indexable_service_subpage(c["slug"], sk_i, sk_i) else f'/services/{sk_i}/'
+                links.append(f'<a href="{u_i}" class="text-indigo-600 hover:underline mr-2">{lbl_i}</a>')
+            return " • ".join(links)
+
         city_rows = "\n".join(
-            f'                <tr class="hover:bg-blue-50/50"><td class="py-3 px-4 font-bold"><a href="/{c["slug"]}/" class="text-blue-700 hover:underline">{html.escape(c["display_title"])}</a></td><td class="py-3 px-4">{html.escape(", ".join(c["zips"][:3]))}</td><td class="py-3 px-4"><a href="/{c["slug"]}/house-cleaning/" class="text-indigo-600 hover:underline mr-2">Maid</a> • <a href="/{c["slug"]}/deep-cleaning/" class="text-indigo-600 hover:underline mr-2">Deep Clean</a> • <a href="/{c["slug"]}/move-out-cleaning/" class="text-indigo-600 hover:underline mr-2">Move-Out</a> • <a href="/{c["slug"]}/commercial-cleaning/" class="text-indigo-600 hover:underline">Commercial</a></td></tr>'
+            f'                <tr class="hover:bg-blue-50/50"><td class="py-3 px-4 font-bold"><a href="/{c["slug"]}/" class="text-blue-700 hover:underline">{html.escape(c["display_title"])}</a></td><td class="py-3 px-4">{html.escape(", ".join(c["zips"][:3]))}</td><td class="py-3 px-4">{_city_srv_cell(c)}</td></tr>'
             for c in cities
         )
 
         srv_pills = "\n".join(
-            f'            <a href="/{lead_city["slug"]}/{DET_MAP[lead_city["slug"]] if sk=="detailing" else sk}/" class="bg-white/10 hover:bg-white/20 border border-white/20 rounded-xl px-4 py-3 text-white text-xs sm:text-sm font-semibold flex justify-between items-center transition"><span>{html.escape(sv["short_name"])} in {html.escape(cname)} County</span><i class="fas fa-arrow-right text-blue-300 text-xs"></i></a>'
+            f'            <a href="{("/" + lead_city["slug"] + "/" + (DET_MAP[lead_city["slug"]] if sk=="detailing" else sk) + "/") if is_indexable_service_subpage(lead_city["slug"], sk, DET_MAP[lead_city["slug"]] if sk=="detailing" else sk) else ("/services/" + sk + "/")}" class="bg-white/10 hover:bg-white/20 border border-white/20 rounded-xl px-4 py-3 text-white text-xs sm:text-sm font-semibold flex justify-between items-center transition"><span>{html.escape(sv["short_name"])}</span><i class="fas fa-arrow-right text-blue-300 text-xs"></i></a>'
             for sk, sv in SERVICES.items()
         )
-
-        full_county_matrix_blocks = []
-        for c in cities:
-            cs_links = " • ".join(
-                f'<a href="/{c["slug"]}/{DET_MAP[c["slug"]] if sk=="detailing" else sk}/" class="text-blue-200 hover:text-white underline">{html.escape(sv["short_name"])}</a>'
-                for sk, sv in SERVICES.items()
-            )
-            full_county_matrix_blocks.append(
-                f'          <div class="bg-white/5 border border-white/10 rounded-2xl p-4"><h3 class="text-sm font-extrabold text-white mb-2"><a href="/{c["slug"]}/" class="hover:text-blue-300">{html.escape(c["display_title"])} — All 29 Local Services</a></h3><p class="text-xs leading-relaxed text-purple-200">{cs_links}</p></div>'
-            )
-        full_county_matrix_html = "\n".join(full_county_matrix_blocks)
 
         c_faqs = [
             {"q": f"Which cities and communities in {cname} County, AL do you clean?", "a": f"Zoiris Cleaning Services covers all communities across {cname} County (ZIP codes {zips_str}), including " + ", ".join(c["city"] for c in cities) + "."},
@@ -412,7 +409,7 @@ def build_county_hubs(shell):
                 <tr class="bg-slate-900 text-white">
                   <th class="py-3 px-4 font-bold">{html.escape(cname)} County City / Town</th>
                   <th class="py-3 px-4 font-bold">ZIP Codes</th>
-                  <th class="py-3 px-4 font-bold">Direct Local Service Links</th>
+                  <th class="py-3 px-4 font-bold">Core Cleaning Programs</th>
                 </tr>
               </thead>
               <tbody class="divide-y divide-gray-200 bg-white text-gray-800">
@@ -422,18 +419,11 @@ def build_county_hubs(shell):
           </div>
         </div>
 
-        <div class="bg-black/40 backdrop-blur-md border border-white/15 rounded-3xl p-6 sm:p-8 mb-10">
+        <div class="bg-black/40 backdrop-blur-md border border-white/15 rounded-3xl p-6 sm:p-8">
           <h2 class="text-2xl font-extrabold text-white mb-2">All 29 Services Available in {html.escape(cname)} County, AL</h2>
           <p class="text-sm text-purple-200 mb-6">Contract-free scheduling with zero travel fees anywhere in {html.escape(cname)} County:</p>
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5">
 {srv_pills}
-          </div>
-        </div>
-
-        <div class="bg-black/30 backdrop-blur-md border border-white/15 rounded-3xl p-6 sm:p-8">
-          <h2 class="text-xl sm:text-2xl font-extrabold text-white mb-4">Complete {html.escape(cname)} County City &amp; Service Directory</h2>
-          <div class="space-y-3">
-{full_county_matrix_html}
           </div>
         </div>
       </div>

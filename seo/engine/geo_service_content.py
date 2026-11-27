@@ -16,6 +16,24 @@ with open(os.path.join(root_dir, "seo", "local_intelligence.json"), "r", encodin
 with open(os.path.join(root_dir, "seo", "business.json"), "r", encoding="utf-8") as f:
     BUSINESS = json.load(f)
 
+_hw_path = os.path.join(root_dir, "seo", "historical_winners.json")
+HISTORICAL_WINNERS = set(json.load(open(_hw_path, "r", encoding="utf-8"))) if os.path.isfile(_hw_path) else set()
+
+CORE_METRO_SRVS = {
+    "house-cleaning", "deep-cleaning", "move-out-cleaning", "move-in-cleaning",
+    "commercial-cleaning", "office-janitorial-services", "airbnb-cleaning",
+    "vacation-rental-cleaning", "carpet-cleaning", "post-construction-cleanup"
+}
+
+def is_indexable_service_subpage(loc_slug, srv_key, actual_folder=None):
+    tier = LOCATIONS.get(loc_slug, {}).get("sitemap_tier", "south")
+    if tier == "priority":
+        return True
+    if tier == "metros" and srv_key in CORE_METRO_SRVS:
+        return True
+    folder = actual_folder or (f"Detailing-{loc_slug}" if srv_key == "detailing" else srv_key)
+    return f"/{loc_slug}/{folder}/" in HISTORICAL_WINNERS
+
 REGION_PROFILES = {
     "mobile_metro": {
         "label": "Mobile Bay & Gulf Coast Metro",
@@ -476,12 +494,12 @@ def build_hub_body_html(loc_slug, det_folder):
     county = prof["county"]
     faqs = build_hub_faqs(prof)
 
-    # Categorized links to ALL 29 services in this city!
+    # Categorized links to ALL 29 services (self-canonical local page if active, else Master Service Pillar!)
     res_links, com_links, pm_links = [], [], []
     for sk, sv in SERVICES.items():
         folder = det_folder if sk == "detailing" else sk
-        url = f"/{loc_slug}/{folder}/"
-        anchor = f"{sv['short_name']} in {city}"
+        url = f"/{loc_slug}/{folder}/" if is_indexable_service_subpage(loc_slug, sk, folder) else f"/services/{sk}/"
+        anchor = f"{sv['short_name']} in {city}" if is_indexable_service_subpage(loc_slug, sk, folder) else sv["short_name"]
         item_html = f'<a href="{url}" class="flex items-center justify-between bg-white/95 hover:bg-blue-50 text-gray-900 font-semibold text-sm px-4 py-3 rounded-xl shadow border border-gray-200 transition group"><h3 class="text-sm font-semibold text-gray-900 m-0">{html.escape(anchor)}</h3><i class="fas fa-arrow-right text-blue-600 group-hover:translate-x-1 transition-transform text-xs"></i></a>'
         if sv["category"] == "residential":
             res_links.append(item_html)
@@ -495,14 +513,16 @@ def build_hub_body_html(loc_slug, det_folder):
     feat_cards = []
     for fk in featured_keys:
         sv = SERVICES[fk]
+        f_url = f"/{loc_slug}/{fk}/" if is_indexable_service_subpage(loc_slug, fk, fk) else f"/services/{fk}/"
+        f_cta = f"Explore {sv['short_name']} in {city}" if is_indexable_service_subpage(loc_slug, fk, fk) else f"View {sv['short_name']} Checklist"
         feat_cards.append(f"""          <div class="bg-white rounded-2xl shadow-2xl overflow-hidden border border-white/20 flex flex-col hover:-translate-y-1 transition-all duration-300">
             <img src="{sv['image']}" alt="{html.escape(sv['short_name'])} in {html.escape(display)} by Zoiris Cleaning Services" loading="lazy" width="600" height="400" class="h-48 w-full object-cover" />
             <div class="p-6 flex flex-col flex-grow">
               <span class="text-xs font-bold uppercase tracking-wider text-blue-600 mb-1">{html.escape(city)}, AL • {html.escape(county)}</span>
               <h3 class="text-xl font-extrabold text-gray-900 mb-2">{html.escape(sv['name'])}</h3>
               <p class="text-sm text-gray-600 leading-relaxed mb-4 flex-grow">{html.escape(sv['short_description'])}</p>
-              <a href="/{loc_slug}/{fk}/" class="inline-flex items-center justify-center bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold text-sm px-5 py-3 rounded-xl transition shadow">
-                Explore {html.escape(sv['short_name'])} in {html.escape(city)} <i class="fas fa-arrow-right ml-2"></i>
+              <a href="{f_url}" class="inline-flex items-center justify-center bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold text-sm px-5 py-3 rounded-xl transition shadow">
+                {html.escape(f_cta)} <i class="fas fa-arrow-right ml-2"></i>
               </a>
             </div>
           </div>""")
@@ -687,16 +707,20 @@ def build_service_body_html(loc_slug, srv_key, actual_folder, det_map):
     for rk in srv["related_services"]:
         rsv = SERVICES[rk]
         rfolder = det_map.get(loc_slug, "Detailing-" + loc_slug) if rk == "detailing" else rk
+        r_url = f"/{loc_slug}/{rfolder}/" if is_indexable_service_subpage(loc_slug, rk, rfolder) else f"/services/{rk}/"
+        r_lbl = f"{rsv['short_name']} in {city}" if is_indexable_service_subpage(loc_slug, rk, rfolder) else rsv["short_name"]
         related_cards.append(
-            f'          <a href="/{loc_slug}/{rfolder}/" class="bg-white/95 hover:bg-blue-50 rounded-xl p-4 shadow border border-gray-200 flex items-center justify-between transition group"><span class="font-bold text-sm text-gray-900">{html.escape(rsv["short_name"])} in {html.escape(city)}</span><i class="fas fa-arrow-right text-blue-600 group-hover:translate-x-1 transition-transform text-xs"></i></a>'
+            f'          <a href="{r_url}" class="bg-white/95 hover:bg-blue-50 rounded-xl p-4 shadow border border-gray-200 flex items-center justify-between transition group"><span class="font-bold text-sm text-gray-900">{html.escape(r_lbl)}</span><i class="fas fa-arrow-right text-blue-600 group-hover:translate-x-1 transition-transform text-xs"></i></a>'
         )
 
     nearby_service_links = []
     for n in prof["nearby"]:
         nslug = n["slug"]
         nfolder = det_map.get(nslug, "Detailing-" + nslug) if srv_key == "detailing" else srv_key
+        n_url = f"/{nslug}/{nfolder}/" if is_indexable_service_subpage(nslug, srv_key, nfolder) else f"/{nslug}/"
+        n_lbl = f"{srv['short_name']} in {n['city']}, AL" if is_indexable_service_subpage(nslug, srv_key, nfolder) else f"{n['city']}, AL Cleaning Hub"
         nearby_service_links.append(
-            f'          <a href="/{nslug}/{nfolder}/" class="bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/20 text-white font-semibold text-sm px-4 py-3 rounded-xl transition flex items-center justify-between"><span>{html.escape(srv["short_name"])} in {html.escape(n["city"])}, AL</span><span class="text-xs text-blue-200">{n["miles"]} mi</span></a>'
+            f'          <a href="{n_url}" class="bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/20 text-white font-semibold text-sm px-4 py-3 rounded-xl transition flex items-center justify-between"><span>{html.escape(n_lbl)}</span><span class="text-xs text-blue-200">{n["miles"]} mi</span></a>'
         )
 
     faq_section = render_faq_details_html(
